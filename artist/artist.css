@@ -1,0 +1,238 @@
+.artist-page {
+  width: min(1250px, 100%);
+  margin: auto;
+  padding: 0 18px 70px;
+}
+
+
+.artist-hero {
+  padding: 42px 0 15px;
+  text-align: center;
+}
+
+
+.back-search {
+  display: inline-block;
+
+  margin: 3px 0 23px;
+
+  color: #9699a3;
+
+  font-size: 13px;
+
+  text-decoration: none;
+}
+
+
+.back-search:hover {
+  color: #f5f3ed;
+}
+
+
+.artist-hero h1 {
+  margin: 0;
+
+  font-size:
+    clamp(36px, 7vw, 68px);
+
+  line-height: 1.02;
+
+  letter-spacing: -.045em;
+}
+
+
+.artist-stats {
+  margin-top: 13px;
+
+  color: #9699a3;
+
+  font-size: 14px;
+}
+
+
+.discography-section {
+  margin-top: 48px;
+}
+
+
+.discography-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  margin-bottom: 17px;
+}
+
+
+.discography-heading h2 {
+  margin: 0;
+
+  font-size: 24px;
+
+  letter-spacing: -.5px;
+}
+
+
+.discography-count {
+  flex: 0 0 auto;
+
+  color: #9699a3;
+
+  font-size: 12px;
+}
+
+
+.discography-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fill,
+      minmax(180px, 1fr)
+    );
+
+  gap: 13px;
+}
+
+
+.discography-card {
+  min-width: 0;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255,255,255,.08);
+
+  border-radius: 16px;
+
+  background: #15171d;
+
+  color: #f5f3ed;
+
+  cursor: pointer;
+
+  transition:
+    transform .15s ease,
+    border-color .15s ease;
+}
+
+
+.discography-card:hover,
+.discography-card:focus-visible {
+  transform:
+    translateY(-2px);
+
+  border-color:
+    rgba(215,174,104,.35);
+
+  outline: none;
+}
+
+
+.discography-art {
+  aspect-ratio: 1 / 1;
+
+  background: #101216;
+}
+
+
+.discography-art img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+.discography-placeholder {
+  display: grid;
+  place-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  color:
+    rgba(255,255,255,.14);
+
+  font-size: 48px;
+}
+
+
+.discography-info {
+  padding: 12px;
+}
+
+
+.discography-title {
+  margin: 0;
+
+  font-size: 14px;
+
+  line-height: 1.3;
+}
+
+
+.discography-credit {
+  margin: 5px 0 0;
+
+  color: #9699a3;
+
+  font-size: 11px;
+
+  line-height: 1.4;
+}
+
+
+.discography-date {
+  margin: 7px 0 0;
+
+  color:
+    rgba(150,153,163,.65);
+
+  font-size: 10px;
+}
+
+
+.artist-empty {
+  padding: 80px 20px;
+
+  text-align: center;
+}
+
+
+.artist-empty-icon {
+  font-size: 42px;
+
+  opacity: .25;
+}
+
+
+.artist-empty p {
+  color: #9699a3;
+}
+
+
+@media (max-width: 600px) {
+
+  .artist-hero {
+    padding-top: 30px;
+  }
+
+
+  .discography-section {
+    margin-top: 40px;
+  }
+
+
+  .discography-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 9px;
+  }
+
+}

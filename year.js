@@ -1,7 +1,8 @@
 const state = {
   years: [],
   year: null,
-  data: null
+  data: null,
+  artistByName: new Map()
 };
 
 
@@ -81,6 +82,52 @@ function escapeHtml(value) {
       "'",
       "&#039;"
     );
+}
+
+
+function artistCreditHtml(release) {
+
+  const artists =
+    release.credited_artists
+    || [];
+
+  if (!artists.length) {
+
+    return escapeHtml(
+      release.artist_credit
+    );
+  }
+
+  return artists
+    .map(artist => `
+      <a
+        class="artist-link"
+        href="/artist/?id=${encodeURIComponent(
+          artist.mbid
+        )}"
+        dir="auto"
+      >${escapeHtml(
+        artist.credit_name
+        || artist.name
+        || ""
+      )}</a>${escapeHtml(
+        artist.join_phrase
+        || ""
+      )}
+    `)
+    .join("");
+}
+
+
+function artistMbid(artist) {
+
+  return (
+    artist.mbid
+    || state.artistByName.get(
+      artist.name
+    )
+    || null
+  );
 }
 
 
@@ -276,40 +323,74 @@ function renderMonths() {
 function renderArtists() {
 
   const artists =
-    state.data.top_artists || [];
+    state.data.top_artists
+    || [];
+
 
   topArtistsSection.hidden =
     artists.length === 0;
 
+
   topArtists.innerHTML =
     artists
       .map(
-        (artist, index) => `
-          <div class="artist-row">
+        (artist, index) => {
 
-            <span
-              class="artist-name"
-              dir="auto">
+          const mbid =
+            artistMbid(
+              artist
+            );
 
-              ${index + 1}.
-              ${escapeHtml(
-                artist.name
-              )}
 
-            </span>
+          const nameHtml =
+            mbid
 
-            <span class="artist-count">
-              ${
-                artist.release_groups
-              }
-            </span>
+              ? `
+                <a
+                  class="artist-name artist-link"
+                  dir="auto"
+                  href="/artist/?id=${encodeURIComponent(
+                    mbid
+                  )}"
+                >
+                  ${index + 1}.
+                  ${escapeHtml(
+                    artist.name
+                  )}
+                </a>
+              `
 
-          </div>
-        `
+              : `
+                <span
+                  class="artist-name"
+                  dir="auto"
+                >
+                  ${index + 1}.
+                  ${escapeHtml(
+                    artist.name
+                  )}
+                </span>
+              `;
+
+
+          return `
+            <div class="artist-row">
+
+              ${nameHtml}
+
+              <span class="artist-count">
+                ${
+                  artist.release_groups
+                }
+              </span>
+
+            </div>
+          `;
+
+        }
       )
       .join("");
 }
-
 
 function releaseCard(
   release
@@ -321,59 +402,83 @@ function releaseCard(
       "250"
     );
 
+
   const artwork =
     src
+
       ? `
         <img
           src="${escapeHtml(src)}"
           alt="${escapeHtml(
             release.title
           )} cover"
-          loading="lazy">
+          loading="lazy"
+        >
       `
+
       : `
-        <div class="release-placeholder">
+        <div
+          class="release-placeholder">
           ♪
         </div>
       `;
 
-  return `
-    <a
-      class="release-card"
-      href="${escapeHtml(
-        release.musicbrainz_url
-      )}"
-      target="_blank"
-      rel="noopener">
 
-      <div class="release-art">
-        ${artwork}
-      </div>
+  return `
+    <article
+      class="release-card">
+
+      <a
+        class="release-main-link"
+        href="${escapeHtml(
+          release.musicbrainz_url
+        )}"
+        target="_blank"
+        rel="noopener"
+      >
+
+        <div class="release-art">
+          ${artwork}
+        </div>
+
+      </a>
+
 
       <div class="release-info">
 
         <h3
           class="release-title"
           dir="auto">
-          ${escapeHtml(
-            release.title
-          )}
+
+          <a
+            class="release-title-link"
+            href="${escapeHtml(
+              release.musicbrainz_url
+            )}"
+            target="_blank"
+            rel="noopener"
+          >
+            ${escapeHtml(
+              release.title
+            )}
+          </a>
+
         </h3>
+
 
         <p
           class="release-artist"
           dir="auto">
-          ${escapeHtml(
-            release.artist_credit
+          ${artistCreditHtml(
+            release
           )}
         </p>
 
       </div>
 
-    </a>
+    </article>
   `;
 }
-
 
 function renderYearOnly() {
 
@@ -504,6 +609,61 @@ function navigate(
 
 
 async function init() {
+
+  try {
+
+    const artistResponse =
+      await fetch(
+        `/data/search-index.json?v=${
+          Date.now()
+        }`,
+        {
+          cache: "no-store"
+        }
+      );
+
+
+    if (artistResponse.ok) {
+
+      const artistIndex =
+        await artistResponse.json();
+
+
+      for (
+        const artist
+        of (
+          artistIndex.artists
+          || []
+        )
+      ) {
+
+        if (
+          artist.name
+          && artist.mbid
+          && !state.artistByName.has(
+            artist.name
+          )
+        ) {
+
+          state.artistByName.set(
+            artist.name,
+            artist.mbid
+          );
+        }
+
+      }
+
+    }
+
+  }
+  catch (error) {
+
+    console.warn(
+      "Unable to load artist links",
+      error
+    );
+  }
+
 
   const response =
     await fetch(
@@ -643,3 +803,41 @@ window.addEventListener(
 
 
 init();
+
+
+/* ----------------------------------------------------
+   Artist navigation
+---------------------------------------------------- */
+
+document.addEventListener(
+  "click",
+  event => {
+
+    const link =
+      event.target.closest(
+        ".artist-link"
+      );
+
+    if (!link) {
+      return;
+    }
+
+    const href =
+      link.getAttribute(
+        "href"
+      );
+
+    if (!href) {
+      return;
+    }
+
+    event.preventDefault();
+    event.stopPropagation();
+
+    window.location.assign(
+      href
+    );
+  },
+  true
+);
+

@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta
+    name="theme-color"
+    content="#0b0c0f">
+
+  <title>
+    Search — Jewish Music Timeline
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="/styles.css?v=4">
+
+  <link
+    rel="stylesheet"
+    href="/search/search.css?v=1">
+</head>
+
+
+<body>
+
+<header class="site-header">
+
+  <div class="header-inner">
+
+    <a
+      class="brand"
+      href="/"
+      aria-label="Jewish Music Timeline">
+
+      <span class="brand-mark">
+        ♪
+      </span>
+
+      <span>
+        <strong>
+          Jewish Music Timeline
+        </strong>
+
+        <small>
+          Search the timeline
+        </small>
+      </span>
+
+    </a>
+
+  </div>
+
+</header>
+
+
+<main class="search-main">
+
+  <section class="search-hero">
+
+    <div class="view-toggle">
+
+      <a
+        class="view-tab"
+        href="/">
+        Month
+      </a>
+
+      <a
+        class="view-tab"
+        href="/year.html">
+        Year
+      </a>
+
+      <span class="view-tab active">
+        Search
+      </span>
+
+    </div>
+
+
+    <div class="search-heading">
+
+      <h1>
+        Search Jewish Music
+      </h1>
+
+      <p>
+        Search artists and releases across
+        the entire timeline.
+      </p>
+
+    </div>
+
+
+    <label class="global-search-box">
+
+      <span class="global-search-icon">
+        ⌕
+      </span>
+
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Search artist or album…"
+        autocomplete="off"
+        autofocus>
+
+    </label>
+
+  </section>
+
+
+  <div
+    id="resultInfo"
+    class="search-result-info">
+  </div>
+
+
+  <section
+    id="artistSection"
+    class="search-section"
+    hidden>
+
+    <div class="search-section-heading">
+
+      <h2>
+        Artists
+      </h2>
+
+      <span
+        id="artistCount"
+        class="result-count">
+      </span>
+
+    </div>
+
+    <div
+      id="artistResults"
+      class="artist-search-grid">
+    </div>
+
+  </section>
+
+
+  <section
+    id="releaseSection"
+    class="search-section"
+    hidden>
+
+    <div class="search-section-heading">
+
+      <h2 id="releaseHeading">
+        Releases
+      </h2>
+
+      <span
+        id="releaseCount"
+        class="result-count">
+      </span>
+
+    </div>
+
+    <div
+      id="releaseResults"
+      class="release-search-grid">
+    </div>
+
+  </section>
+
+
+  <section
+    id="otherReleaseSection"
+    class="search-section"
+    hidden>
+
+    <div class="search-section-heading">
+
+      <h2>
+        Other Releases
+      </h2>
+
+      <span
+        id="otherReleaseCount"
+        class="result-count">
+      </span>
+
+    </div>
+
+    <div
+      id="otherReleaseResults"
+      class="release-search-grid">
+    </div>
+
+  </section>
+
+
+  <section
+    id="welcomeState"
+    class="search-welcome">
+
+    <div class="search-welcome-icon">
+      ♪
+    </div>
+
+    <h2>
+      Find an artist or release
+    </h2>
+
+    <p>
+      Search the complete Jewish Music Timeline.
+    </p>
+
+  </section>
+
+
+  <section
+    id="emptyState"
+    class="search-welcome"
+    hidden>
+
+    <div class="search-welcome-icon">
+      ⌕
+    </div>
+
+    <h2>
+      No results found
+    </h2>
+
+    <p>
+      Try another spelling or search term.
+    </p>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <p>
+    Release information from
+
+    <a
+      href="https://musicbrainz.org/"
+      target="_blank"
+      rel="noopener">
+      MusicBrainz
+    </a>
+  </p>
+
+</footer>
+
+
+<dialog
+  id="releaseDialog"
+  class="release-dialog">
+
+  <button
+    id="dialogClose"
+    class="dialog-close"
+    aria-label="Close">
+    ×
+  </button>
+
+  <div id="dialogContent"></div>
+
+</dialog>
+
+
+<script src="/search/search.js?v=5"></script>
+
+</body>
+</html>

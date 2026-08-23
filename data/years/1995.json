@@ -1,13 +1,13 @@
 {
   "year": 1995,
   "stats": {
-    "release_groups": 26,
-    "dated_release_groups": 10,
+    "release_groups": 27,
+    "dated_release_groups": 11,
     "year_only_release_groups": 16,
-    "artists": 24,
-    "months_with_releases": 6,
+    "artists": 25,
+    "months_with_releases": 7,
     "types": {
-      "Album": 26
+      "Album": 27
     }
   },
   "months": [
@@ -158,9 +158,32 @@
     },
     {
       "month": 7,
-      "release_groups": 0,
-      "types": {},
-      "featured": []
+      "release_groups": 1,
+      "types": {
+        "Album": 1
+      },
+      "featured": [
+        {
+          "release_group_mbid": "ce2066d0-352c-41aa-9406-3f03e2444edc",
+          "title": "D’veykus, Vol. 5",
+          "artist_credit": "D'veykus",
+          "primary_type": "Album",
+          "day": 7,
+          "cover_art": {
+            "release_mbid": "c882ac9f-1869-4994-a5b1-a47a26e99054",
+            "image_id": 37748932269,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/c882ac9f-1869-4994-a5b1-a47a26e99054/37748932269",
+            "thumbnails": {
+              "250": "https://coverartarchive.org/release/c882ac9f-1869-4994-a5b1-a47a26e99054/37748932269-250.jpg",
+              "500": "https://coverartarchive.org/release/c882ac9f-1869-4994-a5b1-a47a26e99054/37748932269-500.jpg",
+              "1200": "https://coverartarchive.org/release/c882ac9f-1869-4994-a5b1-a47a26e99054/37748932269-1200.jpg"
+            }
+          }
+        }
+      ]
     },
     {
       "month": 8,
@@ -364,6 +387,11 @@
       "release_groups": 1
     },
     {
+      "mbid": "df62135d-cf50-4098-8da4-1c9d9c17cafc",
+      "name": "D'veykus",
+      "release_groups": 1
+    },
+    {
       "mbid": "16dfb8e9-fd67-4fff-9170-c23df618c5c4",
       "name": "Mendy Werdyger",
       "release_groups": 1
@@ -372,11 +400,6 @@
       "mbid": "1628b1ce-ad17-4341-9763-d6918b01bbe0",
       "name": "Michoel Schnitzler",
       "release_groups": 1
-    },
-    {
-      "mbid": "1ce4381e-039b-451d-a5a0-ab12020a987c",
-      "name": "Mordechai Ben David",
-      "release_groups": 1
     }
   ],
   "year_only_releases": [
@@ -384,6 +407,15 @@
       "release_group_mbid": "71c27b01-c7c0-35d1-be48-d9d837a3a0d9",
       "title": "Aria",
       "artist_credit": "Alex Jacobowitz",
+      "credited_artists": [
+        {
+          "mbid": "0f06883c-28eb-4347-9fc2-f93623f230cc",
+          "name": "Alex Jacobowitz",
+          "position": 0,
+          "credit_name": "Alex Jacobowitz",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "0f06883c-28eb-4347-9fc2-f93623f230cc",
@@ -454,6 +486,22 @@
       "release_group_mbid": "8c60045e-496a-370a-903b-0c602b3bcede",
       "title": "Songs of Our Fathers",
       "artist_credit": "Andy Statman & David Grisman",
+      "credited_artists": [
+        {
+          "mbid": "5a3586cd-87a7-41b2-ad60-7d83d6363afd",
+          "name": "Andy Statman",
+          "position": 0,
+          "credit_name": "Andy Statman",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "402e4f4f-33aa-4b2b-9fdb-3cb4eb38f729",
+          "name": "David Grisman",
+          "position": 1,
+          "credit_name": "David Grisman",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "5a3586cd-87a7-41b2-ad60-7d83d6363afd",
@@ -742,6 +790,15 @@
       "release_group_mbid": "30c3f943-bfca-4efb-8c3e-277ba56b493f",
       "title": "Brocha V’hatzlocha",
       "artist_credit": "Avraham Fried",
+      "credited_artists": [
+        {
+          "mbid": "21586967-e0f5-458d-94f8-bd228452b049",
+          "name": "Avraham Fried",
+          "position": 0,
+          "credit_name": "Avraham Fried",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "21586967-e0f5-458d-94f8-bd228452b049",
@@ -1005,6 +1062,15 @@
       "release_group_mbid": "307210a8-173e-40b0-8e85-481688627449",
       "title": "Shabbos",
       "artist_credit": "Benzion Miller",
+      "credited_artists": [
+        {
+          "mbid": "2e0c8aab-5cd8-416f-a4cd-d712352096c1",
+          "name": "Benzion Miller",
+          "position": 0,
+          "credit_name": "Benzion Miller",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "2e0c8aab-5cd8-416f-a4cd-d712352096c1",
@@ -1037,6 +1103,15 @@
       "release_group_mbid": "c4fbd92f-2817-415f-8e34-e019e19cd112",
       "title": "R.E.L.I.G.I.O.N.",
       "artist_credit": "Black Hattitude",
+      "credited_artists": [
+        {
+          "mbid": "def63929-1557-4fce-abfb-6ad966242365",
+          "name": "Black Hattitude",
+          "position": 0,
+          "credit_name": "Black Hattitude",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "def63929-1557-4fce-abfb-6ad966242365",
@@ -1122,6 +1197,15 @@
       "release_group_mbid": "f72e74a5-b8ca-4d70-b83a-400256409188",
       "title": "Simcha Chassidis",
       "artist_credit": "Michoel Schnitzler",
+      "credited_artists": [
+        {
+          "mbid": "1628b1ce-ad17-4341-9763-d6918b01bbe0",
+          "name": "Michoel Schnitzler",
+          "position": 0,
+          "credit_name": "Michoel Schnitzler",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "1628b1ce-ad17-4341-9763-d6918b01bbe0",
@@ -1250,6 +1334,29 @@
       "release_group_mbid": "e69d8027-6106-44cb-ac62-8679795eae74",
       "title": "The Wedding Album",
       "artist_credit": "Mordechai Ben David, Mendy & Yeedle Werdyger",
+      "credited_artists": [
+        {
+          "mbid": "1ce4381e-039b-451d-a5a0-ab12020a987c",
+          "name": "Mordechai Ben David",
+          "position": 0,
+          "credit_name": "Mordechai Ben David",
+          "join_phrase": ", "
+        },
+        {
+          "mbid": "16dfb8e9-fd67-4fff-9170-c23df618c5c4",
+          "name": "Mendy Werdyger",
+          "position": 1,
+          "credit_name": "Mendy",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "0ecafc49-dbc2-4704-8ee4-dec869d3a1b6",
+          "name": "Yeedle",
+          "position": 2,
+          "credit_name": "Yeedle Werdyger",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "16dfb8e9-fd67-4fff-9170-c23df618c5c4",
@@ -1302,6 +1409,15 @@
       "release_group_mbid": "2a829141-97ab-4904-8ae7-5b4d24857faf",
       "title": "The Miraculous Menorah",
       "artist_credit": "Rabbi Shmuel Kunda",
+      "credited_artists": [
+        {
+          "mbid": "c07a4647-ae23-4d21-a28e-1ea3e55ea5aa",
+          "name": "Shmuel Kunda",
+          "position": 0,
+          "credit_name": "Rabbi Shmuel Kunda",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "c07a4647-ae23-4d21-a28e-1ea3e55ea5aa",
@@ -1346,6 +1462,22 @@
       "release_group_mbid": "5c72a2d5-b01b-427a-9157-df066e218e08",
       "title": "Precious Tears",
       "artist_credit": "Shalheves Boys Choir & Yo Aisenstark",
+      "credited_artists": [
+        {
+          "mbid": "3982608e-fd62-414b-9de1-ffc008267d71",
+          "name": "Shalheves Boys Choir",
+          "position": 0,
+          "credit_name": "Shalheves Boys Choir",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "7222d43a-4ea8-4f50-a312-e36a009a9dcf",
+          "name": "Yo Aisenstark",
+          "position": 1,
+          "credit_name": "Yo Aisenstark",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "7222d43a-4ea8-4f50-a312-e36a009a9dcf",
@@ -1513,6 +1645,15 @@
       "release_group_mbid": "eeb56fe4-9112-3fd7-8c63-498502abed82",
       "title": "Shabbos in Shomayim",
       "artist_credit": "Shlomo Carlebach",
+      "credited_artists": [
+        {
+          "mbid": "a42a9fa4-42f7-4bb1-a40b-aa7c5395f02d",
+          "name": "Shlomo Carlebach",
+          "position": 0,
+          "credit_name": "Shlomo Carlebach",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "a42a9fa4-42f7-4bb1-a40b-aa7c5395f02d",
@@ -1557,6 +1698,15 @@
       "release_group_mbid": "ee0fbd62-f4c3-4eef-a254-2afb718eb0b8",
       "title": "Simchas Yom Tov",
       "artist_credit": "Shlomo Simcha",
+      "credited_artists": [
+        {
+          "mbid": "c1cc0c1e-2728-4989-bdcd-38fc75755e77",
+          "name": "Shlomo Simcha",
+          "position": 0,
+          "credit_name": "Shlomo Simcha",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "c1cc0c1e-2728-4989-bdcd-38fc75755e77",
@@ -1686,6 +1836,15 @@
       "release_group_mbid": "cb5c6480-bf5b-4d25-a249-902fbe497179",
       "title": "Tehilim",
       "artist_credit": "Shlomo Simcha",
+      "credited_artists": [
+        {
+          "mbid": "c1cc0c1e-2728-4989-bdcd-38fc75755e77",
+          "name": "Shlomo Simcha",
+          "position": 0,
+          "credit_name": "Shlomo Simcha",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "c1cc0c1e-2728-4989-bdcd-38fc75755e77",
@@ -1815,6 +1974,15 @@
       "release_group_mbid": "982ca3ae-6ecc-4640-a148-b0e1c5c3aca2",
       "title": "ובא לציון גואל",
       "artist_credit": "Shmuel Brazil",
+      "credited_artists": [
+        {
+          "mbid": "ad81f958-420c-45ef-91b6-d7824f9e2e25",
+          "name": "Shmuel Brazil",
+          "position": 0,
+          "credit_name": "Shmuel Brazil",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "ad81f958-420c-45ef-91b6-d7824f9e2e25",
@@ -1883,6 +2051,15 @@
       "release_group_mbid": "e7bab102-452c-49ba-bc64-4695395630bb",
       "title": "Laasos Retzon Avicha",
       "artist_credit": "Yeedle",
+      "credited_artists": [
+        {
+          "mbid": "0ecafc49-dbc2-4704-8ee4-dec869d3a1b6",
+          "name": "Yeedle",
+          "position": 0,
+          "credit_name": "Yeedle",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "0ecafc49-dbc2-4704-8ee4-dec869d3a1b6",
@@ -1985,6 +2162,15 @@
       "release_group_mbid": "d0275244-4909-412b-95c0-2b10e613c61c",
       "title": "Chabad Classics 2",
       "artist_credit": "Zalman Goldstein",
+      "credited_artists": [
+        {
+          "mbid": "9954aa47-8a6f-4aa9-a8db-b01945f7f58e",
+          "name": "Zalman Goldstein",
+          "position": 0,
+          "credit_name": "Zalman Goldstein",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "9954aa47-8a6f-4aa9-a8db-b01945f7f58e",
@@ -2325,6 +2511,15 @@
       "release_group_mbid": "3c204801-ef64-4d6a-8c7a-b281ade200a5",
       "title": "יש אלוהים",
       "artist_credit": "יובל פרי",
+      "credited_artists": [
+        {
+          "mbid": "0dc7dcf6-220e-45c2-857a-022481e8fbd6",
+          "name": "יובל פרי",
+          "position": 0,
+          "credit_name": "יובל פרי",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "0dc7dcf6-220e-45c2-857a-022481e8fbd6",

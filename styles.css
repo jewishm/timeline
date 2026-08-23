@@ -1330,3 +1330,67 @@ footer a {
   }
 
 }
+
+
+/* Artist discography links */
+
+.artist-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.artist-link:hover,
+.artist-link:focus-visible {
+  color: #d7ae68;
+
+  text-decoration: underline;
+
+  text-underline-offset: 3px;
+}
+
+
+
+/* ====================================================
+   Clickable artist names
+==================================================== */
+
+.artist-link {
+  position: relative;
+
+  color: #d7ae68 !important;
+
+  text-decoration:
+    underline !important;
+
+  text-decoration-color:
+    rgba(215,174,104,.45) !important;
+
+  text-decoration-thickness:
+    1px;
+
+  text-underline-offset:
+    3px;
+
+  cursor: pointer;
+
+  pointer-events: auto !important;
+}
+
+
+.artist-link:hover,
+.artist-link:focus-visible,
+.artist-link:active {
+  color: #efd29f !important;
+
+  text-decoration-color:
+    currentColor !important;
+}
+
+
+.dialog-artist .artist-link {
+  display: inline;
+
+  padding: 3px 1px;
+
+  touch-action: manipulation;
+}

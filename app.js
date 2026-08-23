@@ -58,6 +58,45 @@ function escapeHtml(value) {
 }
 
 
+function artistCreditHtml(release) {
+
+  const artists =
+    release.credited_artists
+    || [];
+
+  if (!artists.length) {
+    return escapeHtml(
+      release.artist_credit
+    );
+  }
+
+  return artists
+    .map(artist => {
+
+      const name =
+        artist.credit_name
+        || artist.name
+        || "";
+
+      return `
+        <a
+          class="artist-link"
+          data-artist-link
+          href="/artist/?id=${encodeURIComponent(
+            artist.mbid
+          )}"
+          dir="auto"
+        >${escapeHtml(name)}</a>${escapeHtml(
+          artist.join_phrase
+          || ""
+        )}
+      `;
+
+    })
+    .join("");
+}
+
+
 function monthKey(year, month) {
   return `${year}-${String(month).padStart(2, "0")}`;
 }
@@ -304,7 +343,7 @@ function cardHtml(release) {
         <p
           class="card-artist"
           dir="auto">
-          ${escapeHtml(release.artist_credit)}
+          ${artistCreditHtml(release)}
         </p>
 
         <div class="card-actions">
@@ -465,7 +504,7 @@ function renderTimeline() {
 
         if (
           event.target.closest(
-            "[data-direct-link]"
+            "[data-direct-link], [data-artist-link]"
           )
         ) {
           return;
@@ -594,9 +633,7 @@ function openRelease(release) {
         <p
           class="dialog-artist"
           dir="auto">
-          ${escapeHtml(
-            release.artist_credit
-          )}
+          ${artistCreditHtml(release)}
         </p>
 
         <p class="dialog-date">
@@ -1170,3 +1207,41 @@ window.addEventListener(
 
 
 init();
+
+
+/* ----------------------------------------------------
+   Artist navigation
+---------------------------------------------------- */
+
+document.addEventListener(
+  "click",
+  event => {
+
+    const link =
+      event.target.closest(
+        ".artist-link"
+      );
+
+    if (!link) {
+      return;
+    }
+
+    const href =
+      link.getAttribute(
+        "href"
+      );
+
+    if (!href) {
+      return;
+    }
+
+    event.preventDefault();
+    event.stopPropagation();
+
+    window.location.assign(
+      href
+    );
+  },
+  true
+);
+

@@ -1,13 +1,13 @@
 {
   "year": 2022,
   "stats": {
-    "release_groups": 659,
+    "release_groups": 658,
     "dated_release_groups": 652,
-    "year_only_release_groups": 7,
-    "artists": 381,
+    "year_only_release_groups": 6,
+    "artists": 380,
     "months_with_releases": 12,
     "types": {
-      "Album": 190,
+      "Album": 189,
       "EP": 8,
       "Single": 461
     }
@@ -1180,6 +1180,15 @@
       "release_group_mbid": "fee8f1dd-5ea1-413e-b74f-30637d2711c1",
       "title": "Mishta Hayayin",
       "artist_credit": "Amrom Aker",
+      "credited_artists": [
+        {
+          "mbid": "8ae70fbf-96d9-4201-b686-356075c51bf4",
+          "name": "Amrom Aker",
+          "position": 0,
+          "credit_name": "Amrom Aker",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "8ae70fbf-96d9-4201-b686-356075c51bf4",
@@ -1289,110 +1298,18 @@
       "is_future": false
     },
     {
-      "release_group_mbid": "ce2066d0-352c-41aa-9406-3f03e2444edc",
-      "title": "D’veykus, Vol. 5",
-      "artist_credit": "D'veykus",
-      "collection_artists": [
-        {
-          "mbid": "df62135d-cf50-4098-8da4-1c9d9c17cafc",
-          "name": "D'veykus"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2022",
-      "date_precision": "year",
-      "year": 2022,
-      "month": null,
-      "day": null,
-      "release_count": 1,
-      "release_mbids": [
-        "c882ac9f-1869-4994-a5b1-a47a26e99054"
-      ],
-      "cover_release_mbid": "c882ac9f-1869-4994-a5b1-a47a26e99054",
-      "cover_art": {
-        "release_mbid": "c882ac9f-1869-4994-a5b1-a47a26e99054",
-        "image_id": 37748932269,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/c882ac9f-1869-4994-a5b1-a47a26e99054/37748932269",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/c882ac9f-1869-4994-a5b1-a47a26e99054/37748932269-250.jpg",
-          "500": "https://coverartarchive.org/release/c882ac9f-1869-4994-a5b1-a47a26e99054/37748932269-500.jpg",
-          "1200": "https://coverartarchive.org/release/c882ac9f-1869-4994-a5b1-a47a26e99054/37748932269-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/ce2066d0-352c-41aa-9406-3f03e2444edc",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c882ac9f-1869-4994-a5b1-a47a26e99054",
-          "url": "https://music.apple.com/gb/album/1633543449"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c882ac9f-1869-4994-a5b1-a47a26e99054",
-          "url": "https://open.spotify.com/album/4PtZzR7UDntWa95j5Q5c1n"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4PtZzR7UDntWa95j5Q5c1n"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1633543449"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c882ac9f-1869-4994-a5b1-a47a26e99054",
-          "url": "https://open.spotify.com/album/4PtZzR7UDntWa95j5Q5c1n"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c882ac9f-1869-4994-a5b1-a47a26e99054",
-          "url": "https://music.apple.com/gb/album/1633543449"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
       "release_group_mbid": "395a8e7e-677d-4b15-9eab-23b56796506d",
       "title": "רצועות",
       "artist_credit": "Lipa Schmeltzer",
+      "credited_artists": [
+        {
+          "mbid": "22354560-3e93-4524-85b6-2911b4c879e3",
+          "name": "Lipa Schmeltzer",
+          "position": 0,
+          "credit_name": "Lipa Schmeltzer",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "22354560-3e93-4524-85b6-2911b4c879e3",
@@ -1586,6 +1503,15 @@
       "release_group_mbid": "68352263-6604-41cb-9595-d25e08b841b7",
       "title": "Lenatzeach",
       "artist_credit": "Moshe Goldman",
+      "credited_artists": [
+        {
+          "mbid": "582a2945-ef27-4dca-8e3f-ac2d59bbd7fd",
+          "name": "Moshe Goldman",
+          "position": 0,
+          "credit_name": "Moshe Goldman",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "582a2945-ef27-4dca-8e3f-ac2d59bbd7fd",
@@ -1698,6 +1624,15 @@
       "release_group_mbid": "3f4b0db0-b962-4d11-ae69-c82d1c4b870a",
       "title": "והוא ידרוש לציון",
       "artist_credit": "חסידות פיטסבורג",
+      "credited_artists": [
+        {
+          "mbid": "16bec7b6-8311-4947-a3a5-55a23749531d",
+          "name": "חסידות פיטסבורג",
+          "position": 0,
+          "credit_name": "חסידות פיטסבורג",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "16bec7b6-8311-4947-a3a5-55a23749531d",
@@ -1760,6 +1695,15 @@
       "release_group_mbid": "14c95905-f752-43d0-85eb-5f127fd9970a",
       "title": "דער ויזניצער מנוחה ושמחה",
       "artist_credit": "יעקב יודא דסקל",
+      "credited_artists": [
+        {
+          "mbid": "98fca794-3cc5-484d-926a-cc6c7638e298",
+          "name": "Yanky Daskal",
+          "position": 0,
+          "credit_name": "יעקב יודא דסקל",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "98fca794-3cc5-484d-926a-cc6c7638e298",
@@ -1805,6 +1749,15 @@
       "release_group_mbid": "7db66d97-8ef5-4803-94d5-67ed8717b8fa",
       "title": "חמדת הלבבות",
       "artist_credit": "צבי זלבסקי",
+      "credited_artists": [
+        {
+          "mbid": "9f726c9d-ce99-4398-9531-e168cb835f8c",
+          "name": "צבי זלבסקי",
+          "position": 0,
+          "credit_name": "צבי זלבסקי",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "9f726c9d-ce99-4398-9531-e168cb835f8c",

@@ -1,21 +1,44 @@
 {
   "year": 1980,
   "stats": {
-    "release_groups": 9,
-    "dated_release_groups": 1,
+    "release_groups": 10,
+    "dated_release_groups": 2,
     "year_only_release_groups": 8,
-    "artists": 8,
-    "months_with_releases": 1,
+    "artists": 9,
+    "months_with_releases": 2,
     "types": {
-      "Album": 9
+      "Album": 10
     }
   },
   "months": [
     {
       "month": 1,
-      "release_groups": 0,
-      "types": {},
-      "featured": []
+      "release_groups": 1,
+      "types": {
+        "Album": 1
+      },
+      "featured": [
+        {
+          "release_group_mbid": "8a0be40a-585e-4654-9ecc-065745cc209c",
+          "title": "D’veykus, Vol. 3",
+          "artist_credit": "D'veykus",
+          "primary_type": "Album",
+          "day": 17,
+          "cover_art": {
+            "release_mbid": "043e7f27-e432-4e47-8633-97304bb7262d",
+            "image_id": 45997028387,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/043e7f27-e432-4e47-8633-97304bb7262d/45997028387",
+            "thumbnails": {
+              "250": "https://coverartarchive.org/release/043e7f27-e432-4e47-8633-97304bb7262d/45997028387-250.jpg",
+              "500": "https://coverartarchive.org/release/043e7f27-e432-4e47-8633-97304bb7262d/45997028387-500.jpg",
+              "1200": "https://coverartarchive.org/release/043e7f27-e432-4e47-8633-97304bb7262d/45997028387-1200.jpg"
+            }
+          }
+        }
+      ]
     },
     {
       "month": 2,
@@ -119,6 +142,11 @@
       "release_groups": 1
     },
     {
+      "mbid": "df62135d-cf50-4098-8da4-1c9d9c17cafc",
+      "name": "D'veykus",
+      "release_groups": 1
+    },
+    {
       "mbid": "b3a09a9b-ddb0-4e52-a2bf-29ef0c1e4211",
       "name": "Diaspora Yeshiva Band",
       "release_groups": 1
@@ -154,6 +182,15 @@
       "release_group_mbid": "e0d00261-b74d-4df1-84c3-916af8701342",
       "title": "Ben Zion Shenker Sings His Latest Popular Chassidic Songs = ליהודים היתה אורה",
       "artist_credit": "Ben Zion Shenker",
+      "credited_artists": [
+        {
+          "mbid": "67f4742f-8db4-4a2e-94b2-418a5f84c0ce",
+          "name": "Ben Zion Shenker",
+          "position": 0,
+          "credit_name": "Ben Zion Shenker",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "67f4742f-8db4-4a2e-94b2-418a5f84c0ce",
@@ -210,6 +247,15 @@
       "release_group_mbid": "23400741-8ff1-47c2-9941-ec45f036d703",
       "title": "Boyaner Nigunim = ניגוני באיאן",
       "artist_credit": "David Werdyger",
+      "credited_artists": [
+        {
+          "mbid": "ea1aa16e-b9bc-4da0-9722-3e22ad9257d3",
+          "name": "David Werdyger",
+          "position": 0,
+          "credit_name": "David Werdyger",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "ea1aa16e-b9bc-4da0-9722-3e22ad9257d3",
@@ -279,6 +325,15 @@
       "release_group_mbid": "95f552b5-a5a6-4882-acbc-3dfedd46796e",
       "title": "Satmar Nigunim",
       "artist_credit": "David Werdyger",
+      "credited_artists": [
+        {
+          "mbid": "ea1aa16e-b9bc-4da0-9722-3e22ad9257d3",
+          "name": "David Werdyger",
+          "position": 0,
+          "credit_name": "David Werdyger",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "ea1aa16e-b9bc-4da0-9722-3e22ad9257d3",
@@ -323,6 +378,15 @@
       "release_group_mbid": "b47ee966-5634-498c-9597-18ae0eef017d",
       "title": "Megama",
       "artist_credit": "Megama",
+      "credited_artists": [
+        {
+          "mbid": "73009787-33ca-4af2-9564-a40c497e348c",
+          "name": "Megama",
+          "position": 0,
+          "credit_name": "Megama",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "73009787-33ca-4af2-9564-a40c497e348c",
@@ -558,6 +622,15 @@
       "release_group_mbid": "c54d6229-19cc-40b9-9f17-4acbe0e804bc",
       "title": "Ma'ein Olam Habah",
       "artist_credit": "Neginei Werzberger",
+      "credited_artists": [
+        {
+          "mbid": "7ffd5437-6c27-4736-9203-238559627261",
+          "name": "Neginei Werzberger",
+          "position": 0,
+          "credit_name": "Neginei Werzberger",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "7ffd5437-6c27-4736-9203-238559627261",
@@ -632,6 +705,15 @@
       "release_group_mbid": "7ff48197-7d44-477a-87ff-f754d7ecd94a",
       "title": "L'Kovid Shabbas",
       "artist_credit": "Shlomo Carlebach",
+      "credited_artists": [
+        {
+          "mbid": "a42a9fa4-42f7-4bb1-a40b-aa7c5395f02d",
+          "name": "Shlomo Carlebach",
+          "position": 0,
+          "credit_name": "Shlomo Carlebach",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "a42a9fa4-42f7-4bb1-a40b-aa7c5395f02d",
@@ -797,6 +879,15 @@
       "release_group_mbid": "eaa03050-9e5b-4a14-849e-aa8931731a03",
       "title": "Suki With A Touch Of Ding II - Better Than The Best Wedding Album",
       "artist_credit": "Suki & Ding",
+      "credited_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding",
+          "position": 0,
+          "credit_name": "Suki & Ding",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
@@ -949,6 +1040,15 @@
       "release_group_mbid": "d4c050eb-5827-40fa-8991-e9cc1e75cd9f",
       "title": "Live From \"King David's Tomb\" = דוד מלך ישראל חי",
       "artist_credit": "The Diaspora Yeshiva Band",
+      "credited_artists": [
+        {
+          "mbid": "b3a09a9b-ddb0-4e52-a2bf-29ef0c1e4211",
+          "name": "Diaspora Yeshiva Band",
+          "position": 0,
+          "credit_name": "The Diaspora Yeshiva Band",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "b3a09a9b-ddb0-4e52-a2bf-29ef0c1e4211",

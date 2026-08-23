@@ -1188,6 +1188,15 @@
       "release_group_mbid": "8b345bd2-67b0-41de-b863-5c50f63e4cfb",
       "title": "The Schmeltzer Wedding DJ Set",
       "artist_credit": "Shmili Landau",
+      "credited_artists": [
+        {
+          "mbid": "326df8ac-cc6b-4371-8d7c-d5b4179a7cba",
+          "name": "Shmili Landau",
+          "position": 0,
+          "credit_name": "Shmili Landau",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "326df8ac-cc6b-4371-8d7c-d5b4179a7cba",
@@ -1262,6 +1271,15 @@
       "release_group_mbid": "d126915f-d5a2-439a-a696-a4778bca8540",
       "title": "Shirei Nechama Acapella Collection",
       "artist_credit": "Simcha Leiner",
+      "credited_artists": [
+        {
+          "mbid": "b54de85f-4443-4e10-814d-e907f180e9dd",
+          "name": "Simcha Leiner",
+          "position": 0,
+          "credit_name": "Simcha Leiner",
+          "join_phrase": ""
+        }
+      ],
       "collection_artists": [
         {
           "mbid": "b54de85f-4443-4e10-814d-e907f180e9dd",
@@ -1384,6 +1402,28 @@
           "url": "https://www.deezer.com/album/584955422"
         },
         {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "af491479-6e67-474b-83f6-a51fbdd39975",
+          "url": "https://www.qobuz.com/us-en/album/shirei-nechama-acapella-collection-simcha-leiner/ksexflze4ooyc"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "af491479-6e67-474b-83f6-a51fbdd39975",
+          "url": "https://www.qobuz.com/us-en/album/shirei-nechama-acapella-collection-simcha-leiner/ksexflze4ooyc"
+        },
+        {
           "site_key": "youtube",
           "site_label": "YouTube",
           "domain": "youtube.com",
@@ -1420,6 +1460,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/361757361"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/shirei-nechama-acapella-collection-simcha-leiner/ksexflze4ooyc"
         },
         "amazon": {
           "label": "Amazon",
@@ -1487,6 +1532,17 @@
           "source": "release",
           "source_release_mbid": "af491479-6e67-474b-83f6-a51fbdd39975",
           "url": "https://tidal.com/album/361757361"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "af491479-6e67-474b-83f6-a51fbdd39975",
+          "url": "https://www.qobuz.com/us-en/album/shirei-nechama-acapella-collection-simcha-leiner/ksexflze4ooyc"
         },
         {
           "site_key": "amazon",

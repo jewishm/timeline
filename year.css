@@ -774,3 +774,58 @@ main {
   }
 
 }
+
+
+/* Artist discography links */
+
+.artist-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.artist-link:hover,
+.artist-link:focus-visible {
+  color: #d7ae68;
+
+  text-decoration: underline;
+
+  text-underline-offset: 3px;
+}
+
+
+
+.release-main-link,
+.release-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.release-main-link {
+  display: block;
+}
+
+.release-title-link:hover,
+.release-title-link:focus-visible {
+  color: #d7ae68;
+}
+
+
+
+/* Clickable artist names */
+
+.artist-link {
+  color: #d7ae68 !important;
+
+  text-decoration:
+    underline !important;
+
+  text-decoration-color:
+    rgba(215,174,104,.45) !important;
+
+  text-underline-offset:
+    3px;
+
+  cursor: pointer;
+
+  pointer-events: auto !important;
+}
