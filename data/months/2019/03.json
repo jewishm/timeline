@@ -2,19 +2,19 @@
   "year": 2019,
   "month": 3,
   "stats": {
-    "release_groups": 33,
-    "with_cover_art": 33,
-    "with_action_links": 32,
+    "release_groups": 31,
+    "with_cover_art": 31,
+    "with_action_links": 30,
     "future_releases": 0,
     "types": {
       "Album": 6,
       "EP": 1,
-      "Single": 26
+      "Single": 24
     },
     "services": {
-      "spotify": 31,
-      "apple_music": 31,
-      "deezer": 20,
+      "spotify": 29,
+      "apple_music": 29,
+      "deezer": 18,
       "tidal": 11,
       "amazon": 1,
       "soundcloud": 1,
@@ -992,136 +992,6 @@
           "source": "release",
           "source_release_mbid": "c1cd6f8e-b9d4-4f05-859c-61012eb0f274",
           "url": "https://www.deezer.com/album/89648222"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "9a8b4e07-b414-49b1-8a57-1c841a779066",
-      "title": "Crazy to Love You (YOUNOTUS remix)",
-      "artist_credit": "Decco, Alex Clare & YouNotUs",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [
-        "Remix"
-      ],
-      "first_release_date": "2019-03-08",
-      "date_precision": "day",
-      "year": 2019,
-      "month": 3,
-      "day": 8,
-      "release_count": 1,
-      "release_mbids": [
-        "592c2d49-000d-4b27-9f48-8832b7d0fd44"
-      ],
-      "cover_release_mbid": "592c2d49-000d-4b27-9f48-8832b7d0fd44",
-      "cover_art": {
-        "release_mbid": "592c2d49-000d-4b27-9f48-8832b7d0fd44",
-        "image_id": 38455685640,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/592c2d49-000d-4b27-9f48-8832b7d0fd44/38455685640",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/592c2d49-000d-4b27-9f48-8832b7d0fd44/38455685640-250.jpg",
-          "500": "https://coverartarchive.org/release/592c2d49-000d-4b27-9f48-8832b7d0fd44/38455685640-500.jpg",
-          "1200": "https://coverartarchive.org/release/592c2d49-000d-4b27-9f48-8832b7d0fd44/38455685640-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/9a8b4e07-b414-49b1-8a57-1c841a779066",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "592c2d49-000d-4b27-9f48-8832b7d0fd44",
-          "url": "https://music.apple.com/gb/album/1454267533"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "592c2d49-000d-4b27-9f48-8832b7d0fd44",
-          "url": "https://open.spotify.com/album/7987Z2ASHfmsMrCke9oVvV"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "592c2d49-000d-4b27-9f48-8832b7d0fd44",
-          "url": "https://www.deezer.com/album/88571522"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/7987Z2ASHfmsMrCke9oVvV"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1454267533"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/88571522"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "592c2d49-000d-4b27-9f48-8832b7d0fd44",
-          "url": "https://open.spotify.com/album/7987Z2ASHfmsMrCke9oVvV"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "592c2d49-000d-4b27-9f48-8832b7d0fd44",
-          "url": "https://music.apple.com/gb/album/1454267533"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "592c2d49-000d-4b27-9f48-8832b7d0fd44",
-          "url": "https://www.deezer.com/album/88571522"
         }
       ],
       "references": [],
@@ -3166,136 +3036,6 @@
           "source": "release",
           "source_release_mbid": "79622057-d0cc-4f20-8793-b8bf5811ef5b",
           "url": "https://tidal.com/album/329682154"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "f88a91a0-6b78-44fb-ae6a-7575ce599f2e",
-      "title": "Crazy to Love You (Friction remix)",
-      "artist_credit": "Decco, Alex Clare & Friction",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [
-        "Remix"
-      ],
-      "first_release_date": "2019-03-22",
-      "date_precision": "day",
-      "year": 2019,
-      "month": 3,
-      "day": 22,
-      "release_count": 1,
-      "release_mbids": [
-        "36c4104f-5fdc-4c28-a9ec-8ab4f0453438"
-      ],
-      "cover_release_mbid": "36c4104f-5fdc-4c28-a9ec-8ab4f0453438",
-      "cover_art": {
-        "release_mbid": "36c4104f-5fdc-4c28-a9ec-8ab4f0453438",
-        "image_id": 38455698714,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/36c4104f-5fdc-4c28-a9ec-8ab4f0453438/38455698714",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/36c4104f-5fdc-4c28-a9ec-8ab4f0453438/38455698714-250.jpg",
-          "500": "https://coverartarchive.org/release/36c4104f-5fdc-4c28-a9ec-8ab4f0453438/38455698714-500.jpg",
-          "1200": "https://coverartarchive.org/release/36c4104f-5fdc-4c28-a9ec-8ab4f0453438/38455698714-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/f88a91a0-6b78-44fb-ae6a-7575ce599f2e",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "36c4104f-5fdc-4c28-a9ec-8ab4f0453438",
-          "url": "https://music.apple.com/gb/album/1455494348"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "36c4104f-5fdc-4c28-a9ec-8ab4f0453438",
-          "url": "https://open.spotify.com/album/1ssICNvO18SSh2aaEyox5K"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "36c4104f-5fdc-4c28-a9ec-8ab4f0453438",
-          "url": "https://www.deezer.com/album/89835882"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/1ssICNvO18SSh2aaEyox5K"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1455494348"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/89835882"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "36c4104f-5fdc-4c28-a9ec-8ab4f0453438",
-          "url": "https://open.spotify.com/album/1ssICNvO18SSh2aaEyox5K"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "36c4104f-5fdc-4c28-a9ec-8ab4f0453438",
-          "url": "https://music.apple.com/gb/album/1455494348"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "36c4104f-5fdc-4c28-a9ec-8ab4f0453438",
-          "url": "https://www.deezer.com/album/89835882"
         }
       ],
       "references": [],

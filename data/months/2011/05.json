@@ -2,19 +2,19 @@
   "year": 2011,
   "month": 5,
   "stats": {
-    "release_groups": 5,
-    "with_cover_art": 5,
-    "with_action_links": 5,
+    "release_groups": 4,
+    "with_cover_art": 4,
+    "with_action_links": 4,
     "future_releases": 0,
     "types": {
       "Album": 3,
-      "Single": 2
+      "Single": 1
     },
     "services": {
-      "spotify": 4,
-      "apple_music": 4,
-      "deezer": 3,
-      "amazon": 3,
+      "spotify": 3,
+      "apple_music": 3,
+      "deezer": 2,
+      "amazon": 2,
       "tidal": 1,
       "qobuz": 1,
       "youtube": 1,
@@ -618,186 +618,6 @@
           "source": "release-group",
           "source_release_mbid": null,
           "url": "https://rateyourmusic.com/release/album/moshiach-oi/this-world-is-nothing/"
-        }
-      ],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "c2663b6b-eff1-4f79-87aa-b2a7ff624996",
-      "title": "Treading Water",
-      "artist_credit": "Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2011-05-27",
-      "date_precision": "day",
-      "year": 2011,
-      "month": 5,
-      "day": 27,
-      "release_count": 3,
-      "release_mbids": [
-        "49ff1943-f6b8-4601-8c03-b7310950cab9",
-        "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-        "f2d37cec-2b85-4cb7-bb63-5217eefc07ef"
-      ],
-      "cover_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-      "cover_art": {
-        "release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-        "image_id": 38455570067,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/e58c7f96-1aa5-4940-ba5c-16e62f4698c6/38455570067",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/e58c7f96-1aa5-4940-ba5c-16e62f4698c6/38455570067-250.jpg",
-          "500": "https://coverartarchive.org/release/e58c7f96-1aa5-4940-ba5c-16e62f4698c6/38455570067-500.jpg",
-          "1200": "https://coverartarchive.org/release/e58c7f96-1aa5-4940-ba5c-16e62f4698c6/38455570067-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/c2663b6b-eff1-4f79-87aa-b2a7ff624996",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-          "url": "https://music.apple.com/gb/album/1445175982"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-          "url": "https://open.spotify.com/album/5rKkManX4G4uxm5Lq1cz6N"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.co.uk",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "f2d37cec-2b85-4cb7-bb63-5217eefc07ef",
-          "url": "https://www.amazon.co.uk/gp/product/B0050DTU3K"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-          "url": "https://www.deezer.com/album/5748811"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "49ff1943-f6b8-4601-8c03-b7310950cab9",
-          "url": "https://www.discogs.com/release/4610672"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/5rKkManX4G4uxm5Lq1cz6N"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1445175982"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/5748811"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.co.uk/gp/product/B0050DTU3K"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-          "url": "https://open.spotify.com/album/5rKkManX4G4uxm5Lq1cz6N"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-          "url": "https://music.apple.com/gb/album/1445175982"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
-          "url": "https://www.deezer.com/album/5748811"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.co.uk",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "f2d37cec-2b85-4cb7-bb63-5217eefc07ef",
-          "url": "https://www.amazon.co.uk/gp/product/B0050DTU3K"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "49ff1943-f6b8-4601-8c03-b7310950cab9",
-          "url": "https://www.discogs.com/release/4610672"
         }
       ],
       "has_action_links": true,

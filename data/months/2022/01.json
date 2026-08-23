@@ -2,22 +2,21 @@
   "year": 2022,
   "month": 1,
   "stats": {
-    "release_groups": 49,
-    "with_cover_art": 49,
-    "with_action_links": 49,
+    "release_groups": 48,
+    "with_cover_art": 48,
+    "with_action_links": 48,
     "future_releases": 0,
     "types": {
       "Album": 17,
       "EP": 2,
-      "Single": 30
+      "Single": 29
     },
     "services": {
-      "spotify": 47,
+      "spotify": 46,
       "apple_music": 46,
       "deezer": 29,
       "tidal": 19,
-      "mostly_music": 1,
-      "other": 1
+      "mostly_music": 1
     }
   },
   "releases": [
@@ -2825,110 +2824,6 @@
           "source": "release",
           "source_release_mbid": "f4bfc85c-2dfa-429a-b306-085fc280eeee",
           "url": "https://tidal.com/album/312494138"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "eee232b9-4228-415d-9a12-d9a9b50671c5",
-      "title": "Hold On (The Remixes Part 2)",
-      "artist_credit": "ilan Bluestone with Maor Levi feat. Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [
-        "Remix"
-      ],
-      "first_release_date": "2022-01-17",
-      "date_precision": "day",
-      "year": 2022,
-      "month": 1,
-      "day": 17,
-      "release_count": 2,
-      "release_mbids": [
-        "8394017f-8e0a-4adb-98f2-256b5d24427b",
-        "a1cc388b-815a-4ecf-bfac-e2783159ea87"
-      ],
-      "cover_release_mbid": "a1cc388b-815a-4ecf-bfac-e2783159ea87",
-      "cover_art": {
-        "release_mbid": "a1cc388b-815a-4ecf-bfac-e2783159ea87",
-        "image_id": 38455736460,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/a1cc388b-815a-4ecf-bfac-e2783159ea87/38455736460",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/a1cc388b-815a-4ecf-bfac-e2783159ea87/38455736460-250.jpg",
-          "500": "https://coverartarchive.org/release/a1cc388b-815a-4ecf-bfac-e2783159ea87/38455736460-500.jpg",
-          "1200": "https://coverartarchive.org/release/a1cc388b-815a-4ecf-bfac-e2783159ea87/38455736460-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/eee232b9-4228-415d-9a12-d9a9b50671c5",
-      "links": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "a1cc388b-815a-4ecf-bfac-e2783159ea87",
-          "url": "https://open.spotify.com/album/2ov9ZxcWQBy8bOVl9B8B6y"
-        },
-        {
-          "site_key": "other",
-          "site_label": "junodownload.com",
-          "domain": "junodownload.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "8394017f-8e0a-4adb-98f2-256b5d24427b",
-          "url": "https://www.junodownload.com/products/5421138-02/"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/2ov9ZxcWQBy8bOVl9B8B6y"
-        },
-        "other": {
-          "label": "junodownload.com",
-          "kind": "buy",
-          "url": "https://www.junodownload.com/products/5421138-02/"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "a1cc388b-815a-4ecf-bfac-e2783159ea87",
-          "url": "https://open.spotify.com/album/2ov9ZxcWQBy8bOVl9B8B6y"
-        },
-        {
-          "site_key": "other",
-          "site_label": "junodownload.com",
-          "domain": "junodownload.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "8394017f-8e0a-4adb-98f2-256b5d24427b",
-          "url": "https://www.junodownload.com/products/5421138-02/"
         }
       ],
       "references": [],

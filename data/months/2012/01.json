@@ -2,18 +2,17 @@
   "year": 2012,
   "month": 1,
   "stats": {
-    "release_groups": 11,
-    "with_cover_art": 10,
-    "with_action_links": 11,
+    "release_groups": 10,
+    "with_cover_art": 9,
+    "with_action_links": 10,
     "future_releases": 0,
     "types": {
-      "Album": 10,
-      "Single": 1
+      "Album": 10
     },
     "services": {
-      "spotify": 10,
-      "apple_music": 9,
-      "deezer": 8,
+      "spotify": 9,
+      "apple_music": 8,
+      "deezer": 7,
       "tidal": 6,
       "amazon": 2,
       "youtube": 1,
@@ -24,134 +23,6 @@
     }
   },
   "releases": [
-    {
-      "release_group_mbid": "376219af-9da1-4c56-81ea-51eed277d9e5",
-      "title": "Humming Bird EP",
-      "artist_credit": "Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2012-01-01",
-      "date_precision": "day",
-      "year": 2012,
-      "month": 1,
-      "day": 1,
-      "release_count": 1,
-      "release_mbids": [
-        "8c3f7d16-a580-466a-b043-bdc863cfdc70"
-      ],
-      "cover_release_mbid": "8c3f7d16-a580-466a-b043-bdc863cfdc70",
-      "cover_art": {
-        "release_mbid": "8c3f7d16-a580-466a-b043-bdc863cfdc70",
-        "image_id": 38455556388,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/8c3f7d16-a580-466a-b043-bdc863cfdc70/38455556388",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/8c3f7d16-a580-466a-b043-bdc863cfdc70/38455556388-250.jpg",
-          "500": "https://coverartarchive.org/release/8c3f7d16-a580-466a-b043-bdc863cfdc70/38455556388-500.jpg",
-          "1200": "https://coverartarchive.org/release/8c3f7d16-a580-466a-b043-bdc863cfdc70/38455556388-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/376219af-9da1-4c56-81ea-51eed277d9e5",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8c3f7d16-a580-466a-b043-bdc863cfdc70",
-          "url": "https://music.apple.com/gb/album/1444398880"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8c3f7d16-a580-466a-b043-bdc863cfdc70",
-          "url": "https://open.spotify.com/album/4WftIHKX8O8DPkXpHyOZMR"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8c3f7d16-a580-466a-b043-bdc863cfdc70",
-          "url": "https://www.deezer.com/album/6159944"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4WftIHKX8O8DPkXpHyOZMR"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1444398880"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/6159944"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8c3f7d16-a580-466a-b043-bdc863cfdc70",
-          "url": "https://open.spotify.com/album/4WftIHKX8O8DPkXpHyOZMR"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8c3f7d16-a580-466a-b043-bdc863cfdc70",
-          "url": "https://music.apple.com/gb/album/1444398880"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8c3f7d16-a580-466a-b043-bdc863cfdc70",
-          "url": "https://www.deezer.com/album/6159944"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
     {
       "release_group_mbid": "4d3a350f-b29a-4504-9af5-0f58464abeaa",
       "title": "עם ישראל חי",

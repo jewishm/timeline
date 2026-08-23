@@ -2,18 +2,16 @@
   "year": 2011,
   "month": 4,
   "stats": {
-    "release_groups": 3,
-    "with_cover_art": 3,
-    "with_action_links": 3,
+    "release_groups": 2,
+    "with_cover_art": 2,
+    "with_action_links": 2,
     "future_releases": 0,
     "types": {
-      "Album": 2,
-      "Single": 1
+      "Album": 2
     },
     "services": {
       "spotify": 2,
       "apple_music": 2,
-      "amazon": 1,
       "deezer": 1,
       "tidal": 1
     }
@@ -118,205 +116,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "d9082290-56b5-4479-af6f-21d8bb8b1ed9",
-      "title": "Too Close",
-      "artist_credit": "Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2011-04-15",
-      "date_precision": "day",
-      "year": 2011,
-      "month": 4,
-      "day": 15,
-      "release_count": 4,
-      "release_mbids": [
-        "21c66a55-9535-4cca-9371-406028b9f39f",
-        "684e575a-4f72-47ee-8f7d-bf4cbf3fa629",
-        "8e956b5c-d33a-433b-a194-33a2e331d346",
-        "b62ce3dd-f861-49bb-a126-d67ae085d28d"
-      ],
-      "cover_release_mbid": "b62ce3dd-f861-49bb-a126-d67ae085d28d",
-      "cover_art": {
-        "release_mbid": "b62ce3dd-f861-49bb-a126-d67ae085d28d",
-        "image_id": 10321130784,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/b62ce3dd-f861-49bb-a126-d67ae085d28d/10321130784",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/b62ce3dd-f861-49bb-a126-d67ae085d28d/10321130784-250.jpg",
-          "500": "https://coverartarchive.org/release/b62ce3dd-f861-49bb-a126-d67ae085d28d/10321130784-500.jpg",
-          "1200": "https://coverartarchive.org/release/b62ce3dd-f861-49bb-a126-d67ae085d28d/10321130784-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/d9082290-56b5-4479-af6f-21d8bb8b1ed9",
-      "links": [
-        {
-          "site_key": "other",
-          "site_label": "en.wikipedia.org",
-          "domain": "en.wikipedia.org",
-          "relationship": "wikipedia",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://en.wikipedia.org/wiki/Too_Close_(Alex_Clare_song)"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.co.uk",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "8e956b5c-d33a-433b-a194-33a2e331d346",
-          "url": "https://www.amazon.co.uk/gp/product/B004VT2GX0"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.co.uk",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "21c66a55-9535-4cca-9371-406028b9f39f",
-          "url": "https://www.amazon.co.uk/gp/product/B007TXS490"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.discogs.com/master/380629"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "684e575a-4f72-47ee-8f7d-bf4cbf3fa629",
-          "url": "https://www.discogs.com/release/3006348"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "21c66a55-9535-4cca-9371-406028b9f39f",
-          "url": "https://www.discogs.com/release/3614359"
-        },
-        {
-          "site_key": "wikidata",
-          "site_label": "Wikidata",
-          "domain": "wikidata.org",
-          "relationship": "wikidata",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.wikidata.org/wiki/Q1311458"
-        }
-      ],
-      "preferred_links": {
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.co.uk/gp/product/B004VT2GX0"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.co.uk",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "8e956b5c-d33a-433b-a194-33a2e331d346",
-          "url": "https://www.amazon.co.uk/gp/product/B004VT2GX0"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "other",
-          "site_label": "en.wikipedia.org",
-          "domain": "en.wikipedia.org",
-          "relationship": "wikipedia",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://en.wikipedia.org/wiki/Too_Close_(Alex_Clare_song)"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.discogs.com/master/380629"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "684e575a-4f72-47ee-8f7d-bf4cbf3fa629",
-          "url": "https://www.discogs.com/release/3006348"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "21c66a55-9535-4cca-9371-406028b9f39f",
-          "url": "https://www.discogs.com/release/3614359"
-        },
-        {
-          "site_key": "wikidata",
-          "site_label": "Wikidata",
-          "domain": "wikidata.org",
-          "relationship": "wikidata",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.wikidata.org/wiki/Q1311458"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

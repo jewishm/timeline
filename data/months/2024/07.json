@@ -2,18 +2,18 @@
   "year": 2024,
   "month": 7,
   "stats": {
-    "release_groups": 81,
-    "with_cover_art": 81,
-    "with_action_links": 81,
+    "release_groups": 80,
+    "with_cover_art": 80,
+    "with_action_links": 80,
     "future_releases": 0,
     "types": {
       "Album": 21,
       "EP": 5,
-      "Single": 55
+      "Single": 54
     },
     "services": {
-      "spotify": 80,
-      "apple_music": 76,
+      "spotify": 79,
+      "apple_music": 75,
       "deezer": 52,
       "tidal": 40,
       "amazon": 3,
@@ -1000,7 +1000,7 @@
           "action": true,
           "action_kind": "buy",
           "source": "release",
-          "source_release_mbid": "e2ac1337-0406-4d28-a0a0-495594f39d48",
+          "source_release_mbid": "8d6c5c8e-9154-4758-89c7-7f40403fcb8b",
           "url": "https://music.apple.com/us/album/1767028212"
         },
         {
@@ -3898,107 +3898,6 @@
           "source": "release",
           "source_release_mbid": "6e6dfb42-ecf7-448d-b118-2209e5ec7467",
           "url": "https://tidal.com/album/374123463"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "8e572a3a-9615-414b-8c55-49a570460d00",
-      "title": "Spread Light",
-      "artist_credit": "Matisyahu & Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-07-09",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 7,
-      "day": 9,
-      "release_count": 1,
-      "release_mbids": [
-        "cca37576-72bb-475b-8584-39465b9f43a7"
-      ],
-      "cover_release_mbid": "cca37576-72bb-475b-8584-39465b9f43a7",
-      "cover_art": {
-        "release_mbid": "cca37576-72bb-475b-8584-39465b9f43a7",
-        "image_id": 39369236249,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/cca37576-72bb-475b-8584-39465b9f43a7/39369236249",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/cca37576-72bb-475b-8584-39465b9f43a7/39369236249-250.jpg",
-          "500": "https://coverartarchive.org/release/cca37576-72bb-475b-8584-39465b9f43a7/39369236249-500.jpg",
-          "1200": "https://coverartarchive.org/release/cca37576-72bb-475b-8584-39465b9f43a7/39369236249-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/8e572a3a-9615-414b-8c55-49a570460d00",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cca37576-72bb-475b-8584-39465b9f43a7",
-          "url": "https://music.apple.com/gb/album/1756705453"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cca37576-72bb-475b-8584-39465b9f43a7",
-          "url": "https://open.spotify.com/album/3NIqODdhHQoqZFb29kGe6r"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/3NIqODdhHQoqZFb29kGe6r"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1756705453"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cca37576-72bb-475b-8584-39465b9f43a7",
-          "url": "https://open.spotify.com/album/3NIqODdhHQoqZFb29kGe6r"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cca37576-72bb-475b-8584-39465b9f43a7",
-          "url": "https://music.apple.com/gb/album/1756705453"
         }
       ],
       "references": [],

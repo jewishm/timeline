@@ -2,20 +2,20 @@
   "year": 2025,
   "month": 9,
   "stats": {
-    "release_groups": 119,
-    "with_cover_art": 119,
-    "with_action_links": 115,
+    "release_groups": 117,
+    "with_cover_art": 117,
+    "with_action_links": 113,
     "future_releases": 0,
     "types": {
       "Album": 26,
       "EP": 11,
-      "Single": 82
+      "Single": 80
     },
     "services": {
-      "spotify": 114,
-      "deezer": 114,
-      "tidal": 109,
-      "apple_music": 89,
+      "spotify": 112,
+      "deezer": 112,
+      "tidal": 108,
+      "apple_music": 88,
       "qobuz": 5,
       "boomplay": 1,
       "amazon": 1,
@@ -655,145 +655,6 @@
       "actions": [],
       "references": [],
       "has_action_links": false,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "26ecadc6-1a61-47aa-89e8-b9e9047170e0",
-      "title": "Father",
-      "artist_credit": "Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2025-09-02",
-      "date_precision": "day",
-      "year": 2025,
-      "month": 9,
-      "day": 2,
-      "release_count": 1,
-      "release_mbids": [
-        "51883acb-e724-4432-973a-2350d5722738"
-      ],
-      "cover_release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-      "cover_art": {
-        "release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-        "image_id": 42956278942,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/51883acb-e724-4432-973a-2350d5722738/42956278942",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/51883acb-e724-4432-973a-2350d5722738/42956278942-250.jpg",
-          "500": "https://coverartarchive.org/release/51883acb-e724-4432-973a-2350d5722738/42956278942-500.jpg",
-          "1200": "https://coverartarchive.org/release/51883acb-e724-4432-973a-2350d5722738/42956278942-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/26ecadc6-1a61-47aa-89e8-b9e9047170e0",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-          "url": "https://music.apple.com/us/album/1837789155"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-          "url": "https://music.apple.com/us/album/1837789155"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-          "url": "https://open.spotify.com/album/3YuPy8LDwFp9AhDNZb3FTK"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-          "url": "https://www.deezer.com/album/815146761"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/3YuPy8LDwFp9AhDNZb3FTK"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1837789155"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/815146761"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-          "url": "https://open.spotify.com/album/3YuPy8LDwFp9AhDNZb3FTK"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-          "url": "https://music.apple.com/us/album/1837789155"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "51883acb-e724-4432-973a-2350d5722738",
-          "url": "https://www.deezer.com/album/815146761"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
     },
@@ -14394,134 +14255,6 @@
           "source": "release",
           "source_release_mbid": "f64093b2-dbc8-438f-b445-1a1db18a4c0a",
           "url": "https://tidal.com/album/456496416"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "b852c81a-e6d2-4390-b2d1-cb7d70a03eac",
-      "title": "Daddy Dear",
-      "artist_credit": "Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2025-09-20",
-      "date_precision": "day",
-      "year": 2025,
-      "month": 9,
-      "day": 20,
-      "release_count": 1,
-      "release_mbids": [
-        "773777ec-26b0-471b-83f5-10a8a1b90c4e"
-      ],
-      "cover_release_mbid": "773777ec-26b0-471b-83f5-10a8a1b90c4e",
-      "cover_art": {
-        "release_mbid": "773777ec-26b0-471b-83f5-10a8a1b90c4e",
-        "image_id": 43089101314,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/773777ec-26b0-471b-83f5-10a8a1b90c4e/43089101314",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/773777ec-26b0-471b-83f5-10a8a1b90c4e/43089101314-250.jpg",
-          "500": "https://coverartarchive.org/release/773777ec-26b0-471b-83f5-10a8a1b90c4e/43089101314-500.jpg",
-          "1200": "https://coverartarchive.org/release/773777ec-26b0-471b-83f5-10a8a1b90c4e/43089101314-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/b852c81a-e6d2-4390-b2d1-cb7d70a03eac",
-      "links": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "773777ec-26b0-471b-83f5-10a8a1b90c4e",
-          "url": "https://open.spotify.com/album/7wl5tZA17kpgHVIoC54p6b"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "773777ec-26b0-471b-83f5-10a8a1b90c4e",
-          "url": "https://tidal.com/album/461765670"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "773777ec-26b0-471b-83f5-10a8a1b90c4e",
-          "url": "https://www.deezer.com/album/824411881"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/7wl5tZA17kpgHVIoC54p6b"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/824411881"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/461765670"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "773777ec-26b0-471b-83f5-10a8a1b90c4e",
-          "url": "https://open.spotify.com/album/7wl5tZA17kpgHVIoC54p6b"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "773777ec-26b0-471b-83f5-10a8a1b90c4e",
-          "url": "https://www.deezer.com/album/824411881"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "773777ec-26b0-471b-83f5-10a8a1b90c4e",
-          "url": "https://tidal.com/album/461765670"
         }
       ],
       "references": [],

@@ -2,19 +2,19 @@
   "year": 2024,
   "month": 6,
   "stats": {
-    "release_groups": 111,
-    "with_cover_art": 111,
-    "with_action_links": 111,
+    "release_groups": 110,
+    "with_cover_art": 110,
+    "with_action_links": 110,
     "future_releases": 0,
     "types": {
       "Album": 19,
       "EP": 5,
-      "Single": 87
+      "Single": 86
     },
     "services": {
-      "spotify": 111,
-      "apple_music": 108,
-      "deezer": 68,
+      "spotify": 110,
+      "apple_music": 107,
+      "deezer": 67,
       "tidal": 52,
       "amazon": 4,
       "mostly_music": 3,
@@ -27,134 +27,6 @@
     }
   },
   "releases": [
-    {
-      "release_group_mbid": "60693c80-f8c5-44d0-8945-d4cc918e34bd",
-      "title": "Run",
-      "artist_credit": "Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-06-01",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 6,
-      "day": 1,
-      "release_count": 1,
-      "release_mbids": [
-        "ff69308f-7264-41eb-9809-c9fbf42121d1"
-      ],
-      "cover_release_mbid": "ff69308f-7264-41eb-9809-c9fbf42121d1",
-      "cover_art": {
-        "release_mbid": "ff69308f-7264-41eb-9809-c9fbf42121d1",
-        "image_id": 38984018703,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/ff69308f-7264-41eb-9809-c9fbf42121d1/38984018703",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/ff69308f-7264-41eb-9809-c9fbf42121d1/38984018703-250.jpg",
-          "500": "https://coverartarchive.org/release/ff69308f-7264-41eb-9809-c9fbf42121d1/38984018703-500.jpg",
-          "1200": "https://coverartarchive.org/release/ff69308f-7264-41eb-9809-c9fbf42121d1/38984018703-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/60693c80-f8c5-44d0-8945-d4cc918e34bd",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ff69308f-7264-41eb-9809-c9fbf42121d1",
-          "url": "https://music.apple.com/gb/album/1748378363"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ff69308f-7264-41eb-9809-c9fbf42121d1",
-          "url": "https://open.spotify.com/album/2skBChDiVPrsrTn67amwpp"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ff69308f-7264-41eb-9809-c9fbf42121d1",
-          "url": "https://www.deezer.com/album/591863822"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/2skBChDiVPrsrTn67amwpp"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1748378363"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/591863822"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ff69308f-7264-41eb-9809-c9fbf42121d1",
-          "url": "https://open.spotify.com/album/2skBChDiVPrsrTn67amwpp"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ff69308f-7264-41eb-9809-c9fbf42121d1",
-          "url": "https://music.apple.com/gb/album/1748378363"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ff69308f-7264-41eb-9809-c9fbf42121d1",
-          "url": "https://www.deezer.com/album/591863822"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
     {
       "release_group_mbid": "bf60b6e8-ff64-4506-8b23-1f3948788e4c",
       "title": "Hold On Tight",

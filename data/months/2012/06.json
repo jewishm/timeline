@@ -2,20 +2,20 @@
   "year": 2012,
   "month": 6,
   "stats": {
-    "release_groups": 7,
-    "with_cover_art": 7,
-    "with_action_links": 7,
+    "release_groups": 6,
+    "with_cover_art": 6,
+    "with_action_links": 6,
     "future_releases": 0,
     "types": {
       "Album": 4,
-      "Single": 3
+      "Single": 2
     },
     "services": {
-      "apple_music": 7,
       "spotify": 6,
+      "apple_music": 6,
       "deezer": 6,
-      "amazon": 3,
       "tidal": 3,
+      "amazon": 2,
       "mostly_music": 1,
       "soundcloud": 1
     }
@@ -164,107 +164,6 @@
           "source": "release",
           "source_release_mbid": "0c27bb1d-610b-4aff-b6dc-13ca3b79fdd5",
           "url": "https://www.deezer.com/album/77857522"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "c2f86552-d3f1-4f92-81d2-b98ee2e9179d",
-      "title": "Too Close (Unplugged)",
-      "artist_credit": "Alex Clare",
-      "collection_artists": [
-        {
-          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-          "name": "Alex Clare"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2012-06-04",
-      "date_precision": "day",
-      "year": 2012,
-      "month": 6,
-      "day": 4,
-      "release_count": 1,
-      "release_mbids": [
-        "3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47"
-      ],
-      "cover_release_mbid": "3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47",
-      "cover_art": {
-        "release_mbid": "3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47",
-        "image_id": 19361441134,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47/19361441134",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47/19361441134-250.jpg",
-          "500": "https://coverartarchive.org/release/3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47/19361441134-500.jpg",
-          "1200": "https://coverartarchive.org/release/3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47/19361441134-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/c2f86552-d3f1-4f92-81d2-b98ee2e9179d",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47",
-          "url": "https://itunes.apple.com/de/album/id529742035"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.de",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47",
-          "url": "https://www.amazon.de/gp/product/B0087F4N3K"
-        }
-      ],
-      "preferred_links": {
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "buy",
-          "url": "https://itunes.apple.com/de/album/id529742035"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.de/gp/product/B0087F4N3K"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47",
-          "url": "https://itunes.apple.com/de/album/id529742035"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.de",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "3b81f285-2ad4-4b5e-8aa3-7a3d11c41a47",
-          "url": "https://www.amazon.de/gp/product/B0087F4N3K"
         }
       ],
       "references": [],

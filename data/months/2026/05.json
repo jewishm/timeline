@@ -2,20 +2,20 @@
   "year": 2026,
   "month": 5,
   "stats": {
-    "release_groups": 82,
-    "with_cover_art": 81,
-    "with_action_links": 82,
+    "release_groups": 81,
+    "with_cover_art": 80,
+    "with_action_links": 81,
     "future_releases": 0,
     "types": {
       "Album": 23,
       "EP": 7,
-      "Single": 52
+      "Single": 51
     },
     "services": {
-      "spotify": 82,
+      "spotify": 81,
       "deezer": 80,
-      "tidal": 80,
-      "apple_music": 66,
+      "tidal": 79,
+      "apple_music": 65,
       "qobuz": 24,
       "24six": 1
     }
@@ -10260,134 +10260,6 @@
           "source": "release",
           "source_release_mbid": "f47db967-88bc-46ea-9f59-4009b02b2ad7",
           "url": "https://tidal.com/album/527838747"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "5837d2a8-bc87-415a-a5b7-c0384926ba16",
-      "title": "שעת רצון",
-      "artist_credit": "נרקיס",
-      "collection_artists": [
-        {
-          "mbid": "2de17f9e-5a9c-4cd4-8f1d-08a9bef85e19",
-          "name": "נרקיס"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2026-05-25",
-      "date_precision": "day",
-      "year": 2026,
-      "month": 5,
-      "day": 25,
-      "release_count": 1,
-      "release_mbids": [
-        "8037d92d-873a-4685-889f-4554d72d96af"
-      ],
-      "cover_release_mbid": "8037d92d-873a-4685-889f-4554d72d96af",
-      "cover_art": {
-        "release_mbid": "8037d92d-873a-4685-889f-4554d72d96af",
-        "image_id": 45235808313,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/8037d92d-873a-4685-889f-4554d72d96af/45235808313",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/8037d92d-873a-4685-889f-4554d72d96af/45235808313-250.jpg",
-          "500": "https://coverartarchive.org/release/8037d92d-873a-4685-889f-4554d72d96af/45235808313-500.jpg",
-          "1200": "https://coverartarchive.org/release/8037d92d-873a-4685-889f-4554d72d96af/45235808313-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/5837d2a8-bc87-415a-a5b7-c0384926ba16",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8037d92d-873a-4685-889f-4554d72d96af",
-          "url": "https://music.apple.com/us/album/6768284164"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8037d92d-873a-4685-889f-4554d72d96af",
-          "url": "https://open.spotify.com/album/5THclEZXn6HbecIGg5SWVI"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8037d92d-873a-4685-889f-4554d72d96af",
-          "url": "https://tidal.com/album/525675257"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/5THclEZXn6HbecIGg5SWVI"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/6768284164"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/525675257"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8037d92d-873a-4685-889f-4554d72d96af",
-          "url": "https://open.spotify.com/album/5THclEZXn6HbecIGg5SWVI"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8037d92d-873a-4685-889f-4554d72d96af",
-          "url": "https://music.apple.com/us/album/6768284164"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8037d92d-873a-4685-889f-4554d72d96af",
-          "url": "https://tidal.com/album/525675257"
         }
       ],
       "references": [],

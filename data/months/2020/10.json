@@ -2,20 +2,20 @@
   "year": 2020,
   "month": 10,
   "stats": {
-    "release_groups": 35,
-    "with_cover_art": 35,
-    "with_action_links": 35,
+    "release_groups": 34,
+    "with_cover_art": 34,
+    "with_action_links": 34,
     "future_releases": 0,
     "types": {
-      "Album": 12,
+      "Album": 11,
       "EP": 1,
       "Single": 22
     },
     "services": {
-      "spotify": 34,
-      "apple_music": 32,
-      "tidal": 14,
-      "deezer": 13,
+      "spotify": 33,
+      "apple_music": 31,
+      "tidal": 13,
+      "deezer": 12,
       "amazon": 3,
       "qobuz": 2,
       "youtube": 2,
@@ -3961,229 +3961,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "fca047f1-e7bb-4695-864e-a98a892ab9c6",
-      "title": "עולם חדש",
-      "artist_credit": "Narkis",
-      "collection_artists": [
-        {
-          "mbid": "2de17f9e-5a9c-4cd4-8f1d-08a9bef85e19",
-          "name": "נרקיס"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2020-10-25",
-      "date_precision": "day",
-      "year": 2020,
-      "month": 10,
-      "day": 25,
-      "release_count": 2,
-      "release_mbids": [
-        "8b3dbcf9-bf5c-428a-8267-94153448f461",
-        "d7abdf28-8cc2-445e-abe0-597c0117853c"
-      ],
-      "cover_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-      "cover_art": {
-        "release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-        "image_id": 28261903437,
-        "mime_type": "image/png",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/8b3dbcf9-bf5c-428a-8267-94153448f461/28261903437",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/8b3dbcf9-bf5c-428a-8267-94153448f461/28261903437-250.jpg",
-          "500": "https://coverartarchive.org/release/8b3dbcf9-bf5c-428a-8267-94153448f461/28261903437-500.jpg",
-          "1200": "https://coverartarchive.org/release/8b3dbcf9-bf5c-428a-8267-94153448f461/28261903437-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/fca047f1-e7bb-4695-864e-a98a892ab9c6",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://itunes.apple.com/gb/album/id1536381001"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://open.spotify.com/album/7GHYU9bzkWf5nV21zj19cc"
-        },
-        {
-          "site_key": "rateyourmusic",
-          "site_label": "Rate Your Music",
-          "domain": "rateyourmusic.com",
-          "relationship": "other databases",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://rateyourmusic.com/release/album/%D7%A0%D7%A8%D7%A7%D7%99%D7%A1/%D7%A2%D7%95%D7%9C%D7%9D-%D7%97%D7%93%D7%A9.p/"
-        },
-        {
-          "site_key": "rateyourmusic",
-          "site_label": "Rate Your Music",
-          "domain": "rateyourmusic.com",
-          "relationship": "other databases",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://rateyourmusic.com/release/album/%D7%A0%D7%A8%D7%A7%D7%99%D7%A1/%D7%A2%D7%95%D7%9C%D7%9D-%D7%97%D7%93%D7%A9/"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://tidal.com/album/159122449"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://www.deezer.com/album/180450142"
-        },
-        {
-          "site_key": "wikidata",
-          "site_label": "Wikidata",
-          "domain": "wikidata.org",
-          "relationship": "wikidata",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.wikidata.org/wiki/Q104744307"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/7GHYU9bzkWf5nV21zj19cc"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "buy",
-          "url": "https://itunes.apple.com/gb/album/id1536381001"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/180450142"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/159122449"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://open.spotify.com/album/7GHYU9bzkWf5nV21zj19cc"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://itunes.apple.com/gb/album/id1536381001"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://www.deezer.com/album/180450142"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://tidal.com/album/159122449"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "rateyourmusic",
-          "site_label": "Rate Your Music",
-          "domain": "rateyourmusic.com",
-          "relationship": "other databases",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "8b3dbcf9-bf5c-428a-8267-94153448f461",
-          "url": "https://rateyourmusic.com/release/album/%D7%A0%D7%A8%D7%A7%D7%99%D7%A1/%D7%A2%D7%95%D7%9C%D7%9D-%D7%97%D7%93%D7%A9.p/"
-        },
-        {
-          "site_key": "rateyourmusic",
-          "site_label": "Rate Your Music",
-          "domain": "rateyourmusic.com",
-          "relationship": "other databases",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://rateyourmusic.com/release/album/%D7%A0%D7%A8%D7%A7%D7%99%D7%A1/%D7%A2%D7%95%D7%9C%D7%9D-%D7%97%D7%93%D7%A9/"
-        },
-        {
-          "site_key": "wikidata",
-          "site_label": "Wikidata",
-          "domain": "wikidata.org",
-          "relationship": "wikidata",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.wikidata.org/wiki/Q104744307"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

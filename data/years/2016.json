@@ -1,15 +1,15 @@
 {
   "year": 2016,
   "stats": {
-    "release_groups": 176,
-    "dated_release_groups": 165,
+    "release_groups": 171,
+    "dated_release_groups": 160,
     "year_only_release_groups": 11,
-    "artists": 120,
+    "artists": 119,
     "months_with_releases": 12,
     "types": {
-      "Album": 113,
+      "Album": 112,
       "EP": 2,
-      "Single": 61
+      "Single": 57
     }
   },
   "months": [
@@ -555,10 +555,10 @@
     },
     {
       "month": 7,
-      "release_groups": 10,
+      "release_groups": 9,
       "types": {
         "Album": 2,
-        "Single": 8
+        "Single": 7
       },
       "featured": [
         {
@@ -735,10 +735,10 @@
     },
     {
       "month": 9,
-      "release_groups": 16,
+      "release_groups": 15,
       "types": {
         "Album": 9,
-        "Single": 7
+        "Single": 6
       },
       "featured": [
         {
@@ -825,10 +825,10 @@
     },
     {
       "month": 10,
-      "release_groups": 10,
+      "release_groups": 9,
       "types": {
         "Album": 5,
-        "Single": 5
+        "Single": 4
       },
       "featured": [
         {
@@ -915,10 +915,10 @@
     },
     {
       "month": 11,
-      "release_groups": 7,
+      "release_groups": 5,
       "types": {
-        "Album": 2,
-        "Single": 5
+        "Album": 1,
+        "Single": 4
       },
       "featured": [
         {
@@ -962,26 +962,6 @@
           }
         },
         {
-          "release_group_mbid": "f5660eef-ed8b-4099-8b82-11616bdedf4d",
-          "title": "Tail of Lions",
-          "artist_credit": "Alex Clare",
-          "primary_type": "Album",
-          "day": 11,
-          "cover_art": {
-            "release_mbid": "69195f0f-1cf6-41ad-af18-46419b2d410f",
-            "image_id": 38455613701,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/69195f0f-1cf6-41ad-af18-46419b2d410f/38455613701",
-            "thumbnails": {
-              "250": "https://coverartarchive.org/release/69195f0f-1cf6-41ad-af18-46419b2d410f/38455613701-250.jpg",
-              "500": "https://coverartarchive.org/release/69195f0f-1cf6-41ad-af18-46419b2d410f/38455613701-500.jpg",
-              "1200": "https://coverartarchive.org/release/69195f0f-1cf6-41ad-af18-46419b2d410f/38455613701-1200.jpg"
-            }
-          }
-        },
-        {
           "release_group_mbid": "508104b1-731a-4300-8696-b12cb4cd7d4f",
           "title": "דבר נאה ומתקבל",
           "artist_credit": "משה קליין",
@@ -998,6 +978,26 @@
               "250": "https://coverartarchive.org/release/c874d176-a040-4505-a892-c5b88966eb70/37849510460-250.jpg",
               "500": "https://coverartarchive.org/release/c874d176-a040-4505-a892-c5b88966eb70/37849510460-500.jpg",
               "1200": "https://coverartarchive.org/release/c874d176-a040-4505-a892-c5b88966eb70/37849510460-1200.jpg"
+            }
+          }
+        },
+        {
+          "release_group_mbid": "3becc15a-9ec0-49f6-b397-76c2fad23d3d",
+          "title": "קרוסלה",
+          "artist_credit": "עקיבא",
+          "primary_type": "Single",
+          "day": 21,
+          "cover_art": {
+            "release_mbid": "c499c7de-dd13-478a-8960-aebf5e22e5e0",
+            "image_id": 37832170663,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/c499c7de-dd13-478a-8960-aebf5e22e5e0/37832170663",
+            "thumbnails": {
+              "250": "https://coverartarchive.org/release/c499c7de-dd13-478a-8960-aebf5e22e5e0/37832170663-250.jpg",
+              "500": "https://coverartarchive.org/release/c499c7de-dd13-478a-8960-aebf5e22e5e0/37832170663-500.jpg",
+              "1200": "https://coverartarchive.org/release/c499c7de-dd13-478a-8960-aebf5e22e5e0/37832170663-1200.jpg"
             }
           }
         }
@@ -1107,11 +1107,6 @@
       "release_groups": 6
     },
     {
-      "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
-      "name": "Alex Clare",
-      "release_groups": 5
-    },
-    {
       "mbid": "4d5abad8-d57b-4c3f-b477-043214e96dc4",
       "name": "ישי ריבו",
       "release_groups": 5
@@ -1169,6 +1164,11 @@
     {
       "mbid": "7c17b542-f232-4ef8-abb8-8815923bde78",
       "name": "Efraim Mendelson",
+      "release_groups": 2
+    },
+    {
+      "mbid": "33f50b72-b3d5-40ca-b61e-717491325fc6",
+      "name": "Eitan Freilich",
       "release_groups": 2
     }
   ],
@@ -2126,7 +2126,7 @@
           "action": true,
           "action_kind": "buy",
           "source": "release",
-          "source_release_mbid": "b394c556-7491-4154-9e8b-7b2b910500d4",
+          "source_release_mbid": "f8aa9eb2-a90e-42fa-bd7e-e4b6f0993588",
           "url": "https://www.amazon.com/gp/product/B01MYMS3C7"
         },
         {
@@ -2258,7 +2258,7 @@
           "action": true,
           "action_kind": "buy",
           "source": "release",
-          "source_release_mbid": "b394c556-7491-4154-9e8b-7b2b910500d4",
+          "source_release_mbid": "f8aa9eb2-a90e-42fa-bd7e-e4b6f0993588",
           "url": "https://www.amazon.com/gp/product/B01MYMS3C7"
         },
         {
