@@ -23,6 +23,12 @@ const emptyState = $("emptyState");
 
 const dialog = $("releaseDialog");
 const dialogContent = $("dialogContent");
+
+const dialogShare =
+  $("dialogShare");
+
+let currentSharedRelease =
+  null;
 const dialogClose = $("dialogClose");
 
 
@@ -428,6 +434,10 @@ function attachReleaseHandlers(
 
 
 function openRelease(release) {
+
+  currentSharedRelease =
+    release;
+
   const artHtml =
     release.cover
       ? `
@@ -1035,3 +1045,48 @@ document.addEventListener(
   true
 );
 
+
+
+
+/* Share current popup release */
+
+if (dialogShare) {
+
+  dialogShare.addEventListener(
+    "click",
+    event => {
+
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (!currentSharedRelease) {
+        return;
+      }
+
+      const mbid =
+        currentSharedRelease.mbid
+        || currentSharedRelease.release_group_mbid;
+
+      if (!mbid) {
+        return;
+      }
+
+      JMTShare.share({
+        title:
+          `${currentSharedRelease.title} — `
+          + `${currentSharedRelease.artist_credit}`,
+
+        text:
+          `${currentSharedRelease.title} by `
+          + `${currentSharedRelease.artist_credit}`,
+
+        url:
+          JMTShare.releaseUrl(
+            mbid
+          ),
+      });
+
+    }
+  );
+
+}

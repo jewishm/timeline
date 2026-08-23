@@ -60,6 +60,12 @@ catch (error) {
 const dialog = $("releaseDialog");
 const dialogContent = $("dialogContent");
 
+const dialogShare =
+  $("dialogShare");
+
+let currentSharedRelease =
+  null;
+
 
 const MONTHS = [
   "January",
@@ -650,6 +656,10 @@ function renderTimeline() {
 
 
 function openRelease(release) {
+
+  currentSharedRelease =
+    release;
+
 
   const cover =
     getCover(release, "1200")
@@ -1380,6 +1390,51 @@ if (sortButton) {
 
 
       renderTimeline();
+    }
+  );
+
+}
+
+
+
+/* Share current popup release */
+
+if (dialogShare) {
+
+  dialogShare.addEventListener(
+    "click",
+    event => {
+
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (!currentSharedRelease) {
+        return;
+      }
+
+      const mbid =
+        currentSharedRelease.mbid
+        || currentSharedRelease.release_group_mbid;
+
+      if (!mbid) {
+        return;
+      }
+
+      JMTShare.share({
+        title:
+          `${currentSharedRelease.title} — `
+          + `${currentSharedRelease.artist_credit}`,
+
+        text:
+          `${currentSharedRelease.title} by `
+          + `${currentSharedRelease.artist_credit}`,
+
+        url:
+          JMTShare.releaseUrl(
+            mbid
+          ),
+      });
+
     }
   );
 

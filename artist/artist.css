@@ -236,3 +236,70 @@
   }
 
 }
+
+
+
+/* Artist share */
+
+.artist-share-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  margin-top: 16px;
+
+  padding:
+    7px
+    11px;
+
+  border:
+    1px solid
+    rgba(255,255,255,.10);
+
+  border-radius: 999px;
+
+  background:
+    rgba(255,255,255,.025);
+
+  color: #9699a3;
+
+  font: inherit;
+
+  font-size: 11px;
+
+  cursor: pointer;
+}
+
+
+.artist-share-button[hidden] {
+  display: none;
+}
+
+
+.artist-share-button svg {
+  width: 14px;
+  height: 14px;
+
+  fill: none;
+
+  stroke: currentColor;
+
+  stroke-width: 1.8;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+.artist-share-button:hover,
+.artist-share-button:focus-visible {
+  color: #efd29f;
+
+  border-color:
+    rgba(215,174,104,.4);
+
+  outline: none;
+}

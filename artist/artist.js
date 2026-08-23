@@ -8,6 +8,9 @@ const artistName =
 const artistStats =
   $("artistStats");
 
+const shareArtist =
+  $("shareArtist");
+
 const sectionsRoot =
   $("discographySections");
 
@@ -19,6 +22,12 @@ const dialog =
 
 const dialogContent =
   $("dialogContent");
+
+const dialogShare =
+  $("dialogShare");
+
+let currentSharedRelease =
+  null;
 
 const dialogClose =
   $("dialogClose");
@@ -83,6 +92,9 @@ const SECTION_ORDER = [
 
 
 let data = null;
+
+let currentArtist =
+  null;
 
 
 function escapeHtml(value) {
@@ -654,6 +666,10 @@ function openRelease(
   release
 ) {
 
+  currentSharedRelease =
+    release;
+
+
   const artHtml =
     release.cover
 
@@ -909,6 +925,12 @@ async function init() {
       + "Jewish Music Timeline";
 
 
+    currentArtist =
+      artist;
+
+    shareArtist.hidden =
+      false;
+
     artistName.textContent =
       artist.name;
 
@@ -1011,3 +1033,81 @@ document.addEventListener(
   true
 );
 
+
+
+
+/* Share current popup release */
+
+if (dialogShare) {
+
+  dialogShare.addEventListener(
+    "click",
+    event => {
+
+      event.preventDefault();
+      event.stopPropagation();
+
+      if (!currentSharedRelease) {
+        return;
+      }
+
+      const mbid =
+        currentSharedRelease.mbid
+        || currentSharedRelease.release_group_mbid;
+
+      if (!mbid) {
+        return;
+      }
+
+      JMTShare.share({
+        title:
+          `${currentSharedRelease.title} — `
+          + `${currentSharedRelease.artist_credit}`,
+
+        text:
+          `${currentSharedRelease.title} by `
+          + `${currentSharedRelease.artist_credit}`,
+
+        url:
+          JMTShare.releaseUrl(
+            mbid
+          ),
+      });
+
+    }
+  );
+
+}
+
+
+
+/* Share artist discography */
+
+if (shareArtist) {
+
+  shareArtist.addEventListener(
+    "click",
+    () => {
+
+      if (!currentArtist) {
+        return;
+      }
+
+      JMTShare.share({
+        title:
+          `${currentArtist.name} — `
+          + "Jewish Music Timeline",
+
+        text:
+          `${currentArtist.name} discography`,
+
+        url:
+          JMTShare.artistUrl(
+            currentArtist.mbid
+          ),
+      });
+
+    }
+  );
+
+}

@@ -18,7 +18,7 @@
 
   <link
     rel="stylesheet"
-    href="/styles.css?v=4">
+    href="/styles.css?v=1787514992">
 
   <link
     rel="stylesheet"
@@ -260,19 +260,47 @@
   id="releaseDialog"
   class="release-dialog">
 
-  <button
+      <div class="dialog-top-actions">
+
+<button
+    id="dialogShare"
+    class="dialog-share"
+    type="button"
+    aria-label="Share release"
+    title="Share">
+
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true">
+
+      <circle cx="18" cy="5" r="2.5"></circle>
+      <circle cx="6" cy="12" r="2.5"></circle>
+      <circle cx="18" cy="19" r="2.5"></circle>
+
+      <path
+        d="M8.2 10.8l7.5-4.4M8.2 13.2l7.5 4.4">
+      </path>
+
+    </svg>
+
+  </button>
+
+<button
     id="dialogClose"
     class="dialog-close"
     aria-label="Close">
     ×
   </button>
 
+  </div>
+
   <div id="dialogContent"></div>
 
 </dialog>
 
 
-<script src="/search/search.js?v=5"></script>
+<script src="/share.js?v=1787514992"></script>
+<script src="/search/search.js?v=1787514852"></script>
 
 </body>
 </html>
