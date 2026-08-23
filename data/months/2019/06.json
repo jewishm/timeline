@@ -2,23 +2,20 @@
   "year": 2019,
   "month": 6,
   "stats": {
-    "release_groups": 19,
-    "with_cover_art": 19,
-    "with_action_links": 19,
+    "release_groups": 18,
+    "with_cover_art": 18,
+    "with_action_links": 18,
     "future_releases": 0,
     "types": {
-      "Album": 7,
+      "Album": 6,
       "Single": 12
     },
     "services": {
-      "spotify": 18,
-      "apple_music": 17,
+      "spotify": 17,
+      "apple_music": 16,
       "deezer": 12,
       "tidal": 7,
-      "bandcamp": 1,
-      "boomplay": 1,
-      "amazon": 1,
-      "youtube": 1
+      "bandcamp": 1
     }
   },
   "releases": [
@@ -2456,197 +2453,6 @@
           "source": "release",
           "source_release_mbid": "b98dc739-b5da-40ab-9482-4a23873c5c94",
           "url": "https://music.apple.com/gb/album/1469817109"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "3b949d31-e167-4160-b624-dfb7a274b124",
-      "title": "The Zone 2019",
-      "artist_credit": "Oorah",
-      "credited_artists": [
-        {
-          "mbid": "c56d8f71-2ab1-403d-9f51-706ff3fbc7ff",
-          "name": "Oorah",
-          "position": 0,
-          "credit_name": "Oorah",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c56d8f71-2ab1-403d-9f51-706ff3fbc7ff",
-          "name": "Oorah"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2019-06-25",
-      "date_precision": "day",
-      "year": 2019,
-      "month": 6,
-      "day": 25,
-      "release_count": 1,
-      "release_mbids": [
-        "fed8a15a-e2c4-403b-9b8f-44ebb1b75775"
-      ],
-      "cover_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-      "cover_art": {
-        "release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-        "image_id": 37645671718,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/fed8a15a-e2c4-403b-9b8f-44ebb1b75775/37645671718",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/fed8a15a-e2c4-403b-9b8f-44ebb1b75775/37645671718-250.jpg",
-          "500": "https://coverartarchive.org/release/fed8a15a-e2c4-403b-9b8f-44ebb1b75775/37645671718-500.jpg",
-          "1200": "https://coverartarchive.org/release/fed8a15a-e2c4-403b-9b8f-44ebb1b75775/37645671718-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/3b949d31-e167-4160-b624-dfb7a274b124",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://music.apple.com/gb/album/1479881478"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://open.spotify.com/album/6s8zTBWst52EHNAzSxdCtR"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://www.amazon.com/gp/product/B07Y2ZKTMC"
-        },
-        {
-          "site_key": "boomplay",
-          "site_label": "Boomplay",
-          "domain": "boomplay.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://www.boomplay.com/albums/73942053"
-        },
-        {
-          "site_key": "youtube",
-          "site_label": "YouTube",
-          "domain": "youtube.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://www.youtube.com/playlist?list=OLAK5uy_lNI2fkyGFLb7_c4KGEYwNwvtppiFesv60"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/6s8zTBWst52EHNAzSxdCtR"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1479881478"
-        },
-        "boomplay": {
-          "label": "Boomplay",
-          "kind": "listen",
-          "url": "https://www.boomplay.com/albums/73942053"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B07Y2ZKTMC"
-        },
-        "youtube": {
-          "label": "YouTube",
-          "kind": "listen",
-          "url": "https://www.youtube.com/playlist?list=OLAK5uy_lNI2fkyGFLb7_c4KGEYwNwvtppiFesv60"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://open.spotify.com/album/6s8zTBWst52EHNAzSxdCtR"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://music.apple.com/gb/album/1479881478"
-        },
-        {
-          "site_key": "boomplay",
-          "site_label": "Boomplay",
-          "domain": "boomplay.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://www.boomplay.com/albums/73942053"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://www.amazon.com/gp/product/B07Y2ZKTMC"
-        },
-        {
-          "site_key": "youtube",
-          "site_label": "YouTube",
-          "domain": "youtube.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fed8a15a-e2c4-403b-9b8f-44ebb1b75775",
-          "url": "https://www.youtube.com/playlist?list=OLAK5uy_lNI2fkyGFLb7_c4KGEYwNwvtppiFesv60"
         }
       ],
       "references": [],

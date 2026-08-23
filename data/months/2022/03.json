@@ -2,26 +2,25 @@
   "year": 2022,
   "month": 3,
   "stats": {
-    "release_groups": 79,
-    "with_cover_art": 79,
-    "with_action_links": 79,
+    "release_groups": 78,
+    "with_cover_art": 78,
+    "with_action_links": 78,
     "future_releases": 0,
     "types": {
-      "Album": 23,
+      "Album": 22,
       "Single": 56
     },
     "services": {
-      "apple_music": 76,
-      "spotify": 76,
-      "deezer": 42,
-      "tidal": 26,
-      "youtube": 5,
-      "amazon": 4,
-      "boomplay": 2,
+      "apple_music": 75,
+      "spotify": 75,
+      "deezer": 41,
+      "tidal": 25,
+      "youtube": 4,
+      "amazon": 3,
       "other": 2,
       "youtube_music": 1,
-      "bandcamp": 1,
-      "anghami": 1
+      "boomplay": 1,
+      "bandcamp": 1
     }
   },
   "releases": [
@@ -3657,10 +3656,6 @@
         {
           "mbid": "51cb99a5-ce66-4611-9d08-a6432c9560f9",
           "name": "8th Day"
-        },
-        {
-          "mbid": "c56d8f71-2ab1-403d-9f51-706ff3fbc7ff",
-          "name": "Oorah"
         }
       ],
       "primary_type": "Single",
@@ -8671,278 +8666,6 @@
           "source": "release",
           "source_release_mbid": "5888b350-66be-43d4-804e-18737b9a4f0c",
           "url": "https://music.apple.com/us/album/1618594342"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "49725267-f574-47c6-a02e-c5509004f5d9",
-      "title": "The Zone 2021",
-      "artist_credit": "Oorah",
-      "credited_artists": [
-        {
-          "mbid": "c56d8f71-2ab1-403d-9f51-706ff3fbc7ff",
-          "name": "Oorah",
-          "position": 0,
-          "credit_name": "Oorah",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c56d8f71-2ab1-403d-9f51-706ff3fbc7ff",
-          "name": "Oorah"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2022-03-24",
-      "date_precision": "day",
-      "year": 2022,
-      "month": 3,
-      "day": 24,
-      "release_count": 1,
-      "release_mbids": [
-        "278df08c-0aa7-4551-9f66-63357fa9bef5"
-      ],
-      "cover_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-      "cover_art": {
-        "release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-        "image_id": 37645718937,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/278df08c-0aa7-4551-9f66-63357fa9bef5/37645718937",
-        "thumbnails": {
-          "250": "https://coverartarchive.org/release/278df08c-0aa7-4551-9f66-63357fa9bef5/37645718937-250.jpg",
-          "500": "https://coverartarchive.org/release/278df08c-0aa7-4551-9f66-63357fa9bef5/37645718937-500.jpg",
-          "1200": "https://coverartarchive.org/release/278df08c-0aa7-4551-9f66-63357fa9bef5/37645718937-1200.jpg"
-        }
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/49725267-f574-47c6-a02e-c5509004f5d9",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://music.apple.com/gb/album/1616408953"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://open.spotify.com/album/25BryeCT3QLsMnr3ISi8wu"
-        },
-        {
-          "site_key": "anghami",
-          "site_label": "Anghami",
-          "domain": "play.anghami.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://play.anghami.com/album/1027138366"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://tidal.com/album/222746202"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://www.amazon.com/gp/product/B09WM18JRT"
-        },
-        {
-          "site_key": "boomplay",
-          "site_label": "Boomplay",
-          "domain": "boomplay.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://www.boomplay.com/albums/43420026"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://www.deezer.com/album/306295137"
-        },
-        {
-          "site_key": "youtube",
-          "site_label": "YouTube",
-          "domain": "youtube.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://www.youtube.com/playlist?list=OLAK5uy_l36j70gW4ZUSU1TIlmOq4bLsUVtf9gpOc"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/25BryeCT3QLsMnr3ISi8wu"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1616408953"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/306295137"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/222746202"
-        },
-        "anghami": {
-          "label": "Anghami",
-          "kind": "listen",
-          "url": "https://play.anghami.com/album/1027138366"
-        },
-        "boomplay": {
-          "label": "Boomplay",
-          "kind": "listen",
-          "url": "https://www.boomplay.com/albums/43420026"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B09WM18JRT"
-        },
-        "youtube": {
-          "label": "YouTube",
-          "kind": "listen",
-          "url": "https://www.youtube.com/playlist?list=OLAK5uy_l36j70gW4ZUSU1TIlmOq4bLsUVtf9gpOc"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://open.spotify.com/album/25BryeCT3QLsMnr3ISi8wu"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://music.apple.com/gb/album/1616408953"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://www.deezer.com/album/306295137"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://tidal.com/album/222746202"
-        },
-        {
-          "site_key": "anghami",
-          "site_label": "Anghami",
-          "domain": "play.anghami.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://play.anghami.com/album/1027138366"
-        },
-        {
-          "site_key": "boomplay",
-          "site_label": "Boomplay",
-          "domain": "boomplay.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://www.boomplay.com/albums/43420026"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://www.amazon.com/gp/product/B09WM18JRT"
-        },
-        {
-          "site_key": "youtube",
-          "site_label": "YouTube",
-          "domain": "youtube.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "278df08c-0aa7-4551-9f66-63357fa9bef5",
-          "url": "https://www.youtube.com/playlist?list=OLAK5uy_l36j70gW4ZUSU1TIlmOq4bLsUVtf9gpOc"
         }
       ],
       "references": [],

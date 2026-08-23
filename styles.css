@@ -1394,3 +1394,719 @@ footer a {
 
   touch-action: manipulation;
 }
+
+
+/* ====================================================
+   Timeline sorting
+==================================================== */
+
+.result-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding: 18px 2px 2px;
+}
+
+
+.result-bar .result-info {
+  padding: 0;
+}
+
+
+.sort-button {
+  flex: 0 0 auto;
+
+  padding: 7px 11px;
+
+  border: 1px solid var(--line);
+
+  border-radius: 999px;
+
+  background: var(--panel);
+
+  color: var(--muted);
+
+  font: inherit;
+  font-size: 11px;
+  font-weight: 650;
+
+  cursor: pointer;
+}
+
+
+.sort-button:hover,
+.sort-button:focus-visible {
+  border-color:
+    rgba(215,174,104,.4);
+
+  background:
+    var(--accent-soft);
+
+  color: #efd29f;
+
+  outline: none;
+}
+
+
+/* ====================================================
+   Compact mobile timeline
+==================================================== */
+
+@media (max-width: 720px) {
+
+  main {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+
+  .hero {
+    padding:
+      18px
+      0
+      10px;
+  }
+
+
+  .view-toggle {
+    margin-bottom: 14px;
+  }
+
+
+  .view-tab {
+    min-width: 66px;
+
+    padding:
+      6px
+      12px;
+
+    font-size: 11px;
+  }
+
+
+  .month-nav {
+    grid-template-columns:
+      36px
+      minmax(0, 1fr)
+      36px;
+
+    gap: 7px;
+  }
+
+
+  .nav-arrow {
+    width: 36px;
+    height: 36px;
+
+    font-size: 26px;
+  }
+
+
+  .month-picker {
+    display: flex;
+    justify-content: center;
+
+    gap: 6px;
+
+    margin-bottom: 4px;
+  }
+
+
+  .month-picker select {
+    width: auto;
+
+    min-width: 0;
+
+    padding:
+      5px
+      10px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+  }
+
+
+  .month-center h1 {
+    margin:
+      4px
+      0
+      0;
+
+    font-size:
+      clamp(
+        30px,
+        9vw,
+        38px
+      );
+
+    line-height: 1;
+  }
+
+
+  .month-subtitle {
+    margin-top: 4px;
+
+    font-size: 10px;
+  }
+
+
+  /*
+   * Turn the four large stat boxes
+   * into one compact information line.
+   */
+
+  .stats {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 0;
+
+    max-width: 100%;
+
+    margin:
+      14px
+      auto
+      0;
+  }
+
+
+  .stat {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 4px;
+
+    padding: 0;
+
+    border: 0;
+    border-radius: 0;
+
+    background: transparent;
+
+    text-align: left;
+  }
+
+
+  .stat strong {
+    display: inline;
+
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+
+  .stat span {
+    display: inline;
+
+    margin: 0;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    text-transform: none;
+
+    letter-spacing: 0;
+  }
+
+
+  .stat:not(:last-child)::after {
+    content: "·";
+
+    margin:
+      0
+      8px;
+
+    color:
+      rgba(255,255,255,.28);
+  }
+
+
+  .controls {
+    top: 68px;
+
+    gap: 7px;
+
+    padding:
+      8px
+      0;
+  }
+
+
+  .filter-row {
+    gap: 5px;
+  }
+
+
+  .filter {
+    padding:
+      6px
+      11px;
+
+    font-size: 12px;
+  }
+
+
+  .search-box {
+    padding:
+      7px
+      11px;
+  }
+
+
+  .search-box input {
+    font-size: 13px;
+  }
+
+
+  .result-bar {
+    padding:
+      11px
+      2px
+      0;
+  }
+
+
+  .result-info {
+    font-size: 11px;
+  }
+
+
+  .sort-button {
+    padding:
+      6px
+      10px;
+
+    font-size: 10px;
+  }
+
+
+  .timeline {
+    padding-top: 0;
+  }
+
+
+  .day-section {
+    margin-top: 24px;
+  }
+
+
+  .day-heading {
+    gap: 9px;
+
+    margin-bottom: 10px;
+  }
+
+
+  .day-heading h2 {
+    font-size: 17px;
+  }
+
+
+  .release-grid {
+    gap: 8px;
+  }
+
+
+  .card-body {
+    padding:
+      9px
+      9px
+      10px;
+  }
+
+
+  .card-title {
+    font-size: 13px;
+  }
+
+
+  .card-artist {
+    margin-top: 4px;
+
+    font-size: 10px;
+  }
+
+}
+
+
+/*
+ * On phones the full list of listening links
+ * is available by tapping the release card.
+ * Removing these buttons keeps cards compact.
+ */
+
+@media (max-width: 520px) {
+
+  .card-actions {
+    display: none;
+  }
+
+}
+
+
+/* ====================================================
+   Timeline sorting
+==================================================== */
+
+.result-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding: 18px 2px 2px;
+}
+
+
+.result-bar .result-info {
+  padding: 0;
+}
+
+
+.sort-button {
+  flex: 0 0 auto;
+
+  padding: 7px 11px;
+
+  border: 1px solid var(--line);
+
+  border-radius: 999px;
+
+  background: var(--panel);
+
+  color: var(--muted);
+
+  font: inherit;
+  font-size: 11px;
+  font-weight: 650;
+
+  cursor: pointer;
+}
+
+
+.sort-button:hover,
+.sort-button:focus-visible {
+  border-color:
+    rgba(215,174,104,.4);
+
+  background:
+    var(--accent-soft);
+
+  color: #efd29f;
+
+  outline: none;
+}
+
+
+/* ====================================================
+   Compact mobile timeline
+==================================================== */
+
+@media (max-width: 720px) {
+
+  main {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+
+  .hero {
+    padding:
+      18px
+      0
+      10px;
+  }
+
+
+  .view-toggle {
+    margin-bottom: 14px;
+  }
+
+
+  .view-tab {
+    min-width: 66px;
+
+    padding:
+      6px
+      12px;
+
+    font-size: 11px;
+  }
+
+
+  .month-nav {
+    grid-template-columns:
+      36px
+      minmax(0, 1fr)
+      36px;
+
+    gap: 7px;
+  }
+
+
+  .nav-arrow {
+    width: 36px;
+    height: 36px;
+
+    font-size: 26px;
+  }
+
+
+  .month-picker {
+    display: flex;
+    justify-content: center;
+
+    gap: 6px;
+
+    margin-bottom: 4px;
+  }
+
+
+  .month-picker select {
+    width: auto;
+
+    min-width: 0;
+
+    padding:
+      5px
+      10px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+  }
+
+
+  .month-center h1 {
+    margin:
+      4px
+      0
+      0;
+
+    font-size:
+      clamp(
+        30px,
+        9vw,
+        38px
+      );
+
+    line-height: 1;
+  }
+
+
+  .month-subtitle {
+    margin-top: 4px;
+
+    font-size: 10px;
+  }
+
+
+  /*
+   * Turn the four large stat boxes
+   * into one compact information line.
+   */
+
+  .stats {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 0;
+
+    max-width: 100%;
+
+    margin:
+      14px
+      auto
+      0;
+  }
+
+
+  .stat {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 4px;
+
+    padding: 0;
+
+    border: 0;
+    border-radius: 0;
+
+    background: transparent;
+
+    text-align: left;
+  }
+
+
+  .stat strong {
+    display: inline;
+
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+
+  .stat span {
+    display: inline;
+
+    margin: 0;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    text-transform: none;
+
+    letter-spacing: 0;
+  }
+
+
+  .stat:not(:last-child)::after {
+    content: "·";
+
+    margin:
+      0
+      8px;
+
+    color:
+      rgba(255,255,255,.28);
+  }
+
+
+  .controls {
+    top: 68px;
+
+    gap: 7px;
+
+    padding:
+      8px
+      0;
+  }
+
+
+  .filter-row {
+    gap: 5px;
+  }
+
+
+  .filter {
+    padding:
+      6px
+      11px;
+
+    font-size: 12px;
+  }
+
+
+  .search-box {
+    padding:
+      7px
+      11px;
+  }
+
+
+  .search-box input {
+    font-size: 13px;
+  }
+
+
+  .result-bar {
+    padding:
+      11px
+      2px
+      0;
+  }
+
+
+  .result-info {
+    font-size: 11px;
+  }
+
+
+  .sort-button {
+    padding:
+      6px
+      10px;
+
+    font-size: 10px;
+  }
+
+
+  .timeline {
+    padding-top: 0;
+  }
+
+
+  .day-section {
+    margin-top: 24px;
+  }
+
+
+  .day-heading {
+    gap: 9px;
+
+    margin-bottom: 10px;
+  }
+
+
+  .day-heading h2 {
+    font-size: 17px;
+  }
+
+
+  .release-grid {
+    gap: 8px;
+  }
+
+
+  .card-body {
+    padding:
+      9px
+      9px
+      10px;
+  }
+
+
+  .card-title {
+    font-size: 13px;
+  }
+
+
+  .card-artist {
+    margin-top: 4px;
+
+    font-size: 10px;
+  }
+
+}
+
+
+/*
+ * On phones the full list of listening links
+ * is available by tapping the release card.
+ * Removing these buttons keeps cards compact.
+ */
+
+@media (max-width: 520px) {
+
+  .card-actions {
+    display: none;
+  }
+
+}

@@ -5,7 +5,8 @@ const state = {
   currentMonth: null,
   data: null,
   type: "all",
-  search: ""
+  search: "",
+  sort: "desc"
 };
 
 
@@ -27,6 +28,34 @@ const prevMonth = $("prevMonth");
 const nextMonth = $("nextMonth");
 
 const searchInput = $("searchInput");
+
+const sortButton =
+  $("sortButton");
+
+
+try {
+
+  const savedSort =
+    localStorage.getItem(
+      "jmtTimelineSort"
+    );
+
+  if (
+    savedSort === "asc"
+    || savedSort === "desc"
+  ) {
+    state.sort =
+      savedSort;
+  }
+
+}
+catch (error) {
+
+  console.warn(
+    "Unable to read sort preference",
+    error
+  );
+}
 
 const dialog = $("releaseDialog");
 const dialogContent = $("dialogContent");
@@ -431,10 +460,84 @@ function renderStats() {
 }
 
 
+function sortTimelineReleases(
+  releases
+) {
+
+  return [...releases].sort(
+    (a, b) => {
+
+      const aDay =
+        Number(a.day) || 0;
+
+      const bDay =
+        Number(b.day) || 0;
+
+
+      /*
+       * Unknown-day releases always stay
+       * at the bottom regardless of order.
+       */
+
+      if (!aDay && !bDay) {
+        return 0;
+      }
+
+      if (!aDay) {
+        return 1;
+      }
+
+      if (!bDay) {
+        return -1;
+      }
+
+
+      if (state.sort === "asc") {
+        return aDay - bDay;
+      }
+
+
+      return bDay - aDay;
+    }
+  );
+}
+
+
+function updateSortButton() {
+
+  if (!sortButton) {
+    return;
+  }
+
+
+  if (state.sort === "asc") {
+
+    sortButton.textContent =
+      "↑ Oldest";
+
+    sortButton.title =
+      "Oldest releases first";
+
+    return;
+  }
+
+
+  sortButton.textContent =
+    "↓ Newest";
+
+  sortButton.title =
+    "Newest releases first";
+}
+
+
 function renderTimeline() {
 
   const releases =
-    filteredReleases();
+    sortTimelineReleases(
+      filteredReleases()
+    );
+
+  updateSortButton();
 
   resultInfo.textContent =
     `${releases.length} release${
@@ -1245,3 +1348,39 @@ document.addEventListener(
   true
 );
 
+
+
+if (sortButton) {
+
+  sortButton.addEventListener(
+    "click",
+    () => {
+
+      state.sort =
+        state.sort === "desc"
+          ? "asc"
+          : "desc";
+
+
+      try {
+
+        localStorage.setItem(
+          "jmtTimelineSort",
+          state.sort
+        );
+
+      }
+      catch (error) {
+
+        console.warn(
+          "Unable to save sort preference",
+          error
+        );
+      }
+
+
+      renderTimeline();
+    }
+  );
+
+}
