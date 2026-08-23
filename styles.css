@@ -2562,3 +2562,217 @@ strong {
 
   font-size: 16px;
 }
+
+
+/* ====================================================
+   Jewish Music Timeline branding v2
+==================================================== */
+
+.brand-mark {
+  position: relative;
+
+  display: grid;
+
+  place-items: center;
+
+  overflow: hidden;
+
+  flex: 0 0 auto;
+
+  background:
+    linear-gradient(
+      140deg,
+      #f0cf86 0%,
+      #d7a54f 52%,
+      #bd762d 100%
+    );
+
+  border:
+    1px solid
+    rgba(255,255,255,.13);
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255,255,255,.24),
+    0 8px 25px
+      rgba(184,117,43,.15);
+}
+
+
+.brand-mark::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.18),
+      transparent 42%
+    );
+
+  pointer-events: none;
+}
+
+
+.brand-logo-svg {
+  position: relative;
+
+  z-index: 1;
+
+  width: 68%;
+  height: 68%;
+}
+
+
+.brand-logo-network {
+  fill: none;
+
+  stroke:
+    rgba(27,24,20,.35);
+
+  stroke-width: 1.7;
+
+  stroke-linecap: round;
+}
+
+
+.brand-logo-node {
+  fill: #211c17;
+
+  stroke:
+    rgba(255,255,255,.22);
+
+  stroke-width: 1;
+}
+
+
+.brand-logo-note {
+  fill: none;
+
+  stroke: #211c17;
+
+  stroke-width: 2.7;
+
+  stroke-linecap: round;
+
+  stroke-linejoin: round;
+}
+
+
+/* ====================================================
+   Data attribution
+==================================================== */
+
+.source-credit {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 4px;
+
+  min-height: 24px;
+
+  padding:
+    6px
+    16px
+    0;
+
+  color:
+    rgba(150,153,163,.72);
+
+  font-size: 10px;
+
+  line-height: 1.35;
+
+  text-align: center;
+}
+
+
+.source-credit a {
+  color:
+    rgba(215,174,104,.78);
+
+  text-decoration: none;
+
+  transition:
+    color .15s ease;
+}
+
+
+.source-credit a:hover,
+.source-credit a:focus-visible {
+  color: #efd29f;
+
+  text-decoration: underline;
+
+  text-underline-offset: 2px;
+
+  outline: none;
+}
+
+
+.source-credit-separator {
+  margin:
+    0
+    2px;
+
+  color:
+    rgba(255,255,255,.22);
+}
+
+
+@media (max-width: 720px) {
+
+  .source-credit {
+    min-height: 20px;
+
+    padding-top: 5px;
+
+    font-size: 9px;
+  }
+
+
+  .brand-logo-svg {
+    width: 66%;
+    height: 66%;
+  }
+
+}
+
+
+/* ====================================================
+   Clean JMT logo
+==================================================== */
+
+.brand-logo-svg {
+  width: 66%;
+  height: 66%;
+}
+
+
+.brand-logo-bars rect {
+  fill:
+    rgba(33,28,23,.48);
+}
+
+
+.brand-logo-note-fill {
+  fill: #211c17;
+}
+
+
+@media (max-width: 720px) {
+
+  .brand-logo-svg {
+    width: 64%;
+    height: 64%;
+  }
+
+}

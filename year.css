@@ -829,3 +829,370 @@ main {
 
   pointer-events: auto !important;
 }
+
+
+/* ====================================================
+   JMT branding
+==================================================== */
+
+.brand-mark {
+  position: relative;
+
+  display: grid;
+  place-items: center;
+
+  overflow: hidden;
+
+  flex: 0 0 auto;
+
+  background:
+    linear-gradient(
+      140deg,
+      #f0cf86 0%,
+      #d7a54f 52%,
+      #bd762d 100%
+    );
+
+  border:
+    1px solid
+    rgba(255,255,255,.13);
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255,255,255,.24),
+    0 8px 25px
+      rgba(184,117,43,.15);
+}
+
+
+.brand-mark::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.18),
+      transparent 42%
+    );
+
+  pointer-events: none;
+}
+
+
+.brand-logo-svg {
+  position: relative;
+
+  z-index: 1;
+
+  width: 66%;
+  height: 66%;
+}
+
+
+.brand-logo-bars rect {
+  fill:
+    rgba(33,28,23,.48);
+}
+
+
+.brand-logo-note-fill {
+  fill: #211c17;
+}
+
+
+/* ====================================================
+   Data attribution
+==================================================== */
+
+.source-credit {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 4px;
+
+  min-height: 24px;
+
+  padding:
+    6px
+    16px
+    0;
+
+  color:
+    rgba(150,153,163,.72);
+
+  font-size: 10px;
+
+  line-height: 1.35;
+
+  text-align: center;
+}
+
+
+.source-credit a {
+  color:
+    rgba(215,174,104,.78);
+
+  text-decoration: none;
+}
+
+
+.source-credit a:hover,
+.source-credit a:focus-visible {
+  color: #efd29f;
+
+  text-decoration: underline;
+
+  text-underline-offset: 2px;
+
+  outline: none;
+}
+
+
+.source-credit-separator {
+  margin:
+    0
+    2px;
+
+  color:
+    rgba(255,255,255,.22);
+}
+
+
+/* ====================================================
+   Compact mobile Year browser
+==================================================== */
+
+@media (max-width: 600px) {
+
+  main {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+
+  .source-credit {
+    min-height: 20px;
+
+    padding-top: 5px;
+
+    font-size: 9px;
+  }
+
+
+  .brand-logo-svg {
+    width: 64%;
+    height: 64%;
+  }
+
+
+  .hero {
+    padding:
+      18px
+      0
+      10px;
+  }
+
+
+  .view-toggle {
+    margin-bottom: 14px;
+  }
+
+
+  .view-tab {
+    min-width: 66px;
+
+    padding:
+      6px
+      12px;
+
+    font-size: 11px;
+  }
+
+
+  .year-nav {
+    grid-template-columns:
+      36px
+      minmax(0, 1fr)
+      36px;
+
+    gap: 7px;
+  }
+
+
+  .nav-arrow {
+    width: 36px;
+    height: 36px;
+
+    font-size: 26px;
+  }
+
+
+  .year-picker select {
+    padding:
+      5px
+      13px;
+
+    font-size: 12px;
+  }
+
+
+  .year-center h1 {
+    margin:
+      5px
+      0
+      0;
+
+    font-size:
+      clamp(
+        40px,
+        12vw,
+        52px
+      );
+
+    line-height: 1;
+  }
+
+
+  .subtitle {
+    margin-top: 7px;
+
+    font-size: 11px;
+  }
+
+
+  /*
+   * Same compact stats treatment
+   * as the Month view.
+   */
+
+  .stats {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 0;
+
+    max-width: 100%;
+
+    margin:
+      16px
+      auto
+      0;
+  }
+
+
+  .stat {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 4px;
+
+    padding: 0;
+
+    border: 0;
+
+    border-radius: 0;
+
+    background: transparent;
+
+    text-align: left;
+  }
+
+
+  .stat strong {
+    display: inline;
+
+    font-size: 12px;
+
+    line-height: 1.2;
+  }
+
+
+  .stat span {
+    display: inline;
+
+    margin: 0;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    text-transform: none;
+
+    letter-spacing: 0;
+  }
+
+
+  .stat:not(:last-child)::after {
+    content: "·";
+
+    margin:
+      0
+      8px;
+
+    color:
+      rgba(255,255,255,.28);
+  }
+
+
+  .section {
+    margin-top: 34px;
+  }
+
+
+  .section-heading {
+    margin-bottom: 13px;
+  }
+
+
+  .section-heading h2 {
+    font-size: 21px;
+  }
+
+
+  .section-heading p {
+    margin-top: 4px;
+
+    font-size: 11px;
+  }
+
+
+  .month-grid {
+    gap: 9px;
+  }
+
+
+  .month-card {
+    border-radius: 15px;
+  }
+
+
+  .month-info {
+    padding:
+      9px
+      10px;
+  }
+
+
+  .month-info strong {
+    font-size: 13px;
+  }
+
+
+  .month-count {
+    font-size: 10px;
+  }
+
+}

@@ -614,7 +614,7 @@ async function init() {
 
     const artistResponse =
       await fetch(
-        `/data/search-index.json?v=${
+        `/data/artist-map.json?v=${
           Date.now()
         }`,
         {
