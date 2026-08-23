@@ -744,6 +744,19 @@ async function loadMonth(
     Number(month);
 
 
+  const yearViewLink =
+    document.getElementById(
+      "yearViewLink"
+    );
+
+  if (yearViewLink) {
+    yearViewLink.href =
+      `/year.html?year=${
+        state.currentYear
+      }`;
+  }
+
+
   monthTitle.textContent =
     fullMonthName(
       state.currentYear,

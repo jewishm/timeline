@@ -1226,3 +1226,107 @@ footer a {
   }
 
 }
+
+
+/* ------------------------------------------------
+   Month / Year view navigation
+------------------------------------------------ */
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+
+.year-link {
+  flex: 0 0 auto;
+
+  padding: 8px 13px;
+
+  border: 1px solid var(--line);
+  border-radius: 999px;
+
+  background: var(--panel);
+
+  color: var(--muted);
+
+  text-decoration: none;
+
+  font-size: 12px;
+
+  transition:
+    background .15s ease,
+    border-color .15s ease,
+    color .15s ease;
+}
+
+
+.year-link:hover {
+  background: var(--panel-2);
+
+  border-color:
+    rgba(215,174,104,.35);
+
+  color: var(--text);
+}
+
+
+/* ====================================================
+   Month / Year view switch
+==================================================== */
+
+.view-toggle {
+  display: flex;
+  justify-content: center;
+
+  width: fit-content;
+
+  margin: 0 auto 22px;
+
+  padding: 4px;
+
+  border: 1px solid var(--line);
+
+  border-radius: 999px;
+
+  background: var(--panel);
+}
+
+
+.view-tab {
+  min-width: 72px;
+
+  padding: 7px 15px;
+
+  border-radius: 999px;
+
+  color: var(--muted);
+
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+.view-tab.active {
+  background: var(--accent-soft);
+
+  color: #efd29f;
+}
+
+
+@media (max-width: 600px) {
+
+  .view-toggle {
+    margin-bottom: 20px;
+  }
+
+  .view-tab {
+    min-width: 68px;
+  }
+
+}

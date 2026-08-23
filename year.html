@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta name="theme-color" content="#0b0c0f">
+
+  <title>Jewish Music Timeline — Year Browser</title>
+
+  <link rel="stylesheet" href="/year.css?v=3">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <div class="header-inner">
+
+    <a class="brand" href="/">
+      <span class="brand-mark">♪</span>
+
+      <span>
+        <strong>Jewish Music Timeline</strong>
+        <small>Year Browser</small>
+      </span>
+    </a>
+
+  </div>
+
+</header>
+
+
+<main>
+
+  <section class="hero">
+
+    <div class="view-toggle">
+      <a
+        id="monthViewLink"
+        class="view-tab"
+        href="/">
+        Month
+      </a>
+
+      <span class="view-tab active">
+        Year
+      </span>
+    </div>
+
+    <div class="year-nav">
+
+      <button
+        id="prevYear"
+        class="nav-arrow"
+        aria-label="Previous year">
+        ‹
+      </button>
+
+
+      <div class="year-center">
+
+        <div class="year-picker">
+          <select
+            id="yearSelect"
+            aria-label="Year">
+          </select>
+        </div>
+
+        <h1 id="yearTitle">
+          Loading…
+        </h1>
+
+        <p class="subtitle">
+          A year in Orthodox Jewish music
+        </p>
+
+      </div>
+
+
+      <button
+        id="nextYear"
+        class="nav-arrow"
+        aria-label="Next year">
+        ›
+      </button>
+
+    </div>
+
+
+    <div id="stats" class="stats"></div>
+
+  </section>
+
+
+  <section class="section">
+
+    <div class="section-heading">
+
+      <div>
+        <h2>Browse by month</h2>
+
+        <p>
+          Choose a month to open the detailed timeline.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div
+      id="monthGrid"
+      class="month-grid">
+    </div>
+
+  </section>
+
+
+  <section
+    id="topArtistsSection"
+    class="section">
+
+    <div class="section-heading">
+
+      <div>
+        <h2>Most active artists</h2>
+
+        <p>
+          Artists with the most releases in this year.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div
+      id="topArtists"
+      class="artist-list">
+    </div>
+
+  </section>
+
+
+  <section
+    id="yearOnlySection"
+    class="section"
+    hidden>
+
+    <div class="section-heading">
+
+      <div>
+        <h2>Release date within this year unknown</h2>
+
+        <p>
+          MusicBrainz identifies the year, but no month
+          or exact day is currently known.
+        </p>
+      </div>
+
+    </div>
+
+
+    <div
+      id="yearOnlyGrid"
+      class="release-grid">
+    </div>
+
+  </section>
+
+
+  <section class="musicbrainz-notice">
+
+    <div class="mb-badge">
+      MB
+    </div>
+
+    <div>
+
+      <h2>See something that needs correcting?</h2>
+
+      <p>
+        Jewish Music Timeline is built from
+        community-maintained MusicBrainz data.
+        Missing or incorrect dates, artwork,
+        artists, titles and links can be corrected
+        directly on MusicBrainz.
+      </p>
+
+      <p>
+        Changes that reach MusicBrainz will
+        automatically flow into this timeline
+        during a future nightly update.
+      </p>
+
+      <a
+        href="https://musicbrainz.org/"
+        target="_blank"
+        rel="noopener">
+        Visit MusicBrainz ↗
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<script src="/year.js?v=3"></script>
+
+</body>
+</html>
