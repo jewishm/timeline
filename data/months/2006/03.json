@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2006,
+  "month": 3,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Single": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "c115ed37-869b-48d3-a1a0-d20c895735d7",
+      "title": "Miami 29",
+      "artist_credit": "Michoel Schnitzler",
+      "collection_artists": [
+        {
+          "mbid": "1628b1ce-ad17-4341-9763-d6918b01bbe0",
+          "name": "Michoel Schnitzler"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2006-03-26",
+      "date_precision": "day",
+      "year": 2006,
+      "month": 3,
+      "day": 26,
+      "release_count": 1,
+      "release_mbids": [
+        "f5d70622-d6ea-4b22-8108-5bb230bb0d46"
+      ],
+      "cover_release_mbid": "f5d70622-d6ea-4b22-8108-5bb230bb0d46",
+      "cover_art": {
+        "release_mbid": "f5d70622-d6ea-4b22-8108-5bb230bb0d46",
+        "image_id": 38677967973,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/f5d70622-d6ea-4b22-8108-5bb230bb0d46/38677967973",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/f5d70622-d6ea-4b22-8108-5bb230bb0d46/38677967973-250.jpg",
+          "500": "https://coverartarchive.org/release/f5d70622-d6ea-4b22-8108-5bb230bb0d46/38677967973-500.jpg",
+          "1200": "https://coverartarchive.org/release/f5d70622-d6ea-4b22-8108-5bb230bb0d46/38677967973-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/c115ed37-869b-48d3-a1a0-d20c895735d7",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f5d70622-d6ea-4b22-8108-5bb230bb0d46",
+          "url": "https://music.apple.com/gb/album/1648313764"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f5d70622-d6ea-4b22-8108-5bb230bb0d46",
+          "url": "https://open.spotify.com/album/1oDWh3y5UMzz5e1eDx9W4Z"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1oDWh3y5UMzz5e1eDx9W4Z"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1648313764"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f5d70622-d6ea-4b22-8108-5bb230bb0d46",
+          "url": "https://open.spotify.com/album/1oDWh3y5UMzz5e1eDx9W4Z"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f5d70622-d6ea-4b22-8108-5bb230bb0d46",
+          "url": "https://music.apple.com/gb/album/1648313764"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

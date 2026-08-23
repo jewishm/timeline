@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2001,
+  "month": 9,
+  "stats": {
+    "release_groups": 2,
+    "with_cover_art": 2,
+    "with_action_links": 2,
+    "future_releases": 0,
+    "types": {
+      "Album": 2
+    },
+    "services": {
+      "spotify": 2,
+      "apple_music": 2,
+      "tidal": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "8d5e7242-7c3b-480b-89f3-70a880ee296d",
+      "title": "Country Yossi's Classic Calls, Vol. 1 (Live)",
+      "artist_credit": "Country Yossi",
+      "collection_artists": [
+        {
+          "mbid": "0ebeec28-c9f1-4602-9595-74b4c9ef6376",
+          "name": "Country Yossi"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live",
+        "Spokenword"
+      ],
+      "first_release_date": "2001-09-06",
+      "date_precision": "day",
+      "year": 2001,
+      "month": 9,
+      "day": 6,
+      "release_count": 1,
+      "release_mbids": [
+        "4b236af6-9021-47b2-9522-531c81984d0d"
+      ],
+      "cover_release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+      "cover_art": {
+        "release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+        "image_id": 45633462435,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/4b236af6-9021-47b2-9522-531c81984d0d/45633462435",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/4b236af6-9021-47b2-9522-531c81984d0d/45633462435-250.jpg",
+          "500": "https://coverartarchive.org/release/4b236af6-9021-47b2-9522-531c81984d0d/45633462435-500.jpg",
+          "1200": "https://coverartarchive.org/release/4b236af6-9021-47b2-9522-531c81984d0d/45633462435-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/8d5e7242-7c3b-480b-89f3-70a880ee296d",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+          "url": "https://music.apple.com/us/album/1531734780"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+          "url": "https://music.apple.com/us/album/1531734780"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+          "url": "https://open.spotify.com/album/4Ju6tY8PDgCd10cNaIf8Jg"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+          "url": "https://tidal.com/album/155242190"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4Ju6tY8PDgCd10cNaIf8Jg"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1531734780"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/155242190"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+          "url": "https://open.spotify.com/album/4Ju6tY8PDgCd10cNaIf8Jg"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+          "url": "https://music.apple.com/us/album/1531734780"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4b236af6-9021-47b2-9522-531c81984d0d",
+          "url": "https://tidal.com/album/155242190"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "97e324f0-3771-4bc6-b234-065d4ae225ce",
+      "title": "Selichot Live",
+      "artist_credit": "Shabbaton Choir, Lionel Rosenfeld & Shimon Craimer",
+      "collection_artists": [
+        {
+          "mbid": "6c9f1e5c-e878-498f-b8ea-d7481db63caa",
+          "name": "Shabbaton Choir"
+        },
+        {
+          "mbid": "cc86a0b3-e216-4807-b351-cf63c69f42dc",
+          "name": "Shimon Craimer"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2001-09-10",
+      "date_precision": "day",
+      "year": 2001,
+      "month": 9,
+      "day": 10,
+      "release_count": 1,
+      "release_mbids": [
+        "e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e"
+      ],
+      "cover_release_mbid": "e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e",
+      "cover_art": {
+        "release_mbid": "e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e",
+        "image_id": 38505660220,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e/38505660220",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e/38505660220-250.jpg",
+          "500": "https://coverartarchive.org/release/e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e/38505660220-500.jpg",
+          "1200": "https://coverartarchive.org/release/e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e/38505660220-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/97e324f0-3771-4bc6-b234-065d4ae225ce",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e",
+          "url": "https://music.apple.com/gb/album/1520981495"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e",
+          "url": "https://open.spotify.com/album/6MdT7tXKuekk5oYruzHCtt"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6MdT7tXKuekk5oYruzHCtt"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1520981495"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e",
+          "url": "https://open.spotify.com/album/6MdT7tXKuekk5oYruzHCtt"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e2fb8a1f-4588-4de1-a873-a60d9f3e8e2e",
+          "url": "https://music.apple.com/gb/album/1520981495"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta name="theme-color" content="#0b0c0f">
+
+  <title>Jewish Music Timeline</title>
+
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+
+    <a class="brand" href="/" aria-label="Jewish Music Timeline">
+      <span class="brand-mark">♪</span>
+
+      <span>
+        <strong>Jewish Music Timeline</strong>
+        <small>Orthodox Jewish music through the years</small>
+      </span>
+    </a>
+
+  </div>
+</header>
+
+
+<main>
+
+  <section class="hero">
+
+    <div class="month-nav">
+
+      <button id="prevMonth"
+              class="nav-arrow"
+              aria-label="Previous month">
+        ‹
+      </button>
+
+      <div class="month-center">
+
+        <div class="month-picker">
+
+          <select id="monthSelect"
+                  aria-label="Month"></select>
+
+          <select id="yearSelect"
+                  aria-label="Year"></select>
+
+        </div>
+
+        <h1 id="monthTitle">
+          Loading…
+        </h1>
+
+        <div id="monthSubtitle"
+             class="month-subtitle">
+        </div>
+
+      </div>
+
+      <button id="nextMonth"
+              class="nav-arrow"
+              aria-label="Next month">
+        ›
+      </button>
+
+    </div>
+
+
+    <div id="stats"
+         class="stats">
+    </div>
+
+  </section>
+
+
+  <section class="controls">
+
+    <div id="typeFilters"
+         class="filter-row">
+
+      <button class="filter active"
+              data-type="all">
+        All
+      </button>
+
+      <button class="filter"
+              data-type="Album">
+        Albums
+      </button>
+
+      <button class="filter"
+              data-type="Single">
+        Singles
+      </button>
+
+      <button class="filter"
+              data-type="EP">
+        EPs
+      </button>
+
+    </div>
+
+
+    <label class="search-box">
+      <span>⌕</span>
+
+      <input id="searchInput"
+             type="search"
+             placeholder="Search artist or release…"
+             autocomplete="off">
+    </label>
+
+  </section>
+
+
+  <div id="resultInfo"
+       class="result-info">
+  </div>
+
+
+  <section id="timeline"
+           class="timeline">
+  </section>
+
+
+  <section class="musicbrainz-notice">
+
+    <div class="musicbrainz-icon">
+      MB
+    </div>
+
+    <div>
+      <h2>See something that needs correcting?</h2>
+
+      <p>
+        Jewish Music Timeline is built from
+        community-maintained MusicBrainz data.
+        If a title, artist, release date, artwork,
+        or listening link is incorrect or missing,
+        you can fix it on MusicBrainz.
+      </p>
+
+      <p>
+        Once the change reaches our nightly update,
+        the correction will automatically appear here.
+      </p>
+
+      <a
+        href="https://musicbrainz.org/"
+        target="_blank"
+        rel="noopener">
+        Visit MusicBrainz ↗
+      </a>
+    </div>
+
+  </section>
+
+
+  <div id="emptyState"
+       class="empty-state"
+       hidden>
+
+    <div class="empty-icon">♪</div>
+
+    <h2>No releases found</h2>
+
+    <p>Try changing the filters or search.</p>
+
+  </div>
+
+</main>
+
+
+<footer>
+
+  <p>
+    Release information from
+    <a href="https://musicbrainz.org/"
+       target="_blank"
+       rel="noopener">
+      MusicBrainz
+    </a>
+  </p>
+
+</footer>
+
+
+<dialog id="releaseDialog"
+        class="release-dialog">
+
+  <button id="dialogClose"
+          class="dialog-close"
+          aria-label="Close">
+    ×
+  </button>
+
+  <div id="dialogContent"></div>
+
+</dialog>
+
+
+<script src="/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 1982,
+  "month": 1,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "58e95b1c-018d-4639-a77c-d802284fdd91",
+      "title": "I've Waited",
+      "artist_credit": "Mordechai Ben David",
+      "collection_artists": [
+        {
+          "mbid": "1ce4381e-039b-451d-a5a0-ab12020a987c",
+          "name": "Mordechai Ben David"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "1982-01-01",
+      "date_precision": "day",
+      "year": 1982,
+      "month": 1,
+      "day": 1,
+      "release_count": 3,
+      "release_mbids": [
+        "657d9a00-0235-4b9b-919a-966f5830df43",
+        "6f77abfc-6837-4fa5-a11c-8944cb54e1fd",
+        "a9ce6c84-1421-4dae-800e-8c4aad9c3bf9"
+      ],
+      "cover_release_mbid": "657d9a00-0235-4b9b-919a-966f5830df43",
+      "cover_art": {
+        "release_mbid": "657d9a00-0235-4b9b-919a-966f5830df43",
+        "image_id": 38049212031,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/657d9a00-0235-4b9b-919a-966f5830df43/38049212031",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/657d9a00-0235-4b9b-919a-966f5830df43/38049212031-250.jpg",
+          "500": "https://coverartarchive.org/release/657d9a00-0235-4b9b-919a-966f5830df43/38049212031-500.jpg",
+          "1200": "https://coverartarchive.org/release/657d9a00-0235-4b9b-919a-966f5830df43/38049212031-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/58e95b1c-018d-4639-a77c-d802284fdd91",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9ce6c84-1421-4dae-800e-8c4aad9c3bf9",
+          "url": "https://music.apple.com/us/album/1699233957"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6f77abfc-6837-4fa5-a11c-8944cb54e1fd",
+          "url": "https://open.spotify.com/album/69nbQXcUq1wFUmtPHlB8zN"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "657d9a00-0235-4b9b-919a-966f5830df43",
+          "url": "https://www.discogs.com/release/15891129"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/69nbQXcUq1wFUmtPHlB8zN"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1699233957"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6f77abfc-6837-4fa5-a11c-8944cb54e1fd",
+          "url": "https://open.spotify.com/album/69nbQXcUq1wFUmtPHlB8zN"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9ce6c84-1421-4dae-800e-8c4aad9c3bf9",
+          "url": "https://music.apple.com/us/album/1699233957"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "657d9a00-0235-4b9b-919a-966f5830df43",
+          "url": "https://www.discogs.com/release/15891129"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 1976,
+  "month": 9,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "deezer": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "92ab69e8-f4a1-40ae-a786-1774b3ae03c1",
+      "title": "The Grand Chassidic Philharmonic Symphony Orchestra",
+      "artist_credit": "Kol Salonika featuring The Bonei Yerushalayim Trio",
+      "collection_artists": [
+        {
+          "mbid": "7e65c155-5bca-45ec-8bdc-9a3db7c0bcf4",
+          "name": "Kol Salonika"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "1976-09-08",
+      "date_precision": "day",
+      "year": 1976,
+      "month": 9,
+      "day": 8,
+      "release_count": 2,
+      "release_mbids": [
+        "3d40590e-63ac-4183-866c-805943b8f20b",
+        "d8854950-cc78-444a-89ef-2db8b7d5c020"
+      ],
+      "cover_release_mbid": "d8854950-cc78-444a-89ef-2db8b7d5c020",
+      "cover_art": {
+        "release_mbid": "d8854950-cc78-444a-89ef-2db8b7d5c020",
+        "image_id": 39424617233,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/d8854950-cc78-444a-89ef-2db8b7d5c020/39424617233",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/d8854950-cc78-444a-89ef-2db8b7d5c020/39424617233-250.jpg",
+          "500": "https://coverartarchive.org/release/d8854950-cc78-444a-89ef-2db8b7d5c020/39424617233-500.jpg",
+          "1200": "https://coverartarchive.org/release/d8854950-cc78-444a-89ef-2db8b7d5c020/39424617233-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/92ab69e8-f4a1-40ae-a786-1774b3ae03c1",
+      "links": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d8854950-cc78-444a-89ef-2db8b7d5c020",
+          "url": "https://open.spotify.com/album/5M7ltcYjXrCzioocLrPN6q"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d8854950-cc78-444a-89ef-2db8b7d5c020",
+          "url": "https://www.deezer.com/album/172723942"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "3d40590e-63ac-4183-866c-805943b8f20b",
+          "url": "https://www.discogs.com/release/8745202"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5M7ltcYjXrCzioocLrPN6q"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/172723942"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d8854950-cc78-444a-89ef-2db8b7d5c020",
+          "url": "https://open.spotify.com/album/5M7ltcYjXrCzioocLrPN6q"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d8854950-cc78-444a-89ef-2db8b7d5c020",
+          "url": "https://www.deezer.com/album/172723942"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "3d40590e-63ac-4183-866c-805943b8f20b",
+          "url": "https://www.discogs.com/release/8745202"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

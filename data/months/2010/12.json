@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2010,
+  "month": 12,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1,
+      "deezer": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "ec1e1b56-27e7-4d76-8e5b-fa4a54890ddf",
+      "title": "Al Yisrael Shalom",
+      "artist_credit": "Michoel Streicher",
+      "collection_artists": [
+        {
+          "mbid": "41588fd1-b9a6-4453-9709-c229b7abe90c",
+          "name": "Michoel Streicher"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2010-12-23",
+      "date_precision": "day",
+      "year": 2010,
+      "month": 12,
+      "day": 23,
+      "release_count": 1,
+      "release_mbids": [
+        "617d2e73-e6c1-427a-8ab0-64ce01275e17"
+      ],
+      "cover_release_mbid": "617d2e73-e6c1-427a-8ab0-64ce01275e17",
+      "cover_art": {
+        "release_mbid": "617d2e73-e6c1-427a-8ab0-64ce01275e17",
+        "image_id": 37072362291,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/617d2e73-e6c1-427a-8ab0-64ce01275e17/37072362291",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/617d2e73-e6c1-427a-8ab0-64ce01275e17/37072362291-250.jpg",
+          "500": "https://coverartarchive.org/release/617d2e73-e6c1-427a-8ab0-64ce01275e17/37072362291-500.jpg",
+          "1200": "https://coverartarchive.org/release/617d2e73-e6c1-427a-8ab0-64ce01275e17/37072362291-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ec1e1b56-27e7-4d76-8e5b-fa4a54890ddf",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "617d2e73-e6c1-427a-8ab0-64ce01275e17",
+          "url": "https://music.apple.com/us/album/1602854914"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "617d2e73-e6c1-427a-8ab0-64ce01275e17",
+          "url": "https://open.spotify.com/album/0lEfiDZpeoFjYMW1rahMZs"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "617d2e73-e6c1-427a-8ab0-64ce01275e17",
+          "url": "https://www.deezer.com/album/284284392"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0lEfiDZpeoFjYMW1rahMZs"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1602854914"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/284284392"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "617d2e73-e6c1-427a-8ab0-64ce01275e17",
+          "url": "https://open.spotify.com/album/0lEfiDZpeoFjYMW1rahMZs"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "617d2e73-e6c1-427a-8ab0-64ce01275e17",
+          "url": "https://music.apple.com/us/album/1602854914"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "617d2e73-e6c1-427a-8ab0-64ce01275e17",
+          "url": "https://www.deezer.com/album/284284392"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

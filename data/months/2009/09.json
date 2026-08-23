@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2009,
+  "month": 9,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "fb320583-aefd-4ae9-9e60-ffae38c67c10",
+      "title": "אור האורות",
+      "artist_credit": "אהרון סגל",
+      "collection_artists": [
+        {
+          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
+          "name": "Aharon Segal"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2009-09",
+      "date_precision": "month",
+      "year": 2009,
+      "month": 9,
+      "day": null,
+      "release_count": 2,
+      "release_mbids": [
+        "d8d9e02b-fabc-4a91-bd7d-ebe9b5d77e63",
+        "fb74ec6e-c01f-4ed8-aad3-498e123fb9e9"
+      ],
+      "cover_release_mbid": "fb74ec6e-c01f-4ed8-aad3-498e123fb9e9",
+      "cover_art": {
+        "release_mbid": "fb74ec6e-c01f-4ed8-aad3-498e123fb9e9",
+        "image_id": 39481638638,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/fb74ec6e-c01f-4ed8-aad3-498e123fb9e9/39481638638",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/fb74ec6e-c01f-4ed8-aad3-498e123fb9e9/39481638638-250.jpg",
+          "500": "https://coverartarchive.org/release/fb74ec6e-c01f-4ed8-aad3-498e123fb9e9/39481638638-500.jpg",
+          "1200": "https://coverartarchive.org/release/fb74ec6e-c01f-4ed8-aad3-498e123fb9e9/39481638638-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/fb320583-aefd-4ae9-9e60-ffae38c67c10",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d8d9e02b-fabc-4a91-bd7d-ebe9b5d77e63",
+          "url": "https://music.apple.com/gb/album/1729734411"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d8d9e02b-fabc-4a91-bd7d-ebe9b5d77e63",
+          "url": "https://open.spotify.com/album/5Zu9XY87hwpdpQ4ucHNO9t"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.discogs.com/master/2391661"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "fb74ec6e-c01f-4ed8-aad3-498e123fb9e9",
+          "url": "https://www.discogs.com/release/1963817"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5Zu9XY87hwpdpQ4ucHNO9t"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1729734411"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d8d9e02b-fabc-4a91-bd7d-ebe9b5d77e63",
+          "url": "https://open.spotify.com/album/5Zu9XY87hwpdpQ4ucHNO9t"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d8d9e02b-fabc-4a91-bd7d-ebe9b5d77e63",
+          "url": "https://music.apple.com/gb/album/1729734411"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.discogs.com/master/2391661"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "fb74ec6e-c01f-4ed8-aad3-498e123fb9e9",
+          "url": "https://www.discogs.com/release/1963817"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

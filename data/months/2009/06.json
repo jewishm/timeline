@@ -1,0 +1,702 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2009,
+  "month": 6,
+  "stats": {
+    "release_groups": 3,
+    "with_cover_art": 3,
+    "with_action_links": 3,
+    "future_releases": 0,
+    "types": {
+      "Album": 3
+    },
+    "services": {
+      "spotify": 3,
+      "apple_music": 3,
+      "tidal": 3,
+      "deezer": 2,
+      "qobuz": 1,
+      "anghami": 1,
+      "amazon": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "615d342d-d18b-480a-aa1b-d72ac464dc77",
+      "title": "Project Relax, Vol. 2",
+      "artist_credit": "Shloime Daskal",
+      "collection_artists": [
+        {
+          "mbid": "596e38a2-083a-4085-9340-774355830245",
+          "name": "Shloime Daskal"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2009-06-05",
+      "date_precision": "day",
+      "year": 2009,
+      "month": 6,
+      "day": 5,
+      "release_count": 1,
+      "release_mbids": [
+        "e86a2c2c-601a-4ca8-99c0-268ff4ff5760"
+      ],
+      "cover_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+      "cover_art": {
+        "release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+        "image_id": 38078831535,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e86a2c2c-601a-4ca8-99c0-268ff4ff5760/38078831535",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/e86a2c2c-601a-4ca8-99c0-268ff4ff5760/38078831535-250.jpg",
+          "500": "https://coverartarchive.org/release/e86a2c2c-601a-4ca8-99c0-268ff4ff5760/38078831535-500.jpg",
+          "1200": "https://coverartarchive.org/release/e86a2c2c-601a-4ca8-99c0-268ff4ff5760/38078831535-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/615d342d-d18b-480a-aa1b-d72ac464dc77",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://music.apple.com/gb/album/852778736"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://open.spotify.com/album/2TJEX8GoOqqmXznznJgmar"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://tidal.com/album/517243072"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://www.deezer.com/album/964653531"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://www.qobuz.com/us-en/album/project-relax-vol-2-shloime-daskal/ex9om73ndrxm8"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://www.qobuz.com/us-en/album/project-relax-vol-2-shloime-daskal/ex9om73ndrxm8"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2TJEX8GoOqqmXznznJgmar"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/852778736"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/964653531"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/517243072"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/project-relax-vol-2-shloime-daskal/ex9om73ndrxm8"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://open.spotify.com/album/2TJEX8GoOqqmXznznJgmar"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://music.apple.com/gb/album/852778736"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://www.deezer.com/album/964653531"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://tidal.com/album/517243072"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e86a2c2c-601a-4ca8-99c0-268ff4ff5760",
+          "url": "https://www.qobuz.com/us-en/album/project-relax-vol-2-shloime-daskal/ex9om73ndrxm8"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "4cb59c5c-3c89-4ded-8e64-ac61b3a1e834",
+      "title": "Beezras Hashem Yisbarach",
+      "artist_credit": "Beri Weber",
+      "collection_artists": [
+        {
+          "mbid": "983edff7-4f11-4324-9d5c-b50ce6e31697",
+          "name": "Beri Weber"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2009-06-21",
+      "date_precision": "day",
+      "year": 2009,
+      "month": 6,
+      "day": 21,
+      "release_count": 2,
+      "release_mbids": [
+        "444f65f8-c34c-4d50-a176-7173cf1d1114",
+        "d581aae4-a74f-4912-8b24-924de33a11e3"
+      ],
+      "cover_release_mbid": "444f65f8-c34c-4d50-a176-7173cf1d1114",
+      "cover_art": {
+        "release_mbid": "444f65f8-c34c-4d50-a176-7173cf1d1114",
+        "image_id": 37710867599,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/444f65f8-c34c-4d50-a176-7173cf1d1114/37710867599",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/444f65f8-c34c-4d50-a176-7173cf1d1114/37710867599-250.jpg",
+          "500": "https://coverartarchive.org/release/444f65f8-c34c-4d50-a176-7173cf1d1114/37710867599-500.jpg",
+          "1200": "https://coverartarchive.org/release/444f65f8-c34c-4d50-a176-7173cf1d1114/37710867599-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4cb59c5c-3c89-4ded-8e64-ac61b3a1e834",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "444f65f8-c34c-4d50-a176-7173cf1d1114",
+          "url": "https://music.apple.com/gb/album/1494216689"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d581aae4-a74f-4912-8b24-924de33a11e3",
+          "url": "https://music.apple.com/us/album/1494217446"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "444f65f8-c34c-4d50-a176-7173cf1d1114",
+          "url": "https://open.spotify.com/album/04lqB9fFrOkrDc8MniGhY9"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d581aae4-a74f-4912-8b24-924de33a11e3",
+          "url": "https://open.spotify.com/album/26feJIekvlZojmsvelzWTA"
+        },
+        {
+          "site_key": "anghami",
+          "site_label": "Anghami",
+          "domain": "play.anghami.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d581aae4-a74f-4912-8b24-924de33a11e3",
+          "url": "https://play.anghami.com/album/1010085044"
+        },
+        {
+          "site_key": "rateyourmusic",
+          "site_label": "Rate Your Music",
+          "domain": "rateyourmusic.com",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://rateyourmusic.com/release/album/%D7%91%D7%A2%D7%A8%D7%99-%D7%95%D7%95%D7%91%D7%A8/%D7%91%D7%A2%D7%96%D7%A8%D7%AA-%D7%94%D7%A9%D7%9D-%D7%99%D7%AA%D7%91%D7%A8%D7%9A/"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d581aae4-a74f-4912-8b24-924de33a11e3",
+          "url": "https://tidal.com/album/127673055"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d581aae4-a74f-4912-8b24-924de33a11e3",
+          "url": "https://www.amazon.com/gp/product/B083N2SBN4"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/04lqB9fFrOkrDc8MniGhY9"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1494216689"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/127673055"
+        },
+        "anghami": {
+          "label": "Anghami",
+          "kind": "listen",
+          "url": "https://play.anghami.com/album/1010085044"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "buy",
+          "url": "https://www.amazon.com/gp/product/B083N2SBN4"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "444f65f8-c34c-4d50-a176-7173cf1d1114",
+          "url": "https://open.spotify.com/album/04lqB9fFrOkrDc8MniGhY9"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "444f65f8-c34c-4d50-a176-7173cf1d1114",
+          "url": "https://music.apple.com/gb/album/1494216689"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d581aae4-a74f-4912-8b24-924de33a11e3",
+          "url": "https://tidal.com/album/127673055"
+        },
+        {
+          "site_key": "anghami",
+          "site_label": "Anghami",
+          "domain": "play.anghami.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d581aae4-a74f-4912-8b24-924de33a11e3",
+          "url": "https://play.anghami.com/album/1010085044"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d581aae4-a74f-4912-8b24-924de33a11e3",
+          "url": "https://www.amazon.com/gp/product/B083N2SBN4"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "rateyourmusic",
+          "site_label": "Rate Your Music",
+          "domain": "rateyourmusic.com",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://rateyourmusic.com/release/album/%D7%91%D7%A2%D7%A8%D7%99-%D7%95%D7%95%D7%91%D7%A8/%D7%91%D7%A2%D7%96%D7%A8%D7%AA-%D7%94%D7%A9%D7%9D-%D7%99%D7%AA%D7%91%D7%A8%D7%9A/"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "e03037cc-856d-4072-b14d-854bffd19d01",
+      "title": "לילה כיום יאיר",
+      "artist_credit": "אביתר בנאי",
+      "collection_artists": [
+        {
+          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
+          "name": "אביתר בנאי"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2009-06",
+      "date_precision": "month",
+      "year": 2009,
+      "month": 6,
+      "day": null,
+      "release_count": 2,
+      "release_mbids": [
+        "4ea5d9da-711e-4023-b266-7c4b5a9ef5c2",
+        "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845"
+      ],
+      "cover_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+      "cover_art": {
+        "release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+        "image_id": 42474519833,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/70b9a5d2-efa1-4c9e-8ad5-981a6cf88845/42474519833",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/70b9a5d2-efa1-4c9e-8ad5-981a6cf88845/42474519833-250.jpg",
+          "500": "https://coverartarchive.org/release/70b9a5d2-efa1-4c9e-8ad5-981a6cf88845/42474519833-500.jpg",
+          "1200": "https://coverartarchive.org/release/70b9a5d2-efa1-4c9e-8ad5-981a6cf88845/42474519833-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e03037cc-856d-4072-b14d-854bffd19d01",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://music.apple.com/us/album/497330405"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://music.apple.com/us/album/497330405"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://open.spotify.com/album/6MTaG6ouyHqSauq4Xks8E7"
+        },
+        {
+          "site_key": "rateyourmusic",
+          "site_label": "Rate Your Music",
+          "domain": "rateyourmusic.com",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://rateyourmusic.com/release/album/%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%91%D7%A0%D7%90%D7%99/%D7%9C%D7%99%D7%9C%D7%94-%D7%9B%D7%99%D7%95%D7%9D-%D7%99%D7%90%D7%99%D7%A8-night-will-shine-like-day/"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://tidal.com/album/185067577"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://www.deezer.com/album/92636152"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.discogs.com/master/1547959"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "4ea5d9da-711e-4023-b266-7c4b5a9ef5c2",
+          "url": "https://www.discogs.com/release/5475269"
+        },
+        {
+          "site_key": "wikidata",
+          "site_label": "Wikidata",
+          "domain": "wikidata.org",
+          "relationship": "wikidata",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.wikidata.org/wiki/Q6635128"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6MTaG6ouyHqSauq4Xks8E7"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/497330405"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/92636152"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/185067577"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://open.spotify.com/album/6MTaG6ouyHqSauq4Xks8E7"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://music.apple.com/us/album/497330405"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://www.deezer.com/album/92636152"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "70b9a5d2-efa1-4c9e-8ad5-981a6cf88845",
+          "url": "https://tidal.com/album/185067577"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "rateyourmusic",
+          "site_label": "Rate Your Music",
+          "domain": "rateyourmusic.com",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://rateyourmusic.com/release/album/%D7%90%D7%91%D7%99%D7%AA%D7%A8-%D7%91%D7%A0%D7%90%D7%99/%D7%9C%D7%99%D7%9C%D7%94-%D7%9B%D7%99%D7%95%D7%9D-%D7%99%D7%90%D7%99%D7%A8-night-will-shine-like-day/"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.discogs.com/master/1547959"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "4ea5d9da-711e-4023-b266-7c4b5a9ef5c2",
+          "url": "https://www.discogs.com/release/5475269"
+        },
+        {
+          "site_key": "wikidata",
+          "site_label": "Wikidata",
+          "domain": "wikidata.org",
+          "relationship": "wikidata",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.wikidata.org/wiki/Q6635128"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

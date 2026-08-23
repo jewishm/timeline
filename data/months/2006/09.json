@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2006,
+  "month": 9,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1,
+      "deezer": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "fb8a85a1-df39-4b6d-9c62-7bed51472c0a",
+      "title": "Echod",
+      "artist_credit": "Mendy Wald",
+      "collection_artists": [
+        {
+          "mbid": "98ee009b-cd25-42fa-8891-fa37e7ddd89a",
+          "name": "Mendy Wald"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2006-09-12",
+      "date_precision": "day",
+      "year": 2006,
+      "month": 9,
+      "day": 12,
+      "release_count": 1,
+      "release_mbids": [
+        "a5e9398a-2926-4ce1-ad58-2b48601d4f3c"
+      ],
+      "cover_release_mbid": "a5e9398a-2926-4ce1-ad58-2b48601d4f3c",
+      "cover_art": {
+        "release_mbid": "a5e9398a-2926-4ce1-ad58-2b48601d4f3c",
+        "image_id": 37013550130,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a5e9398a-2926-4ce1-ad58-2b48601d4f3c/37013550130",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/a5e9398a-2926-4ce1-ad58-2b48601d4f3c/37013550130-250.jpg",
+          "500": "https://coverartarchive.org/release/a5e9398a-2926-4ce1-ad58-2b48601d4f3c/37013550130-500.jpg",
+          "1200": "https://coverartarchive.org/release/a5e9398a-2926-4ce1-ad58-2b48601d4f3c/37013550130-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/fb8a85a1-df39-4b6d-9c62-7bed51472c0a",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a5e9398a-2926-4ce1-ad58-2b48601d4f3c",
+          "url": "https://music.apple.com/gb/album/1665514246"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a5e9398a-2926-4ce1-ad58-2b48601d4f3c",
+          "url": "https://open.spotify.com/album/68wG4bcfxQee2CECJMlyxR"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a5e9398a-2926-4ce1-ad58-2b48601d4f3c",
+          "url": "https://www.deezer.com/album/396891447"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/68wG4bcfxQee2CECJMlyxR"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1665514246"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/396891447"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a5e9398a-2926-4ce1-ad58-2b48601d4f3c",
+          "url": "https://open.spotify.com/album/68wG4bcfxQee2CECJMlyxR"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a5e9398a-2926-4ce1-ad58-2b48601d4f3c",
+          "url": "https://music.apple.com/gb/album/1665514246"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a5e9398a-2926-4ce1-ad58-2b48601d4f3c",
+          "url": "https://www.deezer.com/album/396891447"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

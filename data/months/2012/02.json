@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2012,
+  "month": 2,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "bd6b3efd-ca19-46ff-8ea1-e1e0124ab815",
+      "title": "זיץ 2",
+      "artist_credit": "אברימי רוט",
+      "collection_artists": [
+        {
+          "mbid": "f8b6f972-fc17-4b70-a515-51e4f8d13c05",
+          "name": "אברימי רוט"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2012-02-01",
+      "date_precision": "day",
+      "year": 2012,
+      "month": 2,
+      "day": 1,
+      "release_count": 1,
+      "release_mbids": [
+        "044d4f4c-c25c-4723-a7a4-b8468a13b686"
+      ],
+      "cover_release_mbid": "044d4f4c-c25c-4723-a7a4-b8468a13b686",
+      "cover_art": {
+        "release_mbid": "044d4f4c-c25c-4723-a7a4-b8468a13b686",
+        "image_id": 37648133784,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/044d4f4c-c25c-4723-a7a4-b8468a13b686/37648133784",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/044d4f4c-c25c-4723-a7a4-b8468a13b686/37648133784-250.jpg",
+          "500": "https://coverartarchive.org/release/044d4f4c-c25c-4723-a7a4-b8468a13b686/37648133784-500.jpg",
+          "1200": "https://coverartarchive.org/release/044d4f4c-c25c-4723-a7a4-b8468a13b686/37648133784-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/bd6b3efd-ca19-46ff-8ea1-e1e0124ab815",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "044d4f4c-c25c-4723-a7a4-b8468a13b686",
+          "url": "https://music.apple.com/gb/album/1521451506"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "044d4f4c-c25c-4723-a7a4-b8468a13b686",
+          "url": "https://open.spotify.com/album/5NpgaOCa5jeewLvYtcHFeg"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5NpgaOCa5jeewLvYtcHFeg"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1521451506"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "044d4f4c-c25c-4723-a7a4-b8468a13b686",
+          "url": "https://open.spotify.com/album/5NpgaOCa5jeewLvYtcHFeg"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "044d4f4c-c25c-4723-a7a4-b8468a13b686",
+          "url": "https://music.apple.com/gb/album/1521451506"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

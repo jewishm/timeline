@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 1985,
+  "month": 9,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "a8d37cb4-1415-429c-b835-1e4704ab011b",
+      "title": "Achva",
+      "artist_credit": "Abie Rotenberg, Moshe Yess & Shloime Goldreich",
+      "collection_artists": [
+        {
+          "mbid": "80541804-dd82-4478-b319-52f3337ffe63",
+          "name": "Abie Rotenberg"
+        },
+        {
+          "mbid": "6bccb72e-5e60-4401-a0bb-e08fa30a3dfa",
+          "name": "Moshe Yess"
+        },
+        {
+          "mbid": "cf357e68-e49d-4e95-aeb7-39fee7e36dc7",
+          "name": "Shloime Goldreich"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "1985-09-18",
+      "date_precision": "day",
+      "year": 1985,
+      "month": 9,
+      "day": 18,
+      "release_count": 1,
+      "release_mbids": [
+        "a33c5bf2-dd9c-488c-b78d-a44c0e5809ab"
+      ],
+      "cover_release_mbid": "a33c5bf2-dd9c-488c-b78d-a44c0e5809ab",
+      "cover_art": {
+        "release_mbid": "a33c5bf2-dd9c-488c-b78d-a44c0e5809ab",
+        "image_id": 37748274463,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a33c5bf2-dd9c-488c-b78d-a44c0e5809ab/37748274463",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/a33c5bf2-dd9c-488c-b78d-a44c0e5809ab/37748274463-250.jpg",
+          "500": "https://coverartarchive.org/release/a33c5bf2-dd9c-488c-b78d-a44c0e5809ab/37748274463-500.jpg",
+          "1200": "https://coverartarchive.org/release/a33c5bf2-dd9c-488c-b78d-a44c0e5809ab/37748274463-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/a8d37cb4-1415-429c-b835-1e4704ab011b",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a33c5bf2-dd9c-488c-b78d-a44c0e5809ab",
+          "url": "https://music.apple.com/gb/album/1532481238"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a33c5bf2-dd9c-488c-b78d-a44c0e5809ab",
+          "url": "https://open.spotify.com/album/5jao4fLs8o6Qx2xEehZJ8n"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5jao4fLs8o6Qx2xEehZJ8n"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1532481238"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a33c5bf2-dd9c-488c-b78d-a44c0e5809ab",
+          "url": "https://open.spotify.com/album/5jao4fLs8o6Qx2xEehZJ8n"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a33c5bf2-dd9c-488c-b78d-a44c0e5809ab",
+          "url": "https://music.apple.com/gb/album/1532481238"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

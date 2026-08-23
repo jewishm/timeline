@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 1975,
+  "month": 8,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 0,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1,
+      "deezer": 1,
+      "tidal": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "d66a080a-6cee-4b52-9b32-23f887cfb2f9",
+      "title": "Kol Salonika III",
+      "artist_credit": "Baruch Chait",
+      "collection_artists": [
+        {
+          "mbid": "aa41b498-b0b3-495f-be40-cd9c8dd93547",
+          "name": "ברוך חייט"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "1975-08-27",
+      "date_precision": "day",
+      "year": 1975,
+      "month": 8,
+      "day": 27,
+      "release_count": 1,
+      "release_mbids": [
+        "dfc12964-6372-45b3-802a-2b420725f1ae"
+      ],
+      "cover_release_mbid": null,
+      "cover_art": null,
+      "musicbrainz_url": "https://musicbrainz.org/release-group/d66a080a-6cee-4b52-9b32-23f887cfb2f9",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://music.apple.com/gb/album/1530069242"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://music.apple.com/gb/album/1530069242"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://open.spotify.com/album/0TImVwn8HHdlW2wUR5rIkp"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://tidal.com/album/153833700"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://www.deezer.com/album/170675452"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0TImVwn8HHdlW2wUR5rIkp"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1530069242"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/170675452"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/153833700"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://open.spotify.com/album/0TImVwn8HHdlW2wUR5rIkp"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://music.apple.com/gb/album/1530069242"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://www.deezer.com/album/170675452"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dfc12964-6372-45b3-802a-2b420725f1ae",
+          "url": "https://tidal.com/album/153833700"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": false,
+      "is_future": false
+    }
+  ]
+}

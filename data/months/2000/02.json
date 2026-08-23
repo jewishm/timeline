@@ -1,0 +1,519 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2000,
+  "month": 2,
+  "stats": {
+    "release_groups": 3,
+    "with_cover_art": 3,
+    "with_action_links": 3,
+    "future_releases": 0,
+    "types": {
+      "Album": 3
+    },
+    "services": {
+      "spotify": 3,
+      "apple_music": 3,
+      "amazon": 2,
+      "deezer": 1,
+      "tidal": 1,
+      "qobuz": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "e167abde-be73-4d45-8879-bf5a6a9b73e5",
+      "title": "A Gitter Yid",
+      "artist_credit": "Yonasan Schwartz",
+      "collection_artists": [
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2000-02-08",
+      "date_precision": "day",
+      "year": 2000,
+      "month": 2,
+      "day": 8,
+      "release_count": 1,
+      "release_mbids": [
+        "38b322af-3f5d-45e6-b8d0-2785d7fbce6a"
+      ],
+      "cover_release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+      "cover_art": {
+        "release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+        "image_id": 36841081554,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/38b322af-3f5d-45e6-b8d0-2785d7fbce6a/36841081554",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/38b322af-3f5d-45e6-b8d0-2785d7fbce6a/36841081554-250.jpg",
+          "500": "https://coverartarchive.org/release/38b322af-3f5d-45e6-b8d0-2785d7fbce6a/36841081554-500.jpg",
+          "1200": "https://coverartarchive.org/release/38b322af-3f5d-45e6-b8d0-2785d7fbce6a/36841081554-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e167abde-be73-4d45-8879-bf5a6a9b73e5",
+      "links": [
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+          "url": "https://music.amazon.com/albums/B09SCKXZ2T"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+          "url": "https://music.apple.com/gb/album/1609049023"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+          "url": "https://music.apple.com/us/album/1609049023"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+          "url": "https://open.spotify.com/album/0LAjQcqq83tXG3wP9zwcgW"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0LAjQcqq83tXG3wP9zwcgW"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1609049023"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B09SCKXZ2T"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+          "url": "https://open.spotify.com/album/0LAjQcqq83tXG3wP9zwcgW"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+          "url": "https://music.apple.com/gb/album/1609049023"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38b322af-3f5d-45e6-b8d0-2785d7fbce6a",
+          "url": "https://music.amazon.com/albums/B09SCKXZ2T"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "a3c16131-d198-4ead-a40b-e553f4a9230d",
+      "title": "You're Never Alone",
+      "artist_credit": "Avraham Fried",
+      "collection_artists": [
+        {
+          "mbid": "21586967-e0f5-458d-94f8-bd228452b049",
+          "name": "Avraham Fried"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2000-02-09",
+      "date_precision": "day",
+      "year": 2000,
+      "month": 2,
+      "day": 9,
+      "release_count": 2,
+      "release_mbids": [
+        "20f754b1-c5dd-4f18-a0e0-ba2e32f520bb",
+        "36c27ad3-78ca-4930-9cfc-6ce8e84ded6c"
+      ],
+      "cover_release_mbid": "36c27ad3-78ca-4930-9cfc-6ce8e84ded6c",
+      "cover_art": {
+        "release_mbid": "36c27ad3-78ca-4930-9cfc-6ce8e84ded6c",
+        "image_id": 36838550146,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/36c27ad3-78ca-4930-9cfc-6ce8e84ded6c/36838550146",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/36c27ad3-78ca-4930-9cfc-6ce8e84ded6c/36838550146-250.jpg",
+          "500": "https://coverartarchive.org/release/36c27ad3-78ca-4930-9cfc-6ce8e84ded6c/36838550146-500.jpg",
+          "1200": "https://coverartarchive.org/release/36c27ad3-78ca-4930-9cfc-6ce8e84ded6c/36838550146-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/a3c16131-d198-4ead-a40b-e553f4a9230d",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "36c27ad3-78ca-4930-9cfc-6ce8e84ded6c",
+          "url": "https://music.apple.com/us/album/375427194"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "20f754b1-c5dd-4f18-a0e0-ba2e32f520bb",
+          "url": "https://open.spotify.com/album/7IoMCVAPk8wWf5fN8Hi3rm"
+        },
+        {
+          "site_key": "rateyourmusic",
+          "site_label": "Rate Your Music",
+          "domain": "rateyourmusic.com",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://rateyourmusic.com/release/album/avraham_fried/youre_never_alone/"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "36c27ad3-78ca-4930-9cfc-6ce8e84ded6c",
+          "url": "https://www.amazon.com/gp/product/B003PK6L28"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7IoMCVAPk8wWf5fN8Hi3rm"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/375427194"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "buy",
+          "url": "https://www.amazon.com/gp/product/B003PK6L28"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "20f754b1-c5dd-4f18-a0e0-ba2e32f520bb",
+          "url": "https://open.spotify.com/album/7IoMCVAPk8wWf5fN8Hi3rm"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "36c27ad3-78ca-4930-9cfc-6ce8e84ded6c",
+          "url": "https://music.apple.com/us/album/375427194"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "36c27ad3-78ca-4930-9cfc-6ce8e84ded6c",
+          "url": "https://www.amazon.com/gp/product/B003PK6L28"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "rateyourmusic",
+          "site_label": "Rate Your Music",
+          "domain": "rateyourmusic.com",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://rateyourmusic.com/release/album/avraham_fried/youre_never_alone/"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "36970e7c-bc0c-4dd5-b425-160dce8c2268",
+      "title": "Ribono Shel Olam (You Promised)",
+      "artist_credit": "Shimon Kugel",
+      "collection_artists": [
+        {
+          "mbid": "f45002e6-2a32-45b9-8938-0bb4a9f0d3b3",
+          "name": "Shimon Kugel"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2000-02-09",
+      "date_precision": "day",
+      "year": 2000,
+      "month": 2,
+      "day": 9,
+      "release_count": 1,
+      "release_mbids": [
+        "381e51b7-cd3d-43ce-8f23-9a8f57c52aac"
+      ],
+      "cover_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+      "cover_art": {
+        "release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+        "image_id": 45664670504,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/381e51b7-cd3d-43ce-8f23-9a8f57c52aac/45664670504",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/381e51b7-cd3d-43ce-8f23-9a8f57c52aac/45664670504-250.jpg",
+          "500": "https://coverartarchive.org/release/381e51b7-cd3d-43ce-8f23-9a8f57c52aac/45664670504-500.jpg",
+          "1200": "https://coverartarchive.org/release/381e51b7-cd3d-43ce-8f23-9a8f57c52aac/45664670504-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/36970e7c-bc0c-4dd5-b425-160dce8c2268",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://music.apple.com/us/album/1609358328"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://music.apple.com/us/album/1609358328"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://open.spotify.com/album/6ig6ScRU2DmP4FfFE1DuIK"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://tidal.com/album/216057020"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://www.deezer.com/album/294455012"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://www.qobuz.com/us-en/album/ribono-shel-olam-you-promised-shimon-kugel/lmf1gibbwlx6b"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://www.qobuz.com/us-en/album/ribono-shel-olam-you-promised-shimon-kugel/lmf1gibbwlx6b"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6ig6ScRU2DmP4FfFE1DuIK"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1609358328"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/294455012"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/216057020"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ribono-shel-olam-you-promised-shimon-kugel/lmf1gibbwlx6b"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://open.spotify.com/album/6ig6ScRU2DmP4FfFE1DuIK"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://music.apple.com/us/album/1609358328"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://www.deezer.com/album/294455012"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://tidal.com/album/216057020"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "381e51b7-cd3d-43ce-8f23-9a8f57c52aac",
+          "url": "https://www.qobuz.com/us-en/album/ribono-shel-olam-you-promised-shimon-kugel/lmf1gibbwlx6b"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

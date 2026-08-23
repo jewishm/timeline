@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2011,
+  "month": 11,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1,
+      "deezer": 1,
+      "tidal": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "5e4dd7a2-b320-4b75-99bc-871d42af2b56",
+      "title": "שעה ברחוב הגליל",
+      "artist_credit": "יוחאי בן אב\"י",
+      "collection_artists": [
+        {
+          "mbid": "78e39f48-55a8-4956-9c37-6193cb053703",
+          "name": "יוחאי בן אב\"י"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2011-11",
+      "date_precision": "month",
+      "year": 2011,
+      "month": 11,
+      "day": null,
+      "release_count": 2,
+      "release_mbids": [
+        "543a138b-3822-4d55-b26c-87f096aa0780",
+        "839860cc-395b-4d03-8774-6c7997a583af"
+      ],
+      "cover_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+      "cover_art": {
+        "release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+        "image_id": 43854462885,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/839860cc-395b-4d03-8774-6c7997a583af/43854462885",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/839860cc-395b-4d03-8774-6c7997a583af/43854462885-250.jpg",
+          "500": "https://coverartarchive.org/release/839860cc-395b-4d03-8774-6c7997a583af/43854462885-500.jpg",
+          "1200": "https://coverartarchive.org/release/839860cc-395b-4d03-8774-6c7997a583af/43854462885-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/5e4dd7a2-b320-4b75-99bc-871d42af2b56",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://music.apple.com/il/album/1135656299"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://music.apple.com/il/album/1135656299"
+        },
+        {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=079451"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://open.spotify.com/album/5IzRy1S90JuEr5pisH3x88"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://tidal.com/album/63166241"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://www.deezer.com/album/13611363"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5IzRy1S90JuEr5pisH3x88"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/il/album/1135656299"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/13611363"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/63166241"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://open.spotify.com/album/5IzRy1S90JuEr5pisH3x88"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://music.apple.com/il/album/1135656299"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://www.deezer.com/album/13611363"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "839860cc-395b-4d03-8774-6c7997a583af",
+          "url": "https://tidal.com/album/63166241"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=079451"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

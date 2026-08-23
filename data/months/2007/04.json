@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2007,
+  "month": 4,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1,
+      "deezer": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "d5493d96-3b61-4e8a-b37e-6aed453a7687",
+      "title": "Vol. 2: Encore",
+      "artist_credit": "Six13",
+      "collection_artists": [
+        {
+          "mbid": "c6d8b845-cf01-42be-bbca-c167f64b2d80",
+          "name": "Six13"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2007-04-01",
+      "date_precision": "day",
+      "year": 2007,
+      "month": 4,
+      "day": 1,
+      "release_count": 2,
+      "release_mbids": [
+        "04d9aedd-a4d2-40d0-9546-9e5a12d91236",
+        "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca"
+      ],
+      "cover_release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+      "cover_art": {
+        "release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+        "image_id": 37783619216,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca/37783619216",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca/37783619216-250.jpg",
+          "500": "https://coverartarchive.org/release/8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca/37783619216-500.jpg",
+          "1200": "https://coverartarchive.org/release/8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca/37783619216-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/d5493d96-3b61-4e8a-b37e-6aed453a7687",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+          "url": "https://music.apple.com/gb/album/983864601"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+          "url": "https://music.apple.com/gb/album/983864601"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+          "url": "https://open.spotify.com/album/7su6RwnwRHimp1PhcLIRIX"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+          "url": "https://www.deezer.com/album/10040082"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7su6RwnwRHimp1PhcLIRIX"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/983864601"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/10040082"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+          "url": "https://open.spotify.com/album/7su6RwnwRHimp1PhcLIRIX"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+          "url": "https://music.apple.com/gb/album/983864601"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8e43ccbd-249a-4afe-a4ca-c3a1f31f3aca",
+          "url": "https://www.deezer.com/album/10040082"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

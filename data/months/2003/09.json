@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2003,
+  "month": 9,
+  "stats": {
+    "release_groups": 2,
+    "with_cover_art": 2,
+    "with_action_links": 2,
+    "future_releases": 0,
+    "types": {
+      "Album": 2
+    },
+    "services": {
+      "spotify": 2,
+      "apple_music": 2,
+      "deezer": 1,
+      "amazon": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "bb4d4618-b79b-452e-84d1-532580abba29",
+      "title": "Ashrecha",
+      "artist_credit": "Michoel Pruzansky & Yochi Briskman",
+      "collection_artists": [
+        {
+          "mbid": "bdee285e-e026-499b-be89-deda60587a10",
+          "name": "Michoel Pruzansky"
+        },
+        {
+          "mbid": "499e69ad-a665-494f-bda2-f9dc18959c2b",
+          "name": "Yochi Briskman"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2003-09-01",
+      "date_precision": "day",
+      "year": 2003,
+      "month": 9,
+      "day": 1,
+      "release_count": 2,
+      "release_mbids": [
+        "bc020dcd-0b10-49bc-833a-7f3e2b222673",
+        "ca511a25-db2e-4a54-9805-0919f31cc873"
+      ],
+      "cover_release_mbid": "bc020dcd-0b10-49bc-833a-7f3e2b222673",
+      "cover_art": {
+        "release_mbid": "bc020dcd-0b10-49bc-833a-7f3e2b222673",
+        "image_id": 40611797921,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/bc020dcd-0b10-49bc-833a-7f3e2b222673/40611797921",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/bc020dcd-0b10-49bc-833a-7f3e2b222673/40611797921-250.jpg",
+          "500": "https://coverartarchive.org/release/bc020dcd-0b10-49bc-833a-7f3e2b222673/40611797921-500.jpg",
+          "1200": "https://coverartarchive.org/release/bc020dcd-0b10-49bc-833a-7f3e2b222673/40611797921-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/bb4d4618-b79b-452e-84d1-532580abba29",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "bc020dcd-0b10-49bc-833a-7f3e2b222673",
+          "url": "https://music.apple.com/us/album/727467653"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ca511a25-db2e-4a54-9805-0919f31cc873",
+          "url": "https://music.apple.com/us/album/727467653"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bc020dcd-0b10-49bc-833a-7f3e2b222673",
+          "url": "https://open.spotify.com/album/1wjcBaXiLkn7sJqqvWEJkF"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bc020dcd-0b10-49bc-833a-7f3e2b222673",
+          "url": "https://www.deezer.com/album/7680827"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1wjcBaXiLkn7sJqqvWEJkF"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/727467653"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/7680827"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bc020dcd-0b10-49bc-833a-7f3e2b222673",
+          "url": "https://open.spotify.com/album/1wjcBaXiLkn7sJqqvWEJkF"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ca511a25-db2e-4a54-9805-0919f31cc873",
+          "url": "https://music.apple.com/us/album/727467653"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bc020dcd-0b10-49bc-833a-7f3e2b222673",
+          "url": "https://www.deezer.com/album/7680827"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "8bd27b61-4897-3f61-8d40-9424d6853d7e",
+      "title": "Kumzits",
+      "artist_credit": "Mordechai Ben David",
+      "collection_artists": [
+        {
+          "mbid": "1ce4381e-039b-451d-a5a0-ab12020a987c",
+          "name": "Mordechai Ben David"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2003-09-08",
+      "date_precision": "day",
+      "year": 2003,
+      "month": 9,
+      "day": 8,
+      "release_count": 2,
+      "release_mbids": [
+        "1987b85c-def9-474f-9180-d1cf4c4a57f5",
+        "8c6e9c49-c8c7-493a-9570-2c793c83f6ce"
+      ],
+      "cover_release_mbid": "8c6e9c49-c8c7-493a-9570-2c793c83f6ce",
+      "cover_art": {
+        "release_mbid": "8c6e9c49-c8c7-493a-9570-2c793c83f6ce",
+        "image_id": 38586287598,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/8c6e9c49-c8c7-493a-9570-2c793c83f6ce/38586287598",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/8c6e9c49-c8c7-493a-9570-2c793c83f6ce/38586287598-250.jpg",
+          "500": "https://coverartarchive.org/release/8c6e9c49-c8c7-493a-9570-2c793c83f6ce/38586287598-500.jpg",
+          "1200": "https://coverartarchive.org/release/8c6e9c49-c8c7-493a-9570-2c793c83f6ce/38586287598-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/8bd27b61-4897-3f61-8d40-9424d6853d7e",
+      "links": [
+        {
+          "site_key": "worldcat",
+          "site_label": "WorldCat",
+          "domain": "worldcat.org",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "1987b85c-def9-474f-9180-d1cf4c4a57f5",
+          "url": "http://www.worldcat.org/oclc/57740344"
+        },
+        {
+          "site_key": "worldcat",
+          "site_label": "WorldCat",
+          "domain": "worldcat.org",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "http://www.worldcat.org/oclc/875075650"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "itunes.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "1987b85c-def9-474f-9180-d1cf4c4a57f5",
+          "url": "https://itunes.apple.com/us/album/id544752540"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c6e9c49-c8c7-493a-9570-2c793c83f6ce",
+          "url": "https://music.apple.com/us/album/1697428134"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1987b85c-def9-474f-9180-d1cf4c4a57f5",
+          "url": "https://open.spotify.com/album/2pU4wVSGen4ngv7BKDHHDG"
+        },
+        {
+          "site_key": "allmusic",
+          "site_label": "AllMusic",
+          "domain": "allmusic.com",
+          "relationship": "allmusic",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.allmusic.com/album/mw0001150252"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "1987b85c-def9-474f-9180-d1cf4c4a57f5",
+          "url": "https://www.amazon.com/gp/product/B008LB7H92"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2pU4wVSGen4ngv7BKDHHDG"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1697428134"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "buy",
+          "url": "https://www.amazon.com/gp/product/B008LB7H92"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1987b85c-def9-474f-9180-d1cf4c4a57f5",
+          "url": "https://open.spotify.com/album/2pU4wVSGen4ngv7BKDHHDG"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c6e9c49-c8c7-493a-9570-2c793c83f6ce",
+          "url": "https://music.apple.com/us/album/1697428134"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "1987b85c-def9-474f-9180-d1cf4c4a57f5",
+          "url": "https://www.amazon.com/gp/product/B008LB7H92"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "worldcat",
+          "site_label": "WorldCat",
+          "domain": "worldcat.org",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "1987b85c-def9-474f-9180-d1cf4c4a57f5",
+          "url": "http://www.worldcat.org/oclc/57740344"
+        },
+        {
+          "site_key": "worldcat",
+          "site_label": "WorldCat",
+          "domain": "worldcat.org",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "http://www.worldcat.org/oclc/875075650"
+        },
+        {
+          "site_key": "allmusic",
+          "site_label": "AllMusic",
+          "domain": "allmusic.com",
+          "relationship": "allmusic",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.allmusic.com/album/mw0001150252"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2003,
+  "month": 2,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "spotify": 1,
+      "apple_music": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "4970eea1-d60a-4afe-afbe-6f61bf99157e",
+      "title": "Aish Volume Two",
+      "artist_credit": "Abie Rotenberg & Shlomo Simcha",
+      "collection_artists": [
+        {
+          "mbid": "80541804-dd82-4478-b319-52f3337ffe63",
+          "name": "Abie Rotenberg"
+        },
+        {
+          "mbid": "c1cc0c1e-2728-4989-bdcd-38fc75755e77",
+          "name": "Shlomo Simcha"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2003-02-02",
+      "date_precision": "day",
+      "year": 2003,
+      "month": 2,
+      "day": 2,
+      "release_count": 1,
+      "release_mbids": [
+        "3feb4196-c56d-4307-855f-1c578f06e000"
+      ],
+      "cover_release_mbid": "3feb4196-c56d-4307-855f-1c578f06e000",
+      "cover_art": {
+        "release_mbid": "3feb4196-c56d-4307-855f-1c578f06e000",
+        "image_id": 37678238064,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/3feb4196-c56d-4307-855f-1c578f06e000/37678238064",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/3feb4196-c56d-4307-855f-1c578f06e000/37678238064-250.jpg",
+          "500": "https://coverartarchive.org/release/3feb4196-c56d-4307-855f-1c578f06e000/37678238064-500.jpg",
+          "1200": "https://coverartarchive.org/release/3feb4196-c56d-4307-855f-1c578f06e000/37678238064-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4970eea1-d60a-4afe-afbe-6f61bf99157e",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3feb4196-c56d-4307-855f-1c578f06e000",
+          "url": "https://music.apple.com/gb/album/1615631444"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3feb4196-c56d-4307-855f-1c578f06e000",
+          "url": "https://open.spotify.com/album/5jUdkk6F3nivcRrkc1GByW"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5jUdkk6F3nivcRrkc1GByW"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1615631444"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3feb4196-c56d-4307-855f-1c578f06e000",
+          "url": "https://open.spotify.com/album/5jUdkk6F3nivcRrkc1GByW"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3feb4196-c56d-4307-855f-1c578f06e000",
+          "url": "https://music.apple.com/gb/album/1615631444"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

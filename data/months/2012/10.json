@@ -1,0 +1,330 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2012,
+  "month": 10,
+  "stats": {
+    "release_groups": 2,
+    "with_cover_art": 2,
+    "with_action_links": 2,
+    "future_releases": 0,
+    "types": {
+      "Album": 2
+    },
+    "services": {
+      "spotify": 2,
+      "apple_music": 2,
+      "mostly_music": 1,
+      "amazon": 1,
+      "deezer": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "fbf3d0cd-9a10-4abf-bfb2-9324d84f0409",
+      "title": "Yesh Tikvah",
+      "artist_credit": "Benny Friedman",
+      "collection_artists": [
+        {
+          "mbid": "cd2a8c6d-6c11-414b-89da-3bead475d86a",
+          "name": "Benny Friedman"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2012-10-03",
+      "date_precision": "day",
+      "year": 2012,
+      "month": 10,
+      "day": 3,
+      "release_count": 3,
+      "release_mbids": [
+        "398222dc-96cd-4752-a38a-7608a510bb7c",
+        "3cdbab54-ecfd-47e6-b58f-8d3338495c41",
+        "fc8bd514-a6b8-4e5e-8781-d85fdd3e1f0b"
+      ],
+      "cover_release_mbid": "398222dc-96cd-4752-a38a-7608a510bb7c",
+      "cover_art": {
+        "release_mbid": "398222dc-96cd-4752-a38a-7608a510bb7c",
+        "image_id": 37598564885,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/398222dc-96cd-4752-a38a-7608a510bb7c/37598564885",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/398222dc-96cd-4752-a38a-7608a510bb7c/37598564885-250.jpg",
+          "500": "https://coverartarchive.org/release/398222dc-96cd-4752-a38a-7608a510bb7c/37598564885-500.jpg",
+          "1200": "https://coverartarchive.org/release/398222dc-96cd-4752-a38a-7608a510bb7c/37598564885-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/fbf3d0cd-9a10-4abf-bfb2-9324d84f0409",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "itunes.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "fc8bd514-a6b8-4e5e-8781-d85fdd3e1f0b",
+          "url": "https://itunes.apple.com/us/album/id568071881"
+        },
+        {
+          "site_key": "mostly_music",
+          "site_label": "Mostly Music",
+          "domain": "mostlymusic.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "fc8bd514-a6b8-4e5e-8781-d85fdd3e1f0b",
+          "url": "https://mostlymusic.com/products/yesh-tikvah"
+        },
+        {
+          "site_key": "mostly_music",
+          "site_label": "Mostly Music",
+          "domain": "mostlymusic.com",
+          "relationship": "purchase for mail-order",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3cdbab54-ecfd-47e6-b58f-8d3338495c41",
+          "url": "https://mostlymusic.com/products/yesh-tikvah"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "398222dc-96cd-4752-a38a-7608a510bb7c",
+          "url": "https://music.apple.com/gb/album/568071881"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "398222dc-96cd-4752-a38a-7608a510bb7c",
+          "url": "https://open.spotify.com/album/38yua9Aq7Cgx2nkLKaVt3N"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3cdbab54-ecfd-47e6-b58f-8d3338495c41",
+          "url": "https://www.amazon.com/gp/product/B009FR3KNI"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/38yua9Aq7Cgx2nkLKaVt3N"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/568071881"
+        },
+        "mostly_music": {
+          "label": "Mostly Music",
+          "kind": "buy",
+          "url": "https://mostlymusic.com/products/yesh-tikvah"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "buy",
+          "url": "https://www.amazon.com/gp/product/B009FR3KNI"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "398222dc-96cd-4752-a38a-7608a510bb7c",
+          "url": "https://open.spotify.com/album/38yua9Aq7Cgx2nkLKaVt3N"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "398222dc-96cd-4752-a38a-7608a510bb7c",
+          "url": "https://music.apple.com/gb/album/568071881"
+        },
+        {
+          "site_key": "mostly_music",
+          "site_label": "Mostly Music",
+          "domain": "mostlymusic.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "fc8bd514-a6b8-4e5e-8781-d85fdd3e1f0b",
+          "url": "https://mostlymusic.com/products/yesh-tikvah"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3cdbab54-ecfd-47e6-b58f-8d3338495c41",
+          "url": "https://www.amazon.com/gp/product/B009FR3KNI"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "bafa780d-c479-4441-9ac7-476c98f6b7d1",
+      "title": "Reshimu",
+      "artist_credit": "Yitzhak Attias",
+      "collection_artists": [
+        {
+          "mbid": "14201fa8-acc4-4bfc-b939-ddb79b0e8384",
+          "name": "Yitzhak Attias"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2012-10-26",
+      "date_precision": "day",
+      "year": 2012,
+      "month": 10,
+      "day": 26,
+      "release_count": 1,
+      "release_mbids": [
+        "c48e3617-05df-476c-b1f5-fbb62ca6ddf6"
+      ],
+      "cover_release_mbid": "c48e3617-05df-476c-b1f5-fbb62ca6ddf6",
+      "cover_art": {
+        "release_mbid": "c48e3617-05df-476c-b1f5-fbb62ca6ddf6",
+        "image_id": 39590349692,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/c48e3617-05df-476c-b1f5-fbb62ca6ddf6/39590349692",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/c48e3617-05df-476c-b1f5-fbb62ca6ddf6/39590349692-250.jpg",
+          "500": "https://coverartarchive.org/release/c48e3617-05df-476c-b1f5-fbb62ca6ddf6/39590349692-500.jpg",
+          "1200": "https://coverartarchive.org/release/c48e3617-05df-476c-b1f5-fbb62ca6ddf6/39590349692-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/bafa780d-c479-4441-9ac7-476c98f6b7d1",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c48e3617-05df-476c-b1f5-fbb62ca6ddf6",
+          "url": "https://music.apple.com/gb/album/577211491"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c48e3617-05df-476c-b1f5-fbb62ca6ddf6",
+          "url": "https://open.spotify.com/album/7HQAvKzWOTUHyV79NxnRUt"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c48e3617-05df-476c-b1f5-fbb62ca6ddf6",
+          "url": "https://www.deezer.com/album/8025294"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7HQAvKzWOTUHyV79NxnRUt"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/577211491"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/8025294"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c48e3617-05df-476c-b1f5-fbb62ca6ddf6",
+          "url": "https://open.spotify.com/album/7HQAvKzWOTUHyV79NxnRUt"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c48e3617-05df-476c-b1f5-fbb62ca6ddf6",
+          "url": "https://music.apple.com/gb/album/577211491"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c48e3617-05df-476c-b1f5-fbb62ca6ddf6",
+          "url": "https://www.deezer.com/album/8025294"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

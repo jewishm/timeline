@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2009,
+  "month": 7,
+  "stats": {
+    "release_groups": 1,
+    "with_cover_art": 1,
+    "with_action_links": 1,
+    "future_releases": 0,
+    "types": {
+      "Album": 1
+    },
+    "services": {
+      "apple_music": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "f9ebf416-7709-4c0f-a98a-20483a85a81d",
+      "title": "רק לבקש",
+      "artist_credit": "אלדר יחיאל",
+      "collection_artists": [
+        {
+          "mbid": "ad269206-78a4-4866-9524-9ba13e0ce0bb",
+          "name": "אלדר יחיאל"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2009-07",
+      "date_precision": "month",
+      "year": 2009,
+      "month": 7,
+      "day": null,
+      "release_count": 2,
+      "release_mbids": [
+        "1673b753-c021-4e64-b8cb-e48d3aa2f915",
+        "f8f96766-a0b1-43eb-a465-3db13e1e2ab7"
+      ],
+      "cover_release_mbid": "1673b753-c021-4e64-b8cb-e48d3aa2f915",
+      "cover_art": {
+        "release_mbid": "1673b753-c021-4e64-b8cb-e48d3aa2f915",
+        "image_id": 44883534205,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/1673b753-c021-4e64-b8cb-e48d3aa2f915/44883534205",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/1673b753-c021-4e64-b8cb-e48d3aa2f915/44883534205-250.jpg",
+          "500": "https://coverartarchive.org/release/1673b753-c021-4e64-b8cb-e48d3aa2f915/44883534205-500.jpg",
+          "1200": "https://coverartarchive.org/release/1673b753-c021-4e64-b8cb-e48d3aa2f915/44883534205-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/f9ebf416-7709-4c0f-a98a-20483a85a81d",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1673b753-c021-4e64-b8cb-e48d3aa2f915",
+          "url": "https://music.apple.com/no/album/1277646175"
+        }
+      ],
+      "preferred_links": {
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/no/album/1277646175"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1673b753-c021-4e64-b8cb-e48d3aa2f915",
+          "url": "https://music.apple.com/no/album/1277646175"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}

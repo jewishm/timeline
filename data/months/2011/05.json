@@ -1,0 +1,910 @@
+{
+  "generated_at": "2026-08-23T13:33:41.046325+00:00",
+  "year": 2011,
+  "month": 5,
+  "stats": {
+    "release_groups": 5,
+    "with_cover_art": 5,
+    "with_action_links": 5,
+    "future_releases": 0,
+    "types": {
+      "Album": 3,
+      "Single": 2
+    },
+    "services": {
+      "spotify": 4,
+      "apple_music": 4,
+      "deezer": 3,
+      "amazon": 3,
+      "tidal": 1,
+      "qobuz": 1,
+      "youtube": 1,
+      "bandcamp": 1
+    }
+  },
+  "releases": [
+    {
+      "release_group_mbid": "ca630903-c7bf-449f-87d5-e786da326ec6",
+      "title": "Bchul Huoilmuois",
+      "artist_credit": "Moshe Goldman",
+      "collection_artists": [
+        {
+          "mbid": "582a2945-ef27-4dca-8e3f-ac2d59bbd7fd",
+          "name": "Moshe Goldman"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2011-05-04",
+      "date_precision": "day",
+      "year": 2011,
+      "month": 5,
+      "day": 4,
+      "release_count": 3,
+      "release_mbids": [
+        "04921a32-c979-4f79-b33b-c29279cf9a3b",
+        "1fb00a15-769c-430d-a3da-09c86798354a",
+        "fc0e9940-b3e6-4bed-ac5c-84071101bdfd"
+      ],
+      "cover_release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+      "cover_art": {
+        "release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+        "image_id": 43900346059,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/04921a32-c979-4f79-b33b-c29279cf9a3b/43900346059",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/04921a32-c979-4f79-b33b-c29279cf9a3b/43900346059-250.jpg",
+          "500": "https://coverartarchive.org/release/04921a32-c979-4f79-b33b-c29279cf9a3b/43900346059-500.jpg",
+          "1200": "https://coverartarchive.org/release/04921a32-c979-4f79-b33b-c29279cf9a3b/43900346059-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ca630903-c7bf-449f-87d5-e786da326ec6",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fc0e9940-b3e6-4bed-ac5c-84071101bdfd",
+          "url": "https://music.apple.com/gb/album/1622871203"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+          "url": "https://music.apple.com/us/album/1622581107"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+          "url": "https://music.apple.com/us/album/1622581107"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fc0e9940-b3e6-4bed-ac5c-84071101bdfd",
+          "url": "https://open.spotify.com/album/3xZqYKntZhLAChLrjoWwB4"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+          "url": "https://open.spotify.com/album/7AGDniSUYFTq7qkxoHuj7T"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+          "url": "https://tidal.com/album/341407358"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "1fb00a15-769c-430d-a3da-09c86798354a",
+          "url": "https://www.amazon.com/gp/product/B09ZPZ26B2"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+          "url": "https://www.deezer.com/album/538086392"
+        },
+        {
+          "site_key": "other",
+          "site_label": "ivelt.com",
+          "domain": "ivelt.com",
+          "relationship": "review",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.ivelt.com/forum/viewtopic.php?p=354646#p354646"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/3xZqYKntZhLAChLrjoWwB4"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1622871203"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/538086392"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/341407358"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "buy",
+          "url": "https://www.amazon.com/gp/product/B09ZPZ26B2"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fc0e9940-b3e6-4bed-ac5c-84071101bdfd",
+          "url": "https://open.spotify.com/album/3xZqYKntZhLAChLrjoWwB4"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fc0e9940-b3e6-4bed-ac5c-84071101bdfd",
+          "url": "https://music.apple.com/gb/album/1622871203"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+          "url": "https://www.deezer.com/album/538086392"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "04921a32-c979-4f79-b33b-c29279cf9a3b",
+          "url": "https://tidal.com/album/341407358"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "1fb00a15-769c-430d-a3da-09c86798354a",
+          "url": "https://www.amazon.com/gp/product/B09ZPZ26B2"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "other",
+          "site_label": "ivelt.com",
+          "domain": "ivelt.com",
+          "relationship": "review",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.ivelt.com/forum/viewtopic.php?p=354646#p354646"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "9204599a-d246-4be9-ae46-3ac0fcf3dc39",
+      "title": "Eitan Katz Unplugged 2",
+      "artist_credit": "Eitan Katz",
+      "collection_artists": [
+        {
+          "mbid": "33a388d9-e6f4-451b-b028-baf859cbee06",
+          "name": "Eitan Katz"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2011-05-22",
+      "date_precision": "day",
+      "year": 2011,
+      "month": 5,
+      "day": 22,
+      "release_count": 1,
+      "release_mbids": [
+        "56bd125a-31db-4335-8c15-0f54e631056f"
+      ],
+      "cover_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+      "cover_art": {
+        "release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+        "image_id": 36880602414,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/56bd125a-31db-4335-8c15-0f54e631056f/36880602414",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/56bd125a-31db-4335-8c15-0f54e631056f/36880602414-250.jpg",
+          "500": "https://coverartarchive.org/release/56bd125a-31db-4335-8c15-0f54e631056f/36880602414-500.jpg",
+          "1200": "https://coverartarchive.org/release/56bd125a-31db-4335-8c15-0f54e631056f/36880602414-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/9204599a-d246-4be9-ae46-3ac0fcf3dc39",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://music.apple.com/us/album/438835833"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://music.apple.com/us/album/438835833"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://open.spotify.com/album/2nF8iB8Uya4ZbFSTPju3w7"
+        },
+        {
+          "site_key": "allmusic",
+          "site_label": "AllMusic",
+          "domain": "allmusic.com",
+          "relationship": "allmusic",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.allmusic.com/album/mw0002183238"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.amazon.com/gp/product/B004MC22BC"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.deezer.com/album/7675281"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.qobuz.com/us-en/album/eitan-katz-unplugged-2-eitan-katz/s1uxjwdp5e8rb"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.qobuz.com/us-en/album/eitan-katz-unplugged-2-eitan-katz/s1uxjwdp5e8rb"
+        },
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.youtube.com/playlist?list=OLAK5uy_ke0vE9Ap6tsD8NY4aLAHtbQ8nAgCk8LSU"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2nF8iB8Uya4ZbFSTPju3w7"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/438835833"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/7675281"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/eitan-katz-unplugged-2-eitan-katz/s1uxjwdp5e8rb"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "buy",
+          "url": "https://www.amazon.com/gp/product/B004MC22BC"
+        },
+        "youtube": {
+          "label": "YouTube",
+          "kind": "listen",
+          "url": "https://www.youtube.com/playlist?list=OLAK5uy_ke0vE9Ap6tsD8NY4aLAHtbQ8nAgCk8LSU"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://open.spotify.com/album/2nF8iB8Uya4ZbFSTPju3w7"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://music.apple.com/us/album/438835833"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.deezer.com/album/7675281"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.qobuz.com/us-en/album/eitan-katz-unplugged-2-eitan-katz/s1uxjwdp5e8rb"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.com",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.amazon.com/gp/product/B004MC22BC"
+        },
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "56bd125a-31db-4335-8c15-0f54e631056f",
+          "url": "https://www.youtube.com/playlist?list=OLAK5uy_ke0vE9Ap6tsD8NY4aLAHtbQ8nAgCk8LSU"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "allmusic",
+          "site_label": "AllMusic",
+          "domain": "allmusic.com",
+          "relationship": "allmusic",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.allmusic.com/album/mw0002183238"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "c42a5f43-edbe-4afe-841f-fcf6d8e9ea1e",
+      "title": "This World Is Nothing",
+      "artist_credit": "Moshiach Oi!",
+      "collection_artists": [
+        {
+          "mbid": "67c6bb19-95e5-4d75-939a-d079f24cfe52",
+          "name": "Moshiach Oi!"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2011-05-22",
+      "date_precision": "day",
+      "year": 2011,
+      "month": 5,
+      "day": 22,
+      "release_count": 1,
+      "release_mbids": [
+        "2a22b11c-7c2e-4097-97b0-5b754ecc0f1d"
+      ],
+      "cover_release_mbid": "2a22b11c-7c2e-4097-97b0-5b754ecc0f1d",
+      "cover_art": {
+        "release_mbid": "2a22b11c-7c2e-4097-97b0-5b754ecc0f1d",
+        "image_id": 42103305027,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/2a22b11c-7c2e-4097-97b0-5b754ecc0f1d/42103305027",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/2a22b11c-7c2e-4097-97b0-5b754ecc0f1d/42103305027-250.jpg",
+          "500": "https://coverartarchive.org/release/2a22b11c-7c2e-4097-97b0-5b754ecc0f1d/42103305027-500.jpg",
+          "1200": "https://coverartarchive.org/release/2a22b11c-7c2e-4097-97b0-5b754ecc0f1d/42103305027-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/c42a5f43-edbe-4afe-841f-fcf6d8e9ea1e",
+      "links": [
+        {
+          "site_key": "bandcamp",
+          "site_label": "Bandcamp",
+          "domain": "moshiachoi.bandcamp.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2a22b11c-7c2e-4097-97b0-5b754ecc0f1d",
+          "url": "https://moshiachoi.bandcamp.com/album/this-world-is-nothing"
+        },
+        {
+          "site_key": "bandcamp",
+          "site_label": "Bandcamp",
+          "domain": "moshiachoi.bandcamp.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "2a22b11c-7c2e-4097-97b0-5b754ecc0f1d",
+          "url": "https://moshiachoi.bandcamp.com/album/this-world-is-nothing"
+        },
+        {
+          "site_key": "rateyourmusic",
+          "site_label": "Rate Your Music",
+          "domain": "rateyourmusic.com",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://rateyourmusic.com/release/album/moshiach-oi/this-world-is-nothing/"
+        }
+      ],
+      "preferred_links": {
+        "bandcamp": {
+          "label": "Bandcamp",
+          "kind": "listen",
+          "url": "https://moshiachoi.bandcamp.com/album/this-world-is-nothing"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "bandcamp",
+          "site_label": "Bandcamp",
+          "domain": "moshiachoi.bandcamp.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2a22b11c-7c2e-4097-97b0-5b754ecc0f1d",
+          "url": "https://moshiachoi.bandcamp.com/album/this-world-is-nothing"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "rateyourmusic",
+          "site_label": "Rate Your Music",
+          "domain": "rateyourmusic.com",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://rateyourmusic.com/release/album/moshiach-oi/this-world-is-nothing/"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "c2663b6b-eff1-4f79-87aa-b2a7ff624996",
+      "title": "Treading Water",
+      "artist_credit": "Alex Clare",
+      "collection_artists": [
+        {
+          "mbid": "e8c8a3c3-29b6-421e-b977-fb6796231d41",
+          "name": "Alex Clare"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2011-05-27",
+      "date_precision": "day",
+      "year": 2011,
+      "month": 5,
+      "day": 27,
+      "release_count": 3,
+      "release_mbids": [
+        "49ff1943-f6b8-4601-8c03-b7310950cab9",
+        "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+        "f2d37cec-2b85-4cb7-bb63-5217eefc07ef"
+      ],
+      "cover_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+      "cover_art": {
+        "release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+        "image_id": 38455570067,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e58c7f96-1aa5-4940-ba5c-16e62f4698c6/38455570067",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/e58c7f96-1aa5-4940-ba5c-16e62f4698c6/38455570067-250.jpg",
+          "500": "https://coverartarchive.org/release/e58c7f96-1aa5-4940-ba5c-16e62f4698c6/38455570067-500.jpg",
+          "1200": "https://coverartarchive.org/release/e58c7f96-1aa5-4940-ba5c-16e62f4698c6/38455570067-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/c2663b6b-eff1-4f79-87aa-b2a7ff624996",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+          "url": "https://music.apple.com/gb/album/1445175982"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+          "url": "https://open.spotify.com/album/5rKkManX4G4uxm5Lq1cz6N"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.co.uk",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "f2d37cec-2b85-4cb7-bb63-5217eefc07ef",
+          "url": "https://www.amazon.co.uk/gp/product/B0050DTU3K"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+          "url": "https://www.deezer.com/album/5748811"
+        },
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "49ff1943-f6b8-4601-8c03-b7310950cab9",
+          "url": "https://www.discogs.com/release/4610672"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5rKkManX4G4uxm5Lq1cz6N"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1445175982"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/5748811"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "buy",
+          "url": "https://www.amazon.co.uk/gp/product/B0050DTU3K"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+          "url": "https://open.spotify.com/album/5rKkManX4G4uxm5Lq1cz6N"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+          "url": "https://music.apple.com/gb/album/1445175982"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e58c7f96-1aa5-4940-ba5c-16e62f4698c6",
+          "url": "https://www.deezer.com/album/5748811"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "amazon.co.uk",
+          "relationship": "amazon asin",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "f2d37cec-2b85-4cb7-bb63-5217eefc07ef",
+          "url": "https://www.amazon.co.uk/gp/product/B0050DTU3K"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "49ff1943-f6b8-4601-8c03-b7310950cab9",
+          "url": "https://www.discogs.com/release/4610672"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "4b1d5c81-ee58-4961-8aab-529df426538e",
+      "title": "Kol Berama",
+      "artist_credit": "Simcha Leiner",
+      "collection_artists": [
+        {
+          "mbid": "b54de85f-4443-4e10-814d-e907f180e9dd",
+          "name": "Simcha Leiner"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2011-05-28",
+      "date_precision": "day",
+      "year": 2011,
+      "month": 5,
+      "day": 28,
+      "release_count": 1,
+      "release_mbids": [
+        "f8a14024-f386-42f9-bdd1-20fbdd3082df"
+      ],
+      "cover_release_mbid": "f8a14024-f386-42f9-bdd1-20fbdd3082df",
+      "cover_art": {
+        "release_mbid": "f8a14024-f386-42f9-bdd1-20fbdd3082df",
+        "image_id": 39045772691,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/f8a14024-f386-42f9-bdd1-20fbdd3082df/39045772691",
+        "thumbnails": {
+          "250": "https://coverartarchive.org/release/f8a14024-f386-42f9-bdd1-20fbdd3082df/39045772691-250.jpg",
+          "500": "https://coverartarchive.org/release/f8a14024-f386-42f9-bdd1-20fbdd3082df/39045772691-500.jpg",
+          "1200": "https://coverartarchive.org/release/f8a14024-f386-42f9-bdd1-20fbdd3082df/39045772691-1200.jpg"
+        }
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4b1d5c81-ee58-4961-8aab-529df426538e",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f8a14024-f386-42f9-bdd1-20fbdd3082df",
+          "url": "https://music.apple.com/gb/album/507456426"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f8a14024-f386-42f9-bdd1-20fbdd3082df",
+          "url": "https://open.spotify.com/album/5MEQU9EBHOWZvrVgGUTgkL"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5MEQU9EBHOWZvrVgGUTgkL"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/507456426"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f8a14024-f386-42f9-bdd1-20fbdd3082df",
+          "url": "https://open.spotify.com/album/5MEQU9EBHOWZvrVgGUTgkL"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f8a14024-f386-42f9-bdd1-20fbdd3082df",
+          "url": "https://music.apple.com/gb/album/507456426"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
+}
