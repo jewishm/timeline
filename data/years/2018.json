@@ -1270,6 +1270,28 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/e178dc6f-a4ca-4b7f-8801-99f8a9e044c7",
       "links": [
         {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://music.apple.com/us/album/1443249921"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://music.apple.com/us/album/1443249921"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -1279,6 +1301,50 @@
           "source": "release",
           "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
           "url": "https://open.spotify.com/album/2gpB1pX67fhWVpeGXBGarI"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://tidal.com/album/101448929"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.deezer.com/album/82670172"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.qobuz.com/us-en/album/stronger-closer-8th-day/vy74pvpw5w1ac"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.qobuz.com/us-en/album/stronger-closer-8th-day/vy74pvpw5w1ac"
         }
       ],
       "preferred_links": {
@@ -1286,6 +1352,26 @@
           "label": "Spotify",
           "kind": "listen",
           "url": "https://open.spotify.com/album/2gpB1pX67fhWVpeGXBGarI"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1443249921"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/82670172"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/101448929"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/stronger-closer-8th-day/vy74pvpw5w1ac"
         }
       },
       "actions": [
@@ -1299,6 +1385,50 @@
           "source": "release",
           "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
           "url": "https://open.spotify.com/album/2gpB1pX67fhWVpeGXBGarI"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://music.apple.com/us/album/1443249921"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.deezer.com/album/82670172"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://tidal.com/album/101448929"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.qobuz.com/us-en/album/stronger-closer-8th-day/vy74pvpw5w1ac"
         }
       ],
       "references": [],
@@ -1712,6 +1842,17 @@
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a82e9773-ace6-4ba0-98b1-c706ff9d21ec",
+          "url": "https://music.apple.com/us/album/1527296240"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
           "relationship": "streaming",
           "action": true,
           "action_kind": "listen",
@@ -1740,6 +1881,17 @@
           "source": "release",
           "source_release_mbid": "a82e9773-ace6-4ba0-98b1-c706ff9d21ec",
           "url": "https://open.spotify.com/album/3QB4yLSNIwBO5SWlXhk7bP"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a82e9773-ace6-4ba0-98b1-c706ff9d21ec",
+          "url": "https://tidal.com/album/152203677"
         }
       ],
       "preferred_links": {
@@ -1757,6 +1909,11 @@
           "label": "YouTube Music",
           "kind": "listen",
           "url": "https://music.youtube.com/playlist?list=OLAK5uy_kJesPoGlOQ4GO96lRO45sWi6DOUOeclRw"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/152203677"
         }
       },
       "actions": [
@@ -1792,6 +1949,17 @@
           "source": "release",
           "source_release_mbid": "a82e9773-ace6-4ba0-98b1-c706ff9d21ec",
           "url": "https://music.youtube.com/playlist?list=OLAK5uy_kJesPoGlOQ4GO96lRO45sWi6DOUOeclRw"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a82e9773-ace6-4ba0-98b1-c706ff9d21ec",
+          "url": "https://tidal.com/album/152203677"
         }
       ],
       "references": [],

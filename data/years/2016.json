@@ -2,8 +2,8 @@
   "year": 2016,
   "stats": {
     "release_groups": 171,
-    "dated_release_groups": 160,
-    "year_only_release_groups": 11,
+    "dated_release_groups": 161,
+    "year_only_release_groups": 10,
     "artists": 119,
     "months_with_releases": 12,
     "types": {
@@ -1049,9 +1049,9 @@
     },
     {
       "month": 12,
-      "release_groups": 15,
+      "release_groups": 16,
       "types": {
-        "Album": 6,
+        "Album": 7,
         "EP": 1,
         "Single": 8
       },
@@ -1221,179 +1221,6 @@
     }
   ],
   "year_only_releases": [
-    {
-      "release_group_mbid": "cd5528ce-daac-436e-a0f4-c742df2d4365",
-      "title": "Fill The World With Light",
-      "artist_credit": "Benny Friedman",
-      "credited_artists": [
-        {
-          "mbid": "cd2a8c6d-6c11-414b-89da-3bead475d86a",
-          "name": "Benny Friedman",
-          "position": 0,
-          "credit_name": "Benny Friedman",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "cd2a8c6d-6c11-414b-89da-3bead475d86a",
-          "name": "Benny Friedman"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2016",
-      "date_precision": "year",
-      "year": 2016,
-      "month": null,
-      "day": null,
-      "release_count": 2,
-      "release_mbids": [
-        "3a8639de-b3e2-4bfd-a12a-9f5c39214338",
-        "b670bf33-5f01-4ba8-9fa1-ba8f53b8d039"
-      ],
-      "cover_release_mbid": "b670bf33-5f01-4ba8-9fa1-ba8f53b8d039",
-      "cover_art": {
-        "release_mbid": "b670bf33-5f01-4ba8-9fa1-ba8f53b8d039",
-        "image_id": 19665475401,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/b670bf33-5f01-4ba8-9fa1-ba8f53b8d039/19665475401",
-        "thumbnails": {
-          "250": "/covers/b670bf33-5f01-4ba8-9fa1-ba8f53b8d039--19665475401.webp",
-          "500": "/covers/b670bf33-5f01-4ba8-9fa1-ba8f53b8d039--19665475401.webp",
-          "1200": "/covers/b670bf33-5f01-4ba8-9fa1-ba8f53b8d039--19665475401.webp"
-        },
-        "cached": "/covers/b670bf33-5f01-4ba8-9fa1-ba8f53b8d039--19665475401.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/cd5528ce-daac-436e-a0f4-c742df2d4365",
-      "links": [
-        {
-          "site_key": "genius",
-          "site_label": "Genius",
-          "domain": "genius.com",
-          "relationship": "lyrics",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://genius.com/albums/Benny-friedman/Fill-the-world-with-light"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "3a8639de-b3e2-4bfd-a12a-9f5c39214338",
-          "url": "https://itunes.apple.com/us/album/id1185403681"
-        },
-        {
-          "site_key": "mostly_music",
-          "site_label": "Mostly Music",
-          "domain": "mostlymusic.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "3a8639de-b3e2-4bfd-a12a-9f5c39214338",
-          "url": "https://mostlymusic.com/products/benny-fill-the-world-with-light"
-        },
-        {
-          "site_key": "mostly_music",
-          "site_label": "Mostly Music",
-          "domain": "mostlymusic.com",
-          "relationship": "purchase for mail-order",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "b670bf33-5f01-4ba8-9fa1-ba8f53b8d039",
-          "url": "https://mostlymusic.com/products/benny-fill-the-world-with-light"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "b670bf33-5f01-4ba8-9fa1-ba8f53b8d039",
-          "url": "https://www.amazon.com/gp/product/B01N7HW77C"
-        }
-      ],
-      "preferred_links": {
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "buy",
-          "url": "https://itunes.apple.com/us/album/id1185403681"
-        },
-        "mostly_music": {
-          "label": "Mostly Music",
-          "kind": "buy",
-          "url": "https://mostlymusic.com/products/benny-fill-the-world-with-light"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B01N7HW77C"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "3a8639de-b3e2-4bfd-a12a-9f5c39214338",
-          "url": "https://itunes.apple.com/us/album/id1185403681"
-        },
-        {
-          "site_key": "mostly_music",
-          "site_label": "Mostly Music",
-          "domain": "mostlymusic.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "3a8639de-b3e2-4bfd-a12a-9f5c39214338",
-          "url": "https://mostlymusic.com/products/benny-fill-the-world-with-light"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "b670bf33-5f01-4ba8-9fa1-ba8f53b8d039",
-          "url": "https://www.amazon.com/gp/product/B01N7HW77C"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "genius",
-          "site_label": "Genius",
-          "domain": "genius.com",
-          "relationship": "lyrics",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://genius.com/albums/Benny-friedman/Fill-the-world-with-light"
-        }
-      ],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
     {
       "release_group_mbid": "2f103d0c-dd3a-47d5-bed3-c60d74d5be7f",
       "title": "Inspired by Tradition",
