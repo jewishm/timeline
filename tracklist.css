@@ -1,0 +1,273 @@
+
+/* ============================================
+   Compact listening / purchase links
+   ============================================ */
+
+.dialog-actions,
+.standalone-actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin-top: 20px !important;
+}
+
+.dialog-actions .dialog-action,
+.standalone-actions .dialog-action {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+
+  width: auto !important;
+  min-width: 0 !important;
+  min-height: 34px !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 5px !important;
+
+  padding:
+    7px
+    11px !important;
+
+  border-radius: 11px !important;
+}
+
+.dialog-actions .dialog-action span,
+.standalone-actions .dialog-action span {
+  white-space: nowrap !important;
+  font-size: 12px !important;
+  line-height: 1 !important;
+}
+
+.dialog-actions .dialog-action small,
+.standalone-actions .dialog-action small {
+  display: none !important;
+}
+
+.dialog-actions .dialog-action::after,
+.standalone-actions .dialog-action::after {
+  content: "↗";
+
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1;
+}
+
+
+/* ============================================
+   Tracklist
+   ============================================ */
+
+.tracklist-panel {
+  margin-top: 23px;
+
+  overflow: hidden;
+
+  border:
+    1px solid
+    var(--line);
+
+  border-radius: 16px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      .025
+    );
+}
+
+.tracklist-panel summary {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  min-height: 49px;
+
+  padding:
+    0
+    43px
+    0
+    14px;
+
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.tracklist-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.tl-summary-title {
+  color: #f2f2f2;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.tl-summary-meta {
+  margin-left: auto;
+
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.tl-chevron {
+  position: absolute;
+
+  right: 17px;
+  top: 50%;
+
+  color: var(--muted);
+
+  font-size: 22px;
+  line-height: 1;
+
+  transform:
+    translateY(-50%)
+    rotate(90deg);
+
+  transition:
+    transform
+    .16s ease;
+}
+
+.tracklist-panel[open]
+.tl-chevron {
+  transform:
+    translateY(-50%)
+    rotate(-90deg);
+}
+
+.tracklist-content {
+  padding:
+    7px
+    0
+    4px;
+
+  border-top:
+    1px solid
+    var(--line);
+}
+
+.tl-medium
++ .tl-medium {
+  margin-top: 13px;
+  padding-top: 10px;
+
+  border-top:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      .055
+    );
+}
+
+.tl-disc-heading {
+  display: flex;
+  align-items: baseline;
+
+  gap: 8px;
+
+  padding:
+    7px
+    14px
+    5px;
+}
+
+.tl-disc-heading strong {
+  color: #e7e7e7;
+  font-size: 12px;
+}
+
+.tl-disc-heading span {
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.tl-track {
+  display: grid;
+
+  grid-template-columns:
+    24px
+    minmax(0, 1fr)
+    auto;
+
+  align-items: baseline;
+
+  gap: 7px;
+
+  padding:
+    7px
+    14px;
+}
+
+.tl-number {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      .36
+    );
+
+  font-size: 11px;
+  text-align: right;
+}
+
+.tl-title {
+  min-width: 0;
+
+  color: #e6e6e6;
+
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.tl-duration {
+  color: var(--muted);
+
+  font-size: 11px;
+
+  font-variant-numeric:
+    tabular-nums;
+}
+
+.tl-source {
+  margin-top: 7px;
+
+  padding:
+    11px
+    14px
+    12px;
+
+  border-top:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      .045
+    );
+}
+
+.tl-source a {
+  color: var(--muted);
+
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.tl-source a:hover,
+.tl-source a:focus-visible {
+  color: #efd29f;
+}
+
