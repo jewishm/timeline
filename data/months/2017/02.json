@@ -2,12 +2,12 @@
   "year": 2017,
   "month": 2,
   "stats": {
-    "release_groups": 19,
-    "with_cover_art": 19,
-    "with_action_links": 19,
+    "release_groups": 18,
+    "with_cover_art": 18,
+    "with_action_links": 18,
     "future_releases": 0,
     "types": {
-      "Album": 11,
+      "Album": 10,
       "Single": 8
     },
     "services": {
@@ -18,9 +18,7 @@
       "youtube": 1,
       "mostly_music": 1,
       "nigun_music": 1,
-      "amazon": 1,
-      "bandcamp": 1,
-      "other": 1
+      "amazon": 1
     }
   },
   "releases": [
@@ -2096,152 +2094,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "824908b7-d03f-4eb5-98e1-0eb3a53fc678",
-      "title": "לשונות של אש",
-      "artist_credit": "אביתר בנאי",
-      "credited_artists": [
-        {
-          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
-          "name": "אביתר בנאי",
-          "position": 0,
-          "credit_name": "אביתר בנאי",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
-          "name": "אביתר בנאי"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2017-02-22",
-      "date_precision": "day",
-      "year": 2017,
-      "month": 2,
-      "day": 22,
-      "release_count": 2,
-      "release_mbids": [
-        "165bf638-15c2-4457-8103-8327204265d6",
-        "a1788752-8874-43d4-a678-a9d17d02dca1"
-      ],
-      "cover_release_mbid": "a1788752-8874-43d4-a678-a9d17d02dca1",
-      "cover_art": {
-        "release_mbid": "a1788752-8874-43d4-a678-a9d17d02dca1",
-        "image_id": 23262242411,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/a1788752-8874-43d4-a678-a9d17d02dca1/23262242411",
-        "thumbnails": {
-          "250": "/covers/a1788752-8874-43d4-a678-a9d17d02dca1--23262242411.webp",
-          "500": "/covers/a1788752-8874-43d4-a678-a9d17d02dca1--23262242411.webp",
-          "1200": "/covers/a1788752-8874-43d4-a678-a9d17d02dca1--23262242411.webp"
-        },
-        "cached": "/covers/a1788752-8874-43d4-a678-a9d17d02dca1--23262242411.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/824908b7-d03f-4eb5-98e1-0eb3a53fc678",
-      "links": [
-        {
-          "site_key": "other",
-          "site_label": "music.nmcunited.co.il",
-          "domain": "music.nmcunited.co.il",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "165bf638-15c2-4457-8103-8327204265d6",
-          "url": "http://music.nmcunited.co.il/disc.php?ID=521"
-        },
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "eviatarbanai.bandcamp.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "a1788752-8874-43d4-a678-a9d17d02dca1",
-          "url": "https://eviatarbanai.bandcamp.com/album/-"
-        },
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "eviatarbanai.bandcamp.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "a1788752-8874-43d4-a678-a9d17d02dca1",
-          "url": "https://eviatarbanai.bandcamp.com/album/-"
-        },
-        {
-          "site_key": "wikidata",
-          "site_label": "Wikidata",
-          "domain": "wikidata.org",
-          "relationship": "wikidata",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.wikidata.org/wiki/Q31197728"
-        }
-      ],
-      "preferred_links": {
-        "bandcamp": {
-          "label": "Bandcamp",
-          "kind": "listen",
-          "url": "https://eviatarbanai.bandcamp.com/album/-"
-        },
-        "other": {
-          "label": "music.nmcunited.co.il",
-          "kind": "buy",
-          "url": "http://music.nmcunited.co.il/disc.php?ID=521"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "eviatarbanai.bandcamp.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "a1788752-8874-43d4-a678-a9d17d02dca1",
-          "url": "https://eviatarbanai.bandcamp.com/album/-"
-        },
-        {
-          "site_key": "other",
-          "site_label": "music.nmcunited.co.il",
-          "domain": "music.nmcunited.co.il",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "165bf638-15c2-4457-8103-8327204265d6",
-          "url": "http://music.nmcunited.co.il/disc.php?ID=521"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "wikidata",
-          "site_label": "Wikidata",
-          "domain": "wikidata.org",
-          "relationship": "wikidata",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.wikidata.org/wiki/Q31197728"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

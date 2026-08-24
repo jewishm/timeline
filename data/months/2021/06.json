@@ -2,22 +2,21 @@
   "year": 2021,
   "month": 6,
   "stats": {
-    "release_groups": 37,
-    "with_cover_art": 37,
-    "with_action_links": 37,
+    "release_groups": 36,
+    "with_cover_art": 36,
+    "with_action_links": 36,
     "future_releases": 0,
     "types": {
-      "Album": 15,
+      "Album": 14,
       "EP": 1,
       "Single": 21
     },
     "services": {
-      "spotify": 37,
-      "apple_music": 36,
+      "spotify": 36,
+      "apple_music": 35,
       "deezer": 26,
-      "tidal": 16,
-      "qobuz": 1,
-      "bandcamp": 1
+      "tidal": 15,
+      "qobuz": 1
     }
   },
   "releases": [
@@ -989,10 +988,6 @@
       ],
       "collection_artists": [
         {
-          "mbid": "8557fd3e-fdb2-48f4-88cd-d006bd9e87f1",
-          "name": "Bracha Jaffe"
-        },
-        {
           "mbid": "daac8046-799b-4f75-834b-d40e10ce6efe",
           "name": "Shaindy Plotzker"
         }
@@ -1448,194 +1443,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "0a53971f-db47-4443-8e91-870203e8177c",
-      "title": "החיים מתחילים לנגן",
-      "artist_credit": "אביתר בנאי",
-      "credited_artists": [
-        {
-          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
-          "name": "אביתר בנאי",
-          "position": 0,
-          "credit_name": "אביתר בנאי",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
-          "name": "אביתר בנאי"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2021-06-08",
-      "date_precision": "day",
-      "year": 2021,
-      "month": 6,
-      "day": 8,
-      "release_count": 1,
-      "release_mbids": [
-        "7949139f-7e70-4822-9e4b-c8f6a59b30ce"
-      ],
-      "cover_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-      "cover_art": {
-        "release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-        "image_id": 29456880678,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/7949139f-7e70-4822-9e4b-c8f6a59b30ce/29456880678",
-        "thumbnails": {
-          "250": "/covers/7949139f-7e70-4822-9e4b-c8f6a59b30ce--29456880678.webp",
-          "500": "/covers/7949139f-7e70-4822-9e4b-c8f6a59b30ce--29456880678.webp",
-          "1200": "/covers/7949139f-7e70-4822-9e4b-c8f6a59b30ce--29456880678.webp"
-        },
-        "cached": "/covers/7949139f-7e70-4822-9e4b-c8f6a59b30ce--29456880678.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/0a53971f-db47-4443-8e91-870203e8177c",
-      "links": [
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "eviatarbanai.bandcamp.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-          "url": "https://eviatarbanai.bandcamp.com/album/--2"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-          "url": "https://itunes.apple.com/il/album/id1568510972"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-          "url": "https://open.spotify.com/album/4raA1KvUsg1hyE2p8PqYs6"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-          "url": "https://tidal.com/album/185016550"
-        },
-        {
-          "site_key": "wikidata",
-          "site_label": "Wikidata",
-          "domain": "wikidata.org",
-          "relationship": "wikidata",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.wikidata.org/wiki/Q107165189"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4raA1KvUsg1hyE2p8PqYs6"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "buy",
-          "url": "https://itunes.apple.com/il/album/id1568510972"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/185016550"
-        },
-        "bandcamp": {
-          "label": "Bandcamp",
-          "kind": "buy",
-          "url": "https://eviatarbanai.bandcamp.com/album/--2"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-          "url": "https://open.spotify.com/album/4raA1KvUsg1hyE2p8PqYs6"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-          "url": "https://itunes.apple.com/il/album/id1568510972"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-          "url": "https://tidal.com/album/185016550"
-        },
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "eviatarbanai.bandcamp.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "7949139f-7e70-4822-9e4b-c8f6a59b30ce",
-          "url": "https://eviatarbanai.bandcamp.com/album/--2"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "wikidata",
-          "site_label": "Wikidata",
-          "domain": "wikidata.org",
-          "relationship": "wikidata",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.wikidata.org/wiki/Q107165189"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

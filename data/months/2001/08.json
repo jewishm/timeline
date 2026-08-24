@@ -2,18 +2,17 @@
   "year": 2001,
   "month": 8,
   "stats": {
-    "release_groups": 4,
-    "with_cover_art": 4,
-    "with_action_links": 3,
+    "release_groups": 3,
+    "with_cover_art": 3,
+    "with_action_links": 2,
     "future_releases": 0,
     "types": {
-      "Album": 4
+      "Album": 3
     },
     "services": {
-      "spotify": 3,
-      "apple_music": 3,
-      "other": 1,
-      "tidal": 1
+      "spotify": 2,
+      "apple_music": 2,
+      "other": 1
     }
   },
   "releases": [
@@ -341,179 +340,6 @@
         }
       ],
       "has_action_links": false,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "8a1dee3e-9295-44ed-b9eb-17e84bf72b73",
-      "title": "רק לצעוק אל ה'",
-      "artist_credit": "יהודה גלאנץ",
-      "credited_artists": [
-        {
-          "mbid": "0814cfd8-d6e8-4cac-8ebc-9ae4db3ee8da",
-          "name": "Yehuda Glantz",
-          "position": 0,
-          "credit_name": "יהודה גלאנץ",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "0814cfd8-d6e8-4cac-8ebc-9ae4db3ee8da",
-          "name": "Yehuda Glantz"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2001-08",
-      "date_precision": "month",
-      "year": 2001,
-      "month": 8,
-      "day": null,
-      "release_count": 2,
-      "release_mbids": [
-        "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-        "ebe95cbe-2886-4e08-80aa-a1119cd9a41f"
-      ],
-      "cover_release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-      "cover_art": {
-        "release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-        "image_id": 42870866723,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/e2f513f8-93a6-498e-bf04-a1a97f99b97b/42870866723",
-        "thumbnails": {
-          "250": "/covers/e2f513f8-93a6-498e-bf04-a1a97f99b97b--42870866723.webp",
-          "500": "/covers/e2f513f8-93a6-498e-bf04-a1a97f99b97b--42870866723.webp",
-          "1200": "/covers/e2f513f8-93a6-498e-bf04-a1a97f99b97b--42870866723.webp"
-        },
-        "cached": "/covers/e2f513f8-93a6-498e-bf04-a1a97f99b97b--42870866723.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/8a1dee3e-9295-44ed-b9eb-17e84bf72b73",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-          "url": "https://music.apple.com/us/album/205400398"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-          "url": "https://music.apple.com/us/album/205400398"
-        },
-        {
-          "site_key": "acum",
-          "site_label": "ACUM",
-          "domain": "nocs.acum.org.il",
-          "relationship": "other databases",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=025841"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-          "url": "https://open.spotify.com/album/7dnixPhh8o1MLaXbKoOy1N"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-          "url": "https://tidal.com/album/28342719"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/7dnixPhh8o1MLaXbKoOy1N"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/205400398"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/28342719"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-          "url": "https://open.spotify.com/album/7dnixPhh8o1MLaXbKoOy1N"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-          "url": "https://music.apple.com/us/album/205400398"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e2f513f8-93a6-498e-bf04-a1a97f99b97b",
-          "url": "https://tidal.com/album/28342719"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "acum",
-          "site_label": "ACUM",
-          "domain": "nocs.acum.org.il",
-          "relationship": "other databases",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=025841"
-        }
-      ],
-      "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
     }

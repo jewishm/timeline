@@ -2,171 +2,22 @@
   "year": 2012,
   "month": 9,
   "stats": {
-    "release_groups": 7,
-    "with_cover_art": 7,
-    "with_action_links": 7,
+    "release_groups": 6,
+    "with_cover_art": 6,
+    "with_action_links": 6,
     "future_releases": 0,
     "types": {
-      "Album": 6,
+      "Album": 5,
       "Single": 1
     },
     "services": {
-      "spotify": 7,
-      "apple_music": 7,
-      "deezer": 6,
+      "spotify": 6,
+      "apple_music": 6,
+      "deezer": 5,
       "tidal": 2
     }
   },
   "releases": [
-    {
-      "release_group_mbid": "5907e4d8-b81c-465b-91de-b6a2075b4dcd",
-      "title": "Echad",
-      "artist_credit": "Franciska",
-      "credited_artists": [
-        {
-          "mbid": "d6ed941e-a627-45d4-b8c6-3716619554b8",
-          "name": "Franciska",
-          "position": 0,
-          "credit_name": "Franciska",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "d6ed941e-a627-45d4-b8c6-3716619554b8",
-          "name": "Franciska"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2012-09-01",
-      "date_precision": "day",
-      "year": 2012,
-      "month": 9,
-      "day": 1,
-      "release_count": 1,
-      "release_mbids": [
-        "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8"
-      ],
-      "cover_release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-      "cover_art": {
-        "release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-        "image_id": 41033830986,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8/41033830986",
-        "thumbnails": {
-          "250": "/covers/b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8--41033830986.webp",
-          "500": "/covers/b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8--41033830986.webp",
-          "1200": "/covers/b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8--41033830986.webp"
-        },
-        "cached": "/covers/b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8--41033830986.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/5907e4d8-b81c-465b-91de-b6a2075b4dcd",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-          "url": "https://music.apple.com/us/album/1255962513"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-          "url": "https://music.apple.com/us/album/1255962513"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-          "url": "https://open.spotify.com/album/1CSLJseWpeyOzxlO7cXQZf"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-          "url": "https://www.deezer.com/album/44183191"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/1CSLJseWpeyOzxlO7cXQZf"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1255962513"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/44183191"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-          "url": "https://open.spotify.com/album/1CSLJseWpeyOzxlO7cXQZf"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-          "url": "https://music.apple.com/us/album/1255962513"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b44c2822-f19c-4ae5-86d8-a9a08fc1f8c8",
-          "url": "https://www.deezer.com/album/44183191"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
     {
       "release_group_mbid": "9441c54e-98d5-4f14-8393-2d3b02adb629",
       "title": "דיבור פשוט",

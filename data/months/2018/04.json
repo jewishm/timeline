@@ -2,20 +2,19 @@
   "year": 2018,
   "month": 4,
   "stats": {
-    "release_groups": 8,
-    "with_cover_art": 8,
-    "with_action_links": 8,
+    "release_groups": 7,
+    "with_cover_art": 7,
+    "with_action_links": 7,
     "future_releases": 0,
     "types": {
       "Album": 4,
-      "Single": 4
+      "Single": 3
     },
     "services": {
-      "spotify": 8,
-      "apple_music": 7,
-      "deezer": 4,
-      "tidal": 3,
-      "bandcamp": 1
+      "spotify": 7,
+      "apple_music": 6,
+      "deezer": 3,
+      "tidal": 3
     }
   },
   "releases": [
@@ -668,171 +667,6 @@
           "source": "release",
           "source_release_mbid": "58a2065e-302a-452b-9b75-534f97b87bd8",
           "url": "https://tidal.com/album/88139635"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "942e4dfe-d35e-4689-a7ca-9328ad15bda2",
-      "title": "עד האהבה",
-      "artist_credit": "אביתר בנאי",
-      "credited_artists": [
-        {
-          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
-          "name": "אביתר בנאי",
-          "position": 0,
-          "credit_name": "אביתר בנאי",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
-          "name": "אביתר בנאי"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2018-04-23",
-      "date_precision": "day",
-      "year": 2018,
-      "month": 4,
-      "day": 23,
-      "release_count": 1,
-      "release_mbids": [
-        "237191a1-f0ed-446d-ac91-b2ea0a3985e6"
-      ],
-      "cover_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-      "cover_art": {
-        "release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-        "image_id": 19751325107,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/237191a1-f0ed-446d-ac91-b2ea0a3985e6/19751325107",
-        "thumbnails": {
-          "250": "/covers/237191a1-f0ed-446d-ac91-b2ea0a3985e6--19751325107.webp",
-          "500": "/covers/237191a1-f0ed-446d-ac91-b2ea0a3985e6--19751325107.webp",
-          "1200": "/covers/237191a1-f0ed-446d-ac91-b2ea0a3985e6--19751325107.webp"
-        },
-        "cached": "/covers/237191a1-f0ed-446d-ac91-b2ea0a3985e6--19751325107.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/942e4dfe-d35e-4689-a7ca-9328ad15bda2",
-      "links": [
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "eviatarbanai.bandcamp.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-          "url": "https://eviatarbanai.bandcamp.com/track/--16"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-          "url": "https://itunes.apple.com/il/album/id1373131685"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-          "url": "https://open.spotify.com/album/0ueDB5uuYpBXgfoEdhAW6T"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-          "url": "https://www.deezer.com/album/61540842"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/0ueDB5uuYpBXgfoEdhAW6T"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "buy",
-          "url": "https://itunes.apple.com/il/album/id1373131685"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/61540842"
-        },
-        "bandcamp": {
-          "label": "Bandcamp",
-          "kind": "buy",
-          "url": "https://eviatarbanai.bandcamp.com/track/--16"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-          "url": "https://open.spotify.com/album/0ueDB5uuYpBXgfoEdhAW6T"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-          "url": "https://itunes.apple.com/il/album/id1373131685"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-          "url": "https://www.deezer.com/album/61540842"
-        },
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "eviatarbanai.bandcamp.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "237191a1-f0ed-446d-ac91-b2ea0a3985e6",
-          "url": "https://eviatarbanai.bandcamp.com/track/--16"
         }
       ],
       "references": [],

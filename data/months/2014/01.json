@@ -2,18 +2,18 @@
   "year": 2014,
   "month": 1,
   "stats": {
-    "release_groups": 16,
-    "with_cover_art": 16,
-    "with_action_links": 16,
+    "release_groups": 15,
+    "with_cover_art": 15,
+    "with_action_links": 15,
     "future_releases": 0,
     "types": {
-      "Album": 11,
+      "Album": 10,
       "Single": 5
     },
     "services": {
-      "spotify": 15,
       "apple_music": 15,
-      "deezer": 7,
+      "spotify": 14,
+      "deezer": 6,
       "tidal": 2,
       "amazon": 2,
       "other": 1
@@ -1631,117 +1631,6 @@
           "source": "release",
           "source_release_mbid": "c2466f4d-de9b-4aef-9f08-1f6b25c38546",
           "url": "https://music.apple.com/gb/album/1433909226"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "a61082ae-7998-49ac-8743-1000d4943b5e",
-      "title": "Adon Olam",
-      "artist_credit": "Franciska",
-      "credited_artists": [
-        {
-          "mbid": "d6ed941e-a627-45d4-b8c6-3716619554b8",
-          "name": "Franciska",
-          "position": 0,
-          "credit_name": "Franciska",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "d6ed941e-a627-45d4-b8c6-3716619554b8",
-          "name": "Franciska"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2014-01-14",
-      "date_precision": "day",
-      "year": 2014,
-      "month": 1,
-      "day": 14,
-      "release_count": 1,
-      "release_mbids": [
-        "94140c75-25f5-4f0b-a638-1af019c03b58"
-      ],
-      "cover_release_mbid": "94140c75-25f5-4f0b-a638-1af019c03b58",
-      "cover_art": {
-        "release_mbid": "94140c75-25f5-4f0b-a638-1af019c03b58",
-        "image_id": 41033818127,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/94140c75-25f5-4f0b-a638-1af019c03b58/41033818127",
-        "thumbnails": {
-          "250": "/covers/94140c75-25f5-4f0b-a638-1af019c03b58--41033818127.webp",
-          "500": "/covers/94140c75-25f5-4f0b-a638-1af019c03b58--41033818127.webp",
-          "1200": "/covers/94140c75-25f5-4f0b-a638-1af019c03b58--41033818127.webp"
-        },
-        "cached": "/covers/94140c75-25f5-4f0b-a638-1af019c03b58--41033818127.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/a61082ae-7998-49ac-8743-1000d4943b5e",
-      "links": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "94140c75-25f5-4f0b-a638-1af019c03b58",
-          "url": "https://open.spotify.com/album/30Yp6NuyLi6oFxwX2tR1Yj"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "94140c75-25f5-4f0b-a638-1af019c03b58",
-          "url": "https://www.deezer.com/album/200407962"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/30Yp6NuyLi6oFxwX2tR1Yj"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/200407962"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "94140c75-25f5-4f0b-a638-1af019c03b58",
-          "url": "https://open.spotify.com/album/30Yp6NuyLi6oFxwX2tR1Yj"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "94140c75-25f5-4f0b-a638-1af019c03b58",
-          "url": "https://www.deezer.com/album/200407962"
         }
       ],
       "references": [],

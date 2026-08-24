@@ -2,19 +2,19 @@
   "year": 2023,
   "month": 6,
   "stats": {
-    "release_groups": 66,
-    "with_cover_art": 65,
-    "with_action_links": 66,
+    "release_groups": 65,
+    "with_cover_art": 64,
+    "with_action_links": 65,
     "future_releases": 0,
     "types": {
-      "Album": 16,
+      "Album": 15,
       "EP": 4,
       "Single": 46
     },
     "services": {
-      "spotify": 65,
-      "apple_music": 65,
-      "deezer": 39,
+      "spotify": 64,
+      "apple_music": 64,
+      "deezer": 38,
       "tidal": 23,
       "qobuz": 1
     }
@@ -8187,156 +8187,6 @@
           "source": "release",
           "source_release_mbid": "d19d64ce-23e9-40c8-898a-498075cbd56e",
           "url": "https://tidal.com/album/301783445"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "3581c5f6-627c-4f11-991d-ceb6d6449f06",
-      "title": "Growing Pains",
-      "artist_credit": "Franciska",
-      "credited_artists": [
-        {
-          "mbid": "d6ed941e-a627-45d4-b8c6-3716619554b8",
-          "name": "Franciska",
-          "position": 0,
-          "credit_name": "Franciska",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "d6ed941e-a627-45d4-b8c6-3716619554b8",
-          "name": "Franciska"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2023-06-26",
-      "date_precision": "day",
-      "year": 2023,
-      "month": 6,
-      "day": 26,
-      "release_count": 2,
-      "release_mbids": [
-        "d4588341-3de0-4200-9297-1d7e9129117d",
-        "f9bc06cd-1728-4c59-9051-aaed1154b1dc"
-      ],
-      "cover_release_mbid": "d4588341-3de0-4200-9297-1d7e9129117d",
-      "cover_art": {
-        "release_mbid": "d4588341-3de0-4200-9297-1d7e9129117d",
-        "image_id": 41033735247,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/d4588341-3de0-4200-9297-1d7e9129117d/41033735247",
-        "thumbnails": {
-          "250": "/covers/d4588341-3de0-4200-9297-1d7e9129117d--41033735247.webp",
-          "500": "/covers/d4588341-3de0-4200-9297-1d7e9129117d--41033735247.webp",
-          "1200": "/covers/d4588341-3de0-4200-9297-1d7e9129117d--41033735247.webp"
-        },
-        "cached": "/covers/d4588341-3de0-4200-9297-1d7e9129117d--41033735247.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/3581c5f6-627c-4f11-991d-ceb6d6449f06",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "d4588341-3de0-4200-9297-1d7e9129117d",
-          "url": "https://music.apple.com/us/album/1694379474"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d4588341-3de0-4200-9297-1d7e9129117d",
-          "url": "https://music.apple.com/us/album/1694379474"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f9bc06cd-1728-4c59-9051-aaed1154b1dc",
-          "url": "https://open.spotify.com/album/087l7AHyuo0sRv2J21YQr2"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d4588341-3de0-4200-9297-1d7e9129117d",
-          "url": "https://www.deezer.com/album/457959755"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/087l7AHyuo0sRv2J21YQr2"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1694379474"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/457959755"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f9bc06cd-1728-4c59-9051-aaed1154b1dc",
-          "url": "https://open.spotify.com/album/087l7AHyuo0sRv2J21YQr2"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d4588341-3de0-4200-9297-1d7e9129117d",
-          "url": "https://music.apple.com/us/album/1694379474"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d4588341-3de0-4200-9297-1d7e9129117d",
-          "url": "https://www.deezer.com/album/457959755"
         }
       ],
       "references": [],

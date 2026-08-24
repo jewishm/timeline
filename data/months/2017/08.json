@@ -2,19 +2,19 @@
   "year": 2017,
   "month": 8,
   "stats": {
-    "release_groups": 27,
-    "with_cover_art": 26,
-    "with_action_links": 27,
+    "release_groups": 26,
+    "with_cover_art": 25,
+    "with_action_links": 26,
     "future_releases": 0,
     "types": {
-      "Album": 12,
+      "Album": 11,
       "EP": 2,
       "Single": 13
     },
     "services": {
-      "spotify": 25,
-      "apple_music": 25,
-      "deezer": 12,
+      "spotify": 24,
+      "apple_music": 24,
+      "deezer": 11,
       "tidal": 9,
       "amazon": 5,
       "youtube": 3,
@@ -2912,155 +2912,6 @@
           "source": "release",
           "source_release_mbid": "bb4be814-1bdb-4678-a0ff-41d534feb950",
           "url": "https://music.apple.com/us/album/1504231906"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "cbd82743-9d07-476b-8fa6-c94d99c09a6b",
-      "title": "Kol Haolam",
-      "artist_credit": "Franciska",
-      "credited_artists": [
-        {
-          "mbid": "d6ed941e-a627-45d4-b8c6-3716619554b8",
-          "name": "Franciska",
-          "position": 0,
-          "credit_name": "Franciska",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "d6ed941e-a627-45d4-b8c6-3716619554b8",
-          "name": "Franciska"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2017-08-16",
-      "date_precision": "day",
-      "year": 2017,
-      "month": 8,
-      "day": 16,
-      "release_count": 1,
-      "release_mbids": [
-        "f84371c3-5b2a-42d1-bdf2-efa9beba49f0"
-      ],
-      "cover_release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-      "cover_art": {
-        "release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-        "image_id": 41033749024,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/f84371c3-5b2a-42d1-bdf2-efa9beba49f0/41033749024",
-        "thumbnails": {
-          "250": "/covers/f84371c3-5b2a-42d1-bdf2-efa9beba49f0--41033749024.webp",
-          "500": "/covers/f84371c3-5b2a-42d1-bdf2-efa9beba49f0--41033749024.webp",
-          "1200": "/covers/f84371c3-5b2a-42d1-bdf2-efa9beba49f0--41033749024.webp"
-        },
-        "cached": "/covers/f84371c3-5b2a-42d1-bdf2-efa9beba49f0--41033749024.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/cbd82743-9d07-476b-8fa6-c94d99c09a6b",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-          "url": "https://music.apple.com/us/album/1273627744"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-          "url": "https://music.apple.com/us/album/1273627744"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-          "url": "https://open.spotify.com/album/6TsRyw3MSl3RDF3vzd4Oa2"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-          "url": "https://www.deezer.com/album/46614562"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/6TsRyw3MSl3RDF3vzd4Oa2"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1273627744"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/46614562"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-          "url": "https://open.spotify.com/album/6TsRyw3MSl3RDF3vzd4Oa2"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-          "url": "https://music.apple.com/us/album/1273627744"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f84371c3-5b2a-42d1-bdf2-efa9beba49f0",
-          "url": "https://www.deezer.com/album/46614562"
         }
       ],
       "references": [],

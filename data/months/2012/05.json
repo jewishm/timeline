@@ -2,17 +2,17 @@
   "year": 2012,
   "month": 5,
   "stats": {
-    "release_groups": 7,
-    "with_cover_art": 7,
-    "with_action_links": 7,
+    "release_groups": 6,
+    "with_cover_art": 6,
+    "with_action_links": 6,
     "future_releases": 0,
     "types": {
       "Album": 5,
-      "Single": 2
+      "Single": 1
     },
     "services": {
-      "spotify": 7,
-      "apple_music": 6,
+      "spotify": 6,
+      "apple_music": 5,
       "deezer": 3,
       "tidal": 3,
       "amazon": 2,
@@ -954,135 +954,6 @@
           "source": "release",
           "source_release_mbid": "6c755a1c-d1c1-47e8-874c-62c1b2eac17b",
           "url": "https://www.amazon.com/gp/product/B0088WK0IY"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "0f5efe07-c421-4fd1-8d18-2c8803698793",
-      "title": "יש שמים מעליי",
-      "artist_credit": "אביתר בנאי ואביב גפן",
-      "credited_artists": [
-        {
-          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
-          "name": "אביתר בנאי",
-          "position": 0,
-          "credit_name": "אביתר בנאי",
-          "join_phrase": " ו"
-        },
-        {
-          "mbid": "3f1f9c33-b86e-44e1-a332-b215456d279c",
-          "name": "אביב גפן",
-          "position": 1,
-          "credit_name": "אביב גפן",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
-          "name": "אביתר בנאי"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2012-05-31",
-      "date_precision": "day",
-      "year": 2012,
-      "month": 5,
-      "day": 31,
-      "release_count": 1,
-      "release_mbids": [
-        "39181283-3423-4cb4-a2eb-01a57a165bab"
-      ],
-      "cover_release_mbid": "39181283-3423-4cb4-a2eb-01a57a165bab",
-      "cover_art": {
-        "release_mbid": "39181283-3423-4cb4-a2eb-01a57a165bab",
-        "image_id": 41180303471,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/39181283-3423-4cb4-a2eb-01a57a165bab/41180303471",
-        "thumbnails": {
-          "250": "/covers/39181283-3423-4cb4-a2eb-01a57a165bab--41180303471.webp",
-          "500": "/covers/39181283-3423-4cb4-a2eb-01a57a165bab--41180303471.webp",
-          "1200": "/covers/39181283-3423-4cb4-a2eb-01a57a165bab--41180303471.webp"
-        },
-        "cached": "/covers/39181283-3423-4cb4-a2eb-01a57a165bab--41180303471.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/0f5efe07-c421-4fd1-8d18-2c8803698793",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "39181283-3423-4cb4-a2eb-01a57a165bab",
-          "url": "https://music.apple.com/us/album/586042302"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "39181283-3423-4cb4-a2eb-01a57a165bab",
-          "url": "https://music.apple.com/us/album/586042302"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "39181283-3423-4cb4-a2eb-01a57a165bab",
-          "url": "https://open.spotify.com/album/0QhjhU4yCPkOksCcA1wsCj"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/0QhjhU4yCPkOksCcA1wsCj"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/586042302"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "39181283-3423-4cb4-a2eb-01a57a165bab",
-          "url": "https://open.spotify.com/album/0QhjhU4yCPkOksCcA1wsCj"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "39181283-3423-4cb4-a2eb-01a57a165bab",
-          "url": "https://music.apple.com/us/album/586042302"
         }
       ],
       "references": [],

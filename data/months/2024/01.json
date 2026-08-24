@@ -2,18 +2,18 @@
   "year": 2024,
   "month": 1,
   "stats": {
-    "release_groups": 86,
-    "with_cover_art": 85,
-    "with_action_links": 85,
+    "release_groups": 85,
+    "with_cover_art": 84,
+    "with_action_links": 84,
     "future_releases": 0,
     "types": {
       "Album": 21,
       "EP": 4,
-      "Single": 61
+      "Single": 60
     },
     "services": {
-      "spotify": 84,
-      "apple_music": 76,
+      "spotify": 83,
+      "apple_music": 75,
       "deezer": 58,
       "tidal": 36,
       "amazon": 3,
@@ -23,117 +23,6 @@
     }
   },
   "releases": [
-    {
-      "release_group_mbid": "b0c1fe22-a791-445d-8489-646bd4099f9f",
-      "title": "The Bookstore Cafe",
-      "artist_credit": "Gedalya",
-      "credited_artists": [
-        {
-          "mbid": "e523737e-6850-4cdc-8e6a-a8b73a964dfa",
-          "name": "Gedalya",
-          "position": 0,
-          "credit_name": "Gedalya",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "e523737e-6850-4cdc-8e6a-a8b73a964dfa",
-          "name": "Gedalya"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-01-01",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 1,
-      "day": 1,
-      "release_count": 1,
-      "release_mbids": [
-        "fc39c057-be60-4bf5-8442-a0fa2a99d6a4"
-      ],
-      "cover_release_mbid": "fc39c057-be60-4bf5-8442-a0fa2a99d6a4",
-      "cover_art": {
-        "release_mbid": "fc39c057-be60-4bf5-8442-a0fa2a99d6a4",
-        "image_id": 39529606914,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/fc39c057-be60-4bf5-8442-a0fa2a99d6a4/39529606914",
-        "thumbnails": {
-          "250": "/covers/fc39c057-be60-4bf5-8442-a0fa2a99d6a4--39529606914.webp",
-          "500": "/covers/fc39c057-be60-4bf5-8442-a0fa2a99d6a4--39529606914.webp",
-          "1200": "/covers/fc39c057-be60-4bf5-8442-a0fa2a99d6a4--39529606914.webp"
-        },
-        "cached": "/covers/fc39c057-be60-4bf5-8442-a0fa2a99d6a4--39529606914.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/b0c1fe22-a791-445d-8489-646bd4099f9f",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fc39c057-be60-4bf5-8442-a0fa2a99d6a4",
-          "url": "https://music.apple.com/gb/album/1720332694"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fc39c057-be60-4bf5-8442-a0fa2a99d6a4",
-          "url": "https://open.spotify.com/album/2EgTba3OlB0JnI0y2Djafe"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/2EgTba3OlB0JnI0y2Djafe"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1720332694"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fc39c057-be60-4bf5-8442-a0fa2a99d6a4",
-          "url": "https://open.spotify.com/album/2EgTba3OlB0JnI0y2Djafe"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "fc39c057-be60-4bf5-8442-a0fa2a99d6a4",
-          "url": "https://music.apple.com/gb/album/1720332694"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
     {
       "release_group_mbid": "58cff474-74f0-42b2-9ff5-6a1285c94635",
       "title": "Yesterday",

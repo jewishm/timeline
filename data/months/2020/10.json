@@ -2,18 +2,18 @@
   "year": 2020,
   "month": 10,
   "stats": {
-    "release_groups": 34,
-    "with_cover_art": 34,
-    "with_action_links": 34,
+    "release_groups": 32,
+    "with_cover_art": 32,
+    "with_action_links": 32,
     "future_releases": 0,
     "types": {
       "Album": 11,
       "EP": 1,
-      "Single": 22
+      "Single": 20
     },
     "services": {
-      "spotify": 33,
-      "apple_music": 31,
+      "spotify": 31,
+      "apple_music": 29,
       "tidal": 13,
       "deezer": 12,
       "amazon": 3,
@@ -24,117 +24,6 @@
     }
   },
   "releases": [
-    {
-      "release_group_mbid": "74ad6a2d-6448-4d7c-99f7-295fe7260a21",
-      "title": "So Long",
-      "artist_credit": "Gedalya",
-      "credited_artists": [
-        {
-          "mbid": "e523737e-6850-4cdc-8e6a-a8b73a964dfa",
-          "name": "Gedalya",
-          "position": 0,
-          "credit_name": "Gedalya",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "e523737e-6850-4cdc-8e6a-a8b73a964dfa",
-          "name": "Gedalya"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2020-10-01",
-      "date_precision": "day",
-      "year": 2020,
-      "month": 10,
-      "day": 1,
-      "release_count": 1,
-      "release_mbids": [
-        "cd7d47a3-38c3-4fad-b40a-1bf1366b3785"
-      ],
-      "cover_release_mbid": "cd7d47a3-38c3-4fad-b40a-1bf1366b3785",
-      "cover_art": {
-        "release_mbid": "cd7d47a3-38c3-4fad-b40a-1bf1366b3785",
-        "image_id": 39529937751,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/cd7d47a3-38c3-4fad-b40a-1bf1366b3785/39529937751",
-        "thumbnails": {
-          "250": "/covers/cd7d47a3-38c3-4fad-b40a-1bf1366b3785--39529937751.webp",
-          "500": "/covers/cd7d47a3-38c3-4fad-b40a-1bf1366b3785--39529937751.webp",
-          "1200": "/covers/cd7d47a3-38c3-4fad-b40a-1bf1366b3785--39529937751.webp"
-        },
-        "cached": "/covers/cd7d47a3-38c3-4fad-b40a-1bf1366b3785--39529937751.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/74ad6a2d-6448-4d7c-99f7-295fe7260a21",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cd7d47a3-38c3-4fad-b40a-1bf1366b3785",
-          "url": "https://music.apple.com/gb/album/1530587742"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cd7d47a3-38c3-4fad-b40a-1bf1366b3785",
-          "url": "https://open.spotify.com/album/3SKhBIQ8zhms4FHMNA3kXa"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/3SKhBIQ8zhms4FHMNA3kXa"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1530587742"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cd7d47a3-38c3-4fad-b40a-1bf1366b3785",
-          "url": "https://open.spotify.com/album/3SKhBIQ8zhms4FHMNA3kXa"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cd7d47a3-38c3-4fad-b40a-1bf1366b3785",
-          "url": "https://music.apple.com/gb/album/1530587742"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
     {
       "release_group_mbid": "e89b3b58-23e8-469b-a456-19ab980e71ba",
       "title": "Leishev B’sukkah",
@@ -3032,117 +2921,6 @@
           "source": "release",
           "source_release_mbid": "fad903cb-c22b-4bb3-a832-8d13bab54461",
           "url": "https://www.amazon.com/gp/product/B08LMLN77B"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "14ea7019-6518-401e-a390-826a2e182f6b",
-      "title": "Conspiracy Theories",
-      "artist_credit": "Gedalya",
-      "credited_artists": [
-        {
-          "mbid": "e523737e-6850-4cdc-8e6a-a8b73a964dfa",
-          "name": "Gedalya",
-          "position": 0,
-          "credit_name": "Gedalya",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "e523737e-6850-4cdc-8e6a-a8b73a964dfa",
-          "name": "Gedalya"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2020-10-15",
-      "date_precision": "day",
-      "year": 2020,
-      "month": 10,
-      "day": 15,
-      "release_count": 1,
-      "release_mbids": [
-        "befa1ba3-a7aa-42aa-b049-eb14e24427b2"
-      ],
-      "cover_release_mbid": "befa1ba3-a7aa-42aa-b049-eb14e24427b2",
-      "cover_art": {
-        "release_mbid": "befa1ba3-a7aa-42aa-b049-eb14e24427b2",
-        "image_id": 39529923833,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/befa1ba3-a7aa-42aa-b049-eb14e24427b2/39529923833",
-        "thumbnails": {
-          "250": "/covers/befa1ba3-a7aa-42aa-b049-eb14e24427b2--39529923833.webp",
-          "500": "/covers/befa1ba3-a7aa-42aa-b049-eb14e24427b2--39529923833.webp",
-          "1200": "/covers/befa1ba3-a7aa-42aa-b049-eb14e24427b2--39529923833.webp"
-        },
-        "cached": "/covers/befa1ba3-a7aa-42aa-b049-eb14e24427b2--39529923833.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/14ea7019-6518-401e-a390-826a2e182f6b",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "befa1ba3-a7aa-42aa-b049-eb14e24427b2",
-          "url": "https://music.apple.com/gb/album/1532132241"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "befa1ba3-a7aa-42aa-b049-eb14e24427b2",
-          "url": "https://open.spotify.com/album/2LdbNffrTCCK05B07qszaE"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/2LdbNffrTCCK05B07qszaE"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1532132241"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "befa1ba3-a7aa-42aa-b049-eb14e24427b2",
-          "url": "https://open.spotify.com/album/2LdbNffrTCCK05B07qszaE"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "befa1ba3-a7aa-42aa-b049-eb14e24427b2",
-          "url": "https://music.apple.com/gb/album/1532132241"
         }
       ],
       "references": [],

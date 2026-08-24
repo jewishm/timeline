@@ -1,15 +1,15 @@
 {
   "year": 2018,
   "stats": {
-    "release_groups": 259,
-    "dated_release_groups": 253,
-    "year_only_release_groups": 6,
-    "artists": 186,
+    "release_groups": 256,
+    "dated_release_groups": 251,
+    "year_only_release_groups": 5,
+    "artists": 184,
     "months_with_releases": 12,
     "types": {
-      "Album": 105,
-      "EP": 2,
-      "Single": 152
+      "Album": 104,
+      "EP": 1,
+      "Single": 151
     }
   },
   "months": [
@@ -298,10 +298,10 @@
     },
     {
       "month": 4,
-      "release_groups": 8,
+      "release_groups": 7,
       "types": {
         "Album": 4,
-        "Single": 4
+        "Single": 3
       },
       "featured": [
         {
@@ -674,10 +674,9 @@
     },
     {
       "month": 8,
-      "release_groups": 30,
+      "release_groups": 29,
       "types": {
         "Album": 10,
-        "EP": 1,
         "Single": 19
       },
       "featured": [
@@ -1432,200 +1431,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "acc0596e-819b-4bf2-b4f3-37ead4a53153",
-      "title": "Son of Israel",
-      "artist_credit": "Gedalya",
-      "credited_artists": [
-        {
-          "mbid": "e523737e-6850-4cdc-8e6a-a8b73a964dfa",
-          "name": "Gedalya",
-          "position": 0,
-          "credit_name": "Gedalya",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "e523737e-6850-4cdc-8e6a-a8b73a964dfa",
-          "name": "Gedalya"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2018",
-      "date_precision": "year",
-      "year": 2018,
-      "month": null,
-      "day": null,
-      "release_count": 1,
-      "release_mbids": [
-        "15801c26-67d8-437f-8faf-c70740124d83"
-      ],
-      "cover_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-      "cover_art": {
-        "release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-        "image_id": 39546011012,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/15801c26-67d8-437f-8faf-c70740124d83/39546011012",
-        "thumbnails": {
-          "250": "/covers/15801c26-67d8-437f-8faf-c70740124d83--39546011012.webp",
-          "500": "/covers/15801c26-67d8-437f-8faf-c70740124d83--39546011012.webp",
-          "1200": "/covers/15801c26-67d8-437f-8faf-c70740124d83--39546011012.webp"
-        },
-        "cached": "/covers/15801c26-67d8-437f-8faf-c70740124d83--39546011012.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/acc0596e-819b-4bf2-b4f3-37ead4a53153",
-      "links": [
-        {
-          "site_key": "mostly_music",
-          "site_label": "Mostly Music",
-          "domain": "mostlymusic.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://mostlymusic.com/products/gedalya-son-of-israel"
-        },
-        {
-          "site_key": "mostly_music",
-          "site_label": "Mostly Music",
-          "domain": "mostlymusic.com",
-          "relationship": "purchase for mail-order",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://mostlymusic.com/products/gedalya-son-of-israel"
-        },
-        {
-          "site_key": "allmusic",
-          "site_label": "AllMusic",
-          "domain": "allmusic.com",
-          "relationship": "allmusic",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.allmusic.com/album/mw0003193480"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://www.amazon.com/gp/product/B079VSL366"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://www.discogs.com/release/13858502"
-        },
-        {
-          "site_key": "nigun_music",
-          "site_label": "Nigun Music",
-          "domain": "nigunmusic.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://www.nigunmusic.com/son-of-israel-gedalya.html"
-        }
-      ],
-      "preferred_links": {
-        "mostly_music": {
-          "label": "Mostly Music",
-          "kind": "buy",
-          "url": "https://mostlymusic.com/products/gedalya-son-of-israel"
-        },
-        "nigun_music": {
-          "label": "Nigun Music",
-          "kind": "buy",
-          "url": "https://www.nigunmusic.com/son-of-israel-gedalya.html"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B079VSL366"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "mostly_music",
-          "site_label": "Mostly Music",
-          "domain": "mostlymusic.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://mostlymusic.com/products/gedalya-son-of-israel"
-        },
-        {
-          "site_key": "nigun_music",
-          "site_label": "Nigun Music",
-          "domain": "nigunmusic.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://www.nigunmusic.com/son-of-israel-gedalya.html"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://www.amazon.com/gp/product/B079VSL366"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "allmusic",
-          "site_label": "AllMusic",
-          "domain": "allmusic.com",
-          "relationship": "allmusic",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.allmusic.com/album/mw0003193480"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "15801c26-67d8-437f-8faf-c70740124d83",
-          "url": "https://www.discogs.com/release/13858502"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
