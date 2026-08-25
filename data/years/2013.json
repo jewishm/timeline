@@ -1,16 +1,16 @@
 {
   "year": 2013,
   "stats": {
-    "release_groups": 77,
-    "dated_release_groups": 59,
+    "release_groups": 75,
+    "dated_release_groups": 57,
     "year_only_release_groups": 18,
-    "artists": 70,
+    "artists": 68,
     "months_with_releases": 12,
     "types": {
-      "Album": 51,
+      "Album": 50,
       "EP": 2,
       "Other": 1,
-      "Single": 23
+      "Single": 22
     }
   },
   "months": [
@@ -691,10 +691,9 @@
     },
     {
       "month": 10,
-      "release_groups": 5,
+      "release_groups": 4,
       "types": {
-        "Album": 4,
-        "Single": 1
+        "Album": 4
       },
       "featured": [
         {
@@ -785,9 +784,9 @@
     },
     {
       "month": 11,
-      "release_groups": 7,
+      "release_groups": 6,
       "types": {
-        "Album": 4,
+        "Album": 3,
         "Single": 3
       },
       "featured": [
@@ -834,27 +833,6 @@
           }
         },
         {
-          "release_group_mbid": "553601b9-8643-4bac-ae67-5048154a1b2f",
-          "title": "Live Today",
-          "artist_credit": "Shaindel Antelis",
-          "primary_type": "Album",
-          "day": 10,
-          "cover_art": {
-            "release_mbid": "e50a7906-fa38-4652-b88a-976fcbaa24c1",
-            "image_id": 37775601219,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/e50a7906-fa38-4652-b88a-976fcbaa24c1/37775601219",
-            "thumbnails": {
-              "250": "/covers/e50a7906-fa38-4652-b88a-976fcbaa24c1--37775601219.webp",
-              "500": "/covers/e50a7906-fa38-4652-b88a-976fcbaa24c1--37775601219.webp",
-              "1200": "/covers/e50a7906-fa38-4652-b88a-976fcbaa24c1--37775601219.webp"
-            },
-            "cached": "/covers/e50a7906-fa38-4652-b88a-976fcbaa24c1--37775601219.webp"
-          }
-        },
-        {
           "release_group_mbid": "eafbcdcc-aabd-4cb2-8441-5cc055787eef",
           "title": "Toiv Vehametiv",
           "artist_credit": "Nachas",
@@ -873,6 +851,27 @@
               "1200": "/covers/7c23890e-b4e4-4fbf-8f1b-a29005f503dd--38034746483.webp"
             },
             "cached": "/covers/7c23890e-b4e4-4fbf-8f1b-a29005f503dd--38034746483.webp"
+          }
+        },
+        {
+          "release_group_mbid": "d336de91-8d43-40dc-bfdf-975123d5e2eb",
+          "title": "Shalsheles Connections",
+          "artist_credit": "Shalsheles",
+          "primary_type": "Album",
+          "day": 21,
+          "cover_art": {
+            "release_mbid": "4999dff0-049d-4705-8b92-da00e95def84",
+            "image_id": 36820925994,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/4999dff0-049d-4705-8b92-da00e95def84/36820925994",
+            "thumbnails": {
+              "250": "/covers/4999dff0-049d-4705-8b92-da00e95def84--36820925994.webp",
+              "500": "/covers/4999dff0-049d-4705-8b92-da00e95def84--36820925994.webp",
+              "1200": "/covers/4999dff0-049d-4705-8b92-da00e95def84--36820925994.webp"
+            },
+            "cached": "/covers/4999dff0-049d-4705-8b92-da00e95def84--36820925994.webp"
           }
         }
       ]

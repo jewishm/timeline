@@ -1,15 +1,15 @@
 {
   "year": 2021,
   "stats": {
-    "release_groups": 505,
-    "dated_release_groups": 502,
+    "release_groups": 501,
+    "dated_release_groups": 498,
     "year_only_release_groups": 3,
-    "artists": 306,
+    "artists": 304,
     "months_with_releases": 12,
     "types": {
       "Album": 114,
       "EP": 5,
-      "Single": 386
+      "Single": 382
     }
   },
   "months": [
@@ -675,10 +675,10 @@
     },
     {
       "month": 8,
-      "release_groups": 66,
+      "release_groups": 65,
       "types": {
         "Album": 13,
-        "Single": 53
+        "Single": 52
       },
       "featured": [
         {
@@ -769,10 +769,10 @@
     },
     {
       "month": 9,
-      "release_groups": 26,
+      "release_groups": 24,
       "types": {
         "Album": 4,
-        "Single": 22
+        "Single": 20
       },
       "featured": [
         {
@@ -863,33 +863,12 @@
     },
     {
       "month": 10,
-      "release_groups": 30,
+      "release_groups": 29,
       "types": {
         "Album": 5,
-        "Single": 25
+        "Single": 24
       },
       "featured": [
-        {
-          "release_group_mbid": "eddd4c24-f8e6-4e71-9c2e-f5c242077024",
-          "title": "Queens",
-          "artist_credit": "Kabbalistic Village",
-          "primary_type": "Single",
-          "day": 3,
-          "cover_art": {
-            "release_mbid": "d4b857df-79f6-4ce2-a534-0220a24ea86c",
-            "image_id": 39962280547,
-            "mime_type": "image/png",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/d4b857df-79f6-4ce2-a534-0220a24ea86c/39962280547",
-            "thumbnails": {
-              "250": "/covers/d4b857df-79f6-4ce2-a534-0220a24ea86c--39962280547.webp",
-              "500": "/covers/d4b857df-79f6-4ce2-a534-0220a24ea86c--39962280547.webp",
-              "1200": "/covers/d4b857df-79f6-4ce2-a534-0220a24ea86c--39962280547.webp"
-            },
-            "cached": "/covers/d4b857df-79f6-4ce2-a534-0220a24ea86c--39962280547.webp"
-          }
-        },
         {
           "release_group_mbid": "e7c4580a-9f6f-43cf-b6d7-66fad453c3d5",
           "title": "Matanot",
@@ -951,6 +930,27 @@
               "1200": "/covers/29290408-40f1-465b-8b25-7ab1c5e7deb5--41158898432.webp"
             },
             "cached": "/covers/29290408-40f1-465b-8b25-7ab1c5e7deb5--41158898432.webp"
+          }
+        },
+        {
+          "release_group_mbid": "a8deefd8-4155-4ed1-9531-5cdb83dc24fd",
+          "title": "Uvnei",
+          "artist_credit": "Waterbury Mesivta",
+          "primary_type": "Single",
+          "day": 7,
+          "cover_art": {
+            "release_mbid": "7f18d115-88d0-40b2-9676-248fc1906ed6",
+            "image_id": 40971898100,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/7f18d115-88d0-40b2-9676-248fc1906ed6/40971898100",
+            "thumbnails": {
+              "250": "/covers/7f18d115-88d0-40b2-9676-248fc1906ed6--40971898100.webp",
+              "500": "/covers/7f18d115-88d0-40b2-9676-248fc1906ed6--40971898100.webp",
+              "1200": "/covers/7f18d115-88d0-40b2-9676-248fc1906ed6--40971898100.webp"
+            },
+            "cached": "/covers/7f18d115-88d0-40b2-9676-248fc1906ed6--40971898100.webp"
           }
         }
       ]

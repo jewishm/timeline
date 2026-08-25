@@ -2,20 +2,20 @@
   "year": 2024,
   "month": 3,
   "stats": {
-    "release_groups": 118,
-    "with_cover_art": 116,
-    "with_action_links": 117,
+    "release_groups": 117,
+    "with_cover_art": 115,
+    "with_action_links": 116,
     "future_releases": 0,
     "types": {
       "Album": 21,
       "EP": 5,
-      "Single": 92
+      "Single": 91
     },
     "services": {
-      "spotify": 115,
+      "spotify": 114,
       "apple_music": 108,
-      "deezer": 84,
-      "tidal": 45,
+      "deezer": 83,
+      "tidal": 44,
       "amazon": 3,
       "mostly_music": 1,
       "boomplay": 1,
@@ -4271,144 +4271,6 @@
           "source": "release",
           "source_release_mbid": "ebf2dc41-4647-4f05-bcd1-8b4a48d5fda5",
           "url": "https://tidal.com/album/345186220"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "67a0549a-2460-478a-a038-09f4bb48fd69",
-      "title": "Be Honest",
-      "artist_credit": "Kabbalistic Village",
-      "credited_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village",
-          "position": 0,
-          "credit_name": "Kabbalistic Village",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-03-10",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 3,
-      "day": 10,
-      "release_count": 1,
-      "release_mbids": [
-        "0b97bfc9-9511-4f45-973e-2e417796dc7c"
-      ],
-      "cover_release_mbid": "0b97bfc9-9511-4f45-973e-2e417796dc7c",
-      "cover_art": {
-        "release_mbid": "0b97bfc9-9511-4f45-973e-2e417796dc7c",
-        "image_id": 39962452562,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/0b97bfc9-9511-4f45-973e-2e417796dc7c/39962452562",
-        "thumbnails": {
-          "250": "/covers/0b97bfc9-9511-4f45-973e-2e417796dc7c--39962452562.webp",
-          "500": "/covers/0b97bfc9-9511-4f45-973e-2e417796dc7c--39962452562.webp",
-          "1200": "/covers/0b97bfc9-9511-4f45-973e-2e417796dc7c--39962452562.webp"
-        },
-        "cached": "/covers/0b97bfc9-9511-4f45-973e-2e417796dc7c--39962452562.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/67a0549a-2460-478a-a038-09f4bb48fd69",
-      "links": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0b97bfc9-9511-4f45-973e-2e417796dc7c",
-          "url": "https://open.spotify.com/album/29M247YzA3hsixC3Tp2Def"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0b97bfc9-9511-4f45-973e-2e417796dc7c",
-          "url": "https://tidal.com/album/350910734"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0b97bfc9-9511-4f45-973e-2e417796dc7c",
-          "url": "https://www.deezer.com/album/558460182"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/29M247YzA3hsixC3Tp2Def"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/558460182"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/350910734"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0b97bfc9-9511-4f45-973e-2e417796dc7c",
-          "url": "https://open.spotify.com/album/29M247YzA3hsixC3Tp2Def"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0b97bfc9-9511-4f45-973e-2e417796dc7c",
-          "url": "https://www.deezer.com/album/558460182"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0b97bfc9-9511-4f45-973e-2e417796dc7c",
-          "url": "https://tidal.com/album/350910734"
         }
       ],
       "references": [],

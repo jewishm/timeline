@@ -1,15 +1,15 @@
 {
   "year": 2014,
   "stats": {
-    "release_groups": 108,
-    "dated_release_groups": 82,
+    "release_groups": 105,
+    "dated_release_groups": 79,
     "year_only_release_groups": 26,
-    "artists": 83,
+    "artists": 82,
     "months_with_releases": 12,
     "types": {
       "Album": 74,
-      "EP": 4,
-      "Single": 30
+      "EP": 3,
+      "Single": 28
     }
   },
   "months": [
@@ -391,10 +391,10 @@
     },
     {
       "month": 5,
-      "release_groups": 7,
+      "release_groups": 6,
       "types": {
         "Album": 5,
-        "Single": 2
+        "Single": 1
       },
       "featured": [
         {
@@ -440,27 +440,6 @@
           }
         },
         {
-          "release_group_mbid": "de3216e6-06b7-421a-b7ba-2f1a71daf1d5",
-          "title": "Apples and Almonds",
-          "artist_credit": "Kabbalistic Village",
-          "primary_type": "Single",
-          "day": 5,
-          "cover_art": {
-            "release_mbid": "c03987de-9589-46b8-85cc-397f2aab8e0c",
-            "image_id": 39962580558,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/c03987de-9589-46b8-85cc-397f2aab8e0c/39962580558",
-            "thumbnails": {
-              "250": "/covers/c03987de-9589-46b8-85cc-397f2aab8e0c--39962580558.webp",
-              "500": "/covers/c03987de-9589-46b8-85cc-397f2aab8e0c--39962580558.webp",
-              "1200": "/covers/c03987de-9589-46b8-85cc-397f2aab8e0c--39962580558.webp"
-            },
-            "cached": "/covers/c03987de-9589-46b8-85cc-397f2aab8e0c--39962580558.webp"
-          }
-        },
-        {
           "release_group_mbid": "cbd55bd2-df57-4017-997c-8a0036c01b20",
           "title": "YBC 6: Modeh Ani (Thank You)",
           "artist_credit": "The Yeshiva Boys Choir",
@@ -480,15 +459,35 @@
             },
             "cached": "/covers/cfe6ec0b-6ec9-48da-a9d3-fa14ff1fd037--37931980510.webp"
           }
+        },
+        {
+          "release_group_mbid": "3895d99e-d370-4b8e-8515-73835967a165",
+          "title": "Chabatzkapella",
+          "artist_credit": "Beri Weber",
+          "primary_type": "Single",
+          "day": 15,
+          "cover_art": {
+            "release_mbid": "246dcc62-e4ba-45aa-a18c-ed6b817453ad",
+            "image_id": 38798808819,
+            "mime_type": "image/png",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/246dcc62-e4ba-45aa-a18c-ed6b817453ad/38798808819",
+            "thumbnails": {
+              "250": "/covers/246dcc62-e4ba-45aa-a18c-ed6b817453ad--38798808819.webp",
+              "500": "/covers/246dcc62-e4ba-45aa-a18c-ed6b817453ad--38798808819.webp",
+              "1200": "/covers/246dcc62-e4ba-45aa-a18c-ed6b817453ad--38798808819.webp"
+            },
+            "cached": "/covers/246dcc62-e4ba-45aa-a18c-ed6b817453ad--38798808819.webp"
+          }
         }
       ]
     },
     {
       "month": 6,
-      "release_groups": 8,
+      "release_groups": 7,
       "types": {
         "Album": 6,
-        "EP": 1,
         "Single": 1
       },
       "featured": [
@@ -797,11 +796,10 @@
     },
     {
       "month": 10,
-      "release_groups": 4,
+      "release_groups": 3,
       "types": {
         "Album": 1,
-        "EP": 2,
-        "Single": 1
+        "EP": 2
       },
       "featured": [
         {
@@ -823,27 +821,6 @@
               "1200": "/covers/9162096b-87a5-473f-bf8e-0d81cb4e5cac--39658004750.webp"
             },
             "cached": "/covers/9162096b-87a5-473f-bf8e-0d81cb4e5cac--39658004750.webp"
-          }
-        },
-        {
-          "release_group_mbid": "6e77009b-a445-4be8-934a-a5feb2fbaa82",
-          "title": "October",
-          "artist_credit": "Kabbalistic Village",
-          "primary_type": "Single",
-          "day": 20,
-          "cover_art": {
-            "release_mbid": "572fa993-681e-4236-bd9a-0af6fed22072",
-            "image_id": 40838884711,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/572fa993-681e-4236-bd9a-0af6fed22072/40838884711",
-            "thumbnails": {
-              "250": "/covers/572fa993-681e-4236-bd9a-0af6fed22072--40838884711.webp",
-              "500": "/covers/572fa993-681e-4236-bd9a-0af6fed22072--40838884711.webp",
-              "1200": "/covers/572fa993-681e-4236-bd9a-0af6fed22072--40838884711.webp"
-            },
-            "cached": "/covers/572fa993-681e-4236-bd9a-0af6fed22072--40838884711.webp"
           }
         },
         {
@@ -1102,11 +1079,6 @@
       "release_groups": 3
     },
     {
-      "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-      "name": "Kabbalistic Village",
-      "release_groups": 3
-    },
-    {
       "mbid": "212fa907-2e60-444e-a09e-64ea86af5f13",
       "name": "Yossi Green",
       "release_groups": 3
@@ -1154,6 +1126,11 @@
     {
       "mbid": "ad783a3b-9a98-432d-92db-bceae2cbade5",
       "name": "Naftali Kalfa",
+      "release_groups": 2
+    },
+    {
+      "mbid": "18e0de18-ab4f-4a3a-9e06-8e0c4068fe86",
+      "name": "Ohad",
       "release_groups": 2
     }
   ],

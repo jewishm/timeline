@@ -2,18 +2,16 @@
   "year": 2015,
   "month": 12,
   "stats": {
-    "release_groups": 4,
-    "with_cover_art": 4,
-    "with_action_links": 4,
+    "release_groups": 3,
+    "with_cover_art": 3,
+    "with_action_links": 3,
     "future_releases": 0,
     "types": {
-      "Single": 4
+      "Single": 3
     },
     "services": {
-      "spotify": 4,
-      "apple_music": 4,
-      "deezer": 1,
-      "tidal": 1
+      "spotify": 3,
+      "apple_music": 3
     }
   },
   "releases": [
@@ -121,182 +119,6 @@
           "source": "release",
           "source_release_mbid": "4f99ebd5-46e7-4fd8-984c-fc5cd5c552cd",
           "url": "https://music.apple.com/gb/album/1056057504"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "3538cf9f-0f67-4b65-b833-d90b49fd1ce4",
-      "title": "Light Up the World",
-      "artist_credit": "Shaindel Antelis",
-      "credited_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis",
-          "position": 0,
-          "credit_name": "Shaindel Antelis",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2015-12-02",
-      "date_precision": "day",
-      "year": 2015,
-      "month": 12,
-      "day": 2,
-      "release_count": 1,
-      "release_mbids": [
-        "8fc12292-ea97-4272-acd9-3673e8ae218c"
-      ],
-      "cover_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-      "cover_art": {
-        "release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-        "image_id": 40085983157,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/8fc12292-ea97-4272-acd9-3673e8ae218c/40085983157",
-        "thumbnails": {
-          "250": "/covers/8fc12292-ea97-4272-acd9-3673e8ae218c--40085983157.webp",
-          "500": "/covers/8fc12292-ea97-4272-acd9-3673e8ae218c--40085983157.webp",
-          "1200": "/covers/8fc12292-ea97-4272-acd9-3673e8ae218c--40085983157.webp"
-        },
-        "cached": "/covers/8fc12292-ea97-4272-acd9-3673e8ae218c--40085983157.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/3538cf9f-0f67-4b65-b833-d90b49fd1ce4",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://music.apple.com/us/album/1065297932"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://music.apple.com/us/album/1065297932"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://open.spotify.com/album/0mUy1H38kwy6Hhz9lLoSOW"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://tidal.com/album/54942318"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://www.deezer.com/album/11888254"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/0mUy1H38kwy6Hhz9lLoSOW"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1065297932"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/11888254"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/54942318"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://open.spotify.com/album/0mUy1H38kwy6Hhz9lLoSOW"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://music.apple.com/us/album/1065297932"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://www.deezer.com/album/11888254"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "8fc12292-ea97-4272-acd9-3673e8ae218c",
-          "url": "https://tidal.com/album/54942318"
         }
       ],
       "references": [],

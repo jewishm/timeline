@@ -2,19 +2,19 @@
   "year": 2018,
   "month": 11,
   "stats": {
-    "release_groups": 28,
-    "with_cover_art": 28,
-    "with_action_links": 28,
+    "release_groups": 27,
+    "with_cover_art": 27,
+    "with_action_links": 27,
     "future_releases": 0,
     "types": {
-      "Album": 16,
+      "Album": 15,
       "Single": 12
     },
     "services": {
-      "spotify": 28,
+      "spotify": 27,
       "apple_music": 25,
-      "deezer": 20,
-      "tidal": 19,
+      "deezer": 19,
+      "tidal": 18,
       "amazon": 2,
       "youtube": 2
     }
@@ -817,144 +817,6 @@
           "source": "release",
           "source_release_mbid": "9d619187-7a6f-48a7-be0a-8c93d69e66c8",
           "url": "https://tidal.com/album/98162443"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "3d3bdfc6-d1bc-4168-a158-29c9bf818707",
-      "title": "A Cure for the Leaf",
-      "artist_credit": "Kabbalistic Village",
-      "credited_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village",
-          "position": 0,
-          "credit_name": "Kabbalistic Village",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2018-11-04",
-      "date_precision": "day",
-      "year": 2018,
-      "month": 11,
-      "day": 4,
-      "release_count": 1,
-      "release_mbids": [
-        "072a3c71-bedf-4963-ad1f-efc50ce9f44b"
-      ],
-      "cover_release_mbid": "072a3c71-bedf-4963-ad1f-efc50ce9f44b",
-      "cover_art": {
-        "release_mbid": "072a3c71-bedf-4963-ad1f-efc50ce9f44b",
-        "image_id": 39962227349,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/072a3c71-bedf-4963-ad1f-efc50ce9f44b/39962227349",
-        "thumbnails": {
-          "250": "/covers/072a3c71-bedf-4963-ad1f-efc50ce9f44b--39962227349.webp",
-          "500": "/covers/072a3c71-bedf-4963-ad1f-efc50ce9f44b--39962227349.webp",
-          "1200": "/covers/072a3c71-bedf-4963-ad1f-efc50ce9f44b--39962227349.webp"
-        },
-        "cached": "/covers/072a3c71-bedf-4963-ad1f-efc50ce9f44b--39962227349.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/3d3bdfc6-d1bc-4168-a158-29c9bf818707",
-      "links": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "072a3c71-bedf-4963-ad1f-efc50ce9f44b",
-          "url": "https://open.spotify.com/album/4RGgC6D4Wgw4disnArosh5"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "072a3c71-bedf-4963-ad1f-efc50ce9f44b",
-          "url": "https://tidal.com/album/97995843"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "072a3c71-bedf-4963-ad1f-efc50ce9f44b",
-          "url": "https://www.deezer.com/album/77702162"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4RGgC6D4Wgw4disnArosh5"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/77702162"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/97995843"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "072a3c71-bedf-4963-ad1f-efc50ce9f44b",
-          "url": "https://open.spotify.com/album/4RGgC6D4Wgw4disnArosh5"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "072a3c71-bedf-4963-ad1f-efc50ce9f44b",
-          "url": "https://www.deezer.com/album/77702162"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "072a3c71-bedf-4963-ad1f-efc50ce9f44b",
-          "url": "https://tidal.com/album/97995843"
         }
       ],
       "references": [],

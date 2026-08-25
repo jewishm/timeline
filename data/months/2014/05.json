@@ -2,20 +2,19 @@
   "year": 2014,
   "month": 5,
   "stats": {
-    "release_groups": 7,
-    "with_cover_art": 7,
-    "with_action_links": 7,
+    "release_groups": 6,
+    "with_cover_art": 6,
+    "with_action_links": 6,
     "future_releases": 0,
     "types": {
       "Album": 5,
-      "Single": 2
+      "Single": 1
     },
     "services": {
-      "spotify": 6,
       "apple_music": 6,
+      "spotify": 5,
       "deezer": 3,
-      "tidal": 1,
-      "bandcamp": 1
+      "tidal": 1
     }
   },
   "releases": [
@@ -341,141 +340,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "de3216e6-06b7-421a-b7ba-2f1a71daf1d5",
-      "title": "Apples and Almonds",
-      "artist_credit": "Kabbalistic Village",
-      "credited_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village",
-          "position": 0,
-          "credit_name": "Kabbalistic Village",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2014-05-05",
-      "date_precision": "day",
-      "year": 2014,
-      "month": 5,
-      "day": 5,
-      "release_count": 2,
-      "release_mbids": [
-        "977a11ca-fa3d-48a3-b85d-17dc3db82a3e",
-        "c03987de-9589-46b8-85cc-397f2aab8e0c"
-      ],
-      "cover_release_mbid": "c03987de-9589-46b8-85cc-397f2aab8e0c",
-      "cover_art": {
-        "release_mbid": "c03987de-9589-46b8-85cc-397f2aab8e0c",
-        "image_id": 39962580558,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/c03987de-9589-46b8-85cc-397f2aab8e0c/39962580558",
-        "thumbnails": {
-          "250": "/covers/c03987de-9589-46b8-85cc-397f2aab8e0c--39962580558.webp",
-          "500": "/covers/c03987de-9589-46b8-85cc-397f2aab8e0c--39962580558.webp",
-          "1200": "/covers/c03987de-9589-46b8-85cc-397f2aab8e0c--39962580558.webp"
-        },
-        "cached": "/covers/c03987de-9589-46b8-85cc-397f2aab8e0c--39962580558.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/de3216e6-06b7-421a-b7ba-2f1a71daf1d5",
-      "links": [
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "kabbalisticvillage1.bandcamp.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "977a11ca-fa3d-48a3-b85d-17dc3db82a3e",
-          "url": "https://kabbalisticvillage1.bandcamp.com/album/apples-almonds"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "977a11ca-fa3d-48a3-b85d-17dc3db82a3e",
-          "url": "https://open.spotify.com/album/0Fc4qKWH8UqtuRGRLywgEn"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "c03987de-9589-46b8-85cc-397f2aab8e0c",
-          "url": "https://www.discogs.com/release/13487407"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/0Fc4qKWH8UqtuRGRLywgEn"
-        },
-        "bandcamp": {
-          "label": "Bandcamp",
-          "kind": "buy",
-          "url": "https://kabbalisticvillage1.bandcamp.com/album/apples-almonds"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "977a11ca-fa3d-48a3-b85d-17dc3db82a3e",
-          "url": "https://open.spotify.com/album/0Fc4qKWH8UqtuRGRLywgEn"
-        },
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "kabbalisticvillage1.bandcamp.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "977a11ca-fa3d-48a3-b85d-17dc3db82a3e",
-          "url": "https://kabbalisticvillage1.bandcamp.com/album/apples-almonds"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "c03987de-9589-46b8-85cc-397f2aab8e0c",
-          "url": "https://www.discogs.com/release/13487407"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

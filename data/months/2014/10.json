@@ -2,18 +2,17 @@
   "year": 2014,
   "month": 10,
   "stats": {
-    "release_groups": 4,
-    "with_cover_art": 4,
-    "with_action_links": 4,
+    "release_groups": 3,
+    "with_cover_art": 3,
+    "with_action_links": 3,
     "future_releases": 0,
     "types": {
       "Album": 1,
-      "EP": 2,
-      "Single": 1
+      "EP": 2
     },
     "services": {
-      "spotify": 4,
-      "apple_music": 4,
+      "spotify": 3,
+      "apple_music": 3,
       "deezer": 2
     }
   },
@@ -149,128 +148,6 @@
           "source": "release",
           "source_release_mbid": "9162096b-87a5-473f-bf8e-0d81cb4e5cac",
           "url": "https://www.deezer.com/album/110469672"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "6e77009b-a445-4be8-934a-a5feb2fbaa82",
-      "title": "October",
-      "artist_credit": "Kabbalistic Village",
-      "credited_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village",
-          "position": 0,
-          "credit_name": "Kabbalistic Village",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2014-10-20",
-      "date_precision": "day",
-      "year": 2014,
-      "month": 10,
-      "day": 20,
-      "release_count": 1,
-      "release_mbids": [
-        "572fa993-681e-4236-bd9a-0af6fed22072"
-      ],
-      "cover_release_mbid": "572fa993-681e-4236-bd9a-0af6fed22072",
-      "cover_art": {
-        "release_mbid": "572fa993-681e-4236-bd9a-0af6fed22072",
-        "image_id": 40838884711,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/572fa993-681e-4236-bd9a-0af6fed22072/40838884711",
-        "thumbnails": {
-          "250": "/covers/572fa993-681e-4236-bd9a-0af6fed22072--40838884711.webp",
-          "500": "/covers/572fa993-681e-4236-bd9a-0af6fed22072--40838884711.webp",
-          "1200": "/covers/572fa993-681e-4236-bd9a-0af6fed22072--40838884711.webp"
-        },
-        "cached": "/covers/572fa993-681e-4236-bd9a-0af6fed22072--40838884711.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/6e77009b-a445-4be8-934a-a5feb2fbaa82",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "572fa993-681e-4236-bd9a-0af6fed22072",
-          "url": "https://music.apple.com/br/album/931788122"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "572fa993-681e-4236-bd9a-0af6fed22072",
-          "url": "https://music.apple.com/br/album/931788122"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "572fa993-681e-4236-bd9a-0af6fed22072",
-          "url": "https://open.spotify.com/album/4LSK5ISArZbr57PKmi5cfp"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4LSK5ISArZbr57PKmi5cfp"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/br/album/931788122"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "572fa993-681e-4236-bd9a-0af6fed22072",
-          "url": "https://open.spotify.com/album/4LSK5ISArZbr57PKmi5cfp"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "572fa993-681e-4236-bd9a-0af6fed22072",
-          "url": "https://music.apple.com/br/album/931788122"
         }
       ],
       "references": [],

@@ -3,7 +3,7 @@
   "month": 3,
   "stats": {
     "release_groups": 96,
-    "with_cover_art": 95,
+    "with_cover_art": 96,
     "with_action_links": 95,
     "future_releases": 0,
     "types": {
@@ -64,15 +64,28 @@
       "release_mbids": [
         "19c04d50-518a-41e4-8ba8-5a40b6387ac4"
       ],
-      "cover_release_mbid": null,
-      "cover_art": null,
+      "cover_release_mbid": "19c04d50-518a-41e4-8ba8-5a40b6387ac4",
+      "cover_art": {
+        "release_mbid": "19c04d50-518a-41e4-8ba8-5a40b6387ac4",
+        "image_id": 46004503556,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/19c04d50-518a-41e4-8ba8-5a40b6387ac4/46004503556",
+        "thumbnails": {
+          "250": "/covers/19c04d50-518a-41e4-8ba8-5a40b6387ac4--46004503556.webp",
+          "500": "/covers/19c04d50-518a-41e4-8ba8-5a40b6387ac4--46004503556.webp",
+          "1200": "/covers/19c04d50-518a-41e4-8ba8-5a40b6387ac4--46004503556.webp"
+        },
+        "cached": "/covers/19c04d50-518a-41e4-8ba8-5a40b6387ac4--46004503556.webp"
+      },
       "musicbrainz_url": "https://musicbrainz.org/release-group/8656762d-fda0-48a9-9d56-8740c85287ee",
       "links": [],
       "preferred_links": {},
       "actions": [],
       "references": [],
       "has_action_links": false,
-      "has_cover_art": false,
+      "has_cover_art": true,
       "is_future": false
     },
     {

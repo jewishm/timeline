@@ -2,17 +2,17 @@
   "year": 2013,
   "month": 11,
   "stats": {
-    "release_groups": 7,
-    "with_cover_art": 7,
-    "with_action_links": 6,
+    "release_groups": 6,
+    "with_cover_art": 6,
+    "with_action_links": 5,
     "future_releases": 0,
     "types": {
-      "Album": 4,
+      "Album": 3,
       "Single": 3
     },
     "services": {
-      "spotify": 6,
-      "apple_music": 6,
+      "spotify": 5,
+      "apple_music": 5,
       "deezer": 3
     }
   },
@@ -270,128 +270,6 @@
           "source": "release",
           "source_release_mbid": "94344577-6903-45fd-8423-fae352e2561d",
           "url": "https://www.deezer.com/album/7121961"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "553601b9-8643-4bac-ae67-5048154a1b2f",
-      "title": "Live Today",
-      "artist_credit": "Shaindel Antelis",
-      "credited_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis",
-          "position": 0,
-          "credit_name": "Shaindel Antelis",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2013-11-10",
-      "date_precision": "day",
-      "year": 2013,
-      "month": 11,
-      "day": 10,
-      "release_count": 1,
-      "release_mbids": [
-        "e50a7906-fa38-4652-b88a-976fcbaa24c1"
-      ],
-      "cover_release_mbid": "e50a7906-fa38-4652-b88a-976fcbaa24c1",
-      "cover_art": {
-        "release_mbid": "e50a7906-fa38-4652-b88a-976fcbaa24c1",
-        "image_id": 37775601219,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/e50a7906-fa38-4652-b88a-976fcbaa24c1/37775601219",
-        "thumbnails": {
-          "250": "/covers/e50a7906-fa38-4652-b88a-976fcbaa24c1--37775601219.webp",
-          "500": "/covers/e50a7906-fa38-4652-b88a-976fcbaa24c1--37775601219.webp",
-          "1200": "/covers/e50a7906-fa38-4652-b88a-976fcbaa24c1--37775601219.webp"
-        },
-        "cached": "/covers/e50a7906-fa38-4652-b88a-976fcbaa24c1--37775601219.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/553601b9-8643-4bac-ae67-5048154a1b2f",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "e50a7906-fa38-4652-b88a-976fcbaa24c1",
-          "url": "https://music.apple.com/gb/album/742196951"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e50a7906-fa38-4652-b88a-976fcbaa24c1",
-          "url": "https://music.apple.com/gb/album/742196951"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e50a7906-fa38-4652-b88a-976fcbaa24c1",
-          "url": "https://open.spotify.com/album/2h0hQsuPnCq9tG7S3PqWDF"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/2h0hQsuPnCq9tG7S3PqWDF"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/742196951"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e50a7906-fa38-4652-b88a-976fcbaa24c1",
-          "url": "https://open.spotify.com/album/2h0hQsuPnCq9tG7S3PqWDF"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "e50a7906-fa38-4652-b88a-976fcbaa24c1",
-          "url": "https://music.apple.com/gb/album/742196951"
         }
       ],
       "references": [],

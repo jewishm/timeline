@@ -2,19 +2,19 @@
   "year": 2010,
   "month": 1,
   "stats": {
-    "release_groups": 7,
-    "with_cover_art": 7,
-    "with_action_links": 7,
+    "release_groups": 6,
+    "with_cover_art": 6,
+    "with_action_links": 6,
     "future_releases": 0,
     "types": {
-      "Album": 5,
+      "Album": 4,
       "EP": 1,
       "Single": 1
     },
     "services": {
-      "apple_music": 7,
-      "spotify": 6,
-      "deezer": 4,
+      "apple_music": 6,
+      "spotify": 5,
+      "deezer": 3,
       "tidal": 1
     }
   },
@@ -233,144 +233,6 @@
           "url": "https://www.wikidata.org/wiki/Q97209087"
         }
       ],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "eecf0c5b-b634-4ad5-ba7f-2622d71b4217",
-      "title": "Change",
-      "artist_credit": "Shaindel Antelis",
-      "credited_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis",
-          "position": 0,
-          "credit_name": "Shaindel Antelis",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2010-01-01",
-      "date_precision": "day",
-      "year": 2010,
-      "month": 1,
-      "day": 1,
-      "release_count": 1,
-      "release_mbids": [
-        "eed00ac9-0b99-443f-9916-7d986c7382aa"
-      ],
-      "cover_release_mbid": "eed00ac9-0b99-443f-9916-7d986c7382aa",
-      "cover_art": {
-        "release_mbid": "eed00ac9-0b99-443f-9916-7d986c7382aa",
-        "image_id": 37775560307,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/eed00ac9-0b99-443f-9916-7d986c7382aa/37775560307",
-        "thumbnails": {
-          "250": "/covers/eed00ac9-0b99-443f-9916-7d986c7382aa--37775560307.webp",
-          "500": "/covers/eed00ac9-0b99-443f-9916-7d986c7382aa--37775560307.webp",
-          "1200": "/covers/eed00ac9-0b99-443f-9916-7d986c7382aa--37775560307.webp"
-        },
-        "cached": "/covers/eed00ac9-0b99-443f-9916-7d986c7382aa--37775560307.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/eecf0c5b-b634-4ad5-ba7f-2622d71b4217",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "eed00ac9-0b99-443f-9916-7d986c7382aa",
-          "url": "https://music.apple.com/gb/album/415359385"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "eed00ac9-0b99-443f-9916-7d986c7382aa",
-          "url": "https://open.spotify.com/album/3esKEChCjDg3OXorEMU0Bt"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "eed00ac9-0b99-443f-9916-7d986c7382aa",
-          "url": "https://www.deezer.com/album/7670922"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/3esKEChCjDg3OXorEMU0Bt"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/415359385"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/7670922"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "eed00ac9-0b99-443f-9916-7d986c7382aa",
-          "url": "https://open.spotify.com/album/3esKEChCjDg3OXorEMU0Bt"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "eed00ac9-0b99-443f-9916-7d986c7382aa",
-          "url": "https://music.apple.com/gb/album/415359385"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "eed00ac9-0b99-443f-9916-7d986c7382aa",
-          "url": "https://www.deezer.com/album/7670922"
-        }
-      ],
-      "references": [],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

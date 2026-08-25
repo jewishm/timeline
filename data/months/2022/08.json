@@ -2,20 +2,20 @@
   "year": 2022,
   "month": 8,
   "stats": {
-    "release_groups": 66,
-    "with_cover_art": 66,
-    "with_action_links": 65,
+    "release_groups": 65,
+    "with_cover_art": 65,
+    "with_action_links": 64,
     "future_releases": 0,
     "types": {
       "Album": 12,
       "EP": 3,
-      "Single": 51
+      "Single": 50
     },
     "services": {
-      "spotify": 61,
-      "apple_music": 59,
+      "spotify": 60,
+      "apple_music": 58,
       "deezer": 36,
-      "tidal": 29,
+      "tidal": 28,
       "bandcamp": 4,
       "qobuz": 1,
       "youtube_music": 1,
@@ -5237,155 +5237,6 @@
           "source": "release",
           "source_release_mbid": "b254a5d8-ef71-4893-b3e0-fd0683a180bd",
           "url": "https://www.deezer.com/album/348498557"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "8140d0fa-34f9-44d8-bcf0-8caf0c7221e0",
-      "title": "Passing Time",
-      "artist_credit": "Kabbalistic Village",
-      "credited_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village",
-          "position": 0,
-          "credit_name": "Kabbalistic Village",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2022-08-20",
-      "date_precision": "day",
-      "year": 2022,
-      "month": 8,
-      "day": 20,
-      "release_count": 1,
-      "release_mbids": [
-        "d6bc386b-e12d-4805-93da-fbea8aa4a9c2"
-      ],
-      "cover_release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-      "cover_art": {
-        "release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-        "image_id": 40839023734,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/d6bc386b-e12d-4805-93da-fbea8aa4a9c2/40839023734",
-        "thumbnails": {
-          "250": "/covers/d6bc386b-e12d-4805-93da-fbea8aa4a9c2--40839023734.webp",
-          "500": "/covers/d6bc386b-e12d-4805-93da-fbea8aa4a9c2--40839023734.webp",
-          "1200": "/covers/d6bc386b-e12d-4805-93da-fbea8aa4a9c2--40839023734.webp"
-        },
-        "cached": "/covers/d6bc386b-e12d-4805-93da-fbea8aa4a9c2--40839023734.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/8140d0fa-34f9-44d8-bcf0-8caf0c7221e0",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-          "url": "https://music.apple.com/br/album/1640915157"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-          "url": "https://music.apple.com/br/album/1640915157"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-          "url": "https://open.spotify.com/album/0L6a7tn6VhP6uqVnHfvnjT"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-          "url": "https://tidal.com/album/244143196"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/0L6a7tn6VhP6uqVnHfvnjT"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/br/album/1640915157"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/244143196"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-          "url": "https://open.spotify.com/album/0L6a7tn6VhP6uqVnHfvnjT"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-          "url": "https://music.apple.com/br/album/1640915157"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "d6bc386b-e12d-4805-93da-fbea8aa4a9c2",
-          "url": "https://tidal.com/album/244143196"
         }
       ],
       "references": [],

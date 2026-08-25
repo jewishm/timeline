@@ -2,21 +2,21 @@
   "year": 2025,
   "month": 12,
   "stats": {
-    "release_groups": 107,
+    "release_groups": 106,
     "with_cover_art": 106,
-    "with_action_links": 107,
+    "with_action_links": 106,
     "future_releases": 0,
     "types": {
       "Album": 27,
       "EP": 5,
-      "Single": 75
+      "Single": 74
     },
     "services": {
-      "deezer": 107,
-      "tidal": 107,
-      "spotify": 106,
-      "apple_music": 97,
-      "qobuz": 6,
+      "deezer": 106,
+      "tidal": 106,
+      "spotify": 105,
+      "apple_music": 96,
+      "qobuz": 7,
       "anghami": 1,
       "24six": 1,
       "other": 1
@@ -6024,8 +6024,21 @@
       "release_mbids": [
         "243a846d-f385-42b0-9e84-498ee1ec06ea"
       ],
-      "cover_release_mbid": null,
-      "cover_art": null,
+      "cover_release_mbid": "243a846d-f385-42b0-9e84-498ee1ec06ea",
+      "cover_art": {
+        "release_mbid": "243a846d-f385-42b0-9e84-498ee1ec06ea",
+        "image_id": 46004535222,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/243a846d-f385-42b0-9e84-498ee1ec06ea/46004535222",
+        "thumbnails": {
+          "250": "/covers/243a846d-f385-42b0-9e84-498ee1ec06ea--46004535222.webp",
+          "500": "/covers/243a846d-f385-42b0-9e84-498ee1ec06ea--46004535222.webp",
+          "1200": "/covers/243a846d-f385-42b0-9e84-498ee1ec06ea--46004535222.webp"
+        },
+        "cached": "/covers/243a846d-f385-42b0-9e84-498ee1ec06ea--46004535222.webp"
+      },
       "musicbrainz_url": "https://musicbrainz.org/release-group/9cc8d502-4674-41d5-8c9e-fbae26cb9c57",
       "links": [
         {
@@ -6082,6 +6095,28 @@
           "source": "release",
           "source_release_mbid": "243a846d-f385-42b0-9e84-498ee1ec06ea",
           "url": "https://www.deezer.com/album/819480721"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "243a846d-f385-42b0-9e84-498ee1ec06ea",
+          "url": "https://www.qobuz.com/us-en/album/ive-gotta-be-me-david-leshes/qfti85tc4r4ka"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "243a846d-f385-42b0-9e84-498ee1ec06ea",
+          "url": "https://www.qobuz.com/us-en/album/ive-gotta-be-me-david-leshes/qfti85tc4r4ka"
         }
       ],
       "preferred_links": {
@@ -6104,6 +6139,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/459829618"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ive-gotta-be-me-david-leshes/qfti85tc4r4ka"
         }
       },
       "actions": [
@@ -6150,11 +6190,22 @@
           "source": "release",
           "source_release_mbid": "243a846d-f385-42b0-9e84-498ee1ec06ea",
           "url": "https://tidal.com/album/459829618"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "243a846d-f385-42b0-9e84-498ee1ec06ea",
+          "url": "https://www.qobuz.com/us-en/album/ive-gotta-be-me-david-leshes/qfti85tc4r4ka"
         }
       ],
       "references": [],
       "has_action_links": true,
-      "has_cover_art": false,
+      "has_cover_art": true,
       "is_future": false
     },
     {
@@ -12731,182 +12782,6 @@
           "source": "release",
           "source_release_mbid": "d4b3d160-1fd7-4098-8307-b7b30d145ec5",
           "url": "https://tidal.com/album/483856306"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "0b6a206e-57e4-4478-9359-fb4bb996be63",
-      "title": "Once More",
-      "artist_credit": "Shaindel Antelis",
-      "credited_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis",
-          "position": 0,
-          "credit_name": "Shaindel Antelis",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2025-12-20",
-      "date_precision": "day",
-      "year": 2025,
-      "month": 12,
-      "day": 20,
-      "release_count": 1,
-      "release_mbids": [
-        "aa391aa0-9342-43af-85bf-da9297882180"
-      ],
-      "cover_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-      "cover_art": {
-        "release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-        "image_id": 45071740013,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/aa391aa0-9342-43af-85bf-da9297882180/45071740013",
-        "thumbnails": {
-          "250": "/covers/aa391aa0-9342-43af-85bf-da9297882180--45071740013.webp",
-          "500": "/covers/aa391aa0-9342-43af-85bf-da9297882180--45071740013.webp",
-          "1200": "/covers/aa391aa0-9342-43af-85bf-da9297882180--45071740013.webp"
-        },
-        "cached": "/covers/aa391aa0-9342-43af-85bf-da9297882180--45071740013.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/0b6a206e-57e4-4478-9359-fb4bb996be63",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://music.apple.com/us/album/1865585187"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://music.apple.com/us/album/1865585187"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://open.spotify.com/album/4N3rnON6O3BlNRMocJMc0u"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://tidal.com/album/486198859"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://www.deezer.com/album/889051102"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4N3rnON6O3BlNRMocJMc0u"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1865585187"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/889051102"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/486198859"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://open.spotify.com/album/4N3rnON6O3BlNRMocJMc0u"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://music.apple.com/us/album/1865585187"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://www.deezer.com/album/889051102"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "aa391aa0-9342-43af-85bf-da9297882180",
-          "url": "https://tidal.com/album/486198859"
         }
       ],
       "references": [],

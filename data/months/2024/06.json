@@ -2,28 +2,27 @@
   "year": 2024,
   "month": 6,
   "stats": {
-    "release_groups": 110,
-    "with_cover_art": 110,
-    "with_action_links": 110,
+    "release_groups": 109,
+    "with_cover_art": 109,
+    "with_action_links": 109,
     "future_releases": 0,
     "types": {
       "Album": 19,
-      "EP": 5,
+      "EP": 4,
       "Single": 86
     },
     "services": {
-      "spotify": 110,
-      "apple_music": 107,
-      "deezer": 67,
-      "tidal": 52,
+      "spotify": 109,
+      "apple_music": 106,
+      "deezer": 66,
+      "tidal": 51,
       "amazon": 4,
       "mostly_music": 3,
       "qobuz": 2,
       "youtube": 2,
       "other": 2,
       "boomplay": 1,
-      "24six": 1,
-      "bandcamp": 1
+      "24six": 1
     }
   },
   "releases": [
@@ -12007,221 +12006,6 @@
           "source": "release",
           "source_release_mbid": "f55e1a86-49fe-4bd2-a0c1-52ee2946441e",
           "url": "https://tidal.com/album/370105486"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "5f92192c-6d48-482f-9381-af2fcb9f71b3",
-      "title": "Lost Worlds",
-      "artist_credit": "Kabbalistic Village",
-      "credited_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village",
-          "position": 0,
-          "credit_name": "Kabbalistic Village",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village"
-        }
-      ],
-      "primary_type": "EP",
-      "secondary_types": [],
-      "first_release_date": "2024-06-19",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 6,
-      "day": 19,
-      "release_count": 2,
-      "release_mbids": [
-        "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-        "7a5d35ed-8fdd-46fb-9741-396fc5a5b1b3"
-      ],
-      "cover_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-      "cover_art": {
-        "release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-        "image_id": 39962423562,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9/39962423562",
-        "thumbnails": {
-          "250": "/covers/29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9--39962423562.webp",
-          "500": "/covers/29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9--39962423562.webp",
-          "1200": "/covers/29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9--39962423562.webp"
-        },
-        "cached": "/covers/29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9--39962423562.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/5f92192c-6d48-482f-9381-af2fcb9f71b3",
-      "links": [
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "kabbalisticvillage1.bandcamp.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "7a5d35ed-8fdd-46fb-9741-396fc5a5b1b3",
-          "url": "https://kabbalisticvillage1.bandcamp.com/album/lost-worlds"
-        },
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "kabbalisticvillage1.bandcamp.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "7a5d35ed-8fdd-46fb-9741-396fc5a5b1b3",
-          "url": "https://kabbalisticvillage1.bandcamp.com/album/lost-worlds"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://music.apple.com/gb/album/1753550619"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://music.apple.com/gb/album/1753550619"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://open.spotify.com/album/1yQY5pr2gQCG90hXzynp0B"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://tidal.com/album/370876156"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://www.deezer.com/album/605656312"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/1yQY5pr2gQCG90hXzynp0B"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1753550619"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/605656312"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/370876156"
-        },
-        "bandcamp": {
-          "label": "Bandcamp",
-          "kind": "listen",
-          "url": "https://kabbalisticvillage1.bandcamp.com/album/lost-worlds"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://open.spotify.com/album/1yQY5pr2gQCG90hXzynp0B"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://music.apple.com/gb/album/1753550619"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://www.deezer.com/album/605656312"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "29ebe75b-f459-4e3c-8ea8-b0258dd3f4d9",
-          "url": "https://tidal.com/album/370876156"
-        },
-        {
-          "site_key": "bandcamp",
-          "site_label": "Bandcamp",
-          "domain": "kabbalisticvillage1.bandcamp.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "7a5d35ed-8fdd-46fb-9741-396fc5a5b1b3",
-          "url": "https://kabbalisticvillage1.bandcamp.com/album/lost-worlds"
         }
       ],
       "references": [],

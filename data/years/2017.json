@@ -1,14 +1,14 @@
 {
   "year": 2017,
   "stats": {
-    "release_groups": 187,
-    "dated_release_groups": 180,
+    "release_groups": 183,
+    "dated_release_groups": 176,
     "year_only_release_groups": 7,
-    "artists": 139,
+    "artists": 138,
     "months_with_releases": 12,
     "types": {
-      "Album": 101,
-      "EP": 9,
+      "Album": 100,
+      "EP": 6,
       "Single": 77
     }
   },
@@ -203,10 +203,10 @@
     },
     {
       "month": 3,
-      "release_groups": 20,
+      "release_groups": 19,
       "types": {
         "Album": 7,
-        "EP": 5,
+        "EP": 4,
         "Single": 8
       },
       "featured": [
@@ -580,33 +580,12 @@
     },
     {
       "month": 7,
-      "release_groups": 8,
+      "release_groups": 7,
       "types": {
-        "Album": 5,
+        "Album": 4,
         "Single": 3
       },
       "featured": [
-        {
-          "release_group_mbid": "0bf33b3e-5c83-43b2-a0f2-615c84242de5",
-          "title": "Soundtracks and Backgrounds (2014)",
-          "artist_credit": "Kabbalistic Village",
-          "primary_type": "Album",
-          "day": 6,
-          "cover_art": {
-            "release_mbid": "e554ecea-7cb8-4d26-99e6-fde39182f734",
-            "image_id": 39962332985,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/e554ecea-7cb8-4d26-99e6-fde39182f734/39962332985",
-            "thumbnails": {
-              "250": "/covers/e554ecea-7cb8-4d26-99e6-fde39182f734--39962332985.webp",
-              "500": "/covers/e554ecea-7cb8-4d26-99e6-fde39182f734--39962332985.webp",
-              "1200": "/covers/e554ecea-7cb8-4d26-99e6-fde39182f734--39962332985.webp"
-            },
-            "cached": "/covers/e554ecea-7cb8-4d26-99e6-fde39182f734--39962332985.webp"
-          }
-        },
         {
           "release_group_mbid": "0d472ce7-99fb-4bbe-b72e-b7827a1662d7",
           "title": "ADD",
@@ -669,15 +648,36 @@
             },
             "cached": "/covers/dcd0d7f6-bd0d-4fa5-89c5-1ef0c2030504--45905873408.webp"
           }
+        },
+        {
+          "release_group_mbid": "52fdabcb-8f74-4572-b22a-ebe1349f263a",
+          "title": "Thunderstruck",
+          "artist_credit": "Matt Dubb",
+          "primary_type": "Single",
+          "day": 21,
+          "cover_art": {
+            "release_mbid": "3da59c2c-1a50-4f9d-bd1b-82ce01c4563a",
+            "image_id": 37524930922,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/3da59c2c-1a50-4f9d-bd1b-82ce01c4563a/37524930922",
+            "thumbnails": {
+              "250": "/covers/3da59c2c-1a50-4f9d-bd1b-82ce01c4563a--37524930922.webp",
+              "500": "/covers/3da59c2c-1a50-4f9d-bd1b-82ce01c4563a--37524930922.webp",
+              "1200": "/covers/3da59c2c-1a50-4f9d-bd1b-82ce01c4563a--37524930922.webp"
+            },
+            "cached": "/covers/3da59c2c-1a50-4f9d-bd1b-82ce01c4563a--37524930922.webp"
+          }
         }
       ]
     },
     {
       "month": 8,
-      "release_groups": 26,
+      "release_groups": 25,
       "types": {
         "Album": 11,
-        "EP": 2,
+        "EP": 1,
         "Single": 13
       },
       "featured": [
@@ -1052,10 +1052,9 @@
     },
     {
       "month": 12,
-      "release_groups": 19,
+      "release_groups": 18,
       "types": {
         "Album": 11,
-        "EP": 1,
         "Single": 7
       },
       "featured": [
@@ -1153,11 +1152,6 @@
       "release_groups": 5
     },
     {
-      "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-      "name": "Kabbalistic Village",
-      "release_groups": 4
-    },
-    {
       "mbid": "3425ee24-bda4-4b17-a764-4ba14862809a",
       "name": "Shmueli Ungar",
       "release_groups": 4
@@ -1220,6 +1214,11 @@
     {
       "mbid": "e2bc3c6a-d48c-4476-8f00-a47432ffb151",
       "name": "Chaim Shlomo Mayesz",
+      "release_groups": 2
+    },
+    {
+      "mbid": "be4e6a55-56d7-42b0-bf3a-7fe01d970239",
+      "name": "Hillel Kapnick",
       "release_groups": 2
     }
   ],

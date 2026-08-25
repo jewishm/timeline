@@ -2,20 +2,17 @@
   "year": 2013,
   "month": 10,
   "stats": {
-    "release_groups": 5,
-    "with_cover_art": 5,
-    "with_action_links": 5,
+    "release_groups": 4,
+    "with_cover_art": 4,
+    "with_action_links": 4,
     "future_releases": 0,
     "types": {
-      "Album": 4,
-      "Single": 1
+      "Album": 4
     },
     "services": {
-      "spotify": 5,
-      "deezer": 5,
-      "apple_music": 4,
-      "tidal": 1,
-      "beatport": 1
+      "spotify": 4,
+      "deezer": 4,
+      "apple_music": 3
     }
   },
   "releases": [
@@ -615,209 +612,6 @@
           "source": "release",
           "source_release_mbid": "4a2a6c6f-6625-4d81-b3cb-2aac5bdbb8a2",
           "url": "https://www.deezer.com/album/8411412"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "b2c29a97-4f74-4d46-9e72-3ff30a1c3610",
-      "title": "Picture The Thought",
-      "artist_credit": "Kabbalistic Village",
-      "credited_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village",
-          "position": 0,
-          "credit_name": "Kabbalistic Village",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "c010b5a8-60d7-4ee3-9bdc-f95835ac2bef",
-          "name": "Kabbalistic Village"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2013-10-29",
-      "date_precision": "day",
-      "year": 2013,
-      "month": 10,
-      "day": 29,
-      "release_count": 1,
-      "release_mbids": [
-        "502f7a2f-5de7-434b-aa66-643ed31fdd92"
-      ],
-      "cover_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-      "cover_art": {
-        "release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-        "image_id": 39962474106,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/502f7a2f-5de7-434b-aa66-643ed31fdd92/39962474106",
-        "thumbnails": {
-          "250": "/covers/502f7a2f-5de7-434b-aa66-643ed31fdd92--39962474106.webp",
-          "500": "/covers/502f7a2f-5de7-434b-aa66-643ed31fdd92--39962474106.webp",
-          "1200": "/covers/502f7a2f-5de7-434b-aa66-643ed31fdd92--39962474106.webp"
-        },
-        "cached": "/covers/502f7a2f-5de7-434b-aa66-643ed31fdd92--39962474106.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/b2c29a97-4f74-4d46-9e72-3ff30a1c3610",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://music.apple.com/gb/album/717800742"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://music.apple.com/gb/album/717800742"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://open.spotify.com/album/4ouiyRdJPBgsIKjRiD2hJp"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://tidal.com/album/58194334"
-        },
-        {
-          "site_key": "beatport",
-          "site_label": "Beatport",
-          "domain": "beatport.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://www.beatport.com/release/picture-the-thought/1165835"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://www.deezer.com/album/7077142"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4ouiyRdJPBgsIKjRiD2hJp"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/717800742"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/7077142"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/58194334"
-        },
-        "beatport": {
-          "label": "Beatport",
-          "kind": "buy",
-          "url": "https://www.beatport.com/release/picture-the-thought/1165835"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://open.spotify.com/album/4ouiyRdJPBgsIKjRiD2hJp"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://music.apple.com/gb/album/717800742"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://www.deezer.com/album/7077142"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://tidal.com/album/58194334"
-        },
-        {
-          "site_key": "beatport",
-          "site_label": "Beatport",
-          "domain": "beatport.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "502f7a2f-5de7-434b-aa66-643ed31fdd92",
-          "url": "https://www.beatport.com/release/picture-the-thought/1165835"
         }
       ],
       "references": [],

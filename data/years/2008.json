@@ -1,13 +1,13 @@
 {
   "year": 2008,
   "stats": {
-    "release_groups": 59,
+    "release_groups": 58,
     "dated_release_groups": 40,
-    "year_only_release_groups": 19,
-    "artists": 55,
+    "year_only_release_groups": 18,
+    "artists": 54,
     "months_with_releases": 12,
     "types": {
-      "Album": 56,
+      "Album": 55,
       "EP": 1,
       "Single": 2
     }
@@ -2285,144 +2285,6 @@
           "source": "release",
           "source_release_mbid": "2528b193-be21-405e-9535-fbf9279111dd",
           "url": "https://www.shmuelkunda.com/products/theres-zaidy"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "25aef796-3688-4ad8-99ef-55ce1621a87b",
-      "title": "Heart & Soul",
-      "artist_credit": "Shaindel Antelis",
-      "credited_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis",
-          "position": 0,
-          "credit_name": "Shaindel Antelis",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "2481b4e4-2d0b-4243-a194-bd6db1b773e8",
-          "name": "Shaindel Antelis"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2008",
-      "date_precision": "year",
-      "year": 2008,
-      "month": null,
-      "day": null,
-      "release_count": 1,
-      "release_mbids": [
-        "dec660d4-c196-415d-9277-34147c5e0043"
-      ],
-      "cover_release_mbid": "dec660d4-c196-415d-9277-34147c5e0043",
-      "cover_art": {
-        "release_mbid": "dec660d4-c196-415d-9277-34147c5e0043",
-        "image_id": 37775542015,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/dec660d4-c196-415d-9277-34147c5e0043/37775542015",
-        "thumbnails": {
-          "250": "/covers/dec660d4-c196-415d-9277-34147c5e0043--37775542015.webp",
-          "500": "/covers/dec660d4-c196-415d-9277-34147c5e0043--37775542015.webp",
-          "1200": "/covers/dec660d4-c196-415d-9277-34147c5e0043--37775542015.webp"
-        },
-        "cached": "/covers/dec660d4-c196-415d-9277-34147c5e0043--37775542015.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/25aef796-3688-4ad8-99ef-55ce1621a87b",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "dec660d4-c196-415d-9277-34147c5e0043",
-          "url": "https://music.apple.com/gb/album/305544263"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "dec660d4-c196-415d-9277-34147c5e0043",
-          "url": "https://open.spotify.com/album/4ErgNVsWYUZaNhjaPItJpt"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "dec660d4-c196-415d-9277-34147c5e0043",
-          "url": "https://www.deezer.com/album/792180"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4ErgNVsWYUZaNhjaPItJpt"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/305544263"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/792180"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "dec660d4-c196-415d-9277-34147c5e0043",
-          "url": "https://open.spotify.com/album/4ErgNVsWYUZaNhjaPItJpt"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "dec660d4-c196-415d-9277-34147c5e0043",
-          "url": "https://music.apple.com/gb/album/305544263"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "dec660d4-c196-415d-9277-34147c5e0043",
-          "url": "https://www.deezer.com/album/792180"
         }
       ],
       "references": [],
