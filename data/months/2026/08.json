@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 8,
   "stats": {
-    "release_groups": 70,
-    "with_cover_art": 70,
-    "with_action_links": 70,
+    "release_groups": 71,
+    "with_cover_art": 71,
+    "with_action_links": 71,
     "future_releases": 0,
     "types": {
       "Album": 18,
-      "EP": 6,
+      "EP": 7,
       "Single": 46
     },
     "services": {
-      "spotify": 70,
-      "tidal": 69,
-      "deezer": 68,
-      "apple_music": 65,
-      "qobuz": 38
+      "spotify": 71,
+      "tidal": 70,
+      "deezer": 69,
+      "apple_music": 66,
+      "qobuz": 39
     }
   },
   "releases": [
@@ -9195,8 +9195,8 @@
           "join_phrase": " & "
         },
         {
-          "mbid": "ee2975c2-45a8-4b4e-89df-7718ef1e46b5",
-          "name": "Shia Berko",
+          "mbid": "c6eda481-39c7-4bcf-9c19-1506a12192f5",
+          "name": "Shea Berko",
           "position": 1,
           "credit_name": "Shia Berko",
           "join_phrase": ""
@@ -13801,6 +13801,220 @@
           "source": "release",
           "source_release_mbid": "d2475cdf-b1e5-428b-aeb5-bcfdc0f4ce28",
           "url": "https://www.qobuz.com/us-en/album/-/ljfgv9e10fuev"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "0d618de2-1256-43b8-aab5-98cf5f8dc428",
+      "title": "ניגון של שתיקה",
+      "artist_credit": "חיים גולד",
+      "credited_artists": [
+        {
+          "mbid": "311eea0c-c925-4c9e-a0ad-6b8cdb5aca71",
+          "name": "חיים גולד",
+          "position": 0,
+          "credit_name": "חיים גולד",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "311eea0c-c925-4c9e-a0ad-6b8cdb5aca71",
+          "name": "חיים גולד"
+        }
+      ],
+      "primary_type": "EP",
+      "secondary_types": [],
+      "first_release_date": "2026-08-25",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 25,
+      "release_count": 1,
+      "release_mbids": [
+        "b81660b5-e39d-4cf8-887f-49bb62fe1185"
+      ],
+      "cover_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+      "cover_art": {
+        "release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+        "image_id": 46012989242,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/b81660b5-e39d-4cf8-887f-49bb62fe1185/46012989242",
+        "thumbnails": {
+          "250": "/covers/b81660b5-e39d-4cf8-887f-49bb62fe1185--46012989242.webp",
+          "500": "/covers/b81660b5-e39d-4cf8-887f-49bb62fe1185--46012989242.webp",
+          "1200": "/covers/b81660b5-e39d-4cf8-887f-49bb62fe1185--46012989242.webp"
+        },
+        "cached": "/covers/b81660b5-e39d-4cf8-887f-49bb62fe1185--46012989242.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/0d618de2-1256-43b8-aab5-98cf5f8dc428",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://music.apple.com/us/album/6803415115"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://music.apple.com/us/album/6803415115"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://open.spotify.com/album/4gdceyLG7h4qU3fKzVlguX"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://tidal.com/album/553968241"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://www.deezer.com/album/1058574052"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://www.qobuz.com/us-en/album/-nigun-shel-shtika-chaim-gold/myfso4yx57y4t"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://www.qobuz.com/us-en/album/-nigun-shel-shtika-chaim-gold/myfso4yx57y4t"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4gdceyLG7h4qU3fKzVlguX"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6803415115"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1058574052"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/553968241"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-nigun-shel-shtika-chaim-gold/myfso4yx57y4t"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://open.spotify.com/album/4gdceyLG7h4qU3fKzVlguX"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://music.apple.com/us/album/6803415115"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://www.deezer.com/album/1058574052"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://tidal.com/album/553968241"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
+          "url": "https://www.qobuz.com/us-en/album/-nigun-shel-shtika-chaim-gold/myfso4yx57y4t"
         }
       ],
       "references": [],
