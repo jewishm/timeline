@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 8,
   "stats": {
-    "release_groups": 78,
-    "with_cover_art": 78,
-    "with_action_links": 78,
+    "release_groups": 80,
+    "with_cover_art": 80,
+    "with_action_links": 80,
     "future_releases": 0,
     "types": {
-      "Album": 19,
+      "Album": 20,
       "EP": 7,
-      "Single": 52
+      "Single": 53
     },
     "services": {
-      "spotify": 78,
-      "tidal": 77,
-      "deezer": 76,
-      "apple_music": 72,
-      "qobuz": 40
+      "spotify": 80,
+      "tidal": 79,
+      "deezer": 78,
+      "apple_music": 74,
+      "qobuz": 42
     }
   },
   "releases": [
@@ -8441,6 +8441,220 @@
       "is_future": false
     },
     {
+      "release_group_mbid": "c8007702-90d5-4787-807a-75e322ac1f53",
+      "title": "מחרוזת תורה",
+      "artist_credit": "שמחה בירנהאק",
+      "credited_artists": [
+        {
+          "mbid": "a0b4b810-1ec8-4b5c-aeb4-23cec567c661",
+          "name": "שמחה בירנהאק",
+          "position": 0,
+          "credit_name": "שמחה בירנהאק",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "a0b4b810-1ec8-4b5c-aeb4-23cec567c661",
+          "name": "שמחה בירנהאק"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-08-16",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 16,
+      "release_count": 1,
+      "release_mbids": [
+        "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf"
+      ],
+      "cover_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+      "cover_art": {
+        "release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+        "image_id": 46026344858,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf/46026344858",
+        "thumbnails": {
+          "250": "/covers/3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf--46026344858.webp",
+          "500": "/covers/3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf--46026344858.webp",
+          "1200": "/covers/3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf--46026344858.webp"
+        },
+        "cached": "/covers/3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf--46026344858.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/c8007702-90d5-4787-807a-75e322ac1f53",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://music.apple.com/us/album/6801479415"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://music.apple.com/us/album/6801479415"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://open.spotify.com/album/1Nox7usFDJenpOV6xvfy8D"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://tidal.com/album/552334070"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://www.deezer.com/album/1054104902"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://www.qobuz.com/us-en/album/-/uq4qhknf89ook"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://www.qobuz.com/us-en/album/-/uq4qhknf89ook"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1Nox7usFDJenpOV6xvfy8D"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6801479415"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1054104902"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/552334070"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-/uq4qhknf89ook"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://open.spotify.com/album/1Nox7usFDJenpOV6xvfy8D"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://music.apple.com/us/album/6801479415"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://www.deezer.com/album/1054104902"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://tidal.com/album/552334070"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e1bd32e-618d-498a-ae8f-9a5dc9b6c3bf",
+          "url": "https://www.qobuz.com/us-en/album/-/uq4qhknf89ook"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
       "release_group_mbid": "a7568eea-7dc5-4a34-a1eb-235df6f6236e",
       "title": "I Can",
       "artist_credit": "Boruch Sholom",
@@ -14543,6 +14757,220 @@
           "source": "release",
           "source_release_mbid": "b81660b5-e39d-4cf8-887f-49bb62fe1185",
           "url": "https://www.qobuz.com/us-en/album/-nigun-shel-shtika-chaim-gold/myfso4yx57y4t"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "7c84de39-c37b-40d9-965f-e479cd54cbad",
+      "title": "מלכות שבמלכות",
+      "artist_credit": "מקהלת רוממו",
+      "credited_artists": [
+        {
+          "mbid": "bae59b12-3f82-4b93-b24b-7be224759bb2",
+          "name": "Roimemu Choir",
+          "position": 0,
+          "credit_name": "מקהלת רוממו",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "bae59b12-3f82-4b93-b24b-7be224759bb2",
+          "name": "Roimemu Choir"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-08-25",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 25,
+      "release_count": 1,
+      "release_mbids": [
+        "b4ba4434-1f44-423e-8c9d-86f43bbd551e"
+      ],
+      "cover_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+      "cover_art": {
+        "release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+        "image_id": 46026083605,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/b4ba4434-1f44-423e-8c9d-86f43bbd551e/46026083605",
+        "thumbnails": {
+          "250": "/covers/b4ba4434-1f44-423e-8c9d-86f43bbd551e--46026083605.webp",
+          "500": "/covers/b4ba4434-1f44-423e-8c9d-86f43bbd551e--46026083605.webp",
+          "1200": "/covers/b4ba4434-1f44-423e-8c9d-86f43bbd551e--46026083605.webp"
+        },
+        "cached": "/covers/b4ba4434-1f44-423e-8c9d-86f43bbd551e--46026083605.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/7c84de39-c37b-40d9-965f-e479cd54cbad",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://music.apple.com/us/album/6805188220"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://music.apple.com/us/album/6805188220"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://open.spotify.com/album/0r1ECwZHGPsHjiE2aeNLCs"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://tidal.com/album/555585245"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://www.deezer.com/album/1062859761"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://www.qobuz.com/us-en/album/-r-cheskie-weisz-roimemu-choir/ed3rm68a5xh3a"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://www.qobuz.com/us-en/album/-r-cheskie-weisz-roimemu-choir/ed3rm68a5xh3a"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0r1ECwZHGPsHjiE2aeNLCs"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6805188220"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1062859761"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/555585245"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-r-cheskie-weisz-roimemu-choir/ed3rm68a5xh3a"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://open.spotify.com/album/0r1ECwZHGPsHjiE2aeNLCs"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://music.apple.com/us/album/6805188220"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://www.deezer.com/album/1062859761"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://tidal.com/album/555585245"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4ba4434-1f44-423e-8c9d-86f43bbd551e",
+          "url": "https://www.qobuz.com/us-en/album/-r-cheskie-weisz-roimemu-choir/ed3rm68a5xh3a"
         }
       ],
       "references": [],
