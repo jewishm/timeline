@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 5,
   "stats": {
-    "release_groups": 79,
-    "with_cover_art": 78,
-    "with_action_links": 79,
+    "release_groups": 80,
+    "with_cover_art": 79,
+    "with_action_links": 80,
     "future_releases": 0,
     "types": {
       "Album": 23,
       "EP": 7,
-      "Single": 49
+      "Single": 50
     },
     "services": {
-      "spotify": 79,
-      "deezer": 78,
-      "tidal": 77,
-      "apple_music": 63,
-      "qobuz": 24,
+      "spotify": 80,
+      "deezer": 79,
+      "tidal": 78,
+      "apple_music": 64,
+      "qobuz": 25,
       "24six": 1
     }
   },
@@ -1077,6 +1077,231 @@
           "source": "release",
           "source_release_mbid": "4e672fcd-2261-4764-baff-782dc7d986d1",
           "url": "https://www.qobuz.com/us-en/album/mi-lashem-eilei-gesher-/sbwcgmpdzvcs2"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "c75a10a5-d8c4-4e3d-9713-ebc74cd39e0f",
+      "title": "כי מציון",
+      "artist_credit": "יששכר גוטמאן & יואלי קליין",
+      "credited_artists": [
+        {
+          "mbid": "3ad6cb01-5081-4c93-a6fb-940fc49efd9a",
+          "name": "Yesoschor Guttman",
+          "position": 0,
+          "credit_name": "יששכר גוטמאן",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "c097afe3-1e02-405b-b779-cfe6cabe9592",
+          "name": "יואלי קליין",
+          "position": 1,
+          "credit_name": "יואלי קליין",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "3ad6cb01-5081-4c93-a6fb-940fc49efd9a",
+          "name": "Yesoschor Guttman"
+        },
+        {
+          "mbid": "c097afe3-1e02-405b-b779-cfe6cabe9592",
+          "name": "יואלי קליין"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-05-04",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 5,
+      "day": 4,
+      "release_count": 1,
+      "release_mbids": [
+        "b672dc5c-5f48-4d3a-a30a-3c09f347ba36"
+      ],
+      "cover_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+      "cover_art": {
+        "release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+        "image_id": 46052676833,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/b672dc5c-5f48-4d3a-a30a-3c09f347ba36/46052676833",
+        "thumbnails": {
+          "250": "/covers/b672dc5c-5f48-4d3a-a30a-3c09f347ba36--46052676833.webp",
+          "500": "/covers/b672dc5c-5f48-4d3a-a30a-3c09f347ba36--46052676833.webp",
+          "1200": "/covers/b672dc5c-5f48-4d3a-a30a-3c09f347ba36--46052676833.webp"
+        },
+        "cached": "/covers/b672dc5c-5f48-4d3a-a30a-3c09f347ba36--46052676833.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/c75a10a5-d8c4-4e3d-9713-ebc74cd39e0f",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://music.apple.com/us/album/6766472375"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://music.apple.com/us/album/6766472375"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://open.spotify.com/album/6WglBxixNX9KZ52Btg433o"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://tidal.com/album/521663354"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://www.deezer.com/album/975925721"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://www.qobuz.com/us-en/album/ki-mitzion-amp-suscher-guttman/bx47e9gmbc9tv"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://www.qobuz.com/us-en/album/ki-mitzion-amp-suscher-guttman/bx47e9gmbc9tv"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6WglBxixNX9KZ52Btg433o"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6766472375"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/975925721"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/521663354"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ki-mitzion-amp-suscher-guttman/bx47e9gmbc9tv"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://open.spotify.com/album/6WglBxixNX9KZ52Btg433o"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://music.apple.com/us/album/6766472375"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://www.deezer.com/album/975925721"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://tidal.com/album/521663354"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b672dc5c-5f48-4d3a-a30a-3c09f347ba36",
+          "url": "https://www.qobuz.com/us-en/album/ki-mitzion-amp-suscher-guttman/bx47e9gmbc9tv"
         }
       ],
       "references": [],
