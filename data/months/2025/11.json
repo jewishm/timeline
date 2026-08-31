@@ -2,21 +2,21 @@
   "year": 2025,
   "month": 11,
   "stats": {
-    "release_groups": 74,
-    "with_cover_art": 72,
-    "with_action_links": 73,
+    "release_groups": 75,
+    "with_cover_art": 73,
+    "with_action_links": 74,
     "future_releases": 0,
     "types": {
       "Album": 23,
       "EP": 11,
-      "Single": 40
+      "Single": 41
     },
     "services": {
-      "spotify": 73,
-      "deezer": 70,
-      "tidal": 68,
-      "apple_music": 47,
-      "qobuz": 3,
+      "spotify": 74,
+      "deezer": 71,
+      "tidal": 69,
+      "apple_music": 49,
+      "qobuz": 4,
       "mostly_music": 2,
       "24six": 1,
       "amazon": 1,
@@ -3845,6 +3845,28 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/2e663d3a-4a24-49f1-8d72-88c1c2981a00",
       "links": [
         {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "9e743105-9bc5-47da-b972-b7d0e36056ca",
+          "url": "https://music.apple.com/us/album/1853442216"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9e743105-9bc5-47da-b972-b7d0e36056ca",
+          "url": "https://music.apple.com/us/album/1853442216"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -3861,6 +3883,11 @@
           "label": "Spotify",
           "kind": "listen",
           "url": "https://open.spotify.com/album/0fLIVmaOI3BMBH7qccn5NG"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1853442216"
         }
       },
       "actions": [
@@ -3874,6 +3901,17 @@
           "source": "release",
           "source_release_mbid": "9e743105-9bc5-47da-b972-b7d0e36056ca",
           "url": "https://open.spotify.com/album/0fLIVmaOI3BMBH7qccn5NG"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9e743105-9bc5-47da-b972-b7d0e36056ca",
+          "url": "https://music.apple.com/us/album/1853442216"
         }
       ],
       "references": [],
@@ -10935,6 +10973,220 @@
           "source": "release",
           "source_release_mbid": "6a394c8b-1ce4-431d-9094-14236b673666",
           "url": "https://tidal.com/album/475492771"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "a8025d63-13cf-4fd8-af26-8f028bde43ef",
+      "title": "Zman Le’Emunah",
+      "artist_credit": "Shlomo Mash",
+      "credited_artists": [
+        {
+          "mbid": "5afe9db8-19bb-49ff-bae0-1e4afd427ca0",
+          "name": "Shlomo Mash",
+          "position": 0,
+          "credit_name": "Shlomo Mash",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "5afe9db8-19bb-49ff-bae0-1e4afd427ca0",
+          "name": "Shlomo Mash"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-11-28",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 11,
+      "day": 28,
+      "release_count": 1,
+      "release_mbids": [
+        "9217fc1a-0c77-494b-9f9b-dbf1b1308366"
+      ],
+      "cover_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+      "cover_art": {
+        "release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+        "image_id": 46061977424,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/9217fc1a-0c77-494b-9f9b-dbf1b1308366/46061977424",
+        "thumbnails": {
+          "250": "/covers/9217fc1a-0c77-494b-9f9b-dbf1b1308366--46061977424.webp",
+          "500": "/covers/9217fc1a-0c77-494b-9f9b-dbf1b1308366--46061977424.webp",
+          "1200": "/covers/9217fc1a-0c77-494b-9f9b-dbf1b1308366--46061977424.webp"
+        },
+        "cached": "/covers/9217fc1a-0c77-494b-9f9b-dbf1b1308366--46061977424.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/a8025d63-13cf-4fd8-af26-8f028bde43ef",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://music.apple.com/us/album/1855636303"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://music.apple.com/us/album/1855636303"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://open.spotify.com/album/1volXuHZw2NbC7CItXTZvv"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://tidal.com/album/475826922"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://www.deezer.com/album/861435602"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://www.qobuz.com/us-en/album/zman-leemunah-shlomo-mash/ss5t347aigpzv"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://www.qobuz.com/us-en/album/zman-leemunah-shlomo-mash/ss5t347aigpzv"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1volXuHZw2NbC7CItXTZvv"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1855636303"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/861435602"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/475826922"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/zman-leemunah-shlomo-mash/ss5t347aigpzv"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://open.spotify.com/album/1volXuHZw2NbC7CItXTZvv"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://music.apple.com/us/album/1855636303"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://www.deezer.com/album/861435602"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://tidal.com/album/475826922"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9217fc1a-0c77-494b-9f9b-dbf1b1308366",
+          "url": "https://www.qobuz.com/us-en/album/zman-leemunah-shlomo-mash/ss5t347aigpzv"
         }
       ],
       "references": [],

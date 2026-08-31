@@ -14,9 +14,9 @@
       "spotify": 8,
       "apple_music": 7,
       "deezer": 6,
-      "tidal": 5,
+      "tidal": 6,
+      "qobuz": 2,
       "amazon": 2,
-      "qobuz": 1,
       "youtube_music": 1
     }
   },
@@ -697,24 +697,25 @@
       "year": 2014,
       "month": 2,
       "day": 17,
-      "release_count": 1,
+      "release_count": 2,
       "release_mbids": [
-        "6284f993-36c8-4871-9c6f-2dd02c9be5a9"
+        "6284f993-36c8-4871-9c6f-2dd02c9be5a9",
+        "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f"
       ],
-      "cover_release_mbid": "6284f993-36c8-4871-9c6f-2dd02c9be5a9",
+      "cover_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
       "cover_art": {
-        "release_mbid": "6284f993-36c8-4871-9c6f-2dd02c9be5a9",
-        "image_id": 36804134624,
+        "release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+        "image_id": 46060470691,
         "mime_type": "image/jpeg",
         "ordering": 1,
         "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/6284f993-36c8-4871-9c6f-2dd02c9be5a9/36804134624",
+        "original": "https://coverartarchive.org/release/93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f/46060470691",
         "thumbnails": {
-          "250": "/covers/6284f993-36c8-4871-9c6f-2dd02c9be5a9--36804134624.webp",
-          "500": "/covers/6284f993-36c8-4871-9c6f-2dd02c9be5a9--36804134624.webp",
-          "1200": "/covers/6284f993-36c8-4871-9c6f-2dd02c9be5a9--36804134624.webp"
+          "250": "/covers/93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f--46060470691.webp",
+          "500": "/covers/93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f--46060470691.webp",
+          "1200": "/covers/93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f--46060470691.webp"
         },
-        "cached": "/covers/6284f993-36c8-4871-9c6f-2dd02c9be5a9--36804134624.webp"
+        "cached": "/covers/93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f--46060470691.webp"
       },
       "musicbrainz_url": "https://musicbrainz.org/release-group/92b8ae11-7e6a-463d-9db8-928c19cfc522",
       "links": [
@@ -730,6 +731,39 @@
           "url": "https://music.apple.com/gb/album/1459525410"
         },
         {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://music.apple.com/us/album/1867801751"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://music.apple.com/us/album/1867801751"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://open.spotify.com/album/4SN1MORiAjDJbg8vDn0HVO"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -739,6 +773,28 @@
           "source": "release",
           "source_release_mbid": "6284f993-36c8-4871-9c6f-2dd02c9be5a9",
           "url": "https://open.spotify.com/album/7hiP3J7c8lbcKetgIdXbey"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://tidal.com/album/488493784"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://www.deezer.com/album/894255532"
         },
         {
           "site_key": "deezer",
@@ -750,13 +806,35 @@
           "source": "release",
           "source_release_mbid": "6284f993-36c8-4871-9c6f-2dd02c9be5a9",
           "url": "https://www.deezer.com/album/93318682"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://www.qobuz.com/us-en/album/shloime-daskal/ydewkolb6peys"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://www.qobuz.com/us-en/album/shloime-daskal/ydewkolb6peys"
         }
       ],
       "preferred_links": {
         "spotify": {
           "label": "Spotify",
           "kind": "listen",
-          "url": "https://open.spotify.com/album/7hiP3J7c8lbcKetgIdXbey"
+          "url": "https://open.spotify.com/album/4SN1MORiAjDJbg8vDn0HVO"
         },
         "apple_music": {
           "label": "Apple Music",
@@ -766,7 +844,17 @@
         "deezer": {
           "label": "Deezer",
           "kind": "listen",
-          "url": "https://www.deezer.com/album/93318682"
+          "url": "https://www.deezer.com/album/894255532"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/488493784"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/shloime-daskal/ydewkolb6peys"
         }
       },
       "actions": [
@@ -778,8 +866,8 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "6284f993-36c8-4871-9c6f-2dd02c9be5a9",
-          "url": "https://open.spotify.com/album/7hiP3J7c8lbcKetgIdXbey"
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://open.spotify.com/album/4SN1MORiAjDJbg8vDn0HVO"
         },
         {
           "site_key": "apple_music",
@@ -800,8 +888,30 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "6284f993-36c8-4871-9c6f-2dd02c9be5a9",
-          "url": "https://www.deezer.com/album/93318682"
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://www.deezer.com/album/894255532"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://tidal.com/album/488493784"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93c26a2f-fc7b-40cd-b4c4-4cae5dfe0d8f",
+          "url": "https://www.qobuz.com/us-en/album/shloime-daskal/ydewkolb6peys"
         }
       ],
       "references": [],

@@ -2,21 +2,22 @@
   "year": 2018,
   "month": 11,
   "stats": {
-    "release_groups": 27,
-    "with_cover_art": 27,
-    "with_action_links": 27,
+    "release_groups": 28,
+    "with_cover_art": 28,
+    "with_action_links": 28,
     "future_releases": 0,
     "types": {
-      "Album": 15,
+      "Album": 16,
       "Single": 12
     },
     "services": {
-      "spotify": 27,
-      "apple_music": 25,
-      "deezer": 19,
-      "tidal": 18,
+      "spotify": 28,
+      "apple_music": 26,
+      "deezer": 20,
+      "tidal": 19,
       "amazon": 2,
-      "youtube": 2
+      "youtube": 2,
+      "qobuz": 1
     }
   },
   "releases": [
@@ -1805,6 +1806,220 @@
           "source": "release",
           "source_release_mbid": "084ac311-24e5-4cdb-8a3d-a9e5e6be2084",
           "url": "https://tidal.com/album/99044336"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "e178dc6f-a4ca-4b7f-8801-99f8a9e044c7",
+      "title": "Stronger Closer",
+      "artist_credit": "8th Day",
+      "credited_artists": [
+        {
+          "mbid": "51cb99a5-ce66-4611-9d08-a6432c9560f9",
+          "name": "8th Day",
+          "position": 0,
+          "credit_name": "8th Day",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "51cb99a5-ce66-4611-9d08-a6432c9560f9",
+          "name": "8th Day"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2018-11-19",
+      "date_precision": "day",
+      "year": 2018,
+      "month": 11,
+      "day": 19,
+      "release_count": 1,
+      "release_mbids": [
+        "c5a5106f-e104-40e7-af8c-69e632fe9528"
+      ],
+      "cover_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+      "cover_art": {
+        "release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+        "image_id": 37014497585,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/c5a5106f-e104-40e7-af8c-69e632fe9528/37014497585",
+        "thumbnails": {
+          "250": "/covers/c5a5106f-e104-40e7-af8c-69e632fe9528--37014497585.webp",
+          "500": "/covers/c5a5106f-e104-40e7-af8c-69e632fe9528--37014497585.webp",
+          "1200": "/covers/c5a5106f-e104-40e7-af8c-69e632fe9528--37014497585.webp"
+        },
+        "cached": "/covers/c5a5106f-e104-40e7-af8c-69e632fe9528--37014497585.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e178dc6f-a4ca-4b7f-8801-99f8a9e044c7",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://music.apple.com/us/album/1443249921"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://music.apple.com/us/album/1443249921"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://open.spotify.com/album/2gpB1pX67fhWVpeGXBGarI"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://tidal.com/album/101448929"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.deezer.com/album/82670172"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.qobuz.com/us-en/album/stronger-closer-8th-day/vy74pvpw5w1ac"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.qobuz.com/us-en/album/stronger-closer-8th-day/vy74pvpw5w1ac"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2gpB1pX67fhWVpeGXBGarI"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1443249921"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/82670172"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/101448929"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/stronger-closer-8th-day/vy74pvpw5w1ac"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://open.spotify.com/album/2gpB1pX67fhWVpeGXBGarI"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://music.apple.com/us/album/1443249921"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.deezer.com/album/82670172"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://tidal.com/album/101448929"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c5a5106f-e104-40e7-af8c-69e632fe9528",
+          "url": "https://www.qobuz.com/us-en/album/stronger-closer-8th-day/vy74pvpw5w1ac"
         }
       ],
       "references": [],

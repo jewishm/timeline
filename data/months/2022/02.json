@@ -2,12 +2,12 @@
   "year": 2022,
   "month": 2,
   "stats": {
-    "release_groups": 52,
-    "with_cover_art": 52,
-    "with_action_links": 52,
+    "release_groups": 53,
+    "with_cover_art": 53,
+    "with_action_links": 53,
     "future_releases": 0,
     "types": {
-      "Album": 24,
+      "Album": 25,
       "Single": 28
     },
     "services": {
@@ -18,7 +18,9 @@
       "amazon": 2,
       "youtube": 2,
       "boomplay": 1,
-      "qobuz": 1
+      "qobuz": 1,
+      "mostly_music": 1,
+      "nigun_music": 1
     }
   },
   "releases": [
@@ -7524,6 +7526,128 @@
           "source": "release",
           "source_release_mbid": "862818eb-0655-4bce-afd3-0ad575b8b4a7",
           "url": "https://tidal.com/album/410348243"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "68352263-6604-41cb-9595-d25e08b841b7",
+      "title": "Lenatzeach",
+      "artist_credit": "Moshe Goldman",
+      "credited_artists": [
+        {
+          "mbid": "582a2945-ef27-4dca-8e3f-ac2d59bbd7fd",
+          "name": "Moshe Goldman",
+          "position": 0,
+          "credit_name": "Moshe Goldman",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "582a2945-ef27-4dca-8e3f-ac2d59bbd7fd",
+          "name": "Moshe Goldman"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2022-02",
+      "date_precision": "month",
+      "year": 2022,
+      "month": 2,
+      "day": null,
+      "release_count": 1,
+      "release_mbids": [
+        "c7ee196c-7dd8-4886-9448-544bd2d82e09"
+      ],
+      "cover_release_mbid": "c7ee196c-7dd8-4886-9448-544bd2d82e09",
+      "cover_art": {
+        "release_mbid": "c7ee196c-7dd8-4886-9448-544bd2d82e09",
+        "image_id": 37659007443,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/c7ee196c-7dd8-4886-9448-544bd2d82e09/37659007443",
+        "thumbnails": {
+          "250": "/covers/c7ee196c-7dd8-4886-9448-544bd2d82e09--37659007443.webp",
+          "500": "/covers/c7ee196c-7dd8-4886-9448-544bd2d82e09--37659007443.webp",
+          "1200": "/covers/c7ee196c-7dd8-4886-9448-544bd2d82e09--37659007443.webp"
+        },
+        "cached": "/covers/c7ee196c-7dd8-4886-9448-544bd2d82e09--37659007443.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/68352263-6604-41cb-9595-d25e08b841b7",
+      "links": [
+        {
+          "site_key": "mostly_music",
+          "site_label": "Mostly Music",
+          "domain": "mostlymusic.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c7ee196c-7dd8-4886-9448-544bd2d82e09",
+          "url": "https://mostlymusic.com/products/moshe-goldman-lenatzeach"
+        },
+        {
+          "site_key": "mostly_music",
+          "site_label": "Mostly Music",
+          "domain": "mostlymusic.com",
+          "relationship": "purchase for mail-order",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c7ee196c-7dd8-4886-9448-544bd2d82e09",
+          "url": "https://mostlymusic.com/products/moshe-goldman-lenatzeach"
+        },
+        {
+          "site_key": "nigun_music",
+          "site_label": "Nigun Music",
+          "domain": "nigunmusic.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c7ee196c-7dd8-4886-9448-544bd2d82e09",
+          "url": "https://www.nigunmusic.com/lenatzeach.html"
+        }
+      ],
+      "preferred_links": {
+        "mostly_music": {
+          "label": "Mostly Music",
+          "kind": "buy",
+          "url": "https://mostlymusic.com/products/moshe-goldman-lenatzeach"
+        },
+        "nigun_music": {
+          "label": "Nigun Music",
+          "kind": "buy",
+          "url": "https://www.nigunmusic.com/lenatzeach.html"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "mostly_music",
+          "site_label": "Mostly Music",
+          "domain": "mostlymusic.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c7ee196c-7dd8-4886-9448-544bd2d82e09",
+          "url": "https://mostlymusic.com/products/moshe-goldman-lenatzeach"
+        },
+        {
+          "site_key": "nigun_music",
+          "site_label": "Nigun Music",
+          "domain": "nigunmusic.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c7ee196c-7dd8-4886-9448-544bd2d82e09",
+          "url": "https://www.nigunmusic.com/lenatzeach.html"
         }
       ],
       "references": [],

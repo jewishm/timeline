@@ -2,12 +2,12 @@
   "year": 2024,
   "month": 6,
   "stats": {
-    "release_groups": 109,
-    "with_cover_art": 109,
-    "with_action_links": 109,
+    "release_groups": 110,
+    "with_cover_art": 110,
+    "with_action_links": 110,
     "future_releases": 0,
     "types": {
-      "Album": 19,
+      "Album": 20,
       "EP": 4,
       "Single": 86
     },
@@ -20,9 +20,9 @@
       "mostly_music": 3,
       "qobuz": 2,
       "youtube": 2,
+      "24six": 2,
       "other": 2,
-      "boomplay": 1,
-      "24six": 1
+      "boomplay": 1
     }
   },
   "releases": [
@@ -16525,6 +16525,90 @@
           "source": "release",
           "source_release_mbid": "057bc43b-4121-4b6a-b287-a9289645209c",
           "url": "https://tidal.com/album/421993833"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "8b345bd2-67b0-41de-b863-5c50f63e4cfb",
+      "title": "The Schmeltzer Wedding DJ Set",
+      "artist_credit": "Shmili Landau",
+      "credited_artists": [
+        {
+          "mbid": "326df8ac-cc6b-4371-8d7c-d5b4179a7cba",
+          "name": "Shmili Landau",
+          "position": 0,
+          "credit_name": "Shmili Landau",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "326df8ac-cc6b-4371-8d7c-d5b4179a7cba",
+          "name": "Shmili Landau"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2024-06",
+      "date_precision": "month",
+      "year": 2024,
+      "month": 6,
+      "day": null,
+      "release_count": 1,
+      "release_mbids": [
+        "1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1"
+      ],
+      "cover_release_mbid": "1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1",
+      "cover_art": {
+        "release_mbid": "1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1",
+        "image_id": 39059871462,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1/39059871462",
+        "thumbnails": {
+          "250": "/covers/1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1--39059871462.webp",
+          "500": "/covers/1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1--39059871462.webp",
+          "1200": "/covers/1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1--39059871462.webp"
+        },
+        "cached": "/covers/1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1--39059871462.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/8b345bd2-67b0-41de-b863-5c50f63e4cfb",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1",
+          "url": "https://24six.app/app/music/collection/8981"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/app/music/collection/8981"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1f0bdce0-3a8e-4a68-9df5-c9a6ad48c2d1",
+          "url": "https://24six.app/app/music/collection/8981"
         }
       ],
       "references": [],

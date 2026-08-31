@@ -15,6 +15,7 @@
       "apple_music": 7,
       "tidal": 5,
       "deezer": 5,
+      "qobuz": 1,
       "other": 1
     }
   },
@@ -719,6 +720,28 @@
           "source": "release",
           "source_release_mbid": "4f7640ac-e7ef-4935-90b5-ba151ae95896",
           "url": "https://www.deezer.com/album/430119127"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "4f7640ac-e7ef-4935-90b5-ba151ae95896",
+          "url": "https://www.qobuz.com/us-en/album/-/tnvjzz0n2y9rc"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4f7640ac-e7ef-4935-90b5-ba151ae95896",
+          "url": "https://www.qobuz.com/us-en/album/-/tnvjzz0n2y9rc"
         }
       ],
       "preferred_links": {
@@ -741,6 +764,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/289289068"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-/tnvjzz0n2y9rc"
         }
       },
       "actions": [
@@ -787,6 +815,17 @@
           "source": "release",
           "source_release_mbid": "4f7640ac-e7ef-4935-90b5-ba151ae95896",
           "url": "https://tidal.com/album/289289068"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4f7640ac-e7ef-4935-90b5-ba151ae95896",
+          "url": "https://www.qobuz.com/us-en/album/-/tnvjzz0n2y9rc"
         }
       ],
       "references": [],

@@ -1,13 +1,13 @@
 {
   "year": 2020,
   "stats": {
-    "release_groups": 507,
-    "dated_release_groups": 499,
-    "year_only_release_groups": 8,
+    "release_groups": 508,
+    "dated_release_groups": 501,
+    "year_only_release_groups": 7,
     "artists": 300,
     "months_with_releases": 12,
     "types": {
-      "Album": 116,
+      "Album": 117,
       "EP": 18,
       "Single": 373
     }
@@ -299,9 +299,9 @@
     },
     {
       "month": 4,
-      "release_groups": 37,
+      "release_groups": 38,
       "types": {
-        "Album": 6,
+        "Album": 7,
         "EP": 2,
         "Single": 29
       },
@@ -678,9 +678,9 @@
     },
     {
       "month": 8,
-      "release_groups": 49,
+      "release_groups": 50,
       "types": {
-        "Album": 10,
+        "Album": 11,
         "EP": 2,
         "Single": 37
       },
@@ -1414,209 +1414,6 @@
           "source": "release",
           "source_release_mbid": "88855ab9-5bd1-4ef6-acac-be2298c3f99f",
           "url": "https://www.youtube.com/watch?v=v0pghRtQyC4"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "bc32d645-34ad-46dd-896f-7465f56ab7aa",
-      "title": "Whispers Of The Heart",
-      "artist_credit": "Benny Friedman",
-      "credited_artists": [
-        {
-          "mbid": "cd2a8c6d-6c11-414b-89da-3bead475d86a",
-          "name": "Benny Friedman",
-          "position": 0,
-          "credit_name": "Benny Friedman",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "cd2a8c6d-6c11-414b-89da-3bead475d86a",
-          "name": "Benny Friedman"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2020",
-      "date_precision": "year",
-      "year": 2020,
-      "month": null,
-      "day": null,
-      "release_count": 1,
-      "release_mbids": [
-        "759d5a5c-5a1e-4757-8ee3-b544dca592b2"
-      ],
-      "cover_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-      "cover_art": {
-        "release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-        "image_id": 28378931071,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/759d5a5c-5a1e-4757-8ee3-b544dca592b2/28378931071",
-        "thumbnails": {
-          "250": "/covers/759d5a5c-5a1e-4757-8ee3-b544dca592b2--28378931071.webp",
-          "500": "/covers/759d5a5c-5a1e-4757-8ee3-b544dca592b2--28378931071.webp",
-          "1200": "/covers/759d5a5c-5a1e-4757-8ee3-b544dca592b2--28378931071.webp"
-        },
-        "cached": "/covers/759d5a5c-5a1e-4757-8ee3-b544dca592b2--28378931071.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/bc32d645-34ad-46dd-896f-7465f56ab7aa",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://music.apple.com/us/album/1511325180"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://music.apple.com/us/album/1511325180"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://open.spotify.com/album/5o2au9Ph5TB9KZN8ORvDJA"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://tidal.com/album/139456836"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://www.amazon.com/gp/product/B087TRN8LL"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://www.deezer.com/album/145163812"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/5o2au9Ph5TB9KZN8ORvDJA"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1511325180"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/145163812"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/139456836"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B087TRN8LL"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://open.spotify.com/album/5o2au9Ph5TB9KZN8ORvDJA"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://music.apple.com/us/album/1511325180"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://www.deezer.com/album/145163812"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://tidal.com/album/139456836"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "759d5a5c-5a1e-4757-8ee3-b544dca592b2",
-          "url": "https://www.amazon.com/gp/product/B087TRN8LL"
         }
       ],
       "references": [],
