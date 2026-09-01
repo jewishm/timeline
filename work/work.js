@@ -14,6 +14,9 @@ const workContent =
 const workTitle =
   $("workTitle");
 
+const workCredits =
+  $("workCredits");
+
 const workStats =
   $("workStats");
 
@@ -94,6 +97,118 @@ function actionLabel(action) {
     || "Listen"
   );
 }
+
+
+function creditLabel(role) {
+
+  if (role === "composer") {
+    return "Composed by";
+  }
+
+  if (role === "lyricist") {
+    return "Lyrics by";
+  }
+
+  if (role === "writer") {
+    return "Written by";
+  }
+
+  return role;
+}
+
+
+function creditsHtml(credits) {
+
+  const roleOrder = [
+    "composer",
+    "lyricist",
+    "writer"
+  ];
+
+
+  const grouped =
+    new Map();
+
+
+  for (
+    const credit
+    of credits || []
+  ) {
+
+    const role =
+      credit.role || "";
+
+    if (!grouped.has(role)) {
+      grouped.set(
+        role,
+        []
+      );
+    }
+
+    grouped.get(
+      role
+    ).push(
+      credit
+    );
+  }
+
+
+  return roleOrder
+    .filter(
+      role =>
+        grouped.has(
+          role
+        )
+    )
+    .map(role => {
+
+      const people =
+        grouped
+          .get(role)
+          .map(credit => `
+
+            <a
+              class="work-credit-person"
+              href="${escapeHtml(
+                credit.musicbrainz_url
+              )}"
+              target="_blank"
+              rel="noopener"
+              dir="auto">
+              ${escapeHtml(
+                credit.name
+              )}
+            </a>
+
+          `)
+          .join(
+            '<span class="work-credit-separator">, </span>'
+          );
+
+
+      return `
+
+        <div class="work-credit-row">
+
+          <span class="work-credit-role">
+            ${escapeHtml(
+              creditLabel(
+                role
+              )
+            )}
+          </span>
+
+          <span class="work-credit-people">
+            ${people}
+          </span>
+
+        </div>
+
+      `;
+    })
+    .join("");
+}
+
 
 
 function versionHtml(version) {
@@ -313,6 +428,35 @@ async function init() {
 
     workTitle.textContent =
       work.title;
+
+
+    const credits =
+      work.credits || [];
+
+
+    if (
+      credits.length
+      && workCredits
+    ) {
+
+      workCredits.innerHTML =
+        creditsHtml(
+          credits
+        );
+
+      workCredits.hidden =
+        false;
+
+    }
+    else if (workCredits) {
+
+      workCredits.innerHTML =
+        "";
+
+      workCredits.hidden =
+        true;
+
+    }
 
 
     workStats.innerHTML = `

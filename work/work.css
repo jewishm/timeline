@@ -434,3 +434,83 @@
   }
 
 }
+
+
+/* ====================================================
+   Work writing credits
+==================================================== */
+
+.work-credits {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin:
+    22px auto 0;
+
+  max-width: 760px;
+}
+
+
+.work-credit-row {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: baseline;
+
+  flex-wrap: wrap;
+
+  gap:
+    5px 8px;
+
+  color: #9699a3;
+
+  font-size: 13px;
+
+  line-height: 1.45;
+}
+
+
+.work-credit-role {
+  color: #777a84;
+}
+
+
+.work-credit-person {
+  color: #d7ae68;
+
+  font-weight: 650;
+
+  text-decoration: none;
+}
+
+
+.work-credit-person:hover {
+  text-decoration: underline;
+
+  text-underline-offset: 3px;
+}
+
+
+.work-credit-separator {
+  color: #777a84;
+}
+
+
+@media (max-width: 620px) {
+
+  .work-credits {
+    margin-top: 18px;
+  }
+
+
+  .work-credit-row {
+    font-size: 12px;
+  }
+
+}
