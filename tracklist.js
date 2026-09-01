@@ -122,6 +122,76 @@
   }
 
 
+  function trackTitleHtml(track) {
+
+    const title =
+      escapeHtml(
+        track.title
+      );
+
+    const works =
+      Array.isArray(
+        track.works
+      )
+        ? track.works.filter(
+            work =>
+              work
+              && work.mbid
+          )
+        : [];
+
+
+    if (!works.length) {
+      return title;
+    }
+
+
+    if (works.length === 1) {
+
+      return `
+        <a
+          class="tl-work-link"
+          href="/work/?id=${encodeURIComponent(
+            works[0].mbid
+          )}"
+          title="View all recorded versions">
+          ${title}
+        </a>
+      `;
+    }
+
+
+    return `
+      <span>
+        ${title}
+      </span>
+
+      <span class="tl-work-list">
+        ${
+          works
+            .map(
+              work => `
+                <a
+                  class="tl-work-link"
+                  href="/work/?id=${encodeURIComponent(
+                    work.mbid
+                  )}">
+                  ${
+                    escapeHtml(
+                      work.title
+                      || "Work"
+                    )
+                  }
+                </a>
+              `
+            )
+            .join(" · ")
+        }
+      </span>
+    `;
+  }
+
+
   function mediumHtml(
     medium,
     mediaCount
@@ -178,8 +248,8 @@
                 class="tl-title"
                 dir="auto">
                 ${
-                  escapeHtml(
-                    track.title
+                  trackTitleHtml(
+                    track
                   )
                 }
               </span>

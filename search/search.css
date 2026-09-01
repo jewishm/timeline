@@ -430,3 +430,140 @@
   }
 
 }
+
+
+/* ====================================================
+   Song / Work search
+==================================================== */
+
+.song-search-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fill,
+      minmax(280px, 1fr)
+    );
+
+  gap: 10px;
+}
+
+
+.song-search-result {
+  display: grid;
+
+  grid-template-columns:
+    42px minmax(0,1fr) 18px;
+
+  align-items: center;
+
+  gap: 10px;
+
+  min-width: 0;
+
+  padding: 14px;
+
+  border:
+    1px solid
+    rgba(255,255,255,.09);
+
+  border-radius: 15px;
+
+  background:
+    rgba(255,255,255,.045);
+
+  color: inherit;
+
+  text-decoration: none;
+
+  transition:
+    transform .15s ease,
+    border-color .15s ease,
+    background .15s ease;
+}
+
+
+.song-search-result:hover,
+.song-search-result:focus-visible {
+  transform:
+    translateY(-2px);
+
+  border-color:
+    rgba(215,174,104,.35);
+
+  background:
+    rgba(255,255,255,.07);
+
+  outline: none;
+}
+
+
+.song-search-icon {
+  display: grid;
+
+  place-items: center;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 12px;
+
+  background:
+    rgba(215,174,104,.10);
+
+  color: #d7ae68;
+
+  font-size: 20px;
+}
+
+
+.song-search-body {
+  display: block;
+
+  min-width: 0;
+}
+
+
+.song-search-title {
+  display: block;
+
+  overflow: hidden;
+
+  font-size: 14px;
+
+  line-height: 1.3;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+}
+
+
+.song-search-meta {
+  display: block;
+
+  margin-top: 5px;
+
+  color: #9699a3;
+
+  font-size: 11px;
+}
+
+
+.song-search-arrow {
+  color: #d7ae68;
+
+  font-size: 24px;
+
+  opacity: .65;
+}
+
+
+@media (max-width: 620px) {
+
+  .song-search-grid {
+    grid-template-columns:
+      1fr;
+  }
+
+}

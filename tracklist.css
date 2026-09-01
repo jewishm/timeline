@@ -271,3 +271,41 @@
   color: #efd29f;
 }
 
+
+
+/* Track → Work links */
+
+.tl-work-link {
+  color: inherit;
+
+  text-decoration:
+    underline;
+
+  text-decoration-color:
+    rgba(215,174,104,.42);
+
+  text-decoration-thickness:
+    1px;
+
+  text-underline-offset:
+    3px;
+}
+
+
+.tl-work-link:hover {
+  color: #d7ae68;
+
+  text-decoration-color:
+    #d7ae68;
+}
+
+
+.tl-work-list {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #d7ae68;
+
+  font-size: 10px;
+}

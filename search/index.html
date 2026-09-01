@@ -212,7 +212,7 @@
       </h1>
 
       <p>
-        Search artists and releases across
+        Search artists, songs and releases across
         the entire timeline.
       </p>
 
@@ -228,7 +228,7 @@
       <input
         id="searchInput"
         type="search"
-        placeholder="Search artist or album…"
+        placeholder="Search artist, song or album…"
         autocomplete="off"
         autofocus>
 
@@ -264,6 +264,32 @@
     <div
       id="artistResults"
       class="artist-search-grid">
+    </div>
+
+  </section>
+
+
+  <section
+    id="songSection"
+    class="search-section"
+    hidden>
+
+    <div class="search-section-heading">
+
+      <h2>
+        Songs
+      </h2>
+
+      <span
+        id="songCount"
+        class="result-count">
+      </span>
+
+    </div>
+
+    <div
+      id="songResults"
+      class="song-search-grid">
     </div>
 
   </section>
@@ -330,11 +356,11 @@
     </div>
 
     <h2>
-      Find an artist or release
+      Find an artist, song or release
     </h2>
 
     <p>
-      Search the complete Jewish Music Timeline.
+      Search artists, songs and releases across the complete Jewish Music Timeline.
     </p>
 
   </section>
@@ -424,6 +450,8 @@
 <script src="/share.js?v=1787514992"></script>
 <script src="/cover-fallback.js?v=1"></script>
 <script src="/search/search.js?v=1787514852"></script>
+
+<script src="/search/song-search.js?v=1"></script>
 
 
 <script src="/tracklist.js?v=1"></script>
