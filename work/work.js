@@ -70,33 +70,180 @@ function dateText(version) {
 }
 
 
-function actionLabel(action) {
+function serviceKey(action) {
+
+  const value = (
+    String(
+      action.site_label
+      || ""
+    )
+    + " "
+    + String(
+      action.url
+      || ""
+    )
+  ).toLowerCase();
+
+
+  if (
+    value.includes("spotify")
+  ) {
+    return "spotify";
+  }
+
+
+  if (
+    value.includes("apple")
+    || value.includes("itunes")
+  ) {
+    return "apple";
+  }
+
+
+  if (
+    value.includes("deezer")
+  ) {
+    return "deezer";
+  }
+
+
+  if (
+    value.includes("tidal")
+  ) {
+    return "tidal";
+  }
+
+
+  if (
+    value.includes("youtube")
+  ) {
+    return "youtube";
+  }
+
+
+  if (
+    value.includes("amazon")
+  ) {
+    return "amazon";
+  }
+
+
+  return "music";
+}
+
+
+function serviceTitle(action) {
 
   if (
     action.action_kind
     === "buy"
   ) {
     return (
-      "Buy · "
-      + action.site_label
+      "Buy on "
+      + (
+        action.site_label
+        || "music service"
+      )
     );
   }
 
-  if (
-    action.action_kind
-    === "download"
-  ) {
-    return (
-      "Download · "
-      + action.site_label
-    );
-  }
 
   return (
     action.site_label
     || "Listen"
   );
 }
+
+
+function serviceIcon(action) {
+
+  const key =
+    serviceKey(
+      action
+    );
+
+
+  const files = {
+    spotify:
+      "spotify.png",
+
+    apple:
+      "apple.png",
+
+    deezer:
+      "deezer.png",
+
+    tidal:
+      "tidal.png",
+
+    youtube:
+      "youtube.png",
+
+    youtubemusic:
+      "youtubemusic.png",
+
+    amazon:
+      "amazon.png"
+  };
+
+
+  if (files[key]) {
+
+    return `
+      <img
+        class="service-brand-image"
+        src="/work/icons/${files[key]}"
+        alt=""
+        aria-hidden="true">
+    `;
+  }
+
+
+  return `
+    <span
+      class="service-fallback"
+      aria-hidden="true">
+      ♪
+    </span>
+  `;
+}
+
+
+
+function actionButtonHtml(action) {
+
+  const title =
+    serviceTitle(
+      action
+    );
+
+  const key =
+    serviceKey(
+      action
+    );
+
+
+  return `
+    <a
+      class="
+        version-button
+        service-icon
+        service-${escapeHtml(key)}
+      "
+      href="${escapeHtml(
+        action.url
+      )}"
+      target="_blank"
+      rel="noopener"
+      title="${escapeHtml(title)}"
+      aria-label="${escapeHtml(title)}">
+
+      ${serviceIcon(action)}
+
+    </a>
+  `;
+}
+
 
 
 function creditLabel(role) {
@@ -248,21 +395,7 @@ function versionHtml(version) {
       3
     )
     .map(
-      action => `
-        <a
-          class="version-button"
-          href="${escapeHtml(
-            action.url
-          )}"
-          target="_blank"
-          rel="noopener">
-          ${escapeHtml(
-            actionLabel(
-              action
-            )
-          )}
-        </a>
-      `
+      actionButtonHtml
     )
     .join("");
 

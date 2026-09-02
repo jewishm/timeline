@@ -514,3 +514,505 @@
   }
 
 }
+
+
+/* ====================================================
+   Streaming service icon buttons
+==================================================== */
+
+.version-button.service-icon {
+  width: 42px;
+  min-width: 42px;
+  height: 40px;
+  min-height: 40px;
+
+  padding: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.version-button.service-icon svg {
+  width: 21px;
+  height: 21px;
+
+  display: block;
+}
+
+.service-icon.service-spotify {
+  color: #1ed760;
+}
+
+.service-icon.service-apple {
+  color: #f2f2f4;
+}
+
+.service-icon.service-deezer {
+  color: #ba86ff;
+}
+
+.service-icon.service-tidal {
+  color: #f2f2f4;
+}
+
+.service-icon.service-youtube {
+  color: #ff5757;
+}
+
+.service-icon.service-amazon {
+  color: #f3aa45;
+}
+
+.service-icon.service-music {
+  color: #d3aa66;
+}
+
+
+
+/* ====================================================
+   Official service brand SVG masks
+==================================================== */
+
+.version-button.service-icon {
+  width: 42px;
+  min-width: 42px;
+
+  height: 40px;
+  min-height: 40px;
+
+  padding: 0;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+
+.service-brand-logo {
+  display: block;
+
+  width: 22px;
+  height: 22px;
+
+  background-color: currentColor;
+
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
+
+.brand-spotify {
+  color: #1ed760;
+
+  mask-image:
+    url("/icons/services/spotify.svg");
+
+  -webkit-mask-image:
+    url("/icons/services/spotify.svg");
+}
+
+
+.brand-apple {
+  color: #f4f4f5;
+
+  mask-image:
+    url("/icons/services/apple.svg");
+
+  -webkit-mask-image:
+    url("/icons/services/apple.svg");
+}
+
+
+.brand-deezer {
+  color: #a970ff;
+
+  mask-image:
+    url("/icons/services/deezer.svg");
+
+  -webkit-mask-image:
+    url("/icons/services/deezer.svg");
+}
+
+
+.brand-tidal {
+  color: #f4f4f5;
+
+  mask-image:
+    url("/icons/services/tidal.svg");
+
+  -webkit-mask-image:
+    url("/icons/services/tidal.svg");
+}
+
+
+.brand-youtube {
+  color: #ff0033;
+
+  mask-image:
+    url("/icons/services/youtube.svg");
+
+  -webkit-mask-image:
+    url("/icons/services/youtube.svg");
+}
+
+
+.service-fallback {
+  color: #d3aa66;
+
+  font-size: 20px;
+  line-height: 1;
+}
+
+
+
+/* ====================================================
+   MusicBrainz external service icons
+==================================================== */
+
+.version-button.service-icon {
+  width: 42px;
+  min-width: 42px;
+
+  height: 40px;
+  min-height: 40px;
+
+  padding: 0;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+.service-brand-image {
+  display: block;
+
+  width: 25px;
+  height: 25px;
+
+  object-fit: contain;
+}
+
+
+.service-fallback {
+  font-size: 20px;
+  line-height: 1;
+
+  color: #d3aa66;
+}
+
+
+
+/* ====================================================
+   Modern preview refresh
+   Softer cards, no visible borders, cleaner buttons
+==================================================== */
+
+.version-card {
+  border: none !important;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(24, 26, 31, 0.98) 0%,
+      rgba(17, 19, 24, 0.99) 100%
+    ) !important;
+
+  box-shadow:
+    0 14px 30px rgba(0, 0, 0, 0.28) !important;
+
+  overflow: hidden;
+}
+
+.version-card:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 18px 38px rgba(0, 0, 0, 0.34) !important;
+}
+
+.version-card img,
+.version-cover,
+.version-cover img {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.version-button {
+  border: none !important;
+
+  background:
+    rgba(255, 255, 255, 0.06) !important;
+
+  box-shadow: none !important;
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  transition:
+    transform 0.12s ease,
+    background 0.12s ease,
+    opacity 0.12s ease;
+}
+
+.version-button:hover {
+  background:
+    rgba(255, 255, 255, 0.10) !important;
+
+  transform: translateY(-1px);
+}
+
+.version-button.service-icon {
+  width: 42px;
+  min-width: 42px;
+
+  height: 40px;
+  min-height: 40px;
+
+  border-radius: 14px;
+}
+
+.service-brand-image {
+  width: 24px;
+  height: 24px;
+
+  object-fit: contain;
+
+  filter:
+    drop-shadow(0 2px 6px rgba(0, 0, 0, 0.18));
+}
+
+.service-fallback {
+  font-size: 20px;
+}
+
+.version-actions,
+.version-links,
+.version-buttons {
+  gap: 10px !important;
+}
+
+@media (max-width: 720px) {
+  .version-card {
+    box-shadow:
+      0 12px 24px rgba(0, 0, 0, 0.26) !important;
+  }
+}
+
+
+
+/* ====================================================
+   Cleaner modern Work cards
+==================================================== */
+
+.version-card {
+  border: 0 !important;
+
+  background: #14161b !important;
+
+  box-shadow: none !important;
+}
+
+
+.version-card:hover {
+  transform: none !important;
+
+  box-shadow: none !important;
+}
+
+
+/* Slightly tighter card body */
+
+.version-body {
+  padding:
+    16px 16px 18px !important;
+}
+
+
+.version-title {
+  margin-bottom: 8px !important;
+}
+
+
+.version-artist {
+  margin-bottom: 9px !important;
+}
+
+
+.version-release {
+  margin-bottom: 0 !important;
+}
+
+
+/* ----------------------------------------------------
+   Actions become a lightweight inline toolbar
+---------------------------------------------------- */
+
+.version-buttons {
+  display: flex !important;
+
+  align-items: center !important;
+
+  flex-wrap: wrap !important;
+
+  gap: 14px !important;
+
+  margin-top: 18px !important;
+}
+
+
+/* Remove all visible button chrome */
+
+.version-button {
+  border: 0 !important;
+
+  background: transparent !important;
+
+  box-shadow: none !important;
+
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+
+  min-height: 0 !important;
+
+  padding: 0 !important;
+
+  border-radius: 0 !important;
+}
+
+
+/* Release becomes a quiet text action */
+
+.version-button.release {
+  width: auto !important;
+  min-width: 0 !important;
+  height: auto !important;
+
+  color: #d4ab68 !important;
+
+  font-size: 13px !important;
+  font-weight: 650 !important;
+
+  line-height: 28px !important;
+
+  white-space: nowrap;
+}
+
+
+.version-button.release::after {
+  content: " ↗";
+
+  font-size: 12px;
+
+  opacity: .7;
+}
+
+
+/* Bare streaming icons */
+
+.version-button.service-icon {
+  width: 28px !important;
+  min-width: 28px !important;
+
+  height: 28px !important;
+  min-height: 28px !important;
+
+  display: inline-flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  opacity: .88;
+
+  transition:
+    opacity .15s ease,
+    transform .15s ease !important;
+}
+
+
+.version-button.service-icon:hover {
+  opacity: 1;
+
+  transform:
+    translateY(-1px) !important;
+
+  background: transparent !important;
+}
+
+
+.service-brand-image {
+  width: 24px !important;
+  height: 24px !important;
+
+  object-fit: contain;
+
+  filter: none !important;
+}
+
+
+/* Apple/TIDAL marks benefit from slightly smaller sizing */
+
+.version-button.service-apple
+.service-brand-image,
+
+.version-button.service-tidal
+.service-brand-image {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+
+/* Cleaner year pill */
+
+.version-year {
+  padding:
+    5px 9px !important;
+
+  font-size: 12px !important;
+
+  border-radius: 999px !important;
+
+  background:
+    rgba(9, 10, 13, .90) !important;
+}
+
+
+@media (max-width: 620px) {
+
+  .version-buttons {
+    gap: 13px !important;
+
+    margin-top: 16px !important;
+  }
+
+
+  .version-button.release {
+    font-size: 12px !important;
+  }
+
+
+  .version-button.service-icon {
+    width: 27px !important;
+    min-width: 27px !important;
+
+    height: 27px !important;
+    min-height: 27px !important;
+  }
+
+
+  .service-brand-image {
+    width: 23px !important;
+    height: 23px !important;
+  }
+
+}
+

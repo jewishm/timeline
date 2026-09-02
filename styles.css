@@ -2776,3 +2776,187 @@ strong {
   }
 
 }
+
+
+/* ====================================================
+   JMT global external music/store icons
+==================================================== */
+
+a.jmt-service-link {
+  display: inline-flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 29px !important;
+  min-width: 29px !important;
+
+  height: 29px !important;
+  min-height: 29px !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  box-shadow: none !important;
+
+  text-decoration: none !important;
+
+  vertical-align: middle;
+
+  opacity: .9;
+
+  transition:
+    opacity .14s ease,
+    transform .14s ease !important;
+}
+
+
+a.jmt-service-link:hover,
+a.jmt-service-link:focus-visible {
+  opacity: 1;
+
+  transform:
+    translateY(-1px);
+
+  background:
+    transparent !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+.jmt-service-logo {
+  display: block;
+
+  width: 24px;
+  height: 24px;
+
+  object-fit: contain;
+}
+
+
+a.jmt-service-link svg {
+  display: block;
+
+  width: 22px;
+  height: 22px;
+
+  color: #d3aa66;
+}
+
+
+/*
+ * Existing action areas were designed
+ * for large text buttons. Turn them into
+ * lightweight icon toolbars.
+ */
+
+.card-actions,
+.dialog-actions,
+.standalone-actions {
+  display: flex !important;
+
+  align-items: center !important;
+
+  flex-wrap: wrap !important;
+
+  gap: 14px !important;
+}
+
+
+.service-more {
+  font-size: 11px !important;
+
+  color: #777a82 !important;
+}
+
+
+/*
+ * Do not let old dialog/full-width
+ * button rules win.
+ */
+
+.dialog-action.jmt-service-link,
+.service-button.jmt-service-link {
+  width: 29px !important;
+  min-width: 29px !important;
+
+  height: 29px !important;
+  min-height: 29px !important;
+
+  padding: 0 !important;
+
+  border: 0 !important;
+
+  background: transparent !important;
+}
+
+
+/*
+ * Work page:
+ * View release remains the quiet text
+ * link we already approved.
+ */
+
+.version-buttons {
+  align-items: center !important;
+
+  gap: 14px !important;
+}
+
+
+/* Slight visual balancing */
+
+.jmt-service-spotify
+.jmt-service-logo {
+  width: 25px;
+  height: 25px;
+}
+
+
+.jmt-service-apple
+.jmt-service-logo {
+  width: 24px;
+  height: 24px;
+}
+
+
+.jmt-service-tidal
+.jmt-service-logo {
+  width: 23px;
+  height: 23px;
+}
+
+
+@media (max-width: 620px) {
+
+  a.jmt-service-link {
+    width: 27px !important;
+    min-width: 27px !important;
+
+    height: 27px !important;
+    min-height: 27px !important;
+  }
+
+
+  .jmt-service-logo {
+    width: 23px;
+    height: 23px;
+  }
+
+
+  .card-actions,
+  .dialog-actions,
+  .standalone-actions,
+  .version-buttons {
+    gap: 13px !important;
+  }
+
+}
+
