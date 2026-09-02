@@ -1,15 +1,15 @@
 {
   "year": 2026,
   "stats": {
-    "release_groups": 641,
-    "dated_release_groups": 641,
+    "release_groups": 644,
+    "dated_release_groups": 644,
     "year_only_release_groups": 0,
     "artists": 374,
     "months_with_releases": 9,
     "types": {
       "Album": 179,
-      "EP": 61,
-      "Single": 401
+      "EP": 62,
+      "Single": 403
     }
   },
   "months": [
@@ -775,11 +775,97 @@
     },
     {
       "month": 9,
-      "release_groups": 2,
+      "release_groups": 5,
       "types": {
-        "Single": 2
+        "EP": 1,
+        "Single": 4
       },
-      "featured": []
+      "featured": [
+        {
+          "release_group_mbid": "09b570e1-be65-4adc-9443-24b59af7a09a",
+          "title": "From the Archives",
+          "artist_credit": "Yaakov Gifter",
+          "primary_type": "EP",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "c68b5a38-fbc1-4f85-a72f-6abc8b3acd1c",
+            "image_id": 46077493541,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/c68b5a38-fbc1-4f85-a72f-6abc8b3acd1c/46077493541",
+            "thumbnails": {
+              "250": "/covers/c68b5a38-fbc1-4f85-a72f-6abc8b3acd1c--46077493541.webp",
+              "500": "/covers/c68b5a38-fbc1-4f85-a72f-6abc8b3acd1c--46077493541.webp",
+              "1200": "/covers/c68b5a38-fbc1-4f85-a72f-6abc8b3acd1c--46077493541.webp"
+            },
+            "cached": "/covers/c68b5a38-fbc1-4f85-a72f-6abc8b3acd1c--46077493541.webp"
+          }
+        },
+        {
+          "release_group_mbid": "9ded3524-41e3-4fb2-a30a-2df41c555426",
+          "title": "פלא טבעי",
+          "artist_credit": "חיים ישראל",
+          "primary_type": "Single",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "a2310c4f-580e-4d9d-aa8a-c074c7f8fb3d",
+            "image_id": 46077502328,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/a2310c4f-580e-4d9d-aa8a-c074c7f8fb3d/46077502328",
+            "thumbnails": {
+              "250": "/covers/a2310c4f-580e-4d9d-aa8a-c074c7f8fb3d--46077502328.webp",
+              "500": "/covers/a2310c4f-580e-4d9d-aa8a-c074c7f8fb3d--46077502328.webp",
+              "1200": "/covers/a2310c4f-580e-4d9d-aa8a-c074c7f8fb3d--46077502328.webp"
+            },
+            "cached": "/covers/a2310c4f-580e-4d9d-aa8a-c074c7f8fb3d--46077502328.webp"
+          }
+        },
+        {
+          "release_group_mbid": "007b2d63-3830-4a42-ba99-dcdefe530aef",
+          "title": "שופר",
+          "artist_credit": "ישעי לברון",
+          "primary_type": "Single",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "118ba54e-6931-417f-9f85-d3d11818b83a",
+            "image_id": 46078900381,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/118ba54e-6931-417f-9f85-d3d11818b83a/46078900381",
+            "thumbnails": {
+              "250": "/covers/118ba54e-6931-417f-9f85-d3d11818b83a--46078900381.webp",
+              "500": "/covers/118ba54e-6931-417f-9f85-d3d11818b83a--46078900381.webp",
+              "1200": "/covers/118ba54e-6931-417f-9f85-d3d11818b83a--46078900381.webp"
+            },
+            "cached": "/covers/118ba54e-6931-417f-9f85-d3d11818b83a--46078900381.webp"
+          }
+        },
+        {
+          "release_group_mbid": "a119b5e0-2b0c-47ca-9d8a-3a8c6642f767",
+          "title": "השקיפה",
+          "artist_credit": "רפאל מלול וקובי ברומר",
+          "primary_type": "Single",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "b4fae09f-4c5b-4119-bfc1-e3d3645814a6",
+            "image_id": 46077507786,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/b4fae09f-4c5b-4119-bfc1-e3d3645814a6/46077507786",
+            "thumbnails": {
+              "250": "/covers/b4fae09f-4c5b-4119-bfc1-e3d3645814a6--46077507786.webp",
+              "500": "/covers/b4fae09f-4c5b-4119-bfc1-e3d3645814a6--46077507786.webp",
+              "1200": "/covers/b4fae09f-4c5b-4119-bfc1-e3d3645814a6--46077507786.webp"
+            },
+            "cached": "/covers/b4fae09f-4c5b-4119-bfc1-e3d3645814a6--46077507786.webp"
+          }
+        }
+      ]
     },
     {
       "month": 10,
@@ -804,7 +890,7 @@
     {
       "mbid": "ec4c5c22-8b54-4919-8d8b-5c2118c108a7",
       "name": "Yaakov Gifter",
-      "release_groups": 13
+      "release_groups": 14
     },
     {
       "mbid": "6ddbe71d-e61b-4250-86af-85e73df1f4d4",
