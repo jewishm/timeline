@@ -1,0 +1,108 @@
+.seo-shell {
+  width: min(1100px, calc(100% - 32px));
+  margin: 0 auto 64px;
+}
+
+.seo-nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+
+.seo-card {
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 18px;
+  padding: 22px;
+  background: rgba(255,255,255,.025);
+}
+
+.seo-hero {
+  display: grid;
+  grid-template-columns: minmax(180px,280px) 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.seo-cover {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.seo-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  font-size: 56px;
+  background: rgba(255,255,255,.05);
+}
+
+.seo-muted {
+  opacity: .72;
+}
+
+.seo-aliases {
+  margin: 14px 0;
+}
+
+.seo-aliases summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.seo-tracklist {
+  padding-left: 28px;
+}
+
+.seo-tracklist > li {
+  margin: 0 0 16px;
+}
+
+.seo-track-title {
+  font-weight: 650;
+}
+
+.seo-meta,
+.seo-works {
+  font-size: .92rem;
+  opacity: .78;
+  margin-top: 3px;
+}
+
+.seo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.seo-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.seo-section {
+  margin-top: 30px;
+}
+
+.seo-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+@media (max-width: 700px) {
+
+  .seo-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .seo-cover,
+  .seo-placeholder {
+    max-width: 320px;
+  }
+}
