@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta
+    name="theme-color"
+    content="#0b0c0f">
+
+  <title>
+    Release — Jewish Music Timeline
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="/styles.css?v=1787520098">
+
+  <link
+    rel="stylesheet"
+    href="/release/release.css?v=1787514852">
+
+
+<link
+  rel="stylesheet"
+  href="/tracklist.css?v=1">
+</head>
+
+
+<body>
+
+<header class="site-header">
+
+  <div class="header-inner">
+
+    <a
+      class="brand"
+      href="/">
+
+      <span
+        class="brand-mark"
+        aria-hidden="true">
+
+        <svg
+          class="brand-logo-svg"
+          viewBox="0 0 48 48">
+
+          <g class="brand-logo-bars">
+
+            <rect
+              x="7"
+              y="27"
+              width="4"
+              height="9"
+              rx="2">
+            </rect>
+
+            <rect
+              x="14"
+              y="21"
+              width="4"
+              height="15"
+              rx="2">
+            </rect>
+
+            <rect
+              x="21"
+              y="15"
+              width="4"
+              height="21"
+              rx="2">
+            </rect>
+
+          </g>
+
+
+          <path
+            class="brand-logo-note-fill"
+            d="
+              M31 13
+              V31.5
+
+              C29.6 30.7
+              27.9 30.6
+              26.3 31
+
+              C23.6 31.7
+              22 33.8
+              22.6 35.8
+
+              C23.2 37.8
+              25.7 38.8
+              28.4 38
+
+              C30.8 37.4
+              32.4 35.6
+              32.4 33.6
+
+              V20
+
+              L40 18
+
+              V28.7
+
+              C38.6 27.9
+              36.9 27.8
+              35.3 28.2
+
+              C32.6 28.9
+              31 31
+              31.6 33
+
+              C32.2 35
+              34.7 36
+              37.4 35.2
+
+              C39.8 34.6
+              41.4 32.8
+              41.4 30.8
+
+              V13
+              Z">
+          </path>
+
+        </svg>
+
+      </span>
+
+      <span>
+
+        <strong>
+          Jewish Music Timeline
+        </strong>
+
+        <small>
+          Release
+        </small>
+
+      </span>
+
+    </a>
+
+  </div>
+
+</header>
+
+<div class="source-credit">
+
+  <span>
+    Data from
+  </span>
+
+  <a
+    href="https://musicbrainz.org/"
+    target="_blank"
+    rel="noopener">
+    MusicBrainz
+  </a>
+
+  <span
+    class="source-credit-separator"
+    aria-hidden="true">
+    ·
+  </span>
+
+  <span>
+    Cover art from
+  </span>
+
+  <a
+    href="https://coverartarchive.org/"
+    target="_blank"
+    rel="noopener">
+    Cover Art Archive
+  </a>
+
+</div>
+
+
+
+<main class="release-page">
+
+  <div class="view-toggle">
+
+    <a
+      class="view-tab"
+      href="/">
+      Month
+    </a>
+
+    <a
+      class="view-tab"
+      href="/year.html">
+      Year
+    </a>
+
+    <a
+      class="view-tab"
+      href="/search/">
+      Search
+    </a>
+
+  </div>
+
+
+  <section
+    id="releaseContent"
+    class="standalone-release">
+
+    <div class="release-loading">
+      Loading…
+    </div>
+
+  </section>
+
+
+  <section
+    id="notFound"
+    class="empty-state"
+    hidden>
+
+    <div class="empty-icon">
+      ♪
+    </div>
+
+    <h2>
+      Release not found
+    </h2>
+
+  </section>
+
+</main>
+
+
+<script src="/share.js?v=1787514852"></script>
+<script src="/cover-fallback.js?v=1"></script>
+<script src="/release/release.js?v=1787514852"></script>
+
+
+<script src="/tracklist.js?v=1"></script>
+  <script src="/work/service-links.js?v=1"></script>
+
+</body>
+</html>

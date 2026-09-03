@@ -95,6 +95,157 @@
   margin-top: 16px;
 }
 
+
+/* Artist discography cards */
+
+.seo-artist-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fill,
+      minmax(180px, 1fr)
+    );
+
+  gap: 13px;
+
+  margin-top: 18px;
+}
+
+
+.seo-artist-release {
+  display: block;
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255,255,255,.08);
+
+  border-radius: 16px;
+
+  background: #15171d;
+
+  color: #f5f3ed;
+
+  text-decoration: none;
+
+  transition:
+    transform .15s ease,
+    border-color .15s ease;
+}
+
+
+.seo-artist-release:hover,
+.seo-artist-release:focus-visible {
+  transform: translateY(-2px);
+
+  border-color:
+    rgba(215,174,104,.35);
+
+  outline: none;
+}
+
+
+.seo-artist-art {
+  aspect-ratio: 1 / 1;
+
+  overflow: hidden;
+
+  background: #101216;
+}
+
+
+.seo-artist-art img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+.seo-artist-placeholder {
+  display: grid;
+
+  place-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  color:
+    rgba(255,255,255,.14);
+
+  font-size: 46px;
+}
+
+
+.seo-artist-release-body {
+  padding: 12px;
+}
+
+
+.seo-artist-release h3 {
+  margin: 0;
+
+  color: #f5f3ed;
+
+  font-size: 14px;
+
+  line-height: 1.3;
+
+  letter-spacing: 0;
+}
+
+
+.seo-artist-credit {
+  margin: 5px 0 0;
+
+  color: #9699a3;
+
+  font-size: 11px;
+
+  line-height: 1.4;
+}
+
+
+.seo-artist-date {
+  margin: 7px 0 0;
+
+  color:
+    rgba(150,153,163,.72);
+
+  font-size: 10px;
+}
+
+
+@media (max-width: 600px) {
+
+  .seo-artist-grid {
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+
+    gap: 9px;
+  }
+
+
+  .seo-artist-release-body {
+    padding: 10px;
+  }
+
+
+  .seo-artist-release h3 {
+    font-size: 13px;
+  }
+
+}
+
+
 @media (max-width: 700px) {
 
   .seo-hero {
