@@ -242,15 +242,7 @@ function renderRelease(release) {
 
     <div class="standalone-layout">
 
-      <div
-        class="standalone-art"
-        ${
-          release.cover
-            ? `style="--release-art-bg:url('${escapeHtml(
-                release.cover
-              )}')"`
-            : ""
-        }>
+      <div class="standalone-art">
         ${art}
       </div>
 
