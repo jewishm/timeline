@@ -2,18 +2,18 @@
   "year": 2024,
   "month": 1,
   "stats": {
-    "release_groups": 82,
-    "with_cover_art": 81,
-    "with_action_links": 81,
+    "release_groups": 80,
+    "with_cover_art": 80,
+    "with_action_links": 80,
     "future_releases": 0,
     "types": {
       "Album": 21,
       "EP": 4,
-      "Single": 57
+      "Single": 55
     },
     "services": {
-      "spotify": 80,
-      "apple_music": 72,
+      "spotify": 79,
+      "apple_music": 71,
       "deezer": 55,
       "tidal": 34,
       "amazon": 2,
@@ -7147,158 +7147,6 @@
       "references": [],
       "has_action_links": true,
       "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "21796b73-63a0-4ca6-932e-6d963d9e7df6",
-      "title": "Among the Nations",
-      "artist_credit": "Yo Mark Jean",
-      "credited_artists": [
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean",
-          "position": 0,
-          "credit_name": "Yo Mark Jean",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-01-20",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 1,
-      "day": 20,
-      "release_count": 1,
-      "release_mbids": [
-        "2c22e386-7684-42c3-bb83-345d4221a9bf"
-      ],
-      "cover_release_mbid": "2c22e386-7684-42c3-bb83-345d4221a9bf",
-      "cover_art": {
-        "release_mbid": "2c22e386-7684-42c3-bb83-345d4221a9bf",
-        "image_id": 39379349573,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/2c22e386-7684-42c3-bb83-345d4221a9bf/39379349573",
-        "thumbnails": {
-          "250": "/covers/2c22e386-7684-42c3-bb83-345d4221a9bf--39379349573.webp",
-          "500": "/covers/2c22e386-7684-42c3-bb83-345d4221a9bf--39379349573.webp",
-          "1200": "/covers/2c22e386-7684-42c3-bb83-345d4221a9bf--39379349573.webp"
-        },
-        "cached": "/covers/2c22e386-7684-42c3-bb83-345d4221a9bf--39379349573.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/21796b73-63a0-4ca6-932e-6d963d9e7df6",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2c22e386-7684-42c3-bb83-345d4221a9bf",
-          "url": "https://music.apple.com/gb/album/1726254870"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2c22e386-7684-42c3-bb83-345d4221a9bf",
-          "url": "https://open.spotify.com/album/1fyBiG8gyP1Uo8A5ZjdixV"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/1fyBiG8gyP1Uo8A5ZjdixV"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1726254870"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2c22e386-7684-42c3-bb83-345d4221a9bf",
-          "url": "https://open.spotify.com/album/1fyBiG8gyP1Uo8A5ZjdixV"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2c22e386-7684-42c3-bb83-345d4221a9bf",
-          "url": "https://music.apple.com/gb/album/1726254870"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "e4c01c60-1787-421e-8f5a-e2bb737ce870",
-      "title": "King of the Universe",
-      "artist_credit": "Yo Mark Jean",
-      "credited_artists": [
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean",
-          "position": 0,
-          "credit_name": "Yo Mark Jean",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-01-20",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 1,
-      "day": 20,
-      "release_count": 1,
-      "release_mbids": [
-        "aa84458f-d4c3-4f9f-aba2-e0c4161b1524"
-      ],
-      "cover_release_mbid": null,
-      "cover_art": null,
-      "musicbrainz_url": "https://musicbrainz.org/release-group/e4c01c60-1787-421e-8f5a-e2bb737ce870",
-      "links": [],
-      "preferred_links": {},
-      "actions": [],
-      "references": [],
-      "has_action_links": false,
-      "has_cover_art": false,
       "is_future": false
     },
     {

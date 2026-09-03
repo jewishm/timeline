@@ -2,27 +2,27 @@
   "year": 2024,
   "month": 9,
   "stats": {
-    "release_groups": 136,
-    "with_cover_art": 134,
-    "with_action_links": 135,
+    "release_groups": 134,
+    "with_cover_art": 132,
+    "with_action_links": 133,
     "future_releases": 0,
     "types": {
-      "Album": 29,
+      "Album": 28,
       "EP": 7,
-      "Single": 100
+      "Single": 99
     },
     "services": {
-      "spotify": 133,
-      "apple_music": 125,
-      "deezer": 117,
-      "tidal": 93,
+      "spotify": 131,
+      "apple_music": 123,
+      "deezer": 116,
+      "tidal": 92,
       "mostly_music": 6,
       "amazon": 4,
-      "youtube": 3,
       "24six": 3,
       "qobuz": 3,
       "youtube_music": 2,
       "anghami": 2,
+      "youtube": 2,
       "boomplay": 1
     }
   },
@@ -1622,144 +1622,6 @@
           "source": "release",
           "source_release_mbid": "e4762e86-2692-40b8-8eb6-977c46d8a973",
           "url": "https://tidal.com/album/384793295"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "8c6b634c-3b60-4a5e-9f2f-3e56d5022aae",
-      "title": "Taking My Leave, Vol 1.",
-      "artist_credit": "Yo Mark Jean",
-      "credited_artists": [
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean",
-          "position": 0,
-          "credit_name": "Yo Mark Jean",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2024-09-02",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 9,
-      "day": 2,
-      "release_count": 1,
-      "release_mbids": [
-        "c131a892-6a0a-43ac-ac84-72ef34109dc3"
-      ],
-      "cover_release_mbid": "c131a892-6a0a-43ac-ac84-72ef34109dc3",
-      "cover_art": {
-        "release_mbid": "c131a892-6a0a-43ac-ac84-72ef34109dc3",
-        "image_id": 39792073013,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/c131a892-6a0a-43ac-ac84-72ef34109dc3/39792073013",
-        "thumbnails": {
-          "250": "/covers/c131a892-6a0a-43ac-ac84-72ef34109dc3--39792073013.webp",
-          "500": "/covers/c131a892-6a0a-43ac-ac84-72ef34109dc3--39792073013.webp",
-          "1200": "/covers/c131a892-6a0a-43ac-ac84-72ef34109dc3--39792073013.webp"
-        },
-        "cached": "/covers/c131a892-6a0a-43ac-ac84-72ef34109dc3--39792073013.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/8c6b634c-3b60-4a5e-9f2f-3e56d5022aae",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c131a892-6a0a-43ac-ac84-72ef34109dc3",
-          "url": "https://music.apple.com/us/album/1763542979"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c131a892-6a0a-43ac-ac84-72ef34109dc3",
-          "url": "https://open.spotify.com/album/5UeDpPEQ4UaPxEuMakqb5L"
-        },
-        {
-          "site_key": "youtube",
-          "site_label": "YouTube",
-          "domain": "youtube.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c131a892-6a0a-43ac-ac84-72ef34109dc3",
-          "url": "https://www.youtube.com/playlist?list=PL72TD2KQ7KcMafx6286zLxKorrnVAZS-Y"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/5UeDpPEQ4UaPxEuMakqb5L"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1763542979"
-        },
-        "youtube": {
-          "label": "YouTube",
-          "kind": "listen",
-          "url": "https://www.youtube.com/playlist?list=PL72TD2KQ7KcMafx6286zLxKorrnVAZS-Y"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c131a892-6a0a-43ac-ac84-72ef34109dc3",
-          "url": "https://open.spotify.com/album/5UeDpPEQ4UaPxEuMakqb5L"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c131a892-6a0a-43ac-ac84-72ef34109dc3",
-          "url": "https://music.apple.com/us/album/1763542979"
-        },
-        {
-          "site_key": "youtube",
-          "site_label": "YouTube",
-          "domain": "youtube.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c131a892-6a0a-43ac-ac84-72ef34109dc3",
-          "url": "https://www.youtube.com/playlist?list=PL72TD2KQ7KcMafx6286zLxKorrnVAZS-Y"
         }
       ],
       "references": [],
@@ -8706,7 +8568,7 @@
           "action": true,
           "action_kind": "buy",
           "source": "release",
-          "source_release_mbid": "4ce7f758-7eb2-4256-8852-97f5faac9710",
+          "source_release_mbid": "0fe2a8d9-ee25-4f6a-8285-ae4ea9af34b6",
           "url": "https://music.apple.com/us/album/1768595319"
         },
         {
@@ -8717,7 +8579,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "4ce7f758-7eb2-4256-8852-97f5faac9710",
+          "source_release_mbid": "0fe2a8d9-ee25-4f6a-8285-ae4ea9af34b6",
           "url": "https://music.apple.com/us/album/1768595319"
         },
         {
@@ -8780,7 +8642,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "4ce7f758-7eb2-4256-8852-97f5faac9710",
+          "source_release_mbid": "0fe2a8d9-ee25-4f6a-8285-ae4ea9af34b6",
           "url": "https://music.apple.com/us/album/1768595319"
         },
         {
@@ -10325,10 +10187,6 @@
         {
           "mbid": "54b56193-63e2-4343-a5b8-ed0184959951",
           "name": "DJ Kraz"
-        },
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean"
         }
       ],
       "primary_type": "Single",
@@ -14280,189 +14138,6 @@
           "source": "release",
           "source_release_mbid": "402fd551-7a96-4953-b790-104b417d6266",
           "url": "https://www.deezer.com/album/646195391"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "8bf44c12-e0e2-4862-babd-16e23e34a1d7",
-      "title": "Relè",
-      "artist_credit": "Yo Mark Jean Ft. Shauly",
-      "credited_artists": [
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean",
-          "position": 0,
-          "credit_name": "Yo Mark Jean",
-          "join_phrase": " Ft. "
-        },
-        {
-          "mbid": "65843db0-39ce-49c9-97b5-aa0467589bb1",
-          "name": "Shauly Grossman",
-          "position": 1,
-          "credit_name": "Shauly",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "689f0286-31c1-4ea8-b9b9-e40e1d8c882c",
-          "name": "Yo Mark Jean"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-09-20",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 9,
-      "day": 20,
-      "release_count": 1,
-      "release_mbids": [
-        "cabfb908-c29e-4de7-ad46-bb4483c08cba"
-      ],
-      "cover_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-      "cover_art": {
-        "release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-        "image_id": 40680146485,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/cabfb908-c29e-4de7-ad46-bb4483c08cba/40680146485",
-        "thumbnails": {
-          "250": "/covers/cabfb908-c29e-4de7-ad46-bb4483c08cba--40680146485.webp",
-          "500": "/covers/cabfb908-c29e-4de7-ad46-bb4483c08cba--40680146485.webp",
-          "1200": "/covers/cabfb908-c29e-4de7-ad46-bb4483c08cba--40680146485.webp"
-        },
-        "cached": "/covers/cabfb908-c29e-4de7-ad46-bb4483c08cba--40680146485.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/8bf44c12-e0e2-4862-babd-16e23e34a1d7",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://music.apple.com/us/album/1696100677"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://music.apple.com/us/album/1696100677"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://open.spotify.com/album/64eGe9xQphHSHgOyofhcMG"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://tidal.com/album/303521771"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://www.deezer.com/album/461615655"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/64eGe9xQphHSHgOyofhcMG"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1696100677"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/461615655"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/303521771"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://open.spotify.com/album/64eGe9xQphHSHgOyofhcMG"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://music.apple.com/us/album/1696100677"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://www.deezer.com/album/461615655"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "cabfb908-c29e-4de7-ad46-bb4483c08cba",
-          "url": "https://tidal.com/album/303521771"
         }
       ],
       "references": [],
