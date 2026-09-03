@@ -2,23 +2,23 @@
   "year": 2024,
   "month": 1,
   "stats": {
-    "release_groups": 83,
-    "with_cover_art": 82,
-    "with_action_links": 82,
+    "release_groups": 82,
+    "with_cover_art": 81,
+    "with_action_links": 81,
     "future_releases": 0,
     "types": {
       "Album": 21,
       "EP": 4,
-      "Single": 58
+      "Single": 57
     },
     "services": {
-      "spotify": 81,
-      "apple_music": 73,
-      "deezer": 56,
+      "spotify": 80,
+      "apple_music": 72,
+      "deezer": 55,
       "tidal": 34,
-      "amazon": 3,
-      "youtube": 2,
+      "amazon": 2,
       "beatport": 1,
+      "youtube": 1,
       "mostly_music": 1
     }
   },
@@ -9825,228 +9825,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "cf9c43ba-cf02-47e7-b223-91d81ca27c3b",
-      "title": "FACTS",
-      "artist_credit": "Tom MacDonald x Ben Shapiro",
-      "credited_artists": [
-        {
-          "mbid": "171a57fb-1a66-4094-8373-72c7d1b0c621",
-          "name": "Tom MacDonald",
-          "position": 0,
-          "credit_name": "Tom MacDonald",
-          "join_phrase": " x "
-        },
-        {
-          "mbid": "1c2b7b24-c215-4713-adf5-8c695c3cf20e",
-          "name": "Ben Shapiro",
-          "position": 1,
-          "credit_name": "Ben Shapiro",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "1c2b7b24-c215-4713-adf5-8c695c3cf20e",
-          "name": "Ben Shapiro"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-01-26",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 1,
-      "day": 26,
-      "release_count": 1,
-      "release_mbids": [
-        "b46e4d37-ae04-41be-9272-50bde9675024"
-      ],
-      "cover_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-      "cover_art": {
-        "release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-        "image_id": 37878210929,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/b46e4d37-ae04-41be-9272-50bde9675024/37878210929",
-        "thumbnails": {
-          "250": "/covers/b46e4d37-ae04-41be-9272-50bde9675024--37878210929.webp",
-          "500": "/covers/b46e4d37-ae04-41be-9272-50bde9675024--37878210929.webp",
-          "1200": "/covers/b46e4d37-ae04-41be-9272-50bde9675024--37878210929.webp"
-        },
-        "cached": "/covers/b46e4d37-ae04-41be-9272-50bde9675024--37878210929.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/cf9c43ba-cf02-47e7-b223-91d81ca27c3b",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://music.apple.com/ca/album/1727146399"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://open.spotify.com/album/2aWJw4wM4FuXfZPoOGcg3i"
-        },
-        {
-          "site_key": "rateyourmusic",
-          "site_label": "Rate Your Music",
-          "domain": "rateyourmusic.com",
-          "relationship": "other databases",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://rateyourmusic.com/release/single/tom-macdonald-x-ben-shapiro/facts/"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://www.amazon.com/gp/product/B0CT3Q42Z4"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://www.deezer.com/album/538578262"
-        },
-        {
-          "site_key": "youtube",
-          "site_label": "YouTube",
-          "domain": "youtube.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://www.youtube.com/watch?v=4Hac3v9XcQg"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/2aWJw4wM4FuXfZPoOGcg3i"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/ca/album/1727146399"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/538578262"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B0CT3Q42Z4"
-        },
-        "youtube": {
-          "label": "YouTube",
-          "kind": "listen",
-          "url": "https://www.youtube.com/watch?v=4Hac3v9XcQg"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://open.spotify.com/album/2aWJw4wM4FuXfZPoOGcg3i"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://music.apple.com/ca/album/1727146399"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://www.deezer.com/album/538578262"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://www.amazon.com/gp/product/B0CT3Q42Z4"
-        },
-        {
-          "site_key": "youtube",
-          "site_label": "YouTube",
-          "domain": "youtube.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "b46e4d37-ae04-41be-9272-50bde9675024",
-          "url": "https://www.youtube.com/watch?v=4Hac3v9XcQg"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "rateyourmusic",
-          "site_label": "Rate Your Music",
-          "domain": "rateyourmusic.com",
-          "relationship": "other databases",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://rateyourmusic.com/release/single/tom-macdonald-x-ben-shapiro/facts/"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

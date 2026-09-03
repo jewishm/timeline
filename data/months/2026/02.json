@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 2,
   "stats": {
-    "release_groups": 94,
+    "release_groups": 95,
     "with_cover_art": 93,
-    "with_action_links": 91,
+    "with_action_links": 92,
     "future_releases": 0,
     "types": {
       "Album": 29,
       "EP": 6,
-      "Single": 59
+      "Single": 60
     },
     "services": {
-      "spotify": 90,
-      "deezer": 87,
-      "tidal": 86,
-      "apple_music": 56,
-      "qobuz": 9,
+      "spotify": 91,
+      "deezer": 88,
+      "tidal": 87,
+      "apple_music": 57,
+      "qobuz": 10,
       "mostly_music": 1,
       "24six": 1
     }
@@ -6441,6 +6441,218 @@
       "references": [],
       "has_action_links": true,
       "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "b0a02e6d-4138-4f98-a0d8-70a6a642204f",
+      "title": "זוך מיך אויף",
+      "artist_credit": "Mordechai Kohn & Motty Ilowitz",
+      "credited_artists": [
+        {
+          "mbid": "07505557-105a-4270-b282-06490531fe26",
+          "name": "Mordechai Kohn",
+          "position": 0,
+          "credit_name": "Mordechai Kohn",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "195e3b45-2961-4ca0-a980-b2fc49fa0b29",
+          "name": "Motty Ilowitz",
+          "position": 1,
+          "credit_name": "Motty Ilowitz",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "07505557-105a-4270-b282-06490531fe26",
+          "name": "Mordechai Kohn"
+        },
+        {
+          "mbid": "195e3b45-2961-4ca0-a980-b2fc49fa0b29",
+          "name": "Motty Ilowitz"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-02-10",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 2,
+      "day": 10,
+      "release_count": 1,
+      "release_mbids": [
+        "05bcfad6-15fa-4126-9460-fba79aba6c22"
+      ],
+      "cover_release_mbid": null,
+      "cover_art": null,
+      "musicbrainz_url": "https://musicbrainz.org/release-group/b0a02e6d-4138-4f98-a0d8-70a6a642204f",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://music.apple.com/us/album/1876467333"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://music.apple.com/us/album/1876467333"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://open.spotify.com/album/4PvOCm2WbQOWQzpB9aZJch"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://tidal.com/album/497643154"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://www.deezer.com/album/915477981"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://www.qobuz.com/us-en/album/zich-mich-oief-mordechai-kohn-amp-motty-ilowitz-amp-the-shira-choir/nm0nr29859b24"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://www.qobuz.com/us-en/album/zich-mich-oief-mordechai-kohn-amp-motty-ilowitz-amp-the-shira-choir/nm0nr29859b24"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4PvOCm2WbQOWQzpB9aZJch"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1876467333"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/915477981"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/497643154"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/zich-mich-oief-mordechai-kohn-amp-motty-ilowitz-amp-the-shira-choir/nm0nr29859b24"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://open.spotify.com/album/4PvOCm2WbQOWQzpB9aZJch"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://music.apple.com/us/album/1876467333"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://www.deezer.com/album/915477981"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://tidal.com/album/497643154"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "05bcfad6-15fa-4126-9460-fba79aba6c22",
+          "url": "https://www.qobuz.com/us-en/album/zich-mich-oief-mordechai-kohn-amp-motty-ilowitz-amp-the-shira-choir/nm0nr29859b24"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": false,
       "is_future": false
     },
     {
