@@ -10,13 +10,13 @@
       "Album": 10
     },
     "services": {
+      "apple_music": 10,
       "spotify": 9,
-      "apple_music": 9,
       "deezer": 7,
-      "tidal": 4,
+      "tidal": 5,
       "amazon": 3,
-      "youtube": 1,
-      "qobuz": 1
+      "qobuz": 2,
+      "youtube": 1
     }
   },
   "releases": [
@@ -1206,6 +1206,17 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/8076146a-6259-4aef-9355-6c0e54f54390",
       "links": [
         {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
+          "url": "https://music.apple.com/us/album/1044832513"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -1228,6 +1239,17 @@
           "url": "https://open.spotify.com/album/6VZCgSVIXLUmQY42yxgChb"
         },
         {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
+          "url": "https://tidal.com/album/51946464"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -1237,6 +1259,28 @@
           "source": "release",
           "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
           "url": "https://www.deezer.com/album/11311722"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
+          "url": "https://www.qobuz.com/us-en/album/-/3614595093278"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
+          "url": "https://www.qobuz.com/us-en/album/-/3614595093278"
         }
       ],
       "preferred_links": {
@@ -1245,10 +1289,25 @@
           "kind": "listen",
           "url": "https://open.spotify.com/album/5gFOo23SN54zJcvWtoFlgi"
         },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1044832513"
+        },
         "deezer": {
           "label": "Deezer",
           "kind": "listen",
           "url": "https://www.deezer.com/album/11311722"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/51946464"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-/3614595093278"
         }
       },
       "actions": [
@@ -1264,6 +1323,17 @@
           "url": "https://open.spotify.com/album/5gFOo23SN54zJcvWtoFlgi"
         },
         {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
+          "url": "https://music.apple.com/us/album/1044832513"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -1273,6 +1343,28 @@
           "source": "release",
           "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
           "url": "https://www.deezer.com/album/11311722"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
+          "url": "https://tidal.com/album/51946464"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "458b2a27-ceb8-4c72-a761-729213c9d842",
+          "url": "https://www.qobuz.com/us-en/album/-/3614595093278"
         }
       ],
       "references": [],

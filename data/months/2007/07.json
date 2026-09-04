@@ -12,9 +12,10 @@
     "services": {
       "spotify": 3,
       "apple_music": 3,
-      "deezer": 2,
-      "tidal": 1,
+      "deezer": 3,
+      "tidal": 2,
       "mostly_music": 1,
+      "qobuz": 1,
       "amazon": 1
     }
   },
@@ -322,6 +323,17 @@
           "url": "https://music.apple.com/gb/album/993785901"
         },
         {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=059764"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -333,6 +345,17 @@
           "url": "https://open.spotify.com/album/2km2YcWc658Z1ZgaHNHHwG"
         },
         {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "99e94c63-a02a-49b7-8e16-d709d8590120",
+          "url": "https://tidal.com/album/510736492"
+        },
+        {
           "site_key": "amazon",
           "site_label": "Amazon",
           "domain": "amazon.com",
@@ -342,6 +365,39 @@
           "source": "release",
           "source_release_mbid": "c8aabcf0-8c0d-4fb4-8083-b5162f2b7eef",
           "url": "https://www.amazon.com/gp/product/B00I9F4JW8"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "99e94c63-a02a-49b7-8e16-d709d8590120",
+          "url": "https://www.deezer.com/album/948970631"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "99e94c63-a02a-49b7-8e16-d709d8590120",
+          "url": "https://www.qobuz.com/us-en/album/leshem-shamaim-yaakov-shwekey/ot5zzem9ejj6n"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "99e94c63-a02a-49b7-8e16-d709d8590120",
+          "url": "https://www.qobuz.com/us-en/album/leshem-shamaim-yaakov-shwekey/ot5zzem9ejj6n"
         }
       ],
       "preferred_links": {
@@ -359,6 +415,21 @@
           "label": "Mostly Music",
           "kind": "buy",
           "url": "https://mostlymusic.com/products/lshem-shomayim-cd"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/948970631"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/510736492"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/leshem-shamaim-yaakov-shwekey/ot5zzem9ejj6n"
         },
         "amazon": {
           "label": "Amazon",
@@ -401,6 +472,39 @@
           "url": "https://mostlymusic.com/products/lshem-shomayim-cd"
         },
         {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "99e94c63-a02a-49b7-8e16-d709d8590120",
+          "url": "https://www.deezer.com/album/948970631"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "99e94c63-a02a-49b7-8e16-d709d8590120",
+          "url": "https://tidal.com/album/510736492"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "99e94c63-a02a-49b7-8e16-d709d8590120",
+          "url": "https://www.qobuz.com/us-en/album/leshem-shamaim-yaakov-shwekey/ot5zzem9ejj6n"
+        },
+        {
           "site_key": "amazon",
           "site_label": "Amazon",
           "domain": "amazon.com",
@@ -423,6 +527,17 @@
           "source": "release",
           "source_release_mbid": "c8aabcf0-8c0d-4fb4-8083-b5162f2b7eef",
           "url": "http://www.worldcat.org/oclc/130772785"
+        },
+        {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=059764"
         }
       ],
       "has_action_links": true,

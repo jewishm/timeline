@@ -2,21 +2,21 @@
   "year": 2025,
   "month": 1,
   "stats": {
-    "release_groups": 87,
-    "with_cover_art": 86,
-    "with_action_links": 87,
+    "release_groups": 88,
+    "with_cover_art": 87,
+    "with_action_links": 88,
     "future_releases": 0,
     "types": {
       "Album": 19,
       "EP": 8,
-      "Single": 60
+      "Single": 61
     },
     "services": {
-      "spotify": 86,
-      "deezer": 85,
-      "apple_music": 82,
-      "tidal": 68,
-      "qobuz": 4,
+      "spotify": 87,
+      "deezer": 86,
+      "apple_music": 83,
+      "tidal": 69,
+      "qobuz": 5,
       "youtube": 1,
       "beatport": 1,
       "amazon": 1
@@ -13535,6 +13535,220 @@
           "source": "release",
           "source_release_mbid": "c4d46dc6-c7a3-4848-8e52-f96031cf2ca2",
           "url": "https://tidal.com/album/414865870"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "d49d87f0-eeed-431e-8b5d-b4ae0b169be4",
+      "title": "ושבו בנים",
+      "artist_credit": "איצי אקרמן",
+      "credited_artists": [
+        {
+          "mbid": "abb20401-f4a1-456f-8bcc-4019595fade6",
+          "name": "איצי אקרמן",
+          "position": 0,
+          "credit_name": "איצי אקרמן",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "abb20401-f4a1-456f-8bcc-4019595fade6",
+          "name": "איצי אקרמן"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-01-27",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 1,
+      "day": 27,
+      "release_count": 1,
+      "release_mbids": [
+        "74158cc4-7f7f-4bc8-96c8-a40960711aac"
+      ],
+      "cover_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+      "cover_art": {
+        "release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+        "image_id": 46091281873,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/74158cc4-7f7f-4bc8-96c8-a40960711aac/46091281873",
+        "thumbnails": {
+          "250": "/covers/74158cc4-7f7f-4bc8-96c8-a40960711aac--46091281873.webp",
+          "500": "/covers/74158cc4-7f7f-4bc8-96c8-a40960711aac--46091281873.webp",
+          "1200": "/covers/74158cc4-7f7f-4bc8-96c8-a40960711aac--46091281873.webp"
+        },
+        "cached": "/covers/74158cc4-7f7f-4bc8-96c8-a40960711aac--46091281873.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/d49d87f0-eeed-431e-8b5d-b4ae0b169be4",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://music.apple.com/us/album/6782956215"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://music.apple.com/us/album/6782956215"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://open.spotify.com/album/4Bfo6VWqnmXsnF7V3EhSNO"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://tidal.com/album/535639987"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://www.deezer.com/album/1011831931"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://www.qobuz.com/us-en/album/-/tcqc7f8qedpz2"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://www.qobuz.com/us-en/album/-/tcqc7f8qedpz2"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4Bfo6VWqnmXsnF7V3EhSNO"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6782956215"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1011831931"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/535639987"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-/tcqc7f8qedpz2"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://open.spotify.com/album/4Bfo6VWqnmXsnF7V3EhSNO"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://music.apple.com/us/album/6782956215"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://www.deezer.com/album/1011831931"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://tidal.com/album/535639987"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "74158cc4-7f7f-4bc8-96c8-a40960711aac",
+          "url": "https://www.qobuz.com/us-en/album/-/tcqc7f8qedpz2"
         }
       ],
       "references": [],

@@ -1,25 +1,25 @@
 {
   "year": 2026,
   "stats": {
-    "release_groups": 649,
-    "dated_release_groups": 649,
+    "release_groups": 658,
+    "dated_release_groups": 658,
     "year_only_release_groups": 0,
-    "artists": 375,
+    "artists": 380,
     "months_with_releases": 9,
     "types": {
-      "Album": 180,
-      "EP": 62,
-      "Single": 407
+      "Album": 181,
+      "EP": 63,
+      "Single": 414
     }
   },
   "months": [
     {
       "month": 1,
-      "release_groups": 93,
+      "release_groups": 94,
       "types": {
         "Album": 29,
         "EP": 7,
-        "Single": 57
+        "Single": 58
       },
       "featured": [
         {
@@ -395,9 +395,9 @@
     },
     {
       "month": 5,
-      "release_groups": 83,
+      "release_groups": 84,
       "types": {
-        "Album": 24,
+        "Album": 25,
         "EP": 7,
         "Single": 52
       },
@@ -490,11 +490,11 @@
     },
     {
       "month": 6,
-      "release_groups": 72,
+      "release_groups": 73,
       "types": {
         "Album": 21,
         "EP": 3,
-        "Single": 48
+        "Single": 49
       },
       "featured": [
         {
@@ -680,11 +680,11 @@
     },
     {
       "month": 8,
-      "release_groups": 102,
+      "release_groups": 105,
       "types": {
         "Album": 23,
-        "EP": 7,
-        "Single": 72
+        "EP": 8,
+        "Single": 74
       },
       "featured": [
         {
@@ -775,13 +775,34 @@
     },
     {
       "month": 9,
-      "release_groups": 10,
+      "release_groups": 13,
       "types": {
         "Album": 2,
         "EP": 1,
-        "Single": 7
+        "Single": 10
       },
       "featured": [
+        {
+          "release_group_mbid": "359435b2-aa86-4aba-8035-e2420fd3a980",
+          "title": "The One // Ani LeDodi",
+          "artist_credit": "Moshe Reuven",
+          "primary_type": "Single",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "f3e5b767-16a4-4e33-b243-6a9ad2f1e68d",
+            "image_id": 46093801285,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/f3e5b767-16a4-4e33-b243-6a9ad2f1e68d/46093801285",
+            "thumbnails": {
+              "250": "/covers/f3e5b767-16a4-4e33-b243-6a9ad2f1e68d--46093801285.webp",
+              "500": "/covers/f3e5b767-16a4-4e33-b243-6a9ad2f1e68d--46093801285.webp",
+              "1200": "/covers/f3e5b767-16a4-4e33-b243-6a9ad2f1e68d--46093801285.webp"
+            },
+            "cached": "/covers/f3e5b767-16a4-4e33-b243-6a9ad2f1e68d--46093801285.webp"
+          }
+        },
         {
           "release_group_mbid": "09b570e1-be65-4adc-9443-24b59af7a09a",
           "title": "From the Archives",
@@ -844,27 +865,6 @@
             },
             "cached": "/covers/118ba54e-6931-417f-9f85-d3d11818b83a--46078900381.webp"
           }
-        },
-        {
-          "release_group_mbid": "a119b5e0-2b0c-47ca-9d8a-3a8c6642f767",
-          "title": "השקיפה",
-          "artist_credit": "רפאל מלול וקובי ברומר",
-          "primary_type": "Single",
-          "day": 1,
-          "cover_art": {
-            "release_mbid": "b4fae09f-4c5b-4119-bfc1-e3d3645814a6",
-            "image_id": 46077507786,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/b4fae09f-4c5b-4119-bfc1-e3d3645814a6/46077507786",
-            "thumbnails": {
-              "250": "/covers/b4fae09f-4c5b-4119-bfc1-e3d3645814a6--46077507786.webp",
-              "500": "/covers/b4fae09f-4c5b-4119-bfc1-e3d3645814a6--46077507786.webp",
-              "1200": "/covers/b4fae09f-4c5b-4119-bfc1-e3d3645814a6--46077507786.webp"
-            },
-            "cached": "/covers/b4fae09f-4c5b-4119-bfc1-e3d3645814a6--46077507786.webp"
-          }
         }
       ]
     },
@@ -924,6 +924,11 @@
       "release_groups": 7
     },
     {
+      "mbid": "79b404bc-94a4-4e54-8e34-cc1c860fc27e",
+      "name": "Aryeh Kunstler",
+      "release_groups": 7
+    },
+    {
       "mbid": "18d98c56-7309-40fe-83ea-72d11171cbf0",
       "name": "Avrumi Berko",
       "release_groups": 7
@@ -941,11 +946,6 @@
     {
       "mbid": "aedd897b-ef61-49bf-820a-4ffa5e4b552e",
       "name": "Akiva Nachman",
-      "release_groups": 6
-    },
-    {
-      "mbid": "79b404bc-94a4-4e54-8e34-cc1c860fc27e",
-      "name": "Aryeh Kunstler",
       "release_groups": 6
     },
     {
