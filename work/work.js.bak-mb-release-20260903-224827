@@ -410,31 +410,10 @@ function versionHtml(version) {
     );
 
 
-  const musicbrainzReleaseUrl =
-    (
-      version
-        .release_group_musicbrainz_url
-
-      || (
-        "https://musicbrainz.org/release-group/"
-        + encodeURIComponent(
-            version
-              .release_group_mbid
-          )
-      )
-    );
-
-
   return `
     <article class="version-card">
 
-      <a
-        class="version-art version-art-link"
-        href="${releaseUrl}"
-        aria-label="Open ${escapeHtml(
-          version.release_title
-          || version.title
-        )} release">
+      <div class="version-art">
 
         ${art}
 
@@ -446,7 +425,7 @@ function versionHtml(version) {
           )}
         </span>
 
-      </a>
+      </div>
 
 
       <div class="version-body">
@@ -483,23 +462,10 @@ function versionHtml(version) {
           <a
             class="
               version-button
-              service-icon
-              musicbrainz
+              release
             "
-            href="${escapeHtml(
-              musicbrainzReleaseUrl
-            )}"
-            target="_blank"
-            rel="noopener"
-            title="View release on MusicBrainz"
-            aria-label="View release on MusicBrainz">
-
-            <img
-              class="service-brand-image"
-              src="/work/icons/musicbrainz.svg"
-              alt=""
-              aria-hidden="true">
-
+            href="${releaseUrl}">
+            View release
           </a>
 
           ${actions}
