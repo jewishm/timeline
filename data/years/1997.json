@@ -1,13 +1,13 @@
 {
   "year": 1997,
   "stats": {
-    "release_groups": 29,
+    "release_groups": 30,
     "dated_release_groups": 8,
-    "year_only_release_groups": 21,
-    "artists": 30,
+    "year_only_release_groups": 22,
+    "artists": 31,
     "months_with_releases": 4,
     "types": {
-      "Album": 29
+      "Album": 30
     }
   },
   "months": [
@@ -2671,6 +2671,222 @@
           "url": "https://www.discogs.com/release/6198140"
         }
       ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "945ddc36-237a-48c6-82e7-fe1cb3483d8d",
+      "title": "Kinder Classics 2",
+      "artist_credit": "Suki & Ding",
+      "credited_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding",
+          "position": 0,
+          "credit_name": "Suki & Ding",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "1997",
+      "date_precision": "year",
+      "year": 1997,
+      "month": null,
+      "day": null,
+      "release_count": 3,
+      "release_mbids": [
+        "5792ee53-c00a-41ee-b349-c9f8edec1b2d",
+        "9d1c22fb-fe0f-4e72-9c21-cb4e444a5720",
+        "d54efdbb-8675-4335-92e9-911cfa29048e"
+      ],
+      "cover_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+      "cover_art": {
+        "release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+        "image_id": 46099988787,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/d54efdbb-8675-4335-92e9-911cfa29048e/46099988787",
+        "thumbnails": {
+          "250": "/covers/d54efdbb-8675-4335-92e9-911cfa29048e--46099988787.webp",
+          "500": "/covers/d54efdbb-8675-4335-92e9-911cfa29048e--46099988787.webp",
+          "1200": "/covers/d54efdbb-8675-4335-92e9-911cfa29048e--46099988787.webp"
+        },
+        "cached": "/covers/d54efdbb-8675-4335-92e9-911cfa29048e--46099988787.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/945ddc36-237a-48c6-82e7-fe1cb3483d8d",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://music.apple.com/us/album/1658463627"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://music.apple.com/us/album/1658463627"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://open.spotify.com/album/2Ja60NUaSV5Y6dUcRCjgjG"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://tidal.com/album/264916416"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://www.deezer.com/album/384193687"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-2-suki-ding/i6cnnkavvv0la"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-2-suki-ding/i6cnnkavvv0la"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2Ja60NUaSV5Y6dUcRCjgjG"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1658463627"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/384193687"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/264916416"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-2-suki-ding/i6cnnkavvv0la"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://open.spotify.com/album/2Ja60NUaSV5Y6dUcRCjgjG"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://music.apple.com/us/album/1658463627"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://www.deezer.com/album/384193687"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://tidal.com/album/264916416"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d54efdbb-8675-4335-92e9-911cfa29048e",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-2-suki-ding/i6cnnkavvv0la"
+        }
+      ],
+      "references": [],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

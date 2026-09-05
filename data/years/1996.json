@@ -1,13 +1,13 @@
 {
   "year": 1996,
   "stats": {
-    "release_groups": 27,
+    "release_groups": 28,
     "dated_release_groups": 7,
-    "year_only_release_groups": 20,
+    "year_only_release_groups": 21,
     "artists": 21,
     "months_with_releases": 5,
     "types": {
-      "Album": 27
+      "Album": 28
     }
   },
   "months": [
@@ -268,6 +268,11 @@
       "release_groups": 2
     },
     {
+      "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+      "name": "Suki & Ding",
+      "release_groups": 2
+    },
+    {
       "mbid": "9f8e9d5e-82e5-4485-84c9-506bf7967b34",
       "name": "Yisroel Williger",
       "release_groups": 2
@@ -315,11 +320,6 @@
     {
       "mbid": "a6ebb3c8-74d9-426c-97fb-6175e2dc07b5",
       "name": "Sherwood Goffin",
-      "release_groups": 1
-    },
-    {
-      "mbid": "54879195-93d0-44a6-a4af-0a7c1c7b998b",
-      "name": "Shloime Dachs",
       "release_groups": 1
     }
   ],
@@ -2742,6 +2742,222 @@
           "source": "release",
           "source_release_mbid": "9344b72d-e324-4436-bf9b-c3bf8e7f13a4",
           "url": "https://mostlymusic.com/products/wheres-zaidy-rerelease-cd"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "3e731758-329a-42c5-b4e4-3ecea3734ed6",
+      "title": "Kinder Classics 1",
+      "artist_credit": "Suki & Ding",
+      "credited_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding",
+          "position": 0,
+          "credit_name": "Suki & Ding",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "1996",
+      "date_precision": "year",
+      "year": 1996,
+      "month": null,
+      "day": null,
+      "release_count": 3,
+      "release_mbids": [
+        "16843962-bf2c-4bfa-8a17-82ac392208a6",
+        "305a0ab6-686f-4697-84bd-cbd7988b27e4",
+        "dada2c8f-2f20-4d1c-b203-68bcb7c99f38"
+      ],
+      "cover_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+      "cover_art": {
+        "release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+        "image_id": 46099945847,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/dada2c8f-2f20-4d1c-b203-68bcb7c99f38/46099945847",
+        "thumbnails": {
+          "250": "/covers/dada2c8f-2f20-4d1c-b203-68bcb7c99f38--46099945847.webp",
+          "500": "/covers/dada2c8f-2f20-4d1c-b203-68bcb7c99f38--46099945847.webp",
+          "1200": "/covers/dada2c8f-2f20-4d1c-b203-68bcb7c99f38--46099945847.webp"
+        },
+        "cached": "/covers/dada2c8f-2f20-4d1c-b203-68bcb7c99f38--46099945847.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/3e731758-329a-42c5-b4e4-3ecea3734ed6",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://music.apple.com/us/album/1655965992"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://music.apple.com/us/album/1655965992"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://open.spotify.com/album/21yqhnbGZfRY9lOjYHIstx"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://tidal.com/album/262202811"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://www.deezer.com/album/380584697"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-1-suki-ding/mtgdu6uij0j2b"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-1-suki-ding/mtgdu6uij0j2b"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/21yqhnbGZfRY9lOjYHIstx"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1655965992"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/380584697"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/262202811"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-1-suki-ding/mtgdu6uij0j2b"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://open.spotify.com/album/21yqhnbGZfRY9lOjYHIstx"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://music.apple.com/us/album/1655965992"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://www.deezer.com/album/380584697"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://tidal.com/album/262202811"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dada2c8f-2f20-4d1c-b203-68bcb7c99f38",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-1-suki-ding/mtgdu6uij0j2b"
         }
       ],
       "references": [],

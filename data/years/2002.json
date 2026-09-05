@@ -1,13 +1,13 @@
 {
   "year": 2002,
   "stats": {
-    "release_groups": 49,
+    "release_groups": 50,
     "dated_release_groups": 28,
-    "year_only_release_groups": 21,
-    "artists": 46,
+    "year_only_release_groups": 22,
+    "artists": 47,
     "months_with_releases": 11,
     "types": {
-      "Album": 47,
+      "Album": 48,
       "Single": 2
     }
   },
@@ -958,7 +958,7 @@
           "action": true,
           "action_kind": "buy",
           "source": "release",
-          "source_release_mbid": "808d821a-6fc6-41d0-b278-7c8f963323dc",
+          "source_release_mbid": "921ad025-74ec-40da-a48c-24f5685eb96b",
           "url": "https://www.amazon.com/gp/product/B004ZQFFQE"
         },
         {
@@ -1753,6 +1753,118 @@
           "source": "release",
           "source_release_mbid": "1cbffe25-46d8-4d22-9bc7-9863320fb1dd",
           "url": "https://music.apple.com/gb/album/271531007"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "d28f0151-3d2f-4af2-b47a-b8747489d6bb",
+      "title": "Shabbos Classics, Vol. 2",
+      "artist_credit": "Suki & Ding",
+      "credited_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding",
+          "position": 0,
+          "credit_name": "Suki & Ding",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2002",
+      "date_precision": "year",
+      "year": 2002,
+      "month": null,
+      "day": null,
+      "release_count": 2,
+      "release_mbids": [
+        "01b3fe3e-48d3-4e89-92d6-37c5a4885127",
+        "a959bdfa-2206-4246-9124-5c765ae24c50"
+      ],
+      "cover_release_mbid": "01b3fe3e-48d3-4e89-92d6-37c5a4885127",
+      "cover_art": {
+        "release_mbid": "01b3fe3e-48d3-4e89-92d6-37c5a4885127",
+        "image_id": 37672948158,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/01b3fe3e-48d3-4e89-92d6-37c5a4885127/37672948158",
+        "thumbnails": {
+          "250": "/covers/01b3fe3e-48d3-4e89-92d6-37c5a4885127--37672948158.webp",
+          "500": "/covers/01b3fe3e-48d3-4e89-92d6-37c5a4885127--37672948158.webp",
+          "1200": "/covers/01b3fe3e-48d3-4e89-92d6-37c5a4885127--37672948158.webp"
+        },
+        "cached": "/covers/01b3fe3e-48d3-4e89-92d6-37c5a4885127--37672948158.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/d28f0151-3d2f-4af2-b47a-b8747489d6bb",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01b3fe3e-48d3-4e89-92d6-37c5a4885127",
+          "url": "https://music.apple.com/gb/album/395546692"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01b3fe3e-48d3-4e89-92d6-37c5a4885127",
+          "url": "https://open.spotify.com/album/68PjnN9AT5BeTsAsKZQvjU"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/68PjnN9AT5BeTsAsKZQvjU"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/395546692"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01b3fe3e-48d3-4e89-92d6-37c5a4885127",
+          "url": "https://open.spotify.com/album/68PjnN9AT5BeTsAsKZQvjU"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01b3fe3e-48d3-4e89-92d6-37c5a4885127",
+          "url": "https://music.apple.com/gb/album/395546692"
         }
       ],
       "references": [],

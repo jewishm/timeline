@@ -1,13 +1,13 @@
 {
   "year": 2000,
   "stats": {
-    "release_groups": 74,
+    "release_groups": 75,
     "dated_release_groups": 55,
-    "year_only_release_groups": 19,
+    "year_only_release_groups": 20,
     "artists": 39,
     "months_with_releases": 11,
     "types": {
-      "Album": 73,
+      "Album": 74,
       "Other": 1
     }
   },
@@ -597,6 +597,11 @@
       "release_groups": 2
     },
     {
+      "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+      "name": "Suki & Ding",
+      "release_groups": 2
+    },
+    {
       "mbid": "0357fb79-87ef-4e98-a219-9a09ed39cd25",
       "name": "יוסף קרדונר",
       "release_groups": 2
@@ -649,11 +654,6 @@
     {
       "mbid": "41588fd1-b9a6-4453-9709-c229b7abe90c",
       "name": "Michoel Streicher",
-      "release_groups": 1
-    },
-    {
-      "mbid": "515a58dd-11b8-4684-aba3-82802a98d3f9",
-      "name": "Miriam Sandler",
       "release_groups": 1
     }
   ],
@@ -2178,6 +2178,210 @@
       "actions": [],
       "references": [],
       "has_action_links": false,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "ce6212ad-6bff-4f0e-ad21-332f527a04ff",
+      "title": "Shabbos Classics, Vol. 1",
+      "artist_credit": "Suki & Ding",
+      "credited_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding",
+          "position": 0,
+          "credit_name": "Suki & Ding",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2000",
+      "date_precision": "year",
+      "year": 2000,
+      "month": null,
+      "day": null,
+      "release_count": 2,
+      "release_mbids": [
+        "97d8a6f6-9134-46cb-8337-9dcc197fe90d",
+        "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1"
+      ],
+      "cover_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+      "cover_art": {
+        "release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+        "image_id": 37672929990,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1/37672929990",
+        "thumbnails": {
+          "250": "/covers/f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1--37672929990.webp",
+          "500": "/covers/f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1--37672929990.webp",
+          "1200": "/covers/f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1--37672929990.webp"
+        },
+        "cached": "/covers/f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1--37672929990.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ce6212ad-6bff-4f0e-ad21-332f527a04ff",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://music.apple.com/gb/album/395363560"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://open.spotify.com/album/639PqrqxgL3Lr9wFUtSJv8"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://tidal.com/album/32639473"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://www.deezer.com/album/7662775"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://www.qobuz.com/us-en/album/shabbos-classics-vol-1-suki-ding/fn71eyefzg8vc"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://www.qobuz.com/us-en/album/shabbos-classics-vol-1-suki-ding/fn71eyefzg8vc"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/639PqrqxgL3Lr9wFUtSJv8"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/395363560"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/7662775"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/32639473"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/shabbos-classics-vol-1-suki-ding/fn71eyefzg8vc"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://open.spotify.com/album/639PqrqxgL3Lr9wFUtSJv8"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://music.apple.com/gb/album/395363560"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://www.deezer.com/album/7662775"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://tidal.com/album/32639473"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f1a94ccd-2cf3-4ebf-b63e-e86e120b79a1",
+          "url": "https://www.qobuz.com/us-en/album/shabbos-classics-vol-1-suki-ding/fn71eyefzg8vc"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
     },

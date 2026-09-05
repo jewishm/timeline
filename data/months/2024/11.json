@@ -3,7 +3,7 @@
   "month": 11,
   "stats": {
     "release_groups": 69,
-    "with_cover_art": 68,
+    "with_cover_art": 69,
     "with_action_links": 69,
     "future_releases": 0,
     "types": {
@@ -7816,7 +7816,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "ae481f90-89f5-497a-b928-14b83e4773dd",
+          "source_release_mbid": "a21dc689-df30-4728-bd50-10f9a169ffb4",
           "url": "https://open.spotify.com/album/4VUvkNGLfAgKUXVSB77loO"
         },
         {
@@ -7838,7 +7838,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "a21dc689-df30-4728-bd50-10f9a169ffb4",
+          "source_release_mbid": "ae481f90-89f5-497a-b928-14b83e4773dd",
           "url": "https://www.deezer.com/album/674108191"
         }
       ],
@@ -7873,7 +7873,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "ae481f90-89f5-497a-b928-14b83e4773dd",
+          "source_release_mbid": "a21dc689-df30-4728-bd50-10f9a169ffb4",
           "url": "https://open.spotify.com/album/4VUvkNGLfAgKUXVSB77loO"
         },
         {
@@ -7895,7 +7895,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "a21dc689-df30-4728-bd50-10f9a169ffb4",
+          "source_release_mbid": "ae481f90-89f5-497a-b928-14b83e4773dd",
           "url": "https://www.deezer.com/album/674108191"
         },
         {
@@ -9957,8 +9957,21 @@
       "release_mbids": [
         "a1e6313e-5cde-4c43-800e-835570ecaf21"
       ],
-      "cover_release_mbid": null,
-      "cover_art": null,
+      "cover_release_mbid": "a1e6313e-5cde-4c43-800e-835570ecaf21",
+      "cover_art": {
+        "release_mbid": "a1e6313e-5cde-4c43-800e-835570ecaf21",
+        "image_id": 46099739497,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a1e6313e-5cde-4c43-800e-835570ecaf21/46099739497",
+        "thumbnails": {
+          "250": "/covers/a1e6313e-5cde-4c43-800e-835570ecaf21--46099739497.webp",
+          "500": "/covers/a1e6313e-5cde-4c43-800e-835570ecaf21--46099739497.webp",
+          "1200": "/covers/a1e6313e-5cde-4c43-800e-835570ecaf21--46099739497.webp"
+        },
+        "cached": "/covers/a1e6313e-5cde-4c43-800e-835570ecaf21--46099739497.webp"
+      },
       "musicbrainz_url": "https://musicbrainz.org/release-group/bf04b738-9811-4a24-b9d0-ca2aaf2a9003",
       "links": [
         {
@@ -10087,7 +10100,7 @@
       ],
       "references": [],
       "has_action_links": true,
-      "has_cover_art": false,
+      "has_cover_art": true,
       "is_future": false
     },
     {

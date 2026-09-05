@@ -1,13 +1,13 @@
 {
   "year": 1991,
   "stats": {
-    "release_groups": 11,
+    "release_groups": 12,
     "dated_release_groups": 4,
-    "year_only_release_groups": 7,
-    "artists": 10,
+    "year_only_release_groups": 8,
+    "artists": 11,
     "months_with_releases": 3,
     "types": {
-      "Album": 11
+      "Album": 12
     }
   },
   "months": [
@@ -201,6 +201,11 @@
     {
       "mbid": "266df053-9ab6-4aeb-a409-5d6db2de4780",
       "name": "Shlock Rock",
+      "release_groups": 1
+    },
+    {
+      "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+      "name": "Suki & Ding",
       "release_groups": 1
     },
     {
@@ -557,6 +562,118 @@
           "url": "https://www.wikidata.org/wiki/Q25636023"
         }
       ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "a9b62ac4-37c5-47aa-9570-9fbe29d48606",
+      "title": "Yiddish Classics, Vol. 1",
+      "artist_credit": "Suki & Ding",
+      "credited_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding",
+          "position": 0,
+          "credit_name": "Suki & Ding",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "1991",
+      "date_precision": "year",
+      "year": 1991,
+      "month": null,
+      "day": null,
+      "release_count": 2,
+      "release_mbids": [
+        "55e36f92-2f3b-44c0-88e7-7d72c4628b2a",
+        "86e0c270-351f-4d49-8d75-7d145c061e22"
+      ],
+      "cover_release_mbid": "86e0c270-351f-4d49-8d75-7d145c061e22",
+      "cover_art": {
+        "release_mbid": "86e0c270-351f-4d49-8d75-7d145c061e22",
+        "image_id": 37676864619,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/86e0c270-351f-4d49-8d75-7d145c061e22/37676864619",
+        "thumbnails": {
+          "250": "/covers/86e0c270-351f-4d49-8d75-7d145c061e22--37676864619.webp",
+          "500": "/covers/86e0c270-351f-4d49-8d75-7d145c061e22--37676864619.webp",
+          "1200": "/covers/86e0c270-351f-4d49-8d75-7d145c061e22--37676864619.webp"
+        },
+        "cached": "/covers/86e0c270-351f-4d49-8d75-7d145c061e22--37676864619.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/a9b62ac4-37c5-47aa-9570-9fbe29d48606",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "86e0c270-351f-4d49-8d75-7d145c061e22",
+          "url": "https://music.apple.com/gb/album/395373422"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "86e0c270-351f-4d49-8d75-7d145c061e22",
+          "url": "https://open.spotify.com/album/4Ml5fFRjpudgFvNJnohjpt"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4Ml5fFRjpudgFvNJnohjpt"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/395373422"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "86e0c270-351f-4d49-8d75-7d145c061e22",
+          "url": "https://open.spotify.com/album/4Ml5fFRjpudgFvNJnohjpt"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "86e0c270-351f-4d49-8d75-7d145c061e22",
+          "url": "https://music.apple.com/gb/album/395373422"
+        }
+      ],
+      "references": [],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

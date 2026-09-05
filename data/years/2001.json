@@ -1,13 +1,13 @@
 {
   "year": 2001,
   "stats": {
-    "release_groups": 48,
+    "release_groups": 49,
     "dated_release_groups": 23,
-    "year_only_release_groups": 25,
-    "artists": 44,
+    "year_only_release_groups": 26,
+    "artists": 45,
     "months_with_releases": 10,
     "types": {
-      "Album": 47,
+      "Album": 48,
       "EP": 1
     }
   },
@@ -2885,6 +2885,184 @@
           "source": "release",
           "source_release_mbid": "859ba0ca-15dd-4247-b9f5-de385a822a1a",
           "url": "https://music.apple.com/gb/album/268249670"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "62aeb0e8-41f1-4da0-89db-d1a71e434508",
+      "title": "Kinder Classics, Vol. 3",
+      "artist_credit": "Suki & Ding",
+      "credited_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding",
+          "position": 0,
+          "credit_name": "Suki & Ding",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2001",
+      "date_precision": "year",
+      "year": 2001,
+      "month": null,
+      "day": null,
+      "release_count": 3,
+      "release_mbids": [
+        "97d38079-93a3-4bf3-9d1e-ed50f933d598",
+        "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+        "ed4fda02-f506-4bad-bd1b-f2360b7222fd"
+      ],
+      "cover_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+      "cover_art": {
+        "release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+        "image_id": 38505745052,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a9b0a0e5-8d37-4a43-8f27-f04e3a435abc/38505745052",
+        "thumbnails": {
+          "250": "/covers/a9b0a0e5-8d37-4a43-8f27-f04e3a435abc--38505745052.webp",
+          "500": "/covers/a9b0a0e5-8d37-4a43-8f27-f04e3a435abc--38505745052.webp",
+          "1200": "/covers/a9b0a0e5-8d37-4a43-8f27-f04e3a435abc--38505745052.webp"
+        },
+        "cached": "/covers/a9b0a0e5-8d37-4a43-8f27-f04e3a435abc--38505745052.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/62aeb0e8-41f1-4da0-89db-d1a71e434508",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://music.apple.com/gb/album/398630984"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://open.spotify.com/album/6VRsVbtW2DZ15i9Z7uPXt6"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://www.deezer.com/album/665385"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-vol-3-suki-ding/dme2aq6cft37b"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-vol-3-suki-ding/dme2aq6cft37b"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6VRsVbtW2DZ15i9Z7uPXt6"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/398630984"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/665385"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-vol-3-suki-ding/dme2aq6cft37b"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://open.spotify.com/album/6VRsVbtW2DZ15i9Z7uPXt6"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://music.apple.com/gb/album/398630984"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://www.deezer.com/album/665385"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9b0a0e5-8d37-4a43-8f27-f04e3a435abc",
+          "url": "https://www.qobuz.com/us-en/album/kinder-classics-vol-3-suki-ding/dme2aq6cft37b"
         }
       ],
       "references": [],

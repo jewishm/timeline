@@ -12,8 +12,8 @@
       "Single": 10
     },
     "services": {
+      "spotify": 13,
       "tidal": 13,
-      "spotify": 12,
       "apple_music": 12,
       "deezer": 12,
       "qobuz": 4,
@@ -1563,6 +1563,17 @@
           "url": "https://music.apple.com/us/album/6808061765"
         },
         {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1d3c9935-08d6-4ab5-96ad-2fe4e15412ec",
+          "url": "https://open.spotify.com/album/7FZ2OuCYoKSjUXKLQrFYMJ"
+        },
+        {
           "site_key": "tidal",
           "site_label": "TIDAL",
           "domain": "tidal.com",
@@ -1586,6 +1597,11 @@
         }
       ],
       "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7FZ2OuCYoKSjUXKLQrFYMJ"
+        },
         "apple_music": {
           "label": "Apple Music",
           "kind": "listen",
@@ -1613,6 +1629,17 @@
         }
       },
       "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1d3c9935-08d6-4ab5-96ad-2fe4e15412ec",
+          "url": "https://open.spotify.com/album/7FZ2OuCYoKSjUXKLQrFYMJ"
+        },
         {
           "site_key": "apple_music",
           "site_label": "Apple Music",

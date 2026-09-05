@@ -2,17 +2,17 @@
   "year": 2014,
   "month": 6,
   "stats": {
-    "release_groups": 7,
-    "with_cover_art": 7,
-    "with_action_links": 7,
+    "release_groups": 8,
+    "with_cover_art": 8,
+    "with_action_links": 8,
     "future_releases": 0,
     "types": {
-      "Album": 6,
+      "Album": 7,
       "Single": 1
     },
     "services": {
+      "apple_music": 8,
       "spotify": 7,
-      "apple_music": 7,
       "deezer": 5,
       "tidal": 1
     }
@@ -639,6 +639,101 @@
           "source": "release",
           "source_release_mbid": "0bde779a-1dac-4729-8198-b900225a3a1f",
           "url": "https://music.apple.com/gb/album/1572929432"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "31747e33-85b8-4315-910f-c9ef6c5daf90",
+      "title": "Kinder Classics 4",
+      "artist_credit": "Suki & Ding",
+      "credited_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding",
+          "position": 0,
+          "credit_name": "Suki & Ding",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b524ed05-2160-4f08-a6bc-e6bd54270047",
+          "name": "Suki & Ding"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2014-06-01",
+      "date_precision": "day",
+      "year": 2014,
+      "month": 6,
+      "day": 1,
+      "release_count": 1,
+      "release_mbids": [
+        "132199e5-d650-4388-b8ae-eee5585e0671"
+      ],
+      "cover_release_mbid": "132199e5-d650-4388-b8ae-eee5585e0671",
+      "cover_art": {
+        "release_mbid": "132199e5-d650-4388-b8ae-eee5585e0671",
+        "image_id": 46100155191,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/132199e5-d650-4388-b8ae-eee5585e0671/46100155191",
+        "thumbnails": {
+          "250": "/covers/132199e5-d650-4388-b8ae-eee5585e0671--46100155191.webp",
+          "500": "/covers/132199e5-d650-4388-b8ae-eee5585e0671--46100155191.webp",
+          "1200": "/covers/132199e5-d650-4388-b8ae-eee5585e0671--46100155191.webp"
+        },
+        "cached": "/covers/132199e5-d650-4388-b8ae-eee5585e0671--46100155191.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/31747e33-85b8-4315-910f-c9ef6c5daf90",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "132199e5-d650-4388-b8ae-eee5585e0671",
+          "url": "https://music.apple.com/il/album/979827861"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "132199e5-d650-4388-b8ae-eee5585e0671",
+          "url": "https://music.apple.com/il/album/979827861"
+        }
+      ],
+      "preferred_links": {
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/il/album/979827861"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "132199e5-d650-4388-b8ae-eee5585e0671",
+          "url": "https://music.apple.com/il/album/979827861"
         }
       ],
       "references": [],

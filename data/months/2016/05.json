@@ -2,18 +2,18 @@
   "year": 2016,
   "month": 5,
   "stats": {
-    "release_groups": 10,
-    "with_cover_art": 10,
-    "with_action_links": 10,
+    "release_groups": 9,
+    "with_cover_art": 9,
+    "with_action_links": 9,
     "future_releases": 0,
     "types": {
-      "Album": 7,
+      "Album": 6,
       "Single": 3
     },
     "services": {
-      "spotify": 10,
-      "apple_music": 10,
-      "deezer": 6,
+      "spotify": 9,
+      "apple_music": 9,
+      "deezer": 5,
       "tidal": 5,
       "qobuz": 1,
       "mostly_music": 1,
@@ -899,144 +899,6 @@
           "source": "release",
           "source_release_mbid": "26ced224-e2af-4160-b55a-a01ee70a323c",
           "url": "https://tidal.com/album/59694871"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "ce5e7e23-c9ae-49e6-a487-c173b10ad408",
-      "title": "Life Sometimes",
-      "artist_credit": "Sarah Dukes",
-      "credited_artists": [
-        {
-          "mbid": "4bb6b16b-79c8-4a87-b054-38684fb8dc8a",
-          "name": "Sarah Dukes",
-          "position": 0,
-          "credit_name": "Sarah Dukes",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "4bb6b16b-79c8-4a87-b054-38684fb8dc8a",
-          "name": "Sarah Dukes"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2016-05-26",
-      "date_precision": "day",
-      "year": 2016,
-      "month": 5,
-      "day": 26,
-      "release_count": 1,
-      "release_mbids": [
-        "c7531bf3-af4a-4870-9642-6cfb8a919148"
-      ],
-      "cover_release_mbid": "c7531bf3-af4a-4870-9642-6cfb8a919148",
-      "cover_art": {
-        "release_mbid": "c7531bf3-af4a-4870-9642-6cfb8a919148",
-        "image_id": 37767204979,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/c7531bf3-af4a-4870-9642-6cfb8a919148/37767204979",
-        "thumbnails": {
-          "250": "/covers/c7531bf3-af4a-4870-9642-6cfb8a919148--37767204979.webp",
-          "500": "/covers/c7531bf3-af4a-4870-9642-6cfb8a919148--37767204979.webp",
-          "1200": "/covers/c7531bf3-af4a-4870-9642-6cfb8a919148--37767204979.webp"
-        },
-        "cached": "/covers/c7531bf3-af4a-4870-9642-6cfb8a919148--37767204979.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/ce5e7e23-c9ae-49e6-a487-c173b10ad408",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c7531bf3-af4a-4870-9642-6cfb8a919148",
-          "url": "https://music.apple.com/gb/album/1111686135"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c7531bf3-af4a-4870-9642-6cfb8a919148",
-          "url": "https://open.spotify.com/album/0GcwwjnLklGhGDb5IiK1uI"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c7531bf3-af4a-4870-9642-6cfb8a919148",
-          "url": "https://www.deezer.com/album/13047992"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/0GcwwjnLklGhGDb5IiK1uI"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1111686135"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/13047992"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c7531bf3-af4a-4870-9642-6cfb8a919148",
-          "url": "https://open.spotify.com/album/0GcwwjnLklGhGDb5IiK1uI"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c7531bf3-af4a-4870-9642-6cfb8a919148",
-          "url": "https://music.apple.com/gb/album/1111686135"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "c7531bf3-af4a-4870-9642-6cfb8a919148",
-          "url": "https://www.deezer.com/album/13047992"
         }
       ],
       "references": [],
