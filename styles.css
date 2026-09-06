@@ -2985,3 +2985,68 @@ a.jmt-service-link svg {
 
   border-radius: inherit;
 }
+
+
+/* =========================================================
+   JMT brand icon - final override
+   ========================================================= */
+
+.brand-mark {
+  position: relative !important;
+
+  display: block !important;
+
+  overflow: hidden !important;
+
+  padding: 0 !important;
+
+  background: transparent !important;
+
+  background-image: none !important;
+
+  isolation: isolate;
+}
+
+
+/* Disable pieces from the old CSS-drawn logo */
+
+.brand-mark::before,
+.brand-mark::after {
+  content: none !important;
+
+  display: none !important;
+
+  background: none !important;
+}
+
+
+.brand-mark .brand-logo-image {
+  position: relative !important;
+
+  z-index: 10 !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  max-width: none !important;
+  max-height: none !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  object-fit: contain !important;
+
+  opacity: 1 !important;
+
+  visibility: visible !important;
+
+  filter: none !important;
+
+  mix-blend-mode: normal !important;
+
+  transform: none !important;
+
+  border-radius: inherit !important;
+}
