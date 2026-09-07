@@ -77508,6 +77508,11 @@
           "site_label": "Apple Music",
           "action_kind": "listen",
           "url": "https://music.apple.com/gb/album/556509734"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/5877941"
         }
       ],
       "terms": [
@@ -230716,7 +230721,9 @@
           "join_phrase": ""
         }
       ],
-      "secondary_types": [],
+      "secondary_types": [
+        "Live"
+      ],
       "primary_type": "Album",
       "date_precision": "day",
       "year": 2023,

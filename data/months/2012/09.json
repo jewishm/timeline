@@ -13,7 +13,7 @@
     "services": {
       "spotify": 6,
       "apple_music": 6,
-      "deezer": 5,
+      "deezer": 6,
       "tidal": 2
     }
   },
@@ -396,6 +396,17 @@
           "source": "release",
           "source_release_mbid": "bafde2ce-c32d-4fcf-ac82-a82435fe38da",
           "url": "https://open.spotify.com/album/2FC9rothctHpRjRIq2qV9z"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bafde2ce-c32d-4fcf-ac82-a82435fe38da",
+          "url": "https://www.deezer.com/album/5877941"
         }
       ],
       "preferred_links": {
@@ -408,6 +419,11 @@
           "label": "Apple Music",
           "kind": "listen",
           "url": "https://music.apple.com/gb/album/556509734"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/5877941"
         }
       },
       "actions": [
@@ -432,6 +448,17 @@
           "source": "release",
           "source_release_mbid": "bafde2ce-c32d-4fcf-ac82-a82435fe38da",
           "url": "https://music.apple.com/gb/album/556509734"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bafde2ce-c32d-4fcf-ac82-a82435fe38da",
+          "url": "https://www.deezer.com/album/5877941"
         }
       ],
       "references": [],
