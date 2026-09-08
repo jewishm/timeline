@@ -2,12 +2,12 @@
   "year": 2026,
   "month": 8,
   "stats": {
-    "release_groups": 106,
-    "with_cover_art": 106,
-    "with_action_links": 106,
+    "release_groups": 108,
+    "with_cover_art": 108,
+    "with_action_links": 108,
     "future_releases": 0,
     "types": {
-      "Album": 23,
+      "Album": 25,
       "EP": 8,
       "Single": 75
     },
@@ -16,7 +16,8 @@
       "tidal": 105,
       "deezer": 104,
       "apple_music": 99,
-      "qobuz": 56
+      "qobuz": 56,
+      "24six": 2
     }
   },
   "releases": [
@@ -2315,6 +2316,103 @@
           "source": "release",
           "source_release_mbid": "4fb841eb-38bf-43dd-9939-a09afa8d24d5",
           "url": "https://www.qobuz.com/us-en/album/the-song-of-shaabos-rafi-the-king/yji9lclmcs4zj"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "ba4dfe06-49f5-4e58-a5aa-5b73af5473c4",
+      "title": "An Avoida With R' Joey",
+      "artist_credit": "Shimmy Posen & Joey Newcomb",
+      "credited_artists": [
+        {
+          "mbid": "141d47c3-bdc0-45c3-9a54-6ffb55cf1a21",
+          "name": "Shimmy Posen",
+          "position": 0,
+          "credit_name": "Shimmy Posen",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "782d9c05-0fb8-4aeb-b9c0-00feb5c44eaa",
+          "name": "Joey Newcomb",
+          "position": 1,
+          "credit_name": "Joey Newcomb",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "782d9c05-0fb8-4aeb-b9c0-00feb5c44eaa",
+          "name": "Joey Newcomb"
+        },
+        {
+          "mbid": "141d47c3-bdc0-45c3-9a54-6ffb55cf1a21",
+          "name": "Shimmy Posen"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2026-08-05",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 5,
+      "release_count": 1,
+      "release_mbids": [
+        "c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c"
+      ],
+      "cover_release_mbid": "c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c",
+      "cover_art": {
+        "release_mbid": "c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c",
+        "image_id": 46131103671,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c/46131103671",
+        "thumbnails": {
+          "250": "/covers/c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c--46131103671.webp",
+          "500": "/covers/c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c--46131103671.webp",
+          "1200": "/covers/c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c--46131103671.webp"
+        },
+        "cached": "/covers/c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c--46131103671.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ba4dfe06-49f5-4e58-a5aa-5b73af5473c4",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c",
+          "url": "https://24six.app/preview/music/collection/20745/an-avoida-with-r-joey"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/20745/an-avoida-with-r-joey"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c145cd9e-6d2e-4b7f-a43e-fd7604ef7d6c",
+          "url": "https://24six.app/preview/music/collection/20745/an-avoida-with-r-joey"
         }
       ],
       "references": [],
@@ -19318,6 +19416,103 @@
           "source": "release",
           "source_release_mbid": "40d9aa94-28bb-4992-b3d8-ab55dfa73e05",
           "url": "https://tidal.com/album/557986619"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "18b33c7c-e103-475f-b287-fe88245de1df",
+      "title": "Cruise Kumzits",
+      "artist_credit": "R’ Shloime Taussig & Yoely Fischer",
+      "credited_artists": [
+        {
+          "mbid": "fdd3f819-338b-4884-98e4-4d787f4e2be9",
+          "name": "Shloime Taussig",
+          "position": 0,
+          "credit_name": "R’ Shloime Taussig",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "e42e3594-e721-4fa0-82bf-fdff80350913",
+          "name": "Yoely Fischer",
+          "position": 1,
+          "credit_name": "Yoely Fischer",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "fdd3f819-338b-4884-98e4-4d787f4e2be9",
+          "name": "Shloime Taussig"
+        },
+        {
+          "mbid": "e42e3594-e721-4fa0-82bf-fdff80350913",
+          "name": "Yoely Fischer"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2026-08-30",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 30,
+      "release_count": 1,
+      "release_mbids": [
+        "6d8fd72e-aa8b-4e43-9336-220815efbccb"
+      ],
+      "cover_release_mbid": "6d8fd72e-aa8b-4e43-9336-220815efbccb",
+      "cover_art": {
+        "release_mbid": "6d8fd72e-aa8b-4e43-9336-220815efbccb",
+        "image_id": 46128285287,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/6d8fd72e-aa8b-4e43-9336-220815efbccb/46128285287",
+        "thumbnails": {
+          "250": "/covers/6d8fd72e-aa8b-4e43-9336-220815efbccb--46128285287.webp",
+          "500": "/covers/6d8fd72e-aa8b-4e43-9336-220815efbccb--46128285287.webp",
+          "1200": "/covers/6d8fd72e-aa8b-4e43-9336-220815efbccb--46128285287.webp"
+        },
+        "cached": "/covers/6d8fd72e-aa8b-4e43-9336-220815efbccb--46128285287.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/18b33c7c-e103-475f-b287-fe88245de1df",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6d8fd72e-aa8b-4e43-9336-220815efbccb",
+          "url": "https://24six.app/preview/music/collection/21192/cruise-kumzits"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/21192/cruise-kumzits"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6d8fd72e-aa8b-4e43-9336-220815efbccb",
+          "url": "https://24six.app/preview/music/collection/21192/cruise-kumzits"
         }
       ],
       "references": [],

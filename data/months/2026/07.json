@@ -2,12 +2,12 @@
   "year": 2026,
   "month": 7,
   "stats": {
-    "release_groups": 55,
-    "with_cover_art": 55,
-    "with_action_links": 55,
+    "release_groups": 56,
+    "with_cover_art": 56,
+    "with_action_links": 56,
     "future_releases": 0,
     "types": {
-      "Album": 16,
+      "Album": 17,
       "EP": 13,
       "Single": 26
     },
@@ -16,7 +16,8 @@
       "deezer": 55,
       "tidal": 55,
       "apple_music": 52,
-      "qobuz": 27
+      "qobuz": 27,
+      "24six": 1
     }
   },
   "releases": [
@@ -189,6 +190,90 @@
           "source": "release",
           "source_release_mbid": "3116344d-6b27-4c2c-be96-1c7caf31b510",
           "url": "https://tidal.com/album/538735201"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "69a4ae2c-aacc-488b-9191-4006170e9294",
+      "title": "Niggunei Bobov",
+      "artist_credit": "Mordechai V. Landau",
+      "credited_artists": [
+        {
+          "mbid": "f3ce8648-8795-4535-ba09-abd95fbd6bc3",
+          "name": "Mordechai Wolf Landau",
+          "position": 0,
+          "credit_name": "Mordechai V. Landau",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "f3ce8648-8795-4535-ba09-abd95fbd6bc3",
+          "name": "Mordechai Wolf Landau"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-07-01",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 7,
+      "day": 1,
+      "release_count": 1,
+      "release_mbids": [
+        "092fc13e-8867-48e2-bf71-db174c8fdc82"
+      ],
+      "cover_release_mbid": "092fc13e-8867-48e2-bf71-db174c8fdc82",
+      "cover_art": {
+        "release_mbid": "092fc13e-8867-48e2-bf71-db174c8fdc82",
+        "image_id": 46130895662,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/092fc13e-8867-48e2-bf71-db174c8fdc82/46130895662",
+        "thumbnails": {
+          "250": "/covers/092fc13e-8867-48e2-bf71-db174c8fdc82--46130895662.webp",
+          "500": "/covers/092fc13e-8867-48e2-bf71-db174c8fdc82--46130895662.webp",
+          "1200": "/covers/092fc13e-8867-48e2-bf71-db174c8fdc82--46130895662.webp"
+        },
+        "cached": "/covers/092fc13e-8867-48e2-bf71-db174c8fdc82--46130895662.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/69a4ae2c-aacc-488b-9191-4006170e9294",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "092fc13e-8867-48e2-bf71-db174c8fdc82",
+          "url": "https://24six.app/preview/music/collection/20190/niggunei-bobov"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/20190/niggunei-bobov"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "092fc13e-8867-48e2-bf71-db174c8fdc82",
+          "url": "https://24six.app/preview/music/collection/20190/niggunei-bobov"
         }
       ],
       "references": [],
