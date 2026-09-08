@@ -29,32 +29,6 @@
         );
 
 
-      const host =
-        (
-          url.hostname
-          || ""
-        ).toLowerCase();
-
-
-      /*
-       * Critical:
-       * only Apple hosts qualify.
-       *
-       * Otherwise a Deezer numeric track ID
-       * can accidentally be interpreted as
-       * an Apple track ID.
-       */
-      if (
-        host !== "music.apple.com"
-        &&
-        host !== "itunes.apple.com"
-      ) {
-
-        return null;
-
-      }
-
-
       const parts =
         url.pathname
           .split("/")
@@ -141,35 +115,9 @@
         );
 
 
-      const host =
-        (
-          url.hostname
-          || ""
-        ).toLowerCase();
-
-
-      /*
-       * Critical:
-       * Spotify URLs also contain /track/.
-       *
-       * Without checking the host,
-       * Spotify ID "3t7p..."
-       * became Deezer ID "3".
-       */
-      if (
-        host !== "deezer.com"
-        &&
-        host !== "www.deezer.com"
-      ) {
-
-        return null;
-
-      }
-
-
       const match =
         url.pathname.match(
-          /\/track\/(\d+)(?:\/|$)/i
+          /\/track\/(\d+)/i
         );
 
 
@@ -558,19 +506,16 @@
 
 
     /*
-     * Prefer Deezer.
-     *
-     * MusicBrainz already identifies the
-     * exact Deezer track, and Deezer gives
-     * us a direct MP3 preview.
+     * Apple first because its URL relationship
+     * gives us an exact Apple song ID.
      */
     if (
-      links.deezer
+      links.apple
     ) {
 
       const preview =
-        await deezerPreview(
-          links.deezer
+        await applePreview(
+          links.apple
         );
 
 
@@ -590,16 +535,16 @@
 
 
     /*
-     * Exact Apple song relationship is
-     * the fallback.
+     * Exact Deezer recording relationship is
+     * the fallback. Still no fuzzy matching.
      */
     if (
-      links.apple
+      links.deezer
     ) {
 
       const preview =
-        await applePreview(
-          links.apple
+        await deezerPreview(
+          links.deezer
         );
 
 
