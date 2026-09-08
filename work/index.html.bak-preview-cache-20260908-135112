@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta
+    name="theme-color"
+    content="#0b0c0f">
+
+  <title>
+    Song — Jewish Music Timeline
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="/styles.css?v=1788665345">
+
+  <link
+    rel="stylesheet"
+    href="/work/work.css?v=1788490108">
+<!-- JMT branding -->
+<link rel="icon" href="/favicon.ico?v=3" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32"
+      href="/favicon-32x32.png?v=3">
+<link rel="icon" type="image/png" sizes="16x16"
+      href="/favicon-16x16.png?v=3">
+<link rel="apple-touch-icon" sizes="180x180"
+      href="/apple-touch-icon.png?v=3">
+<link rel="manifest" href="/site.webmanifest?v=3">
+
+</head>
+
+
+<body>
+
+<header class="site-header">
+
+  <div class="header-inner">
+
+    <a
+      class="brand"
+      href="/"
+      aria-label="Jewish Music Timeline">
+
+      <span
+        class="brand-mark"
+        aria-hidden="true">
+
+        <img
+          class="brand-logo-image"
+          src="/branding/jmt-header-icon.png?v=3"
+          alt="">
+
+      </span>
+
+      <span>
+        <strong>
+          Jewish Music Timeline
+        </strong>
+
+        <small>
+          Song history
+        </small>
+      </span>
+
+    </a>
+
+  </div>
+
+</header>
+
+
+<div class="source-credit">
+
+  <span>
+    Data from
+  </span>
+
+  <a
+    href="https://musicbrainz.org/"
+    target="_blank"
+    rel="noopener">
+    MusicBrainz
+  </a>
+
+</div>
+
+
+<main class="work-main">
+
+  <div class="work-nav">
+
+    <a href="/search/">
+      ← Search
+    </a>
+
+  </div>
+
+
+  <section
+    id="loadingState"
+    class="work-state">
+
+    <div class="work-state-icon">
+      ♪
+    </div>
+
+    <h1>
+      Loading song…
+    </h1>
+
+  </section>
+
+
+  <section
+    id="errorState"
+    class="work-state"
+    hidden>
+
+    <div class="work-state-icon">
+      !
+    </div>
+
+    <h1>
+      Song not found
+    </h1>
+
+    <p>
+      This Work is not currently available
+      in the Jewish Music Timeline.
+    </p>
+
+  </section>
+
+
+  <div
+    id="workContent"
+    hidden>
+
+    <section class="work-hero">
+
+      <div class="work-kicker">
+        Song / Work
+      </div>
+
+      <h1
+        id="workTitle"
+        dir="auto">
+      </h1>
+
+      <div
+        id="workCredits"
+        class="work-credits"
+        hidden>
+      </div>
+
+      <div
+        id="workStats"
+        class="work-stats">
+      </div>
+
+      <div class="work-actions">
+
+        <a
+          id="musicbrainzLink"
+          class="work-mb-link"
+          target="_blank"
+          rel="noopener">
+          View Work on MusicBrainz ↗
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <section class="versions-section">
+
+      <div class="versions-heading">
+
+        <div>
+
+          <h2>
+            Recorded Versions
+          </h2>
+
+          <p>
+            Recordings by artists in the
+            Jewish Music Timeline collection.
+          </p>
+
+        </div>
+
+        <span
+          id="versionCount"
+          class="version-count">
+        </span>
+
+      </div>
+
+
+      <div
+        id="versionGrid"
+        class="version-grid">
+      </div>
+
+    </section>
+
+  </div>
+
+</main>
+
+
+<footer>
+
+  <p>
+    Song and recording relationships from
+
+    <a
+      href="https://musicbrainz.org/"
+      target="_blank"
+      rel="noopener">
+      MusicBrainz
+    </a>
+  </p>
+
+</footer>
+
+
+<script src="/cover-fallback.js"></script>
+<script src="/work/work.js?v=1788490108"></script>
+
+  <script src="/work/service-links.js?v=1"></script>
+<script src="/work/recording-preview.js?v=1"></script>
+
+
+<script src="/wikipedia-about.js?v=2"></script>
+
+</body>
+</html>

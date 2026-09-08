@@ -1,0 +1,706 @@
+const $ = id =>
+  document.getElementById(id);
+
+
+const loadingState =
+  $("loadingState");
+
+const errorState =
+  $("errorState");
+
+const workContent =
+  $("workContent");
+
+const workTitle =
+  $("workTitle");
+
+const workCredits =
+  $("workCredits");
+
+const workStats =
+  $("workStats");
+
+const musicbrainzLink =
+  $("musicbrainzLink");
+
+const versionCount =
+  $("versionCount");
+
+const versionGrid =
+  $("versionGrid");
+
+
+function escapeHtml(value) {
+
+  return String(
+    value ?? ""
+  )
+    .replaceAll(
+      "&",
+      "&amp;"
+    )
+    .replaceAll(
+      "<",
+      "&lt;"
+    )
+    .replaceAll(
+      ">",
+      "&gt;"
+    )
+    .replaceAll(
+      '"',
+      "&quot;"
+    )
+    .replaceAll(
+      "'",
+      "&#039;"
+    );
+}
+
+
+function dateText(version) {
+
+  if (!version.year) {
+    return "Date unknown";
+  }
+
+  return String(
+    version.year
+  );
+}
+
+
+function serviceKey(action) {
+
+  const value = (
+    String(
+      action.site_label
+      || ""
+    )
+    + " "
+    + String(
+      action.url
+      || ""
+    )
+  ).toLowerCase();
+
+
+  if (
+    value.includes("spotify")
+  ) {
+    return "spotify";
+  }
+
+
+  if (
+    value.includes("apple")
+    || value.includes("itunes")
+  ) {
+    return "apple";
+  }
+
+
+  if (
+    value.includes("deezer")
+  ) {
+    return "deezer";
+  }
+
+
+  if (
+    value.includes("tidal")
+  ) {
+    return "tidal";
+  }
+
+
+  if (
+    value.includes("youtube")
+  ) {
+    return "youtube";
+  }
+
+
+  if (
+    value.includes("amazon")
+  ) {
+    return "amazon";
+  }
+
+
+  return "music";
+}
+
+
+function serviceTitle(action) {
+
+  if (
+    action.action_kind
+    === "buy"
+  ) {
+    return (
+      "Buy on "
+      + (
+        action.site_label
+        || "music service"
+      )
+    );
+  }
+
+
+  return (
+    action.site_label
+    || "Listen"
+  );
+}
+
+
+function serviceIcon(action) {
+
+  const key =
+    serviceKey(
+      action
+    );
+
+
+  const files = {
+    spotify:
+      "spotify.png",
+
+    apple:
+      "apple.png",
+
+    deezer:
+      "deezer.png",
+
+    tidal:
+      "tidal.png",
+
+    youtube:
+      "youtube.png",
+
+    youtubemusic:
+      "youtubemusic.png",
+
+    amazon:
+      "amazon.png"
+  };
+
+
+  if (files[key]) {
+
+    return `
+      <img
+        class="service-brand-image"
+        src="/work/icons/${files[key]}"
+        alt=""
+        aria-hidden="true">
+    `;
+  }
+
+
+  return `
+    <span
+      class="service-fallback"
+      aria-hidden="true">
+      ♪
+    </span>
+  `;
+}
+
+
+
+function actionButtonHtml(action) {
+
+  const title =
+    serviceTitle(
+      action
+    );
+
+  const key =
+    serviceKey(
+      action
+    );
+
+
+  return `
+    <a
+      class="
+        version-button
+        service-icon
+        service-${escapeHtml(key)}
+      "
+      href="${escapeHtml(
+        action.url
+      )}"
+      target="_blank"
+      rel="noopener"
+      title="${escapeHtml(title)}"
+      aria-label="${escapeHtml(title)}">
+
+      ${serviceIcon(action)}
+
+    </a>
+  `;
+}
+
+
+
+function creditLabel(role) {
+
+  if (role === "composer") {
+    return "Composed by";
+  }
+
+  if (role === "lyricist") {
+    return "Lyrics by";
+  }
+
+  if (role === "writer") {
+    return "Written by";
+  }
+
+  return role;
+}
+
+
+function creditsHtml(credits) {
+
+  const roleOrder = [
+    "composer",
+    "lyricist",
+    "writer"
+  ];
+
+
+  const grouped =
+    new Map();
+
+
+  for (
+    const credit
+    of credits || []
+  ) {
+
+    const role =
+      credit.role || "";
+
+    if (!grouped.has(role)) {
+      grouped.set(
+        role,
+        []
+      );
+    }
+
+    grouped.get(
+      role
+    ).push(
+      credit
+    );
+  }
+
+
+  return roleOrder
+    .filter(
+      role =>
+        grouped.has(
+          role
+        )
+    )
+    .map(role => {
+
+      const people =
+        grouped
+          .get(role)
+          .map(credit => `
+
+            <a
+              class="work-credit-person"
+              href="${escapeHtml(
+                credit.musicbrainz_url
+              )}"
+              target="_blank"
+              rel="noopener"
+              dir="auto">
+              ${escapeHtml(
+                credit.name
+              )}
+            </a>
+
+          `)
+          .join(
+            '<span class="work-credit-separator">, </span>'
+          );
+
+
+      return `
+
+        <div class="work-credit-row">
+
+          <span class="work-credit-role">
+            ${escapeHtml(
+              creditLabel(
+                role
+              )
+            )}
+          </span>
+
+          <span class="work-credit-people">
+            ${people}
+          </span>
+
+        </div>
+
+      `;
+    })
+    .join("");
+}
+
+
+
+function versionHtml(version) {
+
+  const art = version.cover
+    ? `
+      <img
+        src="${escapeHtml(
+          version.cover
+        )}"
+        alt="${escapeHtml(
+          version.release_title
+          || version.title
+        )} cover"
+        loading="lazy"
+        decoding="async">
+    `
+    : `
+      <div
+        class="version-placeholder">
+        ♪
+      </div>
+    `;
+
+
+  const actions = (
+    version.actions
+    || []
+  )
+    .filter(
+      action =>
+        action.url
+        && action.site_label
+    )
+    .slice(
+      0,
+      3
+    )
+    .map(
+      actionButtonHtml
+    )
+    .join("");
+
+
+  const releaseUrl =
+    (
+      "/release/?id="
+      + encodeURIComponent(
+          version
+            .release_group_mbid
+        )
+    );
+
+
+  const musicbrainzReleaseUrl =
+    (
+      version
+        .release_group_musicbrainz_url
+
+      || (
+        "https://musicbrainz.org/release-group/"
+        + encodeURIComponent(
+            version
+              .release_group_mbid
+          )
+      )
+    );
+
+
+  return `
+    <article class="version-card">
+
+      <a
+        class="version-art version-art-link"
+        href="${releaseUrl}"
+        aria-label="Open ${escapeHtml(
+          version.release_title
+          || version.title
+        )} release">
+
+        ${art}
+
+        <span class="version-year">
+          ${escapeHtml(
+            dateText(
+              version
+            )
+          )}
+        </span>
+
+      </a>
+
+
+      <div class="version-body">
+
+        <h3
+          class="version-title"
+          dir="auto">
+          ${escapeHtml(
+            version.title
+          )}
+        </h3>
+
+
+        <p
+          class="version-artist"
+          dir="auto">
+          ${escapeHtml(
+            version.artist_credit
+          )}
+        </p>
+
+
+        <p
+          class="version-release"
+          dir="auto">
+          ${escapeHtml(
+            version.release_title
+          )}
+        </p>
+
+
+        <div class="version-buttons">
+
+          <a
+            class="
+              version-button
+              service-icon
+              musicbrainz
+            "
+            href="${escapeHtml(
+              musicbrainzReleaseUrl
+            )}"
+            target="_blank"
+            rel="noopener"
+            title="View release on MusicBrainz"
+            aria-label="View release on MusicBrainz">
+
+            <img
+              class="service-brand-image"
+              src="/work/icons/musicbrainz.svg"
+              alt=""
+              aria-hidden="true">
+
+          </a>
+
+          ${actions}
+
+        </div>
+
+      </div>
+
+    </article>
+  `;
+}
+
+
+function showError() {
+
+  loadingState.hidden =
+    true;
+
+  workContent.hidden =
+    true;
+
+  errorState.hidden =
+    false;
+}
+
+
+async function init() {
+
+  const params =
+    new URLSearchParams(
+      window.location.search
+    );
+
+  const mbid = (
+    params.get("id")
+    || ""
+  ).toLowerCase();
+
+
+  if (
+    !/^[0-9a-f-]{36}$/
+      .test(
+        mbid
+      )
+  ) {
+    showError();
+    return;
+  }
+
+
+  try {
+
+    const url =
+      (
+        "/data/works/"
+        + mbid.slice(
+            0,
+            2
+          )
+        + "/"
+        + mbid
+        + ".json"
+      );
+
+
+    const response =
+      await fetch(
+        url,
+        {
+          cache:
+            "no-store"
+        }
+      );
+
+
+    if (!response.ok) {
+      throw new Error(
+        `HTTP ${response.status}`
+      );
+    }
+
+
+    const work =
+      await response.json();
+
+
+    document.title =
+      (
+        work.title
+        + " — Jewish Music Timeline"
+      );
+
+
+    workTitle.textContent =
+      work.title;
+
+
+    const credits =
+      work.credits || [];
+
+
+    if (
+      credits.length
+      && workCredits
+    ) {
+
+      workCredits.innerHTML =
+        creditsHtml(
+          credits
+        );
+
+      workCredits.hidden =
+        false;
+
+    }
+    else if (workCredits) {
+
+      workCredits.innerHTML =
+        "";
+
+      workCredits.hidden =
+        true;
+
+    }
+
+
+    workStats.innerHTML = `
+      <span class="work-stat">
+        ${escapeHtml(
+          work.recording_count
+        )}
+        recorded version${
+          work.recording_count
+          === 1
+            ? ""
+            : "s"
+        }
+      </span>
+
+      <span class="work-stat">
+        ${escapeHtml(
+          work.artist_count
+        )}
+        credited artist${
+          work.artist_count
+          === 1
+            ? ""
+            : "s"
+        }
+      </span>
+    `;
+
+
+    musicbrainzLink.href =
+      work.musicbrainz_url;
+
+
+    const versions =
+      work.versions || [];
+
+
+    versionCount.textContent =
+      (
+        versions.length
+        + " version"
+        + (
+          versions.length
+          === 1
+            ? ""
+            : "s"
+        )
+      );
+
+
+    versionGrid.innerHTML =
+      versions
+        .map(
+          versionHtml
+        )
+        .join("");
+
+
+    loadingState.hidden =
+      true;
+
+    errorState.hidden =
+      true;
+
+    workContent.hidden =
+      false;
+
+  }
+  catch (error) {
+
+    console.error(
+      error
+    );
+
+    showError();
+  }
+}
+
+
+init();

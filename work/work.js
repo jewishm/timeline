@@ -381,10 +381,28 @@ function versionHtml(version) {
     `;
 
 
-  const actions = (
-    version.actions
+  const exactActions = (
+    version.recording_actions
     || []
   )
+    .filter(
+      action =>
+        action.url
+        && action.site_label
+    );
+
+
+  const sourceActions = (
+    exactActions.length
+      ? exactActions
+      : (
+          version.actions
+          || []
+        )
+  );
+
+
+  const actions = sourceActions
     .filter(
       action =>
         action.url
@@ -392,7 +410,9 @@ function versionHtml(version) {
     )
     .slice(
       0,
-      3
+      exactActions.length
+        ? 5
+        : 3
     )
     .map(
       actionButtonHtml

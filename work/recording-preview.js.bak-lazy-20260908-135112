@@ -1,0 +1,1122 @@
+(() => {
+
+  "use strict";
+
+
+  let activeAudio = null;
+  let activeButton = null;
+  let activeCard = null;
+  let progressTimer = null;
+
+  let hydrateTimer = null;
+  let hydrating = false;
+  let hydrateAgain = false;
+
+  let deezerCallback = 0;
+
+
+  function appleInfo(
+    rawUrl
+  ) {
+
+    try {
+
+      const url =
+        new URL(
+          rawUrl
+        );
+
+
+      const pieces =
+        url.pathname
+          .split("/")
+          .filter(Boolean);
+
+
+      let id =
+        url.searchParams.get(
+          "i"
+        );
+
+
+      if (!id) {
+
+        const match =
+          url.pathname.match(
+            /\/song\/(?:[^/]+\/)?(\d+)\/?$/i
+          )
+          ||
+          url.pathname.match(
+            /\/(\d+)\/?$/
+          );
+
+
+        if (match) {
+
+          id =
+            match[1];
+
+        }
+
+      }
+
+
+      if (
+        !id
+        ||
+        !/^\d+$/.test(
+          id
+        )
+      ) {
+
+        return null;
+
+      }
+
+
+      const country =
+        (
+          pieces.length
+          &&
+          /^[a-z]{2}$/i.test(
+            pieces[0]
+          )
+        )
+          ? pieces[0].toLowerCase()
+          : "us";
+
+
+      return {
+        id,
+        country,
+      };
+
+    }
+    catch {
+
+      return null;
+
+    }
+  }
+
+
+  function deezerId(
+    rawUrl
+  ) {
+
+    try {
+
+      const url =
+        new URL(
+          rawUrl
+        );
+
+
+      const match =
+        url.pathname.match(
+          /\/track\/(\d+)/i
+        );
+
+
+      return (
+        match
+          ? match[1]
+          : null
+      );
+
+    }
+    catch {
+
+      return null;
+
+    }
+  }
+
+
+  function jsonp(
+    url
+  ) {
+
+    return new Promise(
+      (
+        resolve,
+        reject
+      ) => {
+
+        const callback =
+          "__jmt_dz_"
+          + (
+              deezerCallback++
+            );
+
+
+        const script =
+          document.createElement(
+            "script"
+          );
+
+
+        const timer =
+          setTimeout(
+            () => {
+
+              cleanup();
+
+              reject(
+                new Error(
+                  "Deezer request timed out"
+                )
+              );
+
+            },
+            10000
+          );
+
+
+        function cleanup() {
+
+          clearTimeout(
+            timer
+          );
+
+
+          try {
+
+            delete window[
+              callback
+            ];
+
+          }
+          catch {
+
+            window[
+              callback
+            ] = undefined;
+
+          }
+
+
+          script.remove();
+
+        }
+
+
+        window[
+          callback
+        ] = data => {
+
+          cleanup();
+
+
+          if (
+            data
+            &&
+            data.error
+          ) {
+
+            reject(
+              new Error(
+                data.error.message
+                || "Deezer error"
+              )
+            );
+
+            return;
+
+          }
+
+
+          resolve(
+            data
+          );
+
+        };
+
+
+        const separator =
+          url.includes("?")
+            ? "&"
+            : "?";
+
+
+        script.src =
+          (
+            url
+            + separator
+            + "output=jsonp"
+            + "&callback="
+            + callback
+          );
+
+
+        script.onerror =
+          () => {
+
+            cleanup();
+
+            reject(
+              new Error(
+                "Deezer request failed"
+              )
+            );
+
+          };
+
+
+        document.head.appendChild(
+          script
+        );
+
+      }
+    );
+  }
+
+
+  function exactLinks(
+    card
+  ) {
+
+    let apple = null;
+    let deezer = null;
+
+
+    for (
+      const link
+      of card.querySelectorAll(
+        ".version-buttons a[href]"
+      )
+    ) {
+
+      const href =
+        link.href
+        || "";
+
+
+      if (
+        !apple
+        &&
+        appleInfo(
+          href
+        )
+      ) {
+
+        apple = href;
+
+      }
+
+
+      if (
+        !deezer
+        &&
+        deezerId(
+          href
+        )
+      ) {
+
+        deezer = href;
+
+      }
+
+    }
+
+
+    return {
+      apple,
+      deezer,
+    };
+  }
+
+
+  async function appleLookupBatch(
+    country,
+    ids
+  ) {
+
+    const previewMap =
+      new Map();
+
+
+    if (!ids.length) {
+
+      return previewMap;
+
+    }
+
+
+    try {
+
+      const response =
+        await fetch(
+          (
+            "https://itunes.apple.com/lookup"
+            + "?id="
+            + ids
+                .map(
+                  encodeURIComponent
+                )
+                .join(",")
+            + "&country="
+            + encodeURIComponent(
+                country
+              )
+            + "&entity=song"
+          )
+        );
+
+
+      if (!response.ok) {
+
+        return previewMap;
+
+      }
+
+
+      const data =
+        await response.json();
+
+
+      for (
+        const item
+        of (
+          data.results
+          || []
+        )
+      ) {
+
+        if (
+          !item.trackId
+          ||
+          !item.previewUrl
+        ) {
+
+          continue;
+
+        }
+
+
+        previewMap.set(
+          String(
+            item.trackId
+          ),
+          item.previewUrl
+        );
+
+      }
+
+    }
+    catch {
+
+      // Apple preview is optional.
+
+    }
+
+
+    return previewMap;
+  }
+
+
+  async function deezerPreview(
+    id
+  ) {
+
+    if (!id) {
+
+      return null;
+
+    }
+
+
+    try {
+
+      const data =
+        await jsonp(
+          (
+            "https://api.deezer.com/track/"
+            + encodeURIComponent(
+                id
+              )
+          )
+        );
+
+
+      return (
+        data
+        &&
+        data.preview
+      )
+        ? data.preview
+        : null;
+
+    }
+    catch {
+
+      return null;
+
+    }
+  }
+
+
+  function stopCurrent() {
+
+    if (activeAudio) {
+
+      activeAudio.pause();
+
+      activeAudio.src =
+        "";
+
+      activeAudio =
+        null;
+
+    }
+
+
+    clearInterval(
+      progressTimer
+    );
+
+
+    progressTimer =
+      null;
+
+
+    if (activeCard) {
+
+      activeCard.classList.remove(
+        "preview-playing"
+      );
+
+
+      const bar =
+        activeCard.querySelector(
+          ".version-preview-progress-bar"
+        );
+
+
+      if (bar) {
+
+        bar.style.width =
+          "0%";
+
+      }
+
+    }
+
+
+    if (activeButton) {
+
+      activeButton.textContent =
+        "▶";
+
+
+      activeButton.setAttribute(
+        "aria-label",
+        "Play preview"
+      );
+
+
+      activeButton.title =
+        "Play preview";
+
+    }
+
+
+    activeButton =
+      null;
+
+    activeCard =
+      null;
+
+  }
+
+
+  function playPreview(
+    card,
+    button,
+    previewUrl
+  ) {
+
+    if (
+      activeCard
+      === card
+    ) {
+
+      stopCurrent();
+
+      return;
+
+    }
+
+
+    stopCurrent();
+
+
+    const audio =
+      new Audio(
+        previewUrl
+      );
+
+
+    audio.volume =
+      0.8;
+
+
+    activeAudio =
+      audio;
+
+    activeButton =
+      button;
+
+    activeCard =
+      card;
+
+
+    card.classList.add(
+      "preview-playing"
+    );
+
+
+    button.textContent =
+      "Ⅱ";
+
+
+    button.setAttribute(
+      "aria-label",
+      "Stop preview"
+    );
+
+
+    button.title =
+      "Stop preview";
+
+
+    const bar =
+      card.querySelector(
+        ".version-preview-progress-bar"
+      );
+
+
+    progressTimer =
+      setInterval(
+        () => {
+
+          if (
+            !bar
+            ||
+            !audio.duration
+          ) {
+
+            return;
+
+          }
+
+
+          bar.style.width =
+            (
+              (
+                audio.currentTime
+                /
+                audio.duration
+              )
+              * 100
+            )
+            + "%";
+
+        },
+        250
+      );
+
+
+    audio.addEventListener(
+      "ended",
+      stopCurrent,
+      {
+        once:
+          true
+      }
+    );
+
+
+    audio.addEventListener(
+      "error",
+      stopCurrent,
+      {
+        once:
+          true
+      }
+    );
+
+
+    audio.play()
+      .catch(
+        stopCurrent
+      );
+
+  }
+
+
+  function attachPlayer(
+    card,
+    previewUrl
+  ) {
+
+    if (
+      !previewUrl
+      ||
+      card.dataset
+        .previewReady
+      === "1"
+    ) {
+
+      return;
+
+    }
+
+
+    const art =
+      card.querySelector(
+        ".version-art"
+      );
+
+
+    if (!art) {
+
+      return;
+
+    }
+
+
+    const shell =
+      document.createElement(
+        "div"
+      );
+
+
+    shell.className =
+      "version-art-shell";
+
+
+    art.parentNode.insertBefore(
+      shell,
+      art
+    );
+
+
+    shell.appendChild(
+      art
+    );
+
+
+    const button =
+      document.createElement(
+        "button"
+      );
+
+
+    button.type =
+      "button";
+
+
+    button.className =
+      "version-preview-button";
+
+
+    button.textContent =
+      "▶";
+
+
+    button.title =
+      "Play 30-second preview";
+
+
+    button.setAttribute(
+      "aria-label",
+      "Play 30-second preview"
+    );
+
+
+    button.addEventListener(
+      "click",
+      event => {
+
+        event.preventDefault();
+
+        event.stopPropagation();
+
+
+        playPreview(
+          card,
+          button,
+          previewUrl
+        );
+
+      }
+    );
+
+
+    shell.appendChild(
+      button
+    );
+
+
+    const progress =
+      document.createElement(
+        "div"
+      );
+
+
+    progress.className =
+      "version-preview-progress";
+
+
+    const bar =
+      document.createElement(
+        "div"
+      );
+
+
+    bar.className =
+      "version-preview-progress-bar";
+
+
+    progress.appendChild(
+      bar
+    );
+
+
+    shell.appendChild(
+      progress
+    );
+
+
+    card.dataset
+      .previewReady =
+        "1";
+
+  }
+
+
+  async function hydratePreviews() {
+
+    if (hydrating) {
+
+      hydrateAgain =
+        true;
+
+      return;
+
+    }
+
+
+    hydrating =
+      true;
+
+
+    const cards =
+      [
+        ...document.querySelectorAll(
+          ".version-card"
+        )
+      ].filter(
+        card =>
+          card.dataset
+            .previewChecked
+          !== "1"
+      );
+
+
+    if (!cards.length) {
+
+      hydrating =
+        false;
+
+      return;
+
+    }
+
+
+    const rows =
+      cards.map(
+        card => {
+
+          const links =
+            exactLinks(
+              card
+            );
+
+
+          return {
+            card,
+            links,
+            apple:
+              links.apple
+                ? appleInfo(
+                    links.apple
+                  )
+                : null,
+
+            deezer:
+              links.deezer
+                ? deezerId(
+                    links.deezer
+                  )
+                : null,
+
+            preview:
+              null,
+          };
+
+        }
+      );
+
+
+    const byCountry =
+      new Map();
+
+
+    for (
+      const row
+      of rows
+    ) {
+
+      if (!row.apple) {
+
+        continue;
+
+      }
+
+
+      if (
+        !byCountry.has(
+          row.apple.country
+        )
+      ) {
+
+        byCountry.set(
+          row.apple.country,
+          new Set()
+        );
+
+      }
+
+
+      byCountry
+        .get(
+          row.apple.country
+        )
+        .add(
+          row.apple.id
+        );
+
+    }
+
+
+    for (
+      const [
+        country,
+        idSet
+      ]
+      of byCountry
+    ) {
+
+      const ids =
+        [
+          ...idSet
+        ];
+
+
+      for (
+        let index = 0;
+        index < ids.length;
+        index += 20
+      ) {
+
+        const chunk =
+          ids.slice(
+            index,
+            index + 20
+          );
+
+
+        const result =
+          await appleLookupBatch(
+            country,
+            chunk
+          );
+
+
+        for (
+          const row
+          of rows
+        ) {
+
+          if (
+            row.preview
+            ||
+            !row.apple
+            ||
+            row.apple.country
+            !== country
+          ) {
+
+            continue;
+
+          }
+
+
+          const preview =
+            result.get(
+              row.apple.id
+            );
+
+
+          if (preview) {
+
+            row.preview =
+              preview;
+
+          }
+
+        }
+
+      }
+
+    }
+
+
+    const needsDeezer =
+      rows.filter(
+        row =>
+          !row.preview
+          &&
+          row.deezer
+      );
+
+
+    const WORKERS = 4;
+
+    let cursor = 0;
+
+
+    async function worker() {
+
+      while (
+        cursor
+        < needsDeezer.length
+      ) {
+
+        const row =
+          needsDeezer[
+            cursor++
+          ];
+
+
+        row.preview =
+          await deezerPreview(
+            row.deezer
+          );
+
+      }
+
+    }
+
+
+    await Promise.all(
+      Array.from(
+        {
+          length:
+            Math.min(
+              WORKERS,
+              needsDeezer.length
+            )
+        },
+        worker
+      )
+    );
+
+
+    for (
+      const row
+      of rows
+    ) {
+
+      row.card.dataset
+        .previewChecked =
+          "1";
+
+
+      if (row.preview) {
+
+        attachPlayer(
+          row.card,
+          row.preview
+        );
+
+      }
+
+    }
+
+
+    hydrating =
+      false;
+
+
+    if (hydrateAgain) {
+
+      hydrateAgain =
+        false;
+
+      scheduleHydrate();
+
+    }
+
+  }
+
+
+  function scheduleHydrate() {
+
+    clearTimeout(
+      hydrateTimer
+    );
+
+
+    hydrateTimer =
+      setTimeout(
+        hydratePreviews,
+        250
+      );
+
+  }
+
+
+  const observer =
+    new MutationObserver(
+      scheduleHydrate
+    );
+
+
+  const grid =
+    document.getElementById(
+      "versionGrid"
+    );
+
+
+  if (grid) {
+
+    observer.observe(
+      grid,
+      {
+        childList:
+          true,
+
+        subtree:
+          true,
+      }
+    );
+
+  }
+
+
+  scheduleHydrate();
+
+})();
