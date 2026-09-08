@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 9,
   "stats": {
-    "release_groups": 29,
-    "with_cover_art": 29,
-    "with_action_links": 29,
+    "release_groups": 31,
+    "with_cover_art": 31,
+    "with_action_links": 31,
     "future_releases": 0,
     "types": {
-      "Album": 8,
+      "Album": 9,
       "EP": 1,
-      "Single": 20
+      "Single": 21
     },
     "services": {
-      "spotify": 28,
-      "tidal": 28,
-      "deezer": 27,
-      "apple_music": 25,
-      "qobuz": 6,
+      "spotify": 30,
+      "tidal": 30,
+      "deezer": 28,
+      "apple_music": 27,
+      "qobuz": 7,
       "24six": 2,
       "mostly_music": 1
     }
@@ -1870,6 +1870,220 @@
           "source": "release",
           "source_release_mbid": "153abc94-c010-4c31-bc3a-b91e904a0a8c",
           "url": "https://tidal.com/album/557596404"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "293c0961-f1ce-441b-9f83-0aa798728d24",
+      "title": "Gentle Yomim Noraim Lullabies",
+      "artist_credit": "Suki Berry",
+      "credited_artists": [
+        {
+          "mbid": "ff99a468-79ae-4607-8781-9b52725e8e11",
+          "name": "Suki Berry",
+          "position": 0,
+          "credit_name": "Suki Berry",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "ff99a468-79ae-4607-8781-9b52725e8e11",
+          "name": "Suki Berry"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-09-02",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 2,
+      "release_count": 1,
+      "release_mbids": [
+        "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e"
+      ],
+      "cover_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+      "cover_art": {
+        "release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+        "image_id": 46134158412,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e/46134158412",
+        "thumbnails": {
+          "250": "/covers/4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e--46134158412.webp",
+          "500": "/covers/4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e--46134158412.webp",
+          "1200": "/covers/4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e--46134158412.webp"
+        },
+        "cached": "/covers/4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e--46134158412.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/293c0961-f1ce-441b-9f83-0aa798728d24",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://music.apple.com/us/album/6807915365"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://music.apple.com/us/album/6807915365"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://open.spotify.com/album/5TwDWc6dl3cICe2h4cEUn3"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://tidal.com/album/557784500"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://www.deezer.com/album/1069125031"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://www.qobuz.com/us-en/album/gentle-yomim-noraim-lullabies-suki-berry/hny7ykm8tvbp9"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://www.qobuz.com/us-en/album/gentle-yomim-noraim-lullabies-suki-berry/hny7ykm8tvbp9"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5TwDWc6dl3cICe2h4cEUn3"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6807915365"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1069125031"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/557784500"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/gentle-yomim-noraim-lullabies-suki-berry/hny7ykm8tvbp9"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://open.spotify.com/album/5TwDWc6dl3cICe2h4cEUn3"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://music.apple.com/us/album/6807915365"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://www.deezer.com/album/1069125031"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://tidal.com/album/557784500"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
+          "url": "https://www.qobuz.com/us-en/album/gentle-yomim-noraim-lullabies-suki-berry/hny7ykm8tvbp9"
         }
       ],
       "references": [],
@@ -5279,6 +5493,155 @@
           "source": "release",
           "source_release_mbid": "38d7e8e3-6255-487c-b35a-6f4cbc1ea4ca",
           "url": "https://tidal.com/album/559137703"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "3c1908a3-e4d4-4bda-9f5d-f4a57b9279bd",
+      "title": "דרך העושים מאהבה",
+      "artist_credit": "ישי ריבו & Zusha",
+      "credited_artists": [
+        {
+          "mbid": "4d5abad8-d57b-4c3f-b477-043214e96dc4",
+          "name": "ישי ריבו",
+          "position": 0,
+          "credit_name": "ישי ריבו",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "bf7d4829-6555-4e06-baf6-6a49ab9af5c4",
+          "name": "Zusha",
+          "position": 1,
+          "credit_name": "Zusha",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "bf7d4829-6555-4e06-baf6-6a49ab9af5c4",
+          "name": "Zusha"
+        },
+        {
+          "mbid": "4d5abad8-d57b-4c3f-b477-043214e96dc4",
+          "name": "ישי ריבו"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-09-08",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 8,
+      "release_count": 1,
+      "release_mbids": [
+        "3569a799-94f5-45bf-b0e7-65a210265d6c"
+      ],
+      "cover_release_mbid": "3569a799-94f5-45bf-b0e7-65a210265d6c",
+      "cover_art": {
+        "release_mbid": "3569a799-94f5-45bf-b0e7-65a210265d6c",
+        "image_id": 46133713274,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/3569a799-94f5-45bf-b0e7-65a210265d6c/46133713274",
+        "thumbnails": {
+          "250": "/covers/3569a799-94f5-45bf-b0e7-65a210265d6c--46133713274.webp",
+          "500": "/covers/3569a799-94f5-45bf-b0e7-65a210265d6c--46133713274.webp",
+          "1200": "/covers/3569a799-94f5-45bf-b0e7-65a210265d6c--46133713274.webp"
+        },
+        "cached": "/covers/3569a799-94f5-45bf-b0e7-65a210265d6c--46133713274.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/3c1908a3-e4d4-4bda-9f5d-f4a57b9279bd",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3569a799-94f5-45bf-b0e7-65a210265d6c",
+          "url": "https://music.apple.com/us/album/6805020812"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3569a799-94f5-45bf-b0e7-65a210265d6c",
+          "url": "https://open.spotify.com/album/5sO3zESDSsBFgd9m76MK2q"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3569a799-94f5-45bf-b0e7-65a210265d6c",
+          "url": "https://tidal.com/album/555402574"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5sO3zESDSsBFgd9m76MK2q"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6805020812"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/555402574"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3569a799-94f5-45bf-b0e7-65a210265d6c",
+          "url": "https://open.spotify.com/album/5sO3zESDSsBFgd9m76MK2q"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3569a799-94f5-45bf-b0e7-65a210265d6c",
+          "url": "https://music.apple.com/us/album/6805020812"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3569a799-94f5-45bf-b0e7-65a210265d6c",
+          "url": "https://tidal.com/album/555402574"
         }
       ],
       "references": [],

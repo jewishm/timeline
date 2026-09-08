@@ -2,21 +2,21 @@
   "year": 2025,
   "month": 8,
   "stats": {
-    "release_groups": 122,
-    "with_cover_art": 122,
-    "with_action_links": 121,
+    "release_groups": 123,
+    "with_cover_art": 123,
+    "with_action_links": 122,
     "future_releases": 0,
     "types": {
       "Album": 36,
       "EP": 9,
-      "Single": 77
+      "Single": 78
     },
     "services": {
-      "spotify": 118,
-      "deezer": 118,
-      "tidal": 112,
-      "apple_music": 96,
-      "qobuz": 4,
+      "spotify": 119,
+      "deezer": 119,
+      "tidal": 113,
+      "apple_music": 97,
+      "qobuz": 5,
       "mostly_music": 3,
       "beatport": 1,
       "youtube_music": 1,
@@ -19179,6 +19179,227 @@
           "source": "release",
           "source_release_mbid": "a0e710f7-f214-4f96-a0f8-82a2107a6210",
           "url": "https://tidal.com/album/456732893"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "fbf4a94c-6fae-406e-bd1d-5c723f3c10a2",
+      "title": "אתה זוכר",
+      "artist_credit": "Benjy Salomon & Ari Halpern",
+      "credited_artists": [
+        {
+          "mbid": "ab6bad85-07be-4166-8231-919ad2078b21",
+          "name": "Benjy Salomon",
+          "position": 0,
+          "credit_name": "Benjy Salomon",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "34c3d1bc-f39a-4485-a8a3-20aa98335f65",
+          "name": "Ari Halpern",
+          "position": 1,
+          "credit_name": "Ari Halpern",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "ab6bad85-07be-4166-8231-919ad2078b21",
+          "name": "Benjy Salomon"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-08-28",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 8,
+      "day": 28,
+      "release_count": 1,
+      "release_mbids": [
+        "51681f4d-f412-46b9-9c45-07c03ccf9326"
+      ],
+      "cover_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+      "cover_art": {
+        "release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+        "image_id": 46134042070,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/51681f4d-f412-46b9-9c45-07c03ccf9326/46134042070",
+        "thumbnails": {
+          "250": "/covers/51681f4d-f412-46b9-9c45-07c03ccf9326--46134042070.webp",
+          "500": "/covers/51681f4d-f412-46b9-9c45-07c03ccf9326--46134042070.webp",
+          "1200": "/covers/51681f4d-f412-46b9-9c45-07c03ccf9326--46134042070.webp"
+        },
+        "cached": "/covers/51681f4d-f412-46b9-9c45-07c03ccf9326--46134042070.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/fbf4a94c-6fae-406e-bd1d-5c723f3c10a2",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://music.apple.com/us/album/1837859168"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://music.apple.com/us/album/1837859168"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://open.spotify.com/album/7wkKknqTk3NleK57c3aBzc"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://tidal.com/album/458313471"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://www.deezer.com/album/815733671"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://www.qobuz.com/us-en/album/ata-zocher-benjy-salomon-amp-ari-halpern/zytlym30xugva"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://www.qobuz.com/us-en/album/ata-zocher-benjy-salomon-amp-ari-halpern/zytlym30xugva"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7wkKknqTk3NleK57c3aBzc"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1837859168"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/815733671"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/458313471"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ata-zocher-benjy-salomon-amp-ari-halpern/zytlym30xugva"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://open.spotify.com/album/7wkKknqTk3NleK57c3aBzc"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://music.apple.com/us/album/1837859168"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://www.deezer.com/album/815733671"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://tidal.com/album/458313471"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "51681f4d-f412-46b9-9c45-07c03ccf9326",
+          "url": "https://www.qobuz.com/us-en/album/ata-zocher-benjy-salomon-amp-ari-halpern/zytlym30xugva"
         }
       ],
       "references": [],

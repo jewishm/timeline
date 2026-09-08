@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 8,
   "stats": {
-    "release_groups": 108,
-    "with_cover_art": 108,
-    "with_action_links": 108,
+    "release_groups": 110,
+    "with_cover_art": 110,
+    "with_action_links": 110,
     "future_releases": 0,
     "types": {
-      "Album": 25,
+      "Album": 26,
       "EP": 8,
-      "Single": 75
+      "Single": 76
     },
     "services": {
-      "spotify": 106,
-      "tidal": 105,
-      "deezer": 104,
-      "apple_music": 99,
-      "qobuz": 56,
+      "spotify": 108,
+      "tidal": 107,
+      "deezer": 106,
+      "apple_music": 101,
+      "qobuz": 58,
       "24six": 2
     }
   },
@@ -12771,6 +12771,220 @@
       "is_future": false
     },
     {
+      "release_group_mbid": "d5d6b094-9dc8-42a8-9144-118cd19303a3",
+      "title": "אַתָּה זוֹכֵר",
+      "artist_credit": "Micky Gabay",
+      "credited_artists": [
+        {
+          "mbid": "0aeecbf2-11f7-433f-ac60-1b1c3062c8e2",
+          "name": "Micky Gabay",
+          "position": 0,
+          "credit_name": "Micky Gabay",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "0aeecbf2-11f7-433f-ac60-1b1c3062c8e2",
+          "name": "Micky Gabay"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-08-21",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 21,
+      "release_count": 1,
+      "release_mbids": [
+        "3b15fe20-83ff-440d-a7f7-5f46dcfd091c"
+      ],
+      "cover_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+      "cover_art": {
+        "release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+        "image_id": 46134025143,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/3b15fe20-83ff-440d-a7f7-5f46dcfd091c/46134025143",
+        "thumbnails": {
+          "250": "/covers/3b15fe20-83ff-440d-a7f7-5f46dcfd091c--46134025143.webp",
+          "500": "/covers/3b15fe20-83ff-440d-a7f7-5f46dcfd091c--46134025143.webp",
+          "1200": "/covers/3b15fe20-83ff-440d-a7f7-5f46dcfd091c--46134025143.webp"
+        },
+        "cached": "/covers/3b15fe20-83ff-440d-a7f7-5f46dcfd091c--46134025143.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/d5d6b094-9dc8-42a8-9144-118cd19303a3",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://music.apple.com/us/album/6799985571"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://music.apple.com/us/album/6799985571"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://open.spotify.com/album/1ejUcs8p25pmLPbANqrdT9"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://tidal.com/album/550836674"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://www.deezer.com/album/1050670702"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://www.qobuz.com/us-en/album/-micky-gabay/avvgnqi6g6bmv"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://www.qobuz.com/us-en/album/-micky-gabay/avvgnqi6g6bmv"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1ejUcs8p25pmLPbANqrdT9"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6799985571"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1050670702"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/550836674"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-micky-gabay/avvgnqi6g6bmv"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://open.spotify.com/album/1ejUcs8p25pmLPbANqrdT9"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://music.apple.com/us/album/6799985571"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://www.deezer.com/album/1050670702"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://tidal.com/album/550836674"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3b15fe20-83ff-440d-a7f7-5f46dcfd091c",
+          "url": "https://www.qobuz.com/us-en/album/-micky-gabay/avvgnqi6g6bmv"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
       "release_group_mbid": "6ec405f2-ea5b-4a0b-a717-e45e438c003a",
       "title": "March 25 ’26 Sheva Bruchos",
       "artist_credit": "Shea Kaller Band",
@@ -18086,6 +18300,220 @@
           "source": "release",
           "source_release_mbid": "18000ff1-1ebc-45f1-bcfa-81b758cabe28",
           "url": "https://tidal.com/album/556581557"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "7cbd15ef-8687-44fe-af09-0830b0ac5248",
+      "title": "Songs and Prayers of Rosh Hashanah",
+      "artist_credit": "Ruvi New",
+      "credited_artists": [
+        {
+          "mbid": "6b85f904-e6dd-46a3-b6b9-8013156d5b24",
+          "name": "Ruvi New",
+          "position": 0,
+          "credit_name": "Ruvi New",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "6b85f904-e6dd-46a3-b6b9-8013156d5b24",
+          "name": "Ruvi New"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-08-28",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 28,
+      "release_count": 1,
+      "release_mbids": [
+        "3e7b3718-469f-4709-a479-5eda36a4ced6"
+      ],
+      "cover_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+      "cover_art": {
+        "release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+        "image_id": 46134102725,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/3e7b3718-469f-4709-a479-5eda36a4ced6/46134102725",
+        "thumbnails": {
+          "250": "/covers/3e7b3718-469f-4709-a479-5eda36a4ced6--46134102725.webp",
+          "500": "/covers/3e7b3718-469f-4709-a479-5eda36a4ced6--46134102725.webp",
+          "1200": "/covers/3e7b3718-469f-4709-a479-5eda36a4ced6--46134102725.webp"
+        },
+        "cached": "/covers/3e7b3718-469f-4709-a479-5eda36a4ced6--46134102725.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/7cbd15ef-8687-44fe-af09-0830b0ac5248",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://music.apple.com/us/album/6806360457"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://music.apple.com/us/album/6806360457"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://open.spotify.com/album/4SILB7exzZze0S2I0VgoI9"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://tidal.com/album/556478762"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://www.deezer.com/album/1065388261"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://www.qobuz.com/us-en/album/songs-and-prayers-of-rosh-hashanah-ruvi-new/qu5quegzbp2xq"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://www.qobuz.com/us-en/album/songs-and-prayers-of-rosh-hashanah-ruvi-new/qu5quegzbp2xq"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4SILB7exzZze0S2I0VgoI9"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6806360457"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1065388261"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/556478762"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/songs-and-prayers-of-rosh-hashanah-ruvi-new/qu5quegzbp2xq"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://open.spotify.com/album/4SILB7exzZze0S2I0VgoI9"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://music.apple.com/us/album/6806360457"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://www.deezer.com/album/1065388261"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://tidal.com/album/556478762"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e7b3718-469f-4709-a479-5eda36a4ced6",
+          "url": "https://www.qobuz.com/us-en/album/songs-and-prayers-of-rosh-hashanah-ruvi-new/qu5quegzbp2xq"
         }
       ],
       "references": [],

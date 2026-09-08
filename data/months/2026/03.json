@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 3,
   "stats": {
-    "release_groups": 99,
-    "with_cover_art": 99,
-    "with_action_links": 98,
+    "release_groups": 101,
+    "with_cover_art": 101,
+    "with_action_links": 100,
     "future_releases": 0,
     "types": {
-      "Album": 25,
+      "Album": 27,
       "EP": 8,
       "Single": 66
     },
     "services": {
-      "spotify": 96,
-      "deezer": 95,
-      "apple_music": 86,
-      "tidal": 82,
-      "qobuz": 9,
+      "spotify": 98,
+      "deezer": 97,
+      "apple_music": 88,
+      "tidal": 84,
+      "qobuz": 11,
       "24six": 3,
       "mostly_music": 1,
       "nigun_music": 1
@@ -10870,6 +10870,438 @@
           "source": "release",
           "source_release_mbid": "f6f2389b-90a4-453c-9647-40faf9f8a20b",
           "url": "https://24six.app/app/music/collection/18539"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "bd4bc836-90d9-4fe5-a521-e0cfc8e6382c",
+      "title": "Kumzits Live 3.15.26",
+      "artist_credit": "Yaakov Shlomo Gross",
+      "credited_artists": [
+        {
+          "mbid": "d73b8965-1f72-4c82-ba1b-913f7ec742e1",
+          "name": "Yakov Shlomo Gross",
+          "position": 0,
+          "credit_name": "Yaakov Shlomo Gross",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "d73b8965-1f72-4c82-ba1b-913f7ec742e1",
+          "name": "Yakov Shlomo Gross"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2026-03-24",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 3,
+      "day": 24,
+      "release_count": 1,
+      "release_mbids": [
+        "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076"
+      ],
+      "cover_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+      "cover_art": {
+        "release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+        "image_id": 46134205792,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/afcecfbd-0a9a-4d82-b2ae-ccd009b1b076/46134205792",
+        "thumbnails": {
+          "250": "/covers/afcecfbd-0a9a-4d82-b2ae-ccd009b1b076--46134205792.webp",
+          "500": "/covers/afcecfbd-0a9a-4d82-b2ae-ccd009b1b076--46134205792.webp",
+          "1200": "/covers/afcecfbd-0a9a-4d82-b2ae-ccd009b1b076--46134205792.webp"
+        },
+        "cached": "/covers/afcecfbd-0a9a-4d82-b2ae-ccd009b1b076--46134205792.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/bd4bc836-90d9-4fe5-a521-e0cfc8e6382c",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://music.apple.com/us/album/1888890298"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://music.apple.com/us/album/1888890298"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://open.spotify.com/album/4Yo5UrUFqKf91h22lzjJQX"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://tidal.com/album/510831214"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://www.deezer.com/album/949210591"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://www.qobuz.com/us-en/album/kumzits-live-31526-mrm-simchas/j2v3zgn47uhj1"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://www.qobuz.com/us-en/album/kumzits-live-31526-mrm-simchas/j2v3zgn47uhj1"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4Yo5UrUFqKf91h22lzjJQX"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1888890298"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/949210591"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/510831214"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/kumzits-live-31526-mrm-simchas/j2v3zgn47uhj1"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://open.spotify.com/album/4Yo5UrUFqKf91h22lzjJQX"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://music.apple.com/us/album/1888890298"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://www.deezer.com/album/949210591"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://tidal.com/album/510831214"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "afcecfbd-0a9a-4d82-b2ae-ccd009b1b076",
+          "url": "https://www.qobuz.com/us-en/album/kumzits-live-31526-mrm-simchas/j2v3zgn47uhj1"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "3f5db176-4714-40b4-8726-d1e957ffd301",
+      "title": "Kumzits Live 2 3.15.26",
+      "artist_credit": "Yakov Shlomo Gross",
+      "credited_artists": [
+        {
+          "mbid": "d73b8965-1f72-4c82-ba1b-913f7ec742e1",
+          "name": "Yakov Shlomo Gross",
+          "position": 0,
+          "credit_name": "Yakov Shlomo Gross",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "d73b8965-1f72-4c82-ba1b-913f7ec742e1",
+          "name": "Yakov Shlomo Gross"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2026-03-24",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 3,
+      "day": 24,
+      "release_count": 1,
+      "release_mbids": [
+        "ade22d0d-5660-4354-bf48-48ee6ab997a7"
+      ],
+      "cover_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+      "cover_art": {
+        "release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+        "image_id": 46134237112,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/ade22d0d-5660-4354-bf48-48ee6ab997a7/46134237112",
+        "thumbnails": {
+          "250": "/covers/ade22d0d-5660-4354-bf48-48ee6ab997a7--46134237112.webp",
+          "500": "/covers/ade22d0d-5660-4354-bf48-48ee6ab997a7--46134237112.webp",
+          "1200": "/covers/ade22d0d-5660-4354-bf48-48ee6ab997a7--46134237112.webp"
+        },
+        "cached": "/covers/ade22d0d-5660-4354-bf48-48ee6ab997a7--46134237112.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/3f5db176-4714-40b4-8726-d1e957ffd301",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://music.apple.com/us/album/1888802378"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://music.apple.com/us/album/1888802378"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://open.spotify.com/album/79tt8l39SqvLMn3fxdFMPd"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://tidal.com/album/510859811"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://www.deezer.com/album/949298121"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://www.qobuz.com/us-en/album/kumzits-live-2-31526-mrm-simchas/iuw2uron69vml"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://www.qobuz.com/us-en/album/kumzits-live-2-31526-mrm-simchas/iuw2uron69vml"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/79tt8l39SqvLMn3fxdFMPd"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1888802378"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/949298121"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/510859811"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/kumzits-live-2-31526-mrm-simchas/iuw2uron69vml"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://open.spotify.com/album/79tt8l39SqvLMn3fxdFMPd"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://music.apple.com/us/album/1888802378"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://www.deezer.com/album/949298121"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://tidal.com/album/510859811"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ade22d0d-5660-4354-bf48-48ee6ab997a7",
+          "url": "https://www.qobuz.com/us-en/album/kumzits-live-2-31526-mrm-simchas/iuw2uron69vml"
         }
       ],
       "references": [],

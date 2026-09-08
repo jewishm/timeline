@@ -2,24 +2,25 @@
   "year": 2024,
   "month": 7,
   "stats": {
-    "release_groups": 78,
-    "with_cover_art": 78,
-    "with_action_links": 78,
+    "release_groups": 79,
+    "with_cover_art": 79,
+    "with_action_links": 79,
     "future_releases": 0,
     "types": {
       "Album": 21,
       "EP": 5,
-      "Single": 52
+      "Single": 53
     },
     "services": {
-      "spotify": 77,
-      "apple_music": 73,
-      "deezer": 51,
-      "tidal": 40,
+      "spotify": 78,
+      "apple_music": 74,
+      "deezer": 52,
+      "tidal": 41,
       "amazon": 3,
       "bandcamp": 2,
       "youtube": 2,
-      "youtube_music": 1
+      "youtube_music": 1,
+      "qobuz": 1
     }
   },
   "releases": [
@@ -11489,6 +11490,220 @@
           "source": "release",
           "source_release_mbid": "3e1d287c-7d1a-4f24-bc52-0804e061bb7a",
           "url": "https://www.deezer.com/album/621189761"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "47b25fcc-294b-408b-8c18-b8a30d6c7239",
+      "title": "Atah Zocher (Acapella)",
+      "artist_credit": "Eli Levin",
+      "credited_artists": [
+        {
+          "mbid": "c5f276c1-4157-459d-b3d2-60208bd5d9c3",
+          "name": "Eli Levin",
+          "position": 0,
+          "credit_name": "Eli Levin",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "c5f276c1-4157-459d-b3d2-60208bd5d9c3",
+          "name": "Eli Levin"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2024-07-29",
+      "date_precision": "day",
+      "year": 2024,
+      "month": 7,
+      "day": 29,
+      "release_count": 1,
+      "release_mbids": [
+        "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f"
+      ],
+      "cover_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+      "cover_art": {
+        "release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+        "image_id": 46134087253,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/9af4b6df-3ca4-4c9e-92a6-dea97ca2568f/46134087253",
+        "thumbnails": {
+          "250": "/covers/9af4b6df-3ca4-4c9e-92a6-dea97ca2568f--46134087253.webp",
+          "500": "/covers/9af4b6df-3ca4-4c9e-92a6-dea97ca2568f--46134087253.webp",
+          "1200": "/covers/9af4b6df-3ca4-4c9e-92a6-dea97ca2568f--46134087253.webp"
+        },
+        "cached": "/covers/9af4b6df-3ca4-4c9e-92a6-dea97ca2568f--46134087253.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/47b25fcc-294b-408b-8c18-b8a30d6c7239",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://music.apple.com/us/album/1760269980"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://music.apple.com/us/album/1760269980"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://open.spotify.com/album/6jO00j6mqzmPkh1yM89AvO"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://tidal.com/album/378206031"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://www.deezer.com/album/622592501"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://www.qobuz.com/us-en/album/atah-zocher-acapella-eli-levin/pon2otax5cuua"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://www.qobuz.com/us-en/album/atah-zocher-acapella-eli-levin/pon2otax5cuua"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6jO00j6mqzmPkh1yM89AvO"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1760269980"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/622592501"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/378206031"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/atah-zocher-acapella-eli-levin/pon2otax5cuua"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://open.spotify.com/album/6jO00j6mqzmPkh1yM89AvO"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://music.apple.com/us/album/1760269980"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://www.deezer.com/album/622592501"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://tidal.com/album/378206031"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9af4b6df-3ca4-4c9e-92a6-dea97ca2568f",
+          "url": "https://www.qobuz.com/us-en/album/atah-zocher-acapella-eli-levin/pon2otax5cuua"
         }
       ],
       "references": [],

@@ -6606,6 +6606,17 @@
           "source": "release",
           "source_release_mbid": "5e1a147e-a1c3-478b-ac9b-2c502b8bec46",
           "url": "https://www.deezer.com/album/486605385"
+        },
+        {
+          "site_key": "wikidata",
+          "site_label": "Wikidata",
+          "domain": "wikidata.org",
+          "relationship": "wikidata",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.wikidata.org/wiki/Q130726227"
         }
       ],
       "preferred_links": {
@@ -6660,7 +6671,19 @@
           "url": "https://www.deezer.com/album/486605385"
         }
       ],
-      "references": [],
+      "references": [
+        {
+          "site_key": "wikidata",
+          "site_label": "Wikidata",
+          "domain": "wikidata.org",
+          "relationship": "wikidata",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.wikidata.org/wiki/Q130726227"
+        }
+      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
