@@ -2531,28 +2531,62 @@
       "year": 2010,
       "month": null,
       "day": null,
-      "release_count": 2,
+      "release_count": 3,
       "release_mbids": [
         "129573b9-80d7-4bae-8705-458009c06c8c",
+        "82e05028-7662-47b2-ac14-048f11dbb3ec",
         "934da80e-e3a1-4eb0-aeea-222451b37cf7"
       ],
-      "cover_release_mbid": "934da80e-e3a1-4eb0-aeea-222451b37cf7",
+      "cover_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
       "cover_art": {
-        "release_mbid": "934da80e-e3a1-4eb0-aeea-222451b37cf7",
-        "image_id": 44844511016,
+        "release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+        "image_id": 46146948888,
         "mime_type": "image/jpeg",
         "ordering": 1,
         "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/934da80e-e3a1-4eb0-aeea-222451b37cf7/44844511016",
+        "original": "https://coverartarchive.org/release/82e05028-7662-47b2-ac14-048f11dbb3ec/46146948888",
         "thumbnails": {
-          "250": "/covers/934da80e-e3a1-4eb0-aeea-222451b37cf7--44844511016.webp",
-          "500": "/covers/934da80e-e3a1-4eb0-aeea-222451b37cf7--44844511016.webp",
-          "1200": "/covers/934da80e-e3a1-4eb0-aeea-222451b37cf7--44844511016.webp"
+          "250": "/covers/82e05028-7662-47b2-ac14-048f11dbb3ec--46146948888.webp",
+          "500": "/covers/82e05028-7662-47b2-ac14-048f11dbb3ec--46146948888.webp",
+          "1200": "/covers/82e05028-7662-47b2-ac14-048f11dbb3ec--46146948888.webp"
         },
-        "cached": "/covers/934da80e-e3a1-4eb0-aeea-222451b37cf7--44844511016.webp"
+        "cached": "/covers/82e05028-7662-47b2-ac14-048f11dbb3ec--46146948888.webp"
       },
       "musicbrainz_url": "https://musicbrainz.org/release-group/9de2fa2b-1bca-4c4c-a8f4-e7e2d45b2fb1",
       "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://music.apple.com/us/album/1488489293"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://open.spotify.com/album/7aQ778nABApaN8VHO4m9JX"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://tidal.com/album/123061352"
+        },
         {
           "site_key": "amazon",
           "site_label": "Amazon",
@@ -2565,6 +2599,17 @@
           "url": "https://www.amazon.de/gp/product/B00DZI0Q30"
         },
         {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://www.deezer.com/album/119669472"
+        },
+        {
           "site_key": "discogs",
           "site_label": "Discogs",
           "domain": "discogs.com",
@@ -2574,9 +2619,56 @@
           "source": "release",
           "source_release_mbid": "934da80e-e3a1-4eb0-aeea-222451b37cf7",
           "url": "https://www.discogs.com/release/35705548"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://www.qobuz.com/us-en/album/ben-snof/imgbi8bnpefqa"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://www.qobuz.com/us-en/album/ben-snof/imgbi8bnpefqa"
         }
       ],
       "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7aQ778nABApaN8VHO4m9JX"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1488489293"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/119669472"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/123061352"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ben-snof/imgbi8bnpefqa"
+        },
         "amazon": {
           "label": "Amazon",
           "kind": "buy",
@@ -2584,6 +2676,61 @@
         }
       },
       "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://open.spotify.com/album/7aQ778nABApaN8VHO4m9JX"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://music.apple.com/us/album/1488489293"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://www.deezer.com/album/119669472"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://tidal.com/album/123061352"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "82e05028-7662-47b2-ac14-048f11dbb3ec",
+          "url": "https://www.qobuz.com/us-en/album/ben-snof/imgbi8bnpefqa"
+        },
         {
           "site_key": "amazon",
           "site_label": "Amazon",
