@@ -490,16 +490,58 @@
       "month": 9,
       "day": 7,
       "date_precision": "day",
-      "cover": "/covers/51462d3b-0bbc-4d89-8378-1d0fede189ca--46125981196.webp",
+      "cover": "/covers/199b02b4-0b76-42bc-84ea-ebe8229b6c4e--46151307485.webp",
       "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/4UBae2j5Pg0ZfpqZA6pXFQ"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6810422267"
+        },
         {
           "site_label": "24Six",
           "action_kind": "listen",
           "url": "https://24six.app/app/music/collection/21305"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1075191412"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/559903648"
         }
       ],
       "recording_musicbrainz_url": "https://musicbrainz.org/recording/fdbe7b26-c5d7-4b87-870f-f8fdafd6713b",
-      "release_group_musicbrainz_url": "https://musicbrainz.org/release-group/fcade7d2-992b-4006-808f-5e87164d4ac7"
+      "release_group_musicbrainz_url": "https://musicbrainz.org/release-group/fcade7d2-992b-4006-808f-5e87164d4ac7",
+      "recording_actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/track/1DyFWdNAv6RdPkUfpqxBAU"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/song/6810423640"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/track/4276981282"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/track/559903672"
+        }
+      ]
     }
   ]
 }

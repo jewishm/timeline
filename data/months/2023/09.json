@@ -2,19 +2,19 @@
   "year": 2023,
   "month": 9,
   "stats": {
-    "release_groups": 82,
-    "with_cover_art": 82,
-    "with_action_links": 82,
+    "release_groups": 81,
+    "with_cover_art": 81,
+    "with_action_links": 81,
     "future_releases": 0,
     "types": {
-      "Album": 20,
+      "Album": 19,
       "EP": 4,
       "Single": 58
     },
     "services": {
-      "spotify": 80,
-      "apple_music": 75,
-      "deezer": 51,
+      "spotify": 79,
+      "apple_music": 74,
+      "deezer": 50,
       "tidal": 31,
       "amazon": 6,
       "youtube": 5,
@@ -25,144 +25,6 @@
     }
   },
   "releases": [
-    {
-      "release_group_mbid": "bb1ceda2-8b15-4838-bb66-987fe5a329bf",
-      "title": "An Untold Fairytale",
-      "artist_credit": "Aharon Segal",
-      "credited_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal",
-          "position": 0,
-          "credit_name": "Aharon Segal",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2023-09-01",
-      "date_precision": "day",
-      "year": 2023,
-      "month": 9,
-      "day": 1,
-      "release_count": 1,
-      "release_mbids": [
-        "2f7d989a-39d8-4202-9ff9-0d2fcd09539c"
-      ],
-      "cover_release_mbid": "2f7d989a-39d8-4202-9ff9-0d2fcd09539c",
-      "cover_art": {
-        "release_mbid": "2f7d989a-39d8-4202-9ff9-0d2fcd09539c",
-        "image_id": 39481581050,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/2f7d989a-39d8-4202-9ff9-0d2fcd09539c/39481581050",
-        "thumbnails": {
-          "250": "/covers/2f7d989a-39d8-4202-9ff9-0d2fcd09539c--39481581050.webp",
-          "500": "/covers/2f7d989a-39d8-4202-9ff9-0d2fcd09539c--39481581050.webp",
-          "1200": "/covers/2f7d989a-39d8-4202-9ff9-0d2fcd09539c--39481581050.webp"
-        },
-        "cached": "/covers/2f7d989a-39d8-4202-9ff9-0d2fcd09539c--39481581050.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/bb1ceda2-8b15-4838-bb66-987fe5a329bf",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2f7d989a-39d8-4202-9ff9-0d2fcd09539c",
-          "url": "https://music.apple.com/gb/album/1729736079"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2f7d989a-39d8-4202-9ff9-0d2fcd09539c",
-          "url": "https://open.spotify.com/album/0gcSYh0bc6fzz6bpMXXvhF"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2f7d989a-39d8-4202-9ff9-0d2fcd09539c",
-          "url": "https://www.deezer.com/album/372719917"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/0gcSYh0bc6fzz6bpMXXvhF"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1729736079"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/372719917"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2f7d989a-39d8-4202-9ff9-0d2fcd09539c",
-          "url": "https://open.spotify.com/album/0gcSYh0bc6fzz6bpMXXvhF"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2f7d989a-39d8-4202-9ff9-0d2fcd09539c",
-          "url": "https://music.apple.com/gb/album/1729736079"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "2f7d989a-39d8-4202-9ff9-0d2fcd09539c",
-          "url": "https://www.deezer.com/album/372719917"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
     {
       "release_group_mbid": "668a694e-2477-4b2e-8f63-957023ef80e4",
       "title": "Aug. 15 '23 Wedding (Yidi Bialostozky)",

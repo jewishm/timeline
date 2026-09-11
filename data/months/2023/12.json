@@ -2,20 +2,20 @@
   "year": 2023,
   "month": 12,
   "stats": {
-    "release_groups": 110,
-    "with_cover_art": 110,
-    "with_action_links": 110,
+    "release_groups": 109,
+    "with_cover_art": 109,
+    "with_action_links": 109,
     "future_releases": 0,
     "types": {
-      "Album": 17,
+      "Album": 16,
       "EP": 5,
       "Single": 88
     },
     "services": {
-      "spotify": 110,
-      "apple_music": 97,
-      "deezer": 79,
-      "tidal": 51,
+      "spotify": 109,
+      "apple_music": 96,
+      "deezer": 78,
+      "tidal": 50,
       "amazon": 7,
       "youtube": 4,
       "qobuz": 3,
@@ -26,182 +26,6 @@
     }
   },
   "releases": [
-    {
-      "release_group_mbid": "67d06345-dfa1-40f6-ac77-db045ffe8b29",
-      "title": "Another Electro Side",
-      "artist_credit": "Aharon Segal",
-      "credited_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal",
-          "position": 0,
-          "credit_name": "Aharon Segal",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2023-12-01",
-      "date_precision": "day",
-      "year": 2023,
-      "month": 12,
-      "day": 1,
-      "release_count": 1,
-      "release_mbids": [
-        "800929dc-d2e3-4a74-a44a-2975a1503a9f"
-      ],
-      "cover_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-      "cover_art": {
-        "release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-        "image_id": 39478490492,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/800929dc-d2e3-4a74-a44a-2975a1503a9f/39478490492",
-        "thumbnails": {
-          "250": "/covers/800929dc-d2e3-4a74-a44a-2975a1503a9f--39478490492.webp",
-          "500": "/covers/800929dc-d2e3-4a74-a44a-2975a1503a9f--39478490492.webp",
-          "1200": "/covers/800929dc-d2e3-4a74-a44a-2975a1503a9f--39478490492.webp"
-        },
-        "cached": "/covers/800929dc-d2e3-4a74-a44a-2975a1503a9f--39478490492.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/67d06345-dfa1-40f6-ac77-db045ffe8b29",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://music.apple.com/gb/album/1684930855"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://music.apple.com/gb/album/1684930855"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://open.spotify.com/album/2g160B9Yvk1mcPbPt0y3hq"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://tidal.com/album/291463508"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://www.deezer.com/album/434618177"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/2g160B9Yvk1mcPbPt0y3hq"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1684930855"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/434618177"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/291463508"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://open.spotify.com/album/2g160B9Yvk1mcPbPt0y3hq"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://music.apple.com/gb/album/1684930855"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://www.deezer.com/album/434618177"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "800929dc-d2e3-4a74-a44a-2975a1503a9f",
-          "url": "https://tidal.com/album/291463508"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
     {
       "release_group_mbid": "d1a34d4b-5ef1-4189-b7ce-bdf15d73eb45",
       "title": "Kdei Lehodos",

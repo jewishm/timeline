@@ -2,19 +2,19 @@
   "year": 2023,
   "month": 2,
   "stats": {
-    "release_groups": 76,
-    "with_cover_art": 76,
-    "with_action_links": 76,
+    "release_groups": 75,
+    "with_cover_art": 75,
+    "with_action_links": 75,
     "future_releases": 0,
     "types": {
-      "Album": 20,
+      "Album": 19,
       "EP": 2,
       "Single": 54
     },
     "services": {
-      "apple_music": 75,
-      "spotify": 73,
-      "deezer": 54,
+      "apple_music": 74,
+      "spotify": 72,
+      "deezer": 53,
       "tidal": 41,
       "qobuz": 1,
       "amazon": 1,
@@ -1585,144 +1585,6 @@
           "source": "release",
           "source_release_mbid": "369b9fee-34e5-4195-8994-6f07aa20e17e",
           "url": "https://tidal.com/album/422147435"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "3c313cec-2398-4638-acda-dd33a0334d15",
-      "title": "Third Temple Band",
-      "artist_credit": "Aharon Segal",
-      "credited_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal",
-          "position": 0,
-          "credit_name": "Aharon Segal",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2023-02-03",
-      "date_precision": "day",
-      "year": 2023,
-      "month": 2,
-      "day": 3,
-      "release_count": 1,
-      "release_mbids": [
-        "3b134e08-3139-457c-9192-6d542cabc9e7"
-      ],
-      "cover_release_mbid": "3b134e08-3139-457c-9192-6d542cabc9e7",
-      "cover_art": {
-        "release_mbid": "3b134e08-3139-457c-9192-6d542cabc9e7",
-        "image_id": 39478379128,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/3b134e08-3139-457c-9192-6d542cabc9e7/39478379128",
-        "thumbnails": {
-          "250": "/covers/3b134e08-3139-457c-9192-6d542cabc9e7--39478379128.webp",
-          "500": "/covers/3b134e08-3139-457c-9192-6d542cabc9e7--39478379128.webp",
-          "1200": "/covers/3b134e08-3139-457c-9192-6d542cabc9e7--39478379128.webp"
-        },
-        "cached": "/covers/3b134e08-3139-457c-9192-6d542cabc9e7--39478379128.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/3c313cec-2398-4638-acda-dd33a0334d15",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "3b134e08-3139-457c-9192-6d542cabc9e7",
-          "url": "https://music.apple.com/us/album/1729735142"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "3b134e08-3139-457c-9192-6d542cabc9e7",
-          "url": "https://open.spotify.com/album/5tNAf6wRGLtLtQaBDiPLdA"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "3b134e08-3139-457c-9192-6d542cabc9e7",
-          "url": "https://www.deezer.com/album/370138237"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/5tNAf6wRGLtLtQaBDiPLdA"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1729735142"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/370138237"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "3b134e08-3139-457c-9192-6d542cabc9e7",
-          "url": "https://open.spotify.com/album/5tNAf6wRGLtLtQaBDiPLdA"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "3b134e08-3139-457c-9192-6d542cabc9e7",
-          "url": "https://music.apple.com/us/album/1729735142"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "3b134e08-3139-457c-9192-6d542cabc9e7",
-          "url": "https://www.deezer.com/album/370138237"
         }
       ],
       "references": [],

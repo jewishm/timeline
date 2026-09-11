@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 8,
   "stats": {
-    "release_groups": 110,
-    "with_cover_art": 110,
-    "with_action_links": 110,
+    "release_groups": 111,
+    "with_cover_art": 111,
+    "with_action_links": 111,
     "future_releases": 0,
     "types": {
       "Album": 26,
       "EP": 8,
-      "Single": 76
+      "Single": 77
     },
     "services": {
-      "spotify": 108,
-      "tidal": 107,
-      "deezer": 106,
-      "apple_music": 101,
-      "qobuz": 58,
+      "spotify": 109,
+      "tidal": 108,
+      "deezer": 107,
+      "apple_music": 102,
+      "qobuz": 59,
       "24six": 2
     }
   },
@@ -6530,6 +6530,220 @@
           "source": "release",
           "source_release_mbid": "7cbc73c9-4e08-46b7-91f6-49c747c4bf9e",
           "url": "https://tidal.com/album/551965432"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "eab1963d-5f57-4cd6-9f8d-e120dbbb25b7",
+      "title": "כאייל תערוג",
+      "artist_credit": "Shia Fried",
+      "credited_artists": [
+        {
+          "mbid": "b95edd94-3d42-4436-8133-b26013399cc4",
+          "name": "Shia Fried",
+          "position": 0,
+          "credit_name": "Shia Fried",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b95edd94-3d42-4436-8133-b26013399cc4",
+          "name": "Shia Fried"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-08-12",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 12,
+      "release_count": 1,
+      "release_mbids": [
+        "85d0b261-99d1-4164-ba3e-a068382a9ccb"
+      ],
+      "cover_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+      "cover_art": {
+        "release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+        "image_id": 46154714276,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/85d0b261-99d1-4164-ba3e-a068382a9ccb/46154714276",
+        "thumbnails": {
+          "250": "/covers/85d0b261-99d1-4164-ba3e-a068382a9ccb--46154714276.webp",
+          "500": "/covers/85d0b261-99d1-4164-ba3e-a068382a9ccb--46154714276.webp",
+          "1200": "/covers/85d0b261-99d1-4164-ba3e-a068382a9ccb--46154714276.webp"
+        },
+        "cached": "/covers/85d0b261-99d1-4164-ba3e-a068382a9ccb--46154714276.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/eab1963d-5f57-4cd6-9f8d-e120dbbb25b7",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://music.apple.com/us/album/6800655722"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://music.apple.com/us/album/6800655722"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://open.spotify.com/album/3nVX6I9YalgVLIhxPYrsGI"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://tidal.com/album/551628069"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://www.deezer.com/album/1052181312"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://www.qobuz.com/us-en/album/kayol-taarog-shia-fried/hoe8ao8bvtndz"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://www.qobuz.com/us-en/album/kayol-taarog-shia-fried/hoe8ao8bvtndz"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/3nVX6I9YalgVLIhxPYrsGI"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6800655722"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1052181312"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/551628069"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/kayol-taarog-shia-fried/hoe8ao8bvtndz"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://open.spotify.com/album/3nVX6I9YalgVLIhxPYrsGI"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://music.apple.com/us/album/6800655722"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://www.deezer.com/album/1052181312"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://tidal.com/album/551628069"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "85d0b261-99d1-4164-ba3e-a068382a9ccb",
+          "url": "https://www.qobuz.com/us-en/album/kayol-taarog-shia-fried/hoe8ao8bvtndz"
         }
       ],
       "references": [],

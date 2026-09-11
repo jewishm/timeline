@@ -2,20 +2,20 @@
   "year": 2023,
   "month": 6,
   "stats": {
-    "release_groups": 65,
-    "with_cover_art": 64,
-    "with_action_links": 65,
+    "release_groups": 64,
+    "with_cover_art": 63,
+    "with_action_links": 64,
     "future_releases": 0,
     "types": {
-      "Album": 15,
+      "Album": 14,
       "EP": 4,
       "Single": 46
     },
     "services": {
-      "spotify": 64,
-      "apple_music": 64,
-      "deezer": 38,
-      "tidal": 23,
+      "spotify": 63,
+      "apple_music": 63,
+      "deezer": 37,
+      "tidal": 22,
       "qobuz": 1
     }
   },
@@ -9245,206 +9245,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "641ecfb0-e961-44dd-bef6-15314b67335e",
-      "title": "The World Smiles Back",
-      "artist_credit": "Aharon Segal",
-      "credited_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal",
-          "position": 0,
-          "credit_name": "Aharon Segal",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2023-06-30",
-      "date_precision": "day",
-      "year": 2023,
-      "month": 6,
-      "day": 30,
-      "release_count": 2,
-      "release_mbids": [
-        "f1966736-4bd8-4801-a280-312dfe7a6a03",
-        "f394b7fc-5ff9-433e-81fa-f2eb0acbc914"
-      ],
-      "cover_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-      "cover_art": {
-        "release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-        "image_id": 39478450020,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/f394b7fc-5ff9-433e-81fa-f2eb0acbc914/39478450020",
-        "thumbnails": {
-          "250": "/covers/f394b7fc-5ff9-433e-81fa-f2eb0acbc914--39478450020.webp",
-          "500": "/covers/f394b7fc-5ff9-433e-81fa-f2eb0acbc914--39478450020.webp",
-          "1200": "/covers/f394b7fc-5ff9-433e-81fa-f2eb0acbc914--39478450020.webp"
-        },
-        "cached": "/covers/f394b7fc-5ff9-433e-81fa-f2eb0acbc914--39478450020.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/641ecfb0-e961-44dd-bef6-15314b67335e",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://music.apple.com/gb/album/1729736137"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://music.apple.com/gb/album/1729736137"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://open.spotify.com/album/3sYHT8ShufXcFsYAdKOdP6"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://tidal.com/album/256705803"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://www.deezer.com/album/370898897"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "f1966736-4bd8-4801-a280-312dfe7a6a03",
-          "url": "https://www.discogs.com/release/27612393"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/3sYHT8ShufXcFsYAdKOdP6"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1729736137"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/370898897"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/256705803"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://open.spotify.com/album/3sYHT8ShufXcFsYAdKOdP6"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://music.apple.com/gb/album/1729736137"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://www.deezer.com/album/370898897"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "f394b7fc-5ff9-433e-81fa-f2eb0acbc914",
-          "url": "https://tidal.com/album/256705803"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "f1966736-4bd8-4801-a280-312dfe7a6a03",
-          "url": "https://www.discogs.com/release/27612393"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

@@ -1,13 +1,13 @@
 {
   "year": 2005,
   "stats": {
-    "release_groups": 51,
-    "dated_release_groups": 31,
+    "release_groups": 50,
+    "dated_release_groups": 30,
     "year_only_release_groups": 20,
-    "artists": 45,
-    "months_with_releases": 11,
+    "artists": 44,
+    "months_with_releases": 10,
     "types": {
-      "Album": 50,
+      "Album": 49,
       "Single": 1
     }
   },
@@ -108,33 +108,9 @@
     },
     {
       "month": 2,
-      "release_groups": 1,
-      "types": {
-        "Album": 1
-      },
-      "featured": [
-        {
-          "release_group_mbid": "caed0b71-4d6b-4ffe-8f86-d6d84c6bdf89",
-          "title": "Through My Eyes",
-          "artist_credit": "Aharon Segal",
-          "primary_type": "Album",
-          "day": 17,
-          "cover_art": {
-            "release_mbid": "e98e8b1e-14ef-4232-bbfb-c853ac53a161",
-            "image_id": 39481595663,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/e98e8b1e-14ef-4232-bbfb-c853ac53a161/39481595663",
-            "thumbnails": {
-              "250": "/covers/e98e8b1e-14ef-4232-bbfb-c853ac53a161--39481595663.webp",
-              "500": "/covers/e98e8b1e-14ef-4232-bbfb-c853ac53a161--39481595663.webp",
-              "1200": "/covers/e98e8b1e-14ef-4232-bbfb-c853ac53a161--39481595663.webp"
-            },
-            "cached": "/covers/e98e8b1e-14ef-4232-bbfb-c853ac53a161--39481595663.webp"
-          }
-        }
-      ]
+      "release_groups": 0,
+      "types": {},
+      "featured": []
     },
     {
       "month": 3,
@@ -702,11 +678,6 @@
       "release_groups": 1
     },
     {
-      "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-      "name": "Aharon Segal",
-      "release_groups": 1
-    },
-    {
       "mbid": "5a3586cd-87a7-41b2-ad60-7d83d6363afd",
       "name": "Andy Statman",
       "release_groups": 1
@@ -739,6 +710,11 @@
     {
       "mbid": "85c1f674-aa60-4bcd-8231-3b4c9097b940",
       "name": "Gershon Veroba",
+      "release_groups": 1
+    },
+    {
+      "mbid": "5410bab6-1166-4344-9ce9-61e82a4204fd",
+      "name": "Isaac Honig",
       "release_groups": 1
     }
   ],

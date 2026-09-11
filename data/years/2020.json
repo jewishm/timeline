@@ -1,13 +1,13 @@
 {
   "year": 2020,
   "stats": {
-    "release_groups": 507,
+    "release_groups": 506,
     "dated_release_groups": 500,
-    "year_only_release_groups": 7,
-    "artists": 299,
+    "year_only_release_groups": 6,
+    "artists": 298,
     "months_with_releases": 12,
     "types": {
-      "Album": 116,
+      "Album": 115,
       "EP": 18,
       "Single": 373
     }
@@ -1820,190 +1820,6 @@
         }
       ],
       "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "ddb7418d-fb0b-44ae-819b-ccb3bb6a7816",
-      "title": "אור חוזר",
-      "artist_credit": "אהרון סגל",
-      "credited_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal",
-          "position": 0,
-          "credit_name": "אהרון סגל",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "b2b149ef-94c0-484a-af11-3795872009ea",
-          "name": "Aharon Segal"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2020",
-      "date_precision": "year",
-      "year": 2020,
-      "month": null,
-      "day": null,
-      "release_count": 2,
-      "release_mbids": [
-        "c1f868a4-bd49-4ba5-bed5-1af2571abbac",
-        "ef66d9b3-9466-458a-bb43-7335bb8bc5e1"
-      ],
-      "cover_release_mbid": "ef66d9b3-9466-458a-bb43-7335bb8bc5e1",
-      "cover_art": {
-        "release_mbid": "ef66d9b3-9466-458a-bb43-7335bb8bc5e1",
-        "image_id": 39478361625,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/ef66d9b3-9466-458a-bb43-7335bb8bc5e1/39478361625",
-        "thumbnails": {
-          "250": "/covers/ef66d9b3-9466-458a-bb43-7335bb8bc5e1--39478361625.webp",
-          "500": "/covers/ef66d9b3-9466-458a-bb43-7335bb8bc5e1--39478361625.webp",
-          "1200": "/covers/ef66d9b3-9466-458a-bb43-7335bb8bc5e1--39478361625.webp"
-        },
-        "cached": "/covers/ef66d9b3-9466-458a-bb43-7335bb8bc5e1--39478361625.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/ddb7418d-fb0b-44ae-819b-ccb3bb6a7816",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ef66d9b3-9466-458a-bb43-7335bb8bc5e1",
-          "url": "https://music.apple.com/gb/album/1729739407"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ef66d9b3-9466-458a-bb43-7335bb8bc5e1",
-          "url": "https://open.spotify.com/album/5L1MVFIXWlLqnFHkDcTKvA"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ef66d9b3-9466-458a-bb43-7335bb8bc5e1",
-          "url": "https://www.deezer.com/album/231585622"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.discogs.com/master/2391664"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "c1f868a4-bd49-4ba5-bed5-1af2571abbac",
-          "url": "https://www.discogs.com/release/20427073"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/5L1MVFIXWlLqnFHkDcTKvA"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1729739407"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/231585622"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ef66d9b3-9466-458a-bb43-7335bb8bc5e1",
-          "url": "https://open.spotify.com/album/5L1MVFIXWlLqnFHkDcTKvA"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ef66d9b3-9466-458a-bb43-7335bb8bc5e1",
-          "url": "https://music.apple.com/gb/album/1729739407"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "ef66d9b3-9466-458a-bb43-7335bb8bc5e1",
-          "url": "https://www.deezer.com/album/231585622"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.discogs.com/master/2391664"
-        },
-        {
-          "site_key": "discogs",
-          "site_label": "Discogs",
-          "domain": "discogs.com",
-          "relationship": "discogs",
-          "action": false,
-          "action_kind": null,
-          "source": "release",
-          "source_release_mbid": "c1f868a4-bd49-4ba5-bed5-1af2571abbac",
-          "url": "https://www.discogs.com/release/20427073"
-        }
-      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

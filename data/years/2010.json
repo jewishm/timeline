@@ -1,14 +1,14 @@
 {
   "year": 2010,
   "stats": {
-    "release_groups": 111,
-    "dated_release_groups": 95,
+    "release_groups": 110,
+    "dated_release_groups": 94,
     "year_only_release_groups": 16,
-    "artists": 78,
+    "artists": 77,
     "months_with_releases": 11,
     "types": {
       "Album": 103,
-      "EP": 3,
+      "EP": 2,
       "Other": 1,
       "Single": 4
     }
@@ -16,34 +16,12 @@
   "months": [
     {
       "month": 1,
-      "release_groups": 6,
+      "release_groups": 5,
       "types": {
         "Album": 4,
-        "EP": 1,
         "Single": 1
       },
       "featured": [
-        {
-          "release_group_mbid": "ee5feb0e-ac6a-4f1b-b785-f55eaf2f4ca3",
-          "title": "Ana Bekoah",
-          "artist_credit": "Aharon Segal",
-          "primary_type": "EP",
-          "day": 1,
-          "cover_art": {
-            "release_mbid": "eb438ecc-b097-4a76-a9e0-4aa06e8c9082",
-            "image_id": 39478464969,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/eb438ecc-b097-4a76-a9e0-4aa06e8c9082/39478464969",
-            "thumbnails": {
-              "250": "/covers/eb438ecc-b097-4a76-a9e0-4aa06e8c9082--39478464969.webp",
-              "500": "/covers/eb438ecc-b097-4a76-a9e0-4aa06e8c9082--39478464969.webp",
-              "1200": "/covers/eb438ecc-b097-4a76-a9e0-4aa06e8c9082--39478464969.webp"
-            },
-            "cached": "/covers/eb438ecc-b097-4a76-a9e0-4aa06e8c9082--39478464969.webp"
-          }
-        },
         {
           "release_group_mbid": "1642bf72-9980-4ff3-b4d1-04cde6fd7d33",
           "title": "כי הרבית",
@@ -105,6 +83,27 @@
               "1200": "/covers/200500c2-c36a-4a96-9aae-b9af30880862--39658566850.webp"
             },
             "cached": "/covers/200500c2-c36a-4a96-9aae-b9af30880862--39658566850.webp"
+          }
+        },
+        {
+          "release_group_mbid": "dce6ba81-8205-4156-9b01-356229a20a34",
+          "title": "שירה חדשה",
+          "artist_credit": "הלב והמעיין, חיליק פרנק & נאור כרמי",
+          "primary_type": "Album",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "bc307024-bd00-4ac0-a22c-4757ffdc8745",
+            "image_id": 40026623377,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/bc307024-bd00-4ac0-a22c-4757ffdc8745/40026623377",
+            "thumbnails": {
+              "250": "/covers/bc307024-bd00-4ac0-a22c-4757ffdc8745--40026623377.webp",
+              "500": "/covers/bc307024-bd00-4ac0-a22c-4757ffdc8745--40026623377.webp",
+              "1200": "/covers/bc307024-bd00-4ac0-a22c-4757ffdc8745--40026623377.webp"
+            },
+            "cached": "/covers/bc307024-bd00-4ac0-a22c-4757ffdc8745--40026623377.webp"
           }
         }
       ]
