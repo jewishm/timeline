@@ -13,7 +13,9 @@
     "services": {
       "spotify": 4,
       "apple_music": 4,
-      "tidal": 1
+      "tidal": 2,
+      "deezer": 1,
+      "qobuz": 1
     }
   },
   "releases": [
@@ -197,6 +199,50 @@
           "source": "release",
           "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
           "url": "https://open.spotify.com/album/04VF7TNtidylLEAP8ENQ8v"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
+          "url": "https://tidal.com/album/204896533"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
+          "url": "https://www.deezer.com/album/272275112"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
+          "url": "https://www.qobuz.com/us-en/album/-/k1ubvikpb452b"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
+          "url": "https://www.qobuz.com/us-en/album/-/k1ubvikpb452b"
         }
       ],
       "preferred_links": {
@@ -209,6 +255,21 @@
           "label": "Apple Music",
           "kind": "listen",
           "url": "https://music.apple.com/gb/album/1595134861"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/272275112"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/204896533"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-/k1ubvikpb452b"
         }
       },
       "actions": [
@@ -233,6 +294,39 @@
           "source": "release",
           "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
           "url": "https://music.apple.com/gb/album/1595134861"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
+          "url": "https://www.deezer.com/album/272275112"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
+          "url": "https://tidal.com/album/204896533"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "01dbc531-d43d-456f-912a-29ffb30d6bd8",
+          "url": "https://www.qobuz.com/us-en/album/-/k1ubvikpb452b"
         }
       ],
       "references": [],

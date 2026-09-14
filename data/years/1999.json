@@ -2288,6 +2288,28 @@
           "url": "https://mostlymusic.com/products/listig-and-lebedig-cd"
         },
         {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
+          "url": "https://music.apple.com/us/album/390708697"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
+          "url": "https://music.apple.com/us/album/390708697"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -2310,6 +2332,39 @@
           "url": "https://www.amazon.com/gp/product/B0041VFKB8"
         },
         {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
+          "url": "https://www.deezer.com/album/655286"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
+          "url": "https://www.qobuz.com/us-en/album/listig-lebedig-shloime-dachs-mendy-wald/iw0ege7uhefwb"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
+          "url": "https://www.qobuz.com/us-en/album/listig-lebedig-shloime-dachs-mendy-wald/iw0ege7uhefwb"
+        },
+        {
           "site_key": "youtube",
           "site_label": "YouTube",
           "domain": "youtube.com",
@@ -2329,13 +2384,23 @@
         },
         "apple_music": {
           "label": "Apple Music",
-          "kind": "buy",
-          "url": "https://itunes.apple.com/ca/album/id390708697"
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/390708697"
         },
         "mostly_music": {
           "label": "Mostly Music",
           "kind": "buy",
           "url": "https://mostlymusic.com/products/listig-and-lebedig-cd"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/655286"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/listig-lebedig-shloime-dachs-mendy-wald/iw0ege7uhefwb"
         },
         "amazon": {
           "label": "Amazon",
@@ -2363,13 +2428,13 @@
         {
           "site_key": "apple_music",
           "site_label": "Apple Music",
-          "domain": "itunes.apple.com",
-          "relationship": "purchase for download",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
           "action": true,
-          "action_kind": "buy",
+          "action_kind": "listen",
           "source": "release",
           "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
-          "url": "https://itunes.apple.com/ca/album/id390708697"
+          "url": "https://music.apple.com/us/album/390708697"
         },
         {
           "site_key": "mostly_music",
@@ -2381,6 +2446,28 @@
           "source": "release",
           "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
           "url": "https://mostlymusic.com/products/listig-and-lebedig-cd"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
+          "url": "https://www.deezer.com/album/655286"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6fbb65d3-4625-40c0-a631-1b538d2c780b",
+          "url": "https://www.qobuz.com/us-en/album/listig-lebedig-shloime-dachs-mendy-wald/iw0ege7uhefwb"
         },
         {
           "site_key": "amazon",
