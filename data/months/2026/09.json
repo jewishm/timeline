@@ -2,22 +2,22 @@
   "year": 2026,
   "month": 9,
   "stats": {
-    "release_groups": 60,
-    "with_cover_art": 60,
-    "with_action_links": 60,
+    "release_groups": 62,
+    "with_cover_art": 62,
+    "with_action_links": 62,
     "future_releases": 0,
     "types": {
-      "Album": 15,
-      "EP": 3,
+      "Album": 16,
+      "EP": 4,
       "Single": 42
     },
     "services": {
-      "spotify": 58,
-      "tidal": 58,
-      "deezer": 56,
-      "apple_music": 55,
+      "spotify": 59,
+      "tidal": 59,
+      "deezer": 57,
+      "apple_music": 56,
       "qobuz": 9,
-      "24six": 4,
+      "24six": 5,
       "mostly_music": 1
     }
   },
@@ -8712,7 +8712,7 @@
       "credited_artists": [
         {
           "mbid": "0f3ce086-096b-475a-92ce-af2cd869810f",
-          "name": "Yoel Polatseck",
+          "name": "Yoily Polatseck",
           "position": 0,
           "credit_name": "Yoily Polatseck",
           "join_phrase": ""
@@ -8721,7 +8721,7 @@
       "collection_artists": [
         {
           "mbid": "0f3ce086-096b-475a-92ce-af2cd869810f",
-          "name": "Yoel Polatseck"
+          "name": "Yoily Polatseck"
         }
       ],
       "primary_type": "Single",
@@ -10723,6 +10723,91 @@
       "is_future": false
     },
     {
+      "release_group_mbid": "3594414b-5b3f-409f-8529-1bc7287d88b9",
+      "title": "א נייע יאר",
+      "artist_credit": "לייבי דייטש",
+      "credited_artists": [
+        {
+          "mbid": "8cf741d6-68cc-4048-a524-414443dd7ebe",
+          "name": "לייבי דייטש",
+          "position": 0,
+          "credit_name": "לייבי דייטש",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "8cf741d6-68cc-4048-a524-414443dd7ebe",
+          "name": "לייבי דייטש"
+        }
+      ],
+      "primary_type": "EP",
+      "secondary_types": [],
+      "first_release_date": "2026-09-16",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 16,
+      "release_count": 2,
+      "release_mbids": [
+        "968528fc-4df0-46cc-afc8-9e97e548f488",
+        "e8244c29-99ba-4ed7-a03b-f7fb95c0920f"
+      ],
+      "cover_release_mbid": "968528fc-4df0-46cc-afc8-9e97e548f488",
+      "cover_art": {
+        "release_mbid": "968528fc-4df0-46cc-afc8-9e97e548f488",
+        "image_id": 46212021474,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/968528fc-4df0-46cc-afc8-9e97e548f488/46212021474",
+        "thumbnails": {
+          "250": "/covers/968528fc-4df0-46cc-afc8-9e97e548f488--46212021474.webp",
+          "500": "/covers/968528fc-4df0-46cc-afc8-9e97e548f488--46212021474.webp",
+          "1200": "/covers/968528fc-4df0-46cc-afc8-9e97e548f488--46212021474.webp"
+        },
+        "cached": "/covers/968528fc-4df0-46cc-afc8-9e97e548f488--46212021474.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/3594414b-5b3f-409f-8529-1bc7287d88b9",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "968528fc-4df0-46cc-afc8-9e97e548f488",
+          "url": "https://24six.app/preview/music/collection/21549/a-naya-yohr"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/21549/a-naya-yohr"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "968528fc-4df0-46cc-afc8-9e97e548f488",
+          "url": "https://24six.app/preview/music/collection/21549/a-naya-yohr"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
       "release_group_mbid": "40903f4e-cbad-41f8-86ef-fe8abe01e75f",
       "title": "ממעמקים",
       "artist_credit": "נמואל עם יידל",
@@ -10902,6 +10987,171 @@
           "source": "release",
           "source_release_mbid": "ca6c9b99-fa01-4e2d-a52e-f1241b6e91ab",
           "url": "https://tidal.com/album/561527918"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "e14dc902-69b4-4802-93d4-49a2ea5355d2",
+      "title": "שירת העשבים",
+      "artist_credit": "יהודה לויכטר",
+      "credited_artists": [
+        {
+          "mbid": "89b5b48c-5d3b-42d0-9ebe-00baf2a7de33",
+          "name": "יהודה לויכטר",
+          "position": 0,
+          "credit_name": "יהודה לויכטר",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "89b5b48c-5d3b-42d0-9ebe-00baf2a7de33",
+          "name": "יהודה לויכטר"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-09-17",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 17,
+      "release_count": 1,
+      "release_mbids": [
+        "38beb734-c1f6-486a-825f-3e164835a2f1"
+      ],
+      "cover_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+      "cover_art": {
+        "release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+        "image_id": 46211964781,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/38beb734-c1f6-486a-825f-3e164835a2f1/46211964781",
+        "thumbnails": {
+          "250": "/covers/38beb734-c1f6-486a-825f-3e164835a2f1--46211964781.webp",
+          "500": "/covers/38beb734-c1f6-486a-825f-3e164835a2f1--46211964781.webp",
+          "1200": "/covers/38beb734-c1f6-486a-825f-3e164835a2f1--46211964781.webp"
+        },
+        "cached": "/covers/38beb734-c1f6-486a-825f-3e164835a2f1--46211964781.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e14dc902-69b4-4802-93d4-49a2ea5355d2",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+          "url": "https://music.apple.com/us/album/6812842449"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+          "url": "https://open.spotify.com/album/3U7WuacbECU5UNaJJ1rmZH"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+          "url": "https://tidal.com/album/561721615"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+          "url": "https://www.deezer.com/album/1080281802"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/3U7WuacbECU5UNaJJ1rmZH"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6812842449"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1080281802"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/561721615"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+          "url": "https://open.spotify.com/album/3U7WuacbECU5UNaJJ1rmZH"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+          "url": "https://music.apple.com/us/album/6812842449"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+          "url": "https://www.deezer.com/album/1080281802"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "38beb734-c1f6-486a-825f-3e164835a2f1",
+          "url": "https://tidal.com/album/561721615"
         }
       ],
       "references": [],
