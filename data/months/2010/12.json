@@ -2,20 +2,170 @@
   "year": 2010,
   "month": 12,
   "stats": {
-    "release_groups": 1,
-    "with_cover_art": 1,
-    "with_action_links": 1,
+    "release_groups": 2,
+    "with_cover_art": 2,
+    "with_action_links": 2,
     "future_releases": 0,
     "types": {
-      "Album": 1
+      "Album": 2
     },
     "services": {
-      "spotify": 1,
-      "apple_music": 1,
+      "spotify": 2,
+      "apple_music": 2,
+      "tidal": 1,
       "deezer": 1
     }
   },
   "releases": [
+    {
+      "release_group_mbid": "7f4ac991-2219-4448-bc07-ffe8d6884df8",
+      "title": "Relax, Vol. 3",
+      "artist_credit": "MRM Masri",
+      "credited_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music",
+          "position": 0,
+          "credit_name": "MRM Masri",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2010-12-10",
+      "date_precision": "day",
+      "year": 2010,
+      "month": 12,
+      "day": 10,
+      "release_count": 1,
+      "release_mbids": [
+        "b089854d-4349-4c7f-8092-e50cdd80c472"
+      ],
+      "cover_release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+      "cover_art": {
+        "release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+        "image_id": 45165851114,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/b089854d-4349-4c7f-8092-e50cdd80c472/45165851114",
+        "thumbnails": {
+          "250": "/covers/b089854d-4349-4c7f-8092-e50cdd80c472--45165851114.webp",
+          "500": "/covers/b089854d-4349-4c7f-8092-e50cdd80c472--45165851114.webp",
+          "1200": "/covers/b089854d-4349-4c7f-8092-e50cdd80c472--45165851114.webp"
+        },
+        "cached": "/covers/b089854d-4349-4c7f-8092-e50cdd80c472--45165851114.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/7f4ac991-2219-4448-bc07-ffe8d6884df8",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+          "url": "https://music.apple.com/gb/album/1542711562"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+          "url": "https://music.apple.com/gb/album/1542711562"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+          "url": "https://open.spotify.com/album/70EkmFswxjaZzPdVoX3TGl"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+          "url": "https://tidal.com/album/164408606"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/70EkmFswxjaZzPdVoX3TGl"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1542711562"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/164408606"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+          "url": "https://open.spotify.com/album/70EkmFswxjaZzPdVoX3TGl"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+          "url": "https://music.apple.com/gb/album/1542711562"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b089854d-4349-4c7f-8092-e50cdd80c472",
+          "url": "https://tidal.com/album/164408606"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
     {
       "release_group_mbid": "ec1e1b56-27e7-4d76-8e5b-fa4a54890ddf",
       "title": "Al Yisrael Shalom",

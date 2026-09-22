@@ -10,9 +10,10 @@
       "musicbrainz_url": "https://musicbrainz.org/artist/166d6f43-94c0-4213-92af-2391dae739ef"
     }
   ],
-  "recording_count": 1,
-  "artist_count": 1,
+  "recording_count": 2,
+  "artist_count": 2,
   "artists": [
+    "MRM Music",
     "מוטי שטיינמץ"
   ],
   "versions": [
@@ -76,6 +77,59 @@
           "site_label": "Deezer",
           "action_kind": "listen",
           "url": "https://www.deezer.com/track/1217126082"
+        }
+      ]
+    },
+    {
+      "recording_mbid": "bfc706a8-9f24-44b6-a181-aa85d3ad82c3",
+      "title": "Haneshama Bekirbi",
+      "artist_credit": "MRM Music",
+      "artist_mbids": [
+        "11fc3605-9936-49dd-bf9b-42fea97c8e17"
+      ],
+      "release_group_mbid": "0b15c518-da10-4f2e-b8e5-0277911a9b7e",
+      "release_title": "Relax, Vol. 10",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "year": 2018,
+      "month": 11,
+      "day": 29,
+      "date_precision": "day",
+      "cover": "/covers/eb1710c3-9095-4b99-80f9-2504b87ca7fb--43696380473.webp",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/5Ajewg9lwAEHanWy7KszFY"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/gb/album/1445108749"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/99939412"
+        }
+      ],
+      "recording_musicbrainz_url": "https://musicbrainz.org/recording/bfc706a8-9f24-44b6-a181-aa85d3ad82c3",
+      "release_group_musicbrainz_url": "https://musicbrainz.org/release-group/0b15c518-da10-4f2e-b8e5-0277911a9b7e",
+      "recording_actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/track/04pC4m3zQCbZQ77c0MaMeP"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/gb/song/1445108984"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/track/99939434"
         }
       ]
     }

@@ -2,20 +2,20 @@
   "year": 2020,
   "month": 12,
   "stats": {
-    "release_groups": 57,
-    "with_cover_art": 57,
-    "with_action_links": 57,
+    "release_groups": 58,
+    "with_cover_art": 58,
+    "with_action_links": 58,
     "future_releases": 0,
     "types": {
-      "Album": 14,
+      "Album": 15,
       "EP": 4,
       "Single": 39
     },
     "services": {
-      "apple_music": 56,
-      "spotify": 51,
+      "apple_music": 57,
+      "spotify": 52,
       "deezer": 22,
-      "tidal": 18,
+      "tidal": 19,
       "qobuz": 2,
       "bandcamp": 1,
       "amazon": 1,
@@ -1680,6 +1680,155 @@
           "source": "release",
           "source_release_mbid": "8f6d41c6-60bb-4ab7-943d-e026094c246b",
           "url": "https://www.deezer.com/album/191647222"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "42544c61-605b-4b22-99cd-e6b4474aaa01",
+      "title": "Relax, Vol. 11",
+      "artist_credit": "MRM Music",
+      "credited_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music",
+          "position": 0,
+          "credit_name": "MRM Music",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2020-12-08",
+      "date_precision": "day",
+      "year": 2020,
+      "month": 12,
+      "day": 8,
+      "release_count": 1,
+      "release_mbids": [
+        "fb184b0b-4a4b-4f56-9d4b-7d79675534b9"
+      ],
+      "cover_release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+      "cover_art": {
+        "release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+        "image_id": 43696367330,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/fb184b0b-4a4b-4f56-9d4b-7d79675534b9/43696367330",
+        "thumbnails": {
+          "250": "/covers/fb184b0b-4a4b-4f56-9d4b-7d79675534b9--43696367330.webp",
+          "500": "/covers/fb184b0b-4a4b-4f56-9d4b-7d79675534b9--43696367330.webp",
+          "1200": "/covers/fb184b0b-4a4b-4f56-9d4b-7d79675534b9--43696367330.webp"
+        },
+        "cached": "/covers/fb184b0b-4a4b-4f56-9d4b-7d79675534b9--43696367330.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/42544c61-605b-4b22-99cd-e6b4474aaa01",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+          "url": "https://music.apple.com/gb/album/1544016967"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+          "url": "https://music.apple.com/gb/album/1544016967"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+          "url": "https://open.spotify.com/album/7KgdjAyHeQONR9TvEg2yAj"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+          "url": "https://tidal.com/album/165912654"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7KgdjAyHeQONR9TvEg2yAj"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1544016967"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/165912654"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+          "url": "https://open.spotify.com/album/7KgdjAyHeQONR9TvEg2yAj"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+          "url": "https://music.apple.com/gb/album/1544016967"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fb184b0b-4a4b-4f56-9d4b-7d79675534b9",
+          "url": "https://tidal.com/album/165912654"
         }
       ],
       "references": [],

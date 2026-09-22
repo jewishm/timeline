@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 3,
   "stats": {
-    "release_groups": 101,
-    "with_cover_art": 101,
-    "with_action_links": 100,
+    "release_groups": 102,
+    "with_cover_art": 102,
+    "with_action_links": 101,
     "future_releases": 0,
     "types": {
-      "Album": 27,
+      "Album": 28,
       "EP": 8,
       "Single": 66
     },
     "services": {
-      "spotify": 98,
-      "deezer": 97,
-      "apple_music": 88,
-      "tidal": 84,
-      "qobuz": 11,
+      "spotify": 99,
+      "deezer": 98,
+      "apple_music": 89,
+      "tidal": 85,
+      "qobuz": 12,
       "24six": 3,
       "mostly_music": 1,
       "nigun_music": 1
@@ -15545,6 +15545,220 @@
           "source": "release",
           "source_release_mbid": "56d9e407-37a5-45d9-b8ab-5033774d6a2d",
           "url": "https://www.deezer.com/album/950227811"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "f244efe3-8c6f-4079-9fc9-2824dd9d7a61",
+      "title": "Relax Peaceful Tunes",
+      "artist_credit": "Lazer Weiss",
+      "credited_artists": [
+        {
+          "mbid": "e64ae3e6-3f03-435a-9303-8cc3c2361cce",
+          "name": "Lazer Weiss",
+          "position": 0,
+          "credit_name": "Lazer Weiss",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "e64ae3e6-3f03-435a-9303-8cc3c2361cce",
+          "name": "Lazer Weiss"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-03-29",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 3,
+      "day": 29,
+      "release_count": 1,
+      "release_mbids": [
+        "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84"
+      ],
+      "cover_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+      "cover_art": {
+        "release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+        "image_id": 46251381236,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84/46251381236",
+        "thumbnails": {
+          "250": "/covers/7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84--46251381236.webp",
+          "500": "/covers/7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84--46251381236.webp",
+          "1200": "/covers/7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84--46251381236.webp"
+        },
+        "cached": "/covers/7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84--46251381236.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/f244efe3-8c6f-4079-9fc9-2824dd9d7a61",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://music.apple.com/us/album/1889643945"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://music.apple.com/us/album/1889643945"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://open.spotify.com/album/65NfWJXbxY6IxxNiWBXapL"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://tidal.com/album/511573371"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://www.deezer.com/album/950996481"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://www.qobuz.com/us-en/album/relax-peaceful-tunes-mrm-masri/imca5d410mfxb"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://www.qobuz.com/us-en/album/relax-peaceful-tunes-mrm-masri/imca5d410mfxb"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/65NfWJXbxY6IxxNiWBXapL"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1889643945"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/950996481"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/511573371"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/relax-peaceful-tunes-mrm-masri/imca5d410mfxb"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://open.spotify.com/album/65NfWJXbxY6IxxNiWBXapL"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://music.apple.com/us/album/1889643945"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://www.deezer.com/album/950996481"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://tidal.com/album/511573371"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7b1a0f4a-7e5e-4c48-9e4d-931b37b6bf84",
+          "url": "https://www.qobuz.com/us-en/album/relax-peaceful-tunes-mrm-masri/imca5d410mfxb"
         }
       ],
       "references": [],

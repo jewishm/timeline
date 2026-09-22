@@ -1,13 +1,13 @@
 {
   "year": 2016,
   "stats": {
-    "release_groups": 168,
-    "dated_release_groups": 158,
+    "release_groups": 169,
+    "dated_release_groups": 159,
     "year_only_release_groups": 10,
-    "artists": 116,
+    "artists": 117,
     "months_with_releases": 12,
     "types": {
-      "Album": 109,
+      "Album": 110,
       "EP": 2,
       "Single": 57
     }
@@ -109,12 +109,33 @@
     },
     {
       "month": 2,
-      "release_groups": 27,
+      "release_groups": 28,
       "types": {
-        "Album": 26,
+        "Album": 27,
         "EP": 1
       },
       "featured": [
+        {
+          "release_group_mbid": "d884c086-9465-4a13-ad02-eee459578237",
+          "title": "Brain Waves, Vol. 1: Alpha, Delta, Theta Waves Music for Relax, Sleep and Brain Power",
+          "artist_credit": "MRM Music",
+          "primary_type": "Album",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+            "image_id": 41254144415,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/6baffee0-30f4-476d-9394-d04e60e7096a/41254144415",
+            "thumbnails": {
+              "250": "/covers/6baffee0-30f4-476d-9394-d04e60e7096a--41254144415.webp",
+              "500": "/covers/6baffee0-30f4-476d-9394-d04e60e7096a--41254144415.webp",
+              "1200": "/covers/6baffee0-30f4-476d-9394-d04e60e7096a--41254144415.webp"
+            },
+            "cached": "/covers/6baffee0-30f4-476d-9394-d04e60e7096a--41254144415.webp"
+          }
+        },
         {
           "release_group_mbid": "ee6ef46c-3939-422a-a426-fd0e9c476138",
           "title": "פורים שמח",
@@ -176,27 +197,6 @@
               "1200": "/covers/d19d89e3-797e-4ae6-9402-de95053609b5--37065111210.webp"
             },
             "cached": "/covers/d19d89e3-797e-4ae6-9402-de95053609b5--37065111210.webp"
-          }
-        },
-        {
-          "release_group_mbid": "2da4d94f-5289-409a-b571-07f0bd215a88",
-          "title": "הסליחות",
-          "artist_credit": "יובל טייב",
-          "primary_type": "Album",
-          "day": 4,
-          "cover_art": {
-            "release_mbid": "675fefcc-e4f1-4a47-8879-97973a3d52a7",
-            "image_id": 42086078286,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/675fefcc-e4f1-4a47-8879-97973a3d52a7/42086078286",
-            "thumbnails": {
-              "250": "/covers/675fefcc-e4f1-4a47-8879-97973a3d52a7--42086078286.webp",
-              "500": "/covers/675fefcc-e4f1-4a47-8879-97973a3d52a7--42086078286.webp",
-              "1200": "/covers/675fefcc-e4f1-4a47-8879-97973a3d52a7--42086078286.webp"
-            },
-            "cached": "/covers/675fefcc-e4f1-4a47-8879-97973a3d52a7--42086078286.webp"
           }
         }
       ]

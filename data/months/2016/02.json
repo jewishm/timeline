@@ -2,23 +2,199 @@
   "year": 2016,
   "month": 2,
   "stats": {
-    "release_groups": 27,
-    "with_cover_art": 27,
-    "with_action_links": 27,
+    "release_groups": 28,
+    "with_cover_art": 28,
+    "with_action_links": 28,
     "future_releases": 0,
     "types": {
-      "Album": 26,
+      "Album": 27,
       "EP": 1
     },
     "services": {
-      "spotify": 26,
-      "tidal": 23,
-      "deezer": 21,
+      "spotify": 27,
+      "tidal": 24,
+      "deezer": 22,
       "qobuz": 19,
-      "apple_music": 9
+      "apple_music": 10
     }
   },
   "releases": [
+    {
+      "release_group_mbid": "d884c086-9465-4a13-ad02-eee459578237",
+      "title": "Brain Waves, Vol. 1: Alpha, Delta, Theta Waves Music for Relax, Sleep and Brain Power",
+      "artist_credit": "MRM Music",
+      "credited_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music",
+          "position": 0,
+          "credit_name": "MRM Music",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2016-02-01",
+      "date_precision": "day",
+      "year": 2016,
+      "month": 2,
+      "day": 1,
+      "release_count": 1,
+      "release_mbids": [
+        "6baffee0-30f4-476d-9394-d04e60e7096a"
+      ],
+      "cover_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+      "cover_art": {
+        "release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+        "image_id": 41254144415,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/6baffee0-30f4-476d-9394-d04e60e7096a/41254144415",
+        "thumbnails": {
+          "250": "/covers/6baffee0-30f4-476d-9394-d04e60e7096a--41254144415.webp",
+          "500": "/covers/6baffee0-30f4-476d-9394-d04e60e7096a--41254144415.webp",
+          "1200": "/covers/6baffee0-30f4-476d-9394-d04e60e7096a--41254144415.webp"
+        },
+        "cached": "/covers/6baffee0-30f4-476d-9394-d04e60e7096a--41254144415.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/d884c086-9465-4a13-ad02-eee459578237",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://music.apple.com/gb/album/1078883163"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://music.apple.com/gb/album/1078883163"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://open.spotify.com/album/5XIeB7c5JrOOxePz4S5D8k"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://tidal.com/album/56673901"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://www.deezer.com/album/12287848"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5XIeB7c5JrOOxePz4S5D8k"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1078883163"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/12287848"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/56673901"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://open.spotify.com/album/5XIeB7c5JrOOxePz4S5D8k"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://music.apple.com/gb/album/1078883163"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://www.deezer.com/album/12287848"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "6baffee0-30f4-476d-9394-d04e60e7096a",
+          "url": "https://tidal.com/album/56673901"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
     {
       "release_group_mbid": "ee6ef46c-3939-422a-a426-fd0e9c476138",
       "title": "פורים שמח",

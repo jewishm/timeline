@@ -2,19 +2,19 @@
   "year": 2018,
   "month": 2,
   "stats": {
-    "release_groups": 29,
-    "with_cover_art": 28,
-    "with_action_links": 29,
+    "release_groups": 30,
+    "with_cover_art": 29,
+    "with_action_links": 30,
     "future_releases": 0,
     "types": {
-      "Album": 8,
+      "Album": 9,
       "Single": 21
     },
     "services": {
-      "spotify": 29,
-      "apple_music": 27,
+      "spotify": 30,
+      "apple_music": 28,
       "deezer": 11,
-      "tidal": 5,
+      "tidal": 6,
       "mostly_music": 2,
       "amazon": 1,
       "youtube": 1
@@ -1172,6 +1172,155 @@
           "source": "release",
           "source_release_mbid": "2e335a38-1ab5-4c21-95fc-9c4a9227d5ab",
           "url": "https://www.youtube.com/playlist?list=OLAK5uy_kh9SqD2WEE9zXKquQW4N-zVQVz8LqtnDU"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "27231616-225a-4c3b-9b9d-5a590102c3a4",
+      "title": "Purim Super Collection Mix",
+      "artist_credit": "MRM Masri",
+      "credited_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music",
+          "position": 0,
+          "credit_name": "MRM Masri",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2018-02-09",
+      "date_precision": "day",
+      "year": 2018,
+      "month": 2,
+      "day": 9,
+      "release_count": 1,
+      "release_mbids": [
+        "5e5d80d1-1951-43be-bbd8-4b62e7e568de"
+      ],
+      "cover_release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+      "cover_art": {
+        "release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+        "image_id": 45165834246,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/5e5d80d1-1951-43be-bbd8-4b62e7e568de/45165834246",
+        "thumbnails": {
+          "250": "/covers/5e5d80d1-1951-43be-bbd8-4b62e7e568de--45165834246.webp",
+          "500": "/covers/5e5d80d1-1951-43be-bbd8-4b62e7e568de--45165834246.webp",
+          "1200": "/covers/5e5d80d1-1951-43be-bbd8-4b62e7e568de--45165834246.webp"
+        },
+        "cached": "/covers/5e5d80d1-1951-43be-bbd8-4b62e7e568de--45165834246.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/27231616-225a-4c3b-9b9d-5a590102c3a4",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+          "url": "https://music.apple.com/gb/album/1347480357"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+          "url": "https://music.apple.com/gb/album/1347480357"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+          "url": "https://open.spotify.com/album/4BUVKHwg48mXGSOddZMqog"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+          "url": "https://tidal.com/album/84552546"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4BUVKHwg48mXGSOddZMqog"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1347480357"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/84552546"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+          "url": "https://open.spotify.com/album/4BUVKHwg48mXGSOddZMqog"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+          "url": "https://music.apple.com/gb/album/1347480357"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5e5d80d1-1951-43be-bbd8-4b62e7e568de",
+          "url": "https://tidal.com/album/84552546"
         }
       ],
       "references": [],

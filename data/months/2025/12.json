@@ -2,21 +2,21 @@
   "year": 2025,
   "month": 12,
   "stats": {
-    "release_groups": 106,
-    "with_cover_art": 106,
-    "with_action_links": 106,
+    "release_groups": 107,
+    "with_cover_art": 107,
+    "with_action_links": 107,
     "future_releases": 0,
     "types": {
-      "Album": 27,
+      "Album": 28,
       "EP": 5,
       "Single": 74
     },
     "services": {
-      "deezer": 106,
-      "tidal": 106,
-      "spotify": 105,
-      "apple_music": 96,
-      "qobuz": 7,
+      "deezer": 107,
+      "tidal": 107,
+      "spotify": 106,
+      "apple_music": 97,
+      "qobuz": 8,
       "anghami": 1,
       "24six": 1,
       "other": 1
@@ -10840,6 +10840,220 @@
           "source": "release",
           "source_release_mbid": "d8694ebf-9bc7-4088-8e6d-9963aace9faf",
           "url": "https://tidal.com/album/482506460"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "9dbc4bc5-9409-4f77-8a3f-377a2daf2259",
+      "title": "Relax: Meal",
+      "artist_credit": "MRM Music",
+      "credited_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music",
+          "position": 0,
+          "credit_name": "MRM Music",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2025-12-17",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 12,
+      "day": 17,
+      "release_count": 1,
+      "release_mbids": [
+        "8b394015-858f-41a2-93ae-14526060c07b"
+      ],
+      "cover_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+      "cover_art": {
+        "release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+        "image_id": 46251532925,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/8b394015-858f-41a2-93ae-14526060c07b/46251532925",
+        "thumbnails": {
+          "250": "/covers/8b394015-858f-41a2-93ae-14526060c07b--46251532925.webp",
+          "500": "/covers/8b394015-858f-41a2-93ae-14526060c07b--46251532925.webp",
+          "1200": "/covers/8b394015-858f-41a2-93ae-14526060c07b--46251532925.webp"
+        },
+        "cached": "/covers/8b394015-858f-41a2-93ae-14526060c07b--46251532925.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/9dbc4bc5-9409-4f77-8a3f-377a2daf2259",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://music.apple.com/us/album/1862280929"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://music.apple.com/us/album/1862280929"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://open.spotify.com/album/0TfB64oQMotKw29Z2hi8zN"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://tidal.com/album/482762359"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://www.deezer.com/album/879553962"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://www.qobuz.com/us-en/album/relax-meal-mrm-masri/rlrly4anstud4"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://www.qobuz.com/us-en/album/relax-meal-mrm-masri/rlrly4anstud4"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0TfB64oQMotKw29Z2hi8zN"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1862280929"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/879553962"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/482762359"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/relax-meal-mrm-masri/rlrly4anstud4"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://open.spotify.com/album/0TfB64oQMotKw29Z2hi8zN"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://music.apple.com/us/album/1862280929"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://www.deezer.com/album/879553962"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://tidal.com/album/482762359"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8b394015-858f-41a2-93ae-14526060c07b",
+          "url": "https://www.qobuz.com/us-en/album/relax-meal-mrm-masri/rlrly4anstud4"
         }
       ],
       "references": [],

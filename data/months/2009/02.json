@@ -2,17 +2,17 @@
   "year": 2009,
   "month": 2,
   "stats": {
-    "release_groups": 2,
-    "with_cover_art": 2,
-    "with_action_links": 1,
+    "release_groups": 3,
+    "with_cover_art": 3,
+    "with_action_links": 2,
     "future_releases": 0,
     "types": {
-      "Album": 1,
+      "Album": 2,
       "Single": 1
     },
     "services": {
-      "spotify": 1,
-      "apple_music": 1,
+      "spotify": 2,
+      "apple_music": 2,
       "tidal": 1
     }
   },
@@ -68,6 +68,117 @@
       "actions": [],
       "references": [],
       "has_action_links": false,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "ed824a78-eaac-4b2e-998a-85cf8a5d1b33",
+      "title": "Chassidi Trance Instrumental",
+      "artist_credit": "MRM Masri",
+      "credited_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music",
+          "position": 0,
+          "credit_name": "MRM Masri",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "11fc3605-9936-49dd-bf9b-42fea97c8e17",
+          "name": "MRM Music"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2009-02-12",
+      "date_precision": "day",
+      "year": 2009,
+      "month": 2,
+      "day": 12,
+      "release_count": 1,
+      "release_mbids": [
+        "c45037f8-abf6-40f4-bdee-16eb3024162b"
+      ],
+      "cover_release_mbid": "c45037f8-abf6-40f4-bdee-16eb3024162b",
+      "cover_art": {
+        "release_mbid": "c45037f8-abf6-40f4-bdee-16eb3024162b",
+        "image_id": 39319234819,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/c45037f8-abf6-40f4-bdee-16eb3024162b/39319234819",
+        "thumbnails": {
+          "250": "/covers/c45037f8-abf6-40f4-bdee-16eb3024162b--39319234819.webp",
+          "500": "/covers/c45037f8-abf6-40f4-bdee-16eb3024162b--39319234819.webp",
+          "1200": "/covers/c45037f8-abf6-40f4-bdee-16eb3024162b--39319234819.webp"
+        },
+        "cached": "/covers/c45037f8-abf6-40f4-bdee-16eb3024162b--39319234819.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ed824a78-eaac-4b2e-998a-85cf8a5d1b33",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c45037f8-abf6-40f4-bdee-16eb3024162b",
+          "url": "https://music.apple.com/gb/album/1522391913"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c45037f8-abf6-40f4-bdee-16eb3024162b",
+          "url": "https://open.spotify.com/album/4S1hTOG15Pq1iIh6K5mKLi"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4S1hTOG15Pq1iIh6K5mKLi"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1522391913"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c45037f8-abf6-40f4-bdee-16eb3024162b",
+          "url": "https://open.spotify.com/album/4S1hTOG15Pq1iIh6K5mKLi"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c45037f8-abf6-40f4-bdee-16eb3024162b",
+          "url": "https://music.apple.com/gb/album/1522391913"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
     },
