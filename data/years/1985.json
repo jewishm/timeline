@@ -605,27 +605,83 @@
       "year": 1985,
       "month": null,
       "day": null,
-      "release_count": 1,
+      "release_count": 2,
       "release_mbids": [
+        "a2a3c813-911c-445f-aa88-f71658505724",
         "ad3b91f7-1e41-47c0-8443-09579534728b"
       ],
-      "cover_release_mbid": "ad3b91f7-1e41-47c0-8443-09579534728b",
+      "cover_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
       "cover_art": {
-        "release_mbid": "ad3b91f7-1e41-47c0-8443-09579534728b",
-        "image_id": 41005867595,
+        "release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+        "image_id": 46256381857,
         "mime_type": "image/jpeg",
         "ordering": 1,
         "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/ad3b91f7-1e41-47c0-8443-09579534728b/41005867595",
+        "original": "https://coverartarchive.org/release/a2a3c813-911c-445f-aa88-f71658505724/46256381857",
         "thumbnails": {
-          "250": "/covers/ad3b91f7-1e41-47c0-8443-09579534728b--41005867595.webp",
-          "500": "/covers/ad3b91f7-1e41-47c0-8443-09579534728b--41005867595.webp",
-          "1200": "/covers/ad3b91f7-1e41-47c0-8443-09579534728b--41005867595.webp"
+          "250": "/covers/a2a3c813-911c-445f-aa88-f71658505724--46256381857.webp",
+          "500": "/covers/a2a3c813-911c-445f-aa88-f71658505724--46256381857.webp",
+          "1200": "/covers/a2a3c813-911c-445f-aa88-f71658505724--46256381857.webp"
         },
-        "cached": "/covers/ad3b91f7-1e41-47c0-8443-09579534728b--41005867595.webp"
+        "cached": "/covers/a2a3c813-911c-445f-aa88-f71658505724--46256381857.webp"
       },
       "musicbrainz_url": "https://musicbrainz.org/release-group/b0dedf0b-0fab-4343-addb-e4c73450dd35",
       "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://music.apple.com/us/album/480024961"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://music.apple.com/us/album/480024961"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://open.spotify.com/album/1gg9eRge51SAoNqdWLVTWD"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://tidal.com/album/43266169"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://www.deezer.com/album/7463416"
+        },
         {
           "site_key": "discogs",
           "site_label": "Discogs",
@@ -636,10 +692,114 @@
           "source": "release",
           "source_release_mbid": "ad3b91f7-1e41-47c0-8443-09579534728b",
           "url": "https://www.discogs.com/release/27693882"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://www.qobuz.com/us-en/album/destiny-1volume-1-eli-nathan-moshe-laufer-chaim-schwartz/qh4kirpp2ik2a"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://www.qobuz.com/us-en/album/destiny-1volume-1-eli-nathan-moshe-laufer-chaim-schwartz/qh4kirpp2ik2a"
         }
       ],
-      "preferred_links": {},
-      "actions": [],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1gg9eRge51SAoNqdWLVTWD"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/480024961"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/7463416"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/43266169"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/destiny-1volume-1-eli-nathan-moshe-laufer-chaim-schwartz/qh4kirpp2ik2a"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://open.spotify.com/album/1gg9eRge51SAoNqdWLVTWD"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://music.apple.com/us/album/480024961"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://www.deezer.com/album/7463416"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://tidal.com/album/43266169"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a2a3c813-911c-445f-aa88-f71658505724",
+          "url": "https://www.qobuz.com/us-en/album/destiny-1volume-1-eli-nathan-moshe-laufer-chaim-schwartz/qh4kirpp2ik2a"
+        }
+      ],
       "references": [
         {
           "site_key": "discogs",
@@ -653,7 +813,7 @@
           "url": "https://www.discogs.com/release/27693882"
         }
       ],
-      "has_action_links": false,
+      "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
     },

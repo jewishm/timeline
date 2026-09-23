@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 6,
   "stats": {
-    "release_groups": 73,
-    "with_cover_art": 73,
-    "with_action_links": 73,
+    "release_groups": 74,
+    "with_cover_art": 74,
+    "with_action_links": 74,
     "future_releases": 0,
     "types": {
-      "Album": 21,
+      "Album": 22,
       "EP": 3,
       "Single": 49
     },
     "services": {
-      "spotify": 72,
-      "tidal": 71,
-      "deezer": 67,
-      "qobuz": 57,
-      "apple_music": 56
+      "spotify": 73,
+      "tidal": 72,
+      "deezer": 68,
+      "qobuz": 58,
+      "apple_music": 57
     }
   },
   "releases": [
@@ -2031,6 +2031,220 @@
           "source": "release",
           "source_release_mbid": "3605560a-4bd0-4fab-96a4-37e4f72945f6",
           "url": "https://www.qobuz.com/us-en/album/wedding-52726-shea-berko-yumi-lowy-avrum-mordche-schwartz-shira-choir-avrumi-berko/s16xau514fc27"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "e3c95203-e348-4451-9973-e913dbd626a0",
+      "title": "Little Bardichevers",
+      "artist_credit": "TYH Boys",
+      "credited_artists": [
+        {
+          "mbid": "b91c6abd-baca-4934-88f8-ab3f027f34be",
+          "name": "TYH Boys",
+          "position": 0,
+          "credit_name": "TYH Boys",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b91c6abd-baca-4934-88f8-ab3f027f34be",
+          "name": "TYH Boys"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-06-05",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 6,
+      "day": 5,
+      "release_count": 1,
+      "release_mbids": [
+        "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456"
+      ],
+      "cover_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+      "cover_art": {
+        "release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+        "image_id": 45356641298,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456/45356641298",
+        "thumbnails": {
+          "250": "/covers/91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456--45356641298.webp",
+          "500": "/covers/91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456--45356641298.webp",
+          "1200": "/covers/91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456--45356641298.webp"
+        },
+        "cached": "/covers/91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456--45356641298.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e3c95203-e348-4451-9973-e913dbd626a0",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://music.apple.com/us/album/6778587110"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://music.apple.com/us/album/6778587110"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://open.spotify.com/album/03pxaYxYNsbT6MFsZac9fA"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://tidal.com/album/532098066"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://www.deezer.com/album/1001967591"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://www.qobuz.com/us-en/album/little-bardichevers-thank-you-hashem-amp-tyh-boys/dn09piwmn17xz"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://www.qobuz.com/us-en/album/little-bardichevers-thank-you-hashem-amp-tyh-boys/dn09piwmn17xz"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/03pxaYxYNsbT6MFsZac9fA"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6778587110"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1001967591"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/532098066"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/little-bardichevers-thank-you-hashem-amp-tyh-boys/dn09piwmn17xz"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://open.spotify.com/album/03pxaYxYNsbT6MFsZac9fA"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://music.apple.com/us/album/6778587110"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://www.deezer.com/album/1001967591"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://tidal.com/album/532098066"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "91bd1c27-ed42-40fe-bcd4-c3a4dcf5a456",
+          "url": "https://www.qobuz.com/us-en/album/little-bardichevers-thank-you-hashem-amp-tyh-boys/dn09piwmn17xz"
         }
       ],
       "references": [],
