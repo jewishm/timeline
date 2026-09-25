@@ -2,19 +2,20 @@
   "year": 2015,
   "month": 10,
   "stats": {
-    "release_groups": 13,
-    "with_cover_art": 13,
-    "with_action_links": 13,
+    "release_groups": 14,
+    "with_cover_art": 14,
+    "with_action_links": 14,
     "future_releases": 0,
     "types": {
-      "Album": 6,
+      "Album": 7,
       "Single": 7
     },
     "services": {
-      "spotify": 13,
-      "apple_music": 13,
-      "deezer": 6,
-      "tidal": 3,
+      "spotify": 14,
+      "apple_music": 14,
+      "deezer": 7,
+      "tidal": 4,
+      "qobuz": 1,
       "youtube": 1,
       "amazon": 1
     }
@@ -1509,6 +1510,220 @@
           "source": "release",
           "source_release_mbid": "f141c101-090b-4cbc-a9ec-586a1e76cf7a",
           "url": "https://tidal.com/album/151828529"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "ffc2c266-1ce6-4a81-965c-e7163e6af0fe",
+      "title": "Lev Avos 2: The Willig Family Sings…",
+      "artist_credit": "Avraham Willig",
+      "credited_artists": [
+        {
+          "mbid": "097a535e-f282-4c0f-a221-d80f80dd205a",
+          "name": "Avraham Willig",
+          "position": 0,
+          "credit_name": "Avraham Willig",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "097a535e-f282-4c0f-a221-d80f80dd205a",
+          "name": "Avraham Willig"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2015-10-26",
+      "date_precision": "day",
+      "year": 2015,
+      "month": 10,
+      "day": 26,
+      "release_count": 1,
+      "release_mbids": [
+        "4fb4b595-5bde-4f93-8e4a-4753fa51751d"
+      ],
+      "cover_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+      "cover_art": {
+        "release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+        "image_id": 46274102941,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/4fb4b595-5bde-4f93-8e4a-4753fa51751d/46274102941",
+        "thumbnails": {
+          "250": "/covers/4fb4b595-5bde-4f93-8e4a-4753fa51751d--46274102941.webp",
+          "500": "/covers/4fb4b595-5bde-4f93-8e4a-4753fa51751d--46274102941.webp",
+          "1200": "/covers/4fb4b595-5bde-4f93-8e4a-4753fa51751d--46274102941.webp"
+        },
+        "cached": "/covers/4fb4b595-5bde-4f93-8e4a-4753fa51751d--46274102941.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ffc2c266-1ce6-4a81-965c-e7163e6af0fe",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://music.apple.com/us/album/1071266786"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://music.apple.com/us/album/1071266786"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://open.spotify.com/album/6qEcBmSz1VenB1EPWFwHNm"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://tidal.com/album/55731019"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://www.deezer.com/album/12082712"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://www.qobuz.com/us-en/album/lev-avos-2-the-willig-family-sings-avraham-willig/m6v7b9jat5bwa"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://www.qobuz.com/us-en/album/lev-avos-2-the-willig-family-sings-avraham-willig/m6v7b9jat5bwa"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6qEcBmSz1VenB1EPWFwHNm"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1071266786"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/12082712"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/55731019"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/lev-avos-2-the-willig-family-sings-avraham-willig/m6v7b9jat5bwa"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://open.spotify.com/album/6qEcBmSz1VenB1EPWFwHNm"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://music.apple.com/us/album/1071266786"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://www.deezer.com/album/12082712"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://tidal.com/album/55731019"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4fb4b595-5bde-4f93-8e4a-4753fa51751d",
+          "url": "https://www.qobuz.com/us-en/album/lev-avos-2-the-willig-family-sings-avraham-willig/m6v7b9jat5bwa"
         }
       ],
       "references": [],

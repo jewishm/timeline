@@ -2,22 +2,22 @@
   "year": 2026,
   "month": 9,
   "stats": {
-    "release_groups": 96,
-    "with_cover_art": 96,
-    "with_action_links": 96,
+    "release_groups": 100,
+    "with_cover_art": 100,
+    "with_action_links": 99,
     "future_releases": 0,
     "types": {
-      "Album": 22,
-      "EP": 5,
-      "Single": 69
+      "Album": 24,
+      "EP": 6,
+      "Single": 70
     },
     "services": {
-      "spotify": 91,
-      "tidal": 90,
+      "spotify": 94,
+      "tidal": 93,
       "apple_music": 82,
       "deezer": 64,
       "qobuz": 23,
-      "24six": 8,
+      "24six": 9,
       "mostly_music": 1
     }
   },
@@ -14983,8 +14983,9 @@
       "year": 2026,
       "month": 9,
       "day": 21,
-      "release_count": 1,
+      "release_count": 2,
       "release_mbids": [
+        "9baf8fe1-a1a5-46c3-b2e5-d3040850c410",
         "f944df89-a72d-452c-96d9-d9c245d6a838"
       ],
       "cover_release_mbid": "f944df89-a72d-452c-96d9-d9c245d6a838",
@@ -15014,16 +15015,59 @@
           "source": "release",
           "source_release_mbid": "f944df89-a72d-452c-96d9-d9c245d6a838",
           "url": "https://24six.app/preview/music/collection/21608/ananim"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9baf8fe1-a1a5-46c3-b2e5-d3040850c410",
+          "url": "https://open.spotify.com/album/5qfdLviGwk9N0LBzS64kMC"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9baf8fe1-a1a5-46c3-b2e5-d3040850c410",
+          "url": "https://tidal.com/album/563948309"
         }
       ],
       "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5qfdLviGwk9N0LBzS64kMC"
+        },
         "24six": {
           "label": "24Six",
           "kind": "listen",
           "url": "https://24six.app/preview/music/collection/21608/ananim"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/563948309"
         }
       },
       "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9baf8fe1-a1a5-46c3-b2e5-d3040850c410",
+          "url": "https://open.spotify.com/album/5qfdLviGwk9N0LBzS64kMC"
+        },
         {
           "site_key": "24six",
           "site_label": "24Six",
@@ -15034,6 +15078,17 @@
           "source": "release",
           "source_release_mbid": "f944df89-a72d-452c-96d9-d9c245d6a838",
           "url": "https://24six.app/preview/music/collection/21608/ananim"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9baf8fe1-a1a5-46c3-b2e5-d3040850c410",
+          "url": "https://tidal.com/album/563948309"
         }
       ],
       "references": [],
@@ -16440,6 +16495,425 @@
           "source": "release",
           "source_release_mbid": "171bbce4-4c93-4860-ab55-b6debfcda899",
           "url": "https://www.qobuz.com/us-en/album/shma-bni-feat-simon-morgenstern-eitan-gedalya/tmekzp0wyjhc0"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "22ee1e51-7eb2-4d33-87b4-b10bb6fb8edb",
+      "title": "Simchas Beis Hashoeiva in Pupa",
+      "artist_credit": "Moshe Katz & Ahron Shloma Katz",
+      "credited_artists": [
+        {
+          "mbid": "a1a77e43-4fa3-4df0-83ce-cbf85ee286f8",
+          "name": "Moshe Katz",
+          "position": 0,
+          "credit_name": "Moshe Katz",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "bae88f87-1a65-45bf-a5d2-43ad22af5537",
+          "name": "Ahron Shloma Katz",
+          "position": 1,
+          "credit_name": "Ahron Shloma Katz",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "bae88f87-1a65-45bf-a5d2-43ad22af5537",
+          "name": "Ahron Shloma Katz"
+        },
+        {
+          "mbid": "a1a77e43-4fa3-4df0-83ce-cbf85ee286f8",
+          "name": "Moshe Katz"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2026-09-23",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 23,
+      "release_count": 1,
+      "release_mbids": [
+        "efc883be-329d-4fbb-b569-b369c2ddfaf3"
+      ],
+      "cover_release_mbid": "efc883be-329d-4fbb-b569-b369c2ddfaf3",
+      "cover_art": {
+        "release_mbid": "efc883be-329d-4fbb-b569-b369c2ddfaf3",
+        "image_id": 46271213270,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/efc883be-329d-4fbb-b569-b369c2ddfaf3/46271213270",
+        "thumbnails": {
+          "250": "/covers/efc883be-329d-4fbb-b569-b369c2ddfaf3--46271213270.webp",
+          "500": "/covers/efc883be-329d-4fbb-b569-b369c2ddfaf3--46271213270.webp",
+          "1200": "/covers/efc883be-329d-4fbb-b569-b369c2ddfaf3--46271213270.webp"
+        },
+        "cached": "/covers/efc883be-329d-4fbb-b569-b369c2ddfaf3--46271213270.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/22ee1e51-7eb2-4d33-87b4-b10bb6fb8edb",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "discography entry",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "efc883be-329d-4fbb-b569-b369c2ddfaf3",
+          "url": "https://24six.app/preview/music/collection/21665/simchas-beis-hashoeiva-in-pupa"
+        }
+      ],
+      "preferred_links": {},
+      "actions": [],
+      "references": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "discography entry",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "efc883be-329d-4fbb-b569-b369c2ddfaf3",
+          "url": "https://24six.app/preview/music/collection/21665/simchas-beis-hashoeiva-in-pupa"
+        }
+      ],
+      "has_action_links": false,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "474e802c-c874-43f2-8ecf-bc3a1f8d1f9d",
+      "title": "Sukkos 2026",
+      "artist_credit": "Shalom Mann",
+      "credited_artists": [
+        {
+          "mbid": "eaf22fd7-7cc9-4631-a524-4878fc5c7c37",
+          "name": "Shalom Mann",
+          "position": 0,
+          "credit_name": "Shalom Mann",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "eaf22fd7-7cc9-4631-a524-4878fc5c7c37",
+          "name": "Shalom Mann"
+        }
+      ],
+      "primary_type": "EP",
+      "secondary_types": [],
+      "first_release_date": "2026-09-23",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 23,
+      "release_count": 1,
+      "release_mbids": [
+        "deb84ad6-fbd6-4672-90ee-83383cbccfab"
+      ],
+      "cover_release_mbid": "deb84ad6-fbd6-4672-90ee-83383cbccfab",
+      "cover_art": {
+        "release_mbid": "deb84ad6-fbd6-4672-90ee-83383cbccfab",
+        "image_id": 46271060970,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/deb84ad6-fbd6-4672-90ee-83383cbccfab/46271060970",
+        "thumbnails": {
+          "250": "/covers/deb84ad6-fbd6-4672-90ee-83383cbccfab--46271060970.webp",
+          "500": "/covers/deb84ad6-fbd6-4672-90ee-83383cbccfab--46271060970.webp",
+          "1200": "/covers/deb84ad6-fbd6-4672-90ee-83383cbccfab--46271060970.webp"
+        },
+        "cached": "/covers/deb84ad6-fbd6-4672-90ee-83383cbccfab--46271060970.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/474e802c-c874-43f2-8ecf-bc3a1f8d1f9d",
+      "links": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "deb84ad6-fbd6-4672-90ee-83383cbccfab",
+          "url": "https://open.spotify.com/album/4Eiwlf05Aj8n4T50fKKLzL"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "deb84ad6-fbd6-4672-90ee-83383cbccfab",
+          "url": "https://tidal.com/album/563916269"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4Eiwlf05Aj8n4T50fKKLzL"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/563916269"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "deb84ad6-fbd6-4672-90ee-83383cbccfab",
+          "url": "https://open.spotify.com/album/4Eiwlf05Aj8n4T50fKKLzL"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "deb84ad6-fbd6-4672-90ee-83383cbccfab",
+          "url": "https://tidal.com/album/563916269"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "fb7baceb-8373-4497-b398-a8365b24f208",
+      "title": "V’somachta",
+      "artist_credit": "Yoey Muchnik",
+      "credited_artists": [
+        {
+          "mbid": "fd0465ef-a6f3-41dd-8db6-ce129e577fc0",
+          "name": "Yoey Muchnik",
+          "position": 0,
+          "credit_name": "Yoey Muchnik",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "fd0465ef-a6f3-41dd-8db6-ce129e577fc0",
+          "name": "Yoey Muchnik"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-09-23",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 23,
+      "release_count": 1,
+      "release_mbids": [
+        "3e140c42-e549-442d-9161-195264916824"
+      ],
+      "cover_release_mbid": "3e140c42-e549-442d-9161-195264916824",
+      "cover_art": {
+        "release_mbid": "3e140c42-e549-442d-9161-195264916824",
+        "image_id": 46271114826,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/3e140c42-e549-442d-9161-195264916824/46271114826",
+        "thumbnails": {
+          "250": "/covers/3e140c42-e549-442d-9161-195264916824--46271114826.webp",
+          "500": "/covers/3e140c42-e549-442d-9161-195264916824--46271114826.webp",
+          "1200": "/covers/3e140c42-e549-442d-9161-195264916824--46271114826.webp"
+        },
+        "cached": "/covers/3e140c42-e549-442d-9161-195264916824--46271114826.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/fb7baceb-8373-4497-b398-a8365b24f208",
+      "links": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e140c42-e549-442d-9161-195264916824",
+          "url": "https://open.spotify.com/album/7lTNKrY7P5lZcXXJEH1ohL"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e140c42-e549-442d-9161-195264916824",
+          "url": "https://tidal.com/album/563938774"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7lTNKrY7P5lZcXXJEH1ohL"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/563938774"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e140c42-e549-442d-9161-195264916824",
+          "url": "https://open.spotify.com/album/7lTNKrY7P5lZcXXJEH1ohL"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3e140c42-e549-442d-9161-195264916824",
+          "url": "https://tidal.com/album/563938774"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "03324cb9-580f-433b-88e9-aa892df532fd",
+      "title": "סוכות תשמ״ו",
+      "artist_credit": "הערשי • צאלי • אהר'לה",
+      "credited_artists": [
+        {
+          "mbid": "dba2396d-2e35-4af4-8548-40931752a989",
+          "name": "Hershy Weinberger",
+          "position": 0,
+          "credit_name": "הערשי",
+          "join_phrase": " • "
+        },
+        {
+          "mbid": "75bb4699-9aff-44a3-b219-74cb8b3f36ba",
+          "name": "Tzali Gold",
+          "position": 1,
+          "credit_name": "צאלי",
+          "join_phrase": " • "
+        },
+        {
+          "mbid": "3dbb5d39-2440-4b86-9994-05f34c208e64",
+          "name": "Ahrele Samet",
+          "position": 2,
+          "credit_name": "אהר'לה",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "3dbb5d39-2440-4b86-9994-05f34c208e64",
+          "name": "Ahrele Samet"
+        },
+        {
+          "mbid": "dba2396d-2e35-4af4-8548-40931752a989",
+          "name": "Hershy Weinberger"
+        },
+        {
+          "mbid": "75bb4699-9aff-44a3-b219-74cb8b3f36ba",
+          "name": "Tzali Gold"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-09-23",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 23,
+      "release_count": 1,
+      "release_mbids": [
+        "e5d69b3a-c4dc-4989-8103-81392ef66192"
+      ],
+      "cover_release_mbid": "e5d69b3a-c4dc-4989-8103-81392ef66192",
+      "cover_art": {
+        "release_mbid": "e5d69b3a-c4dc-4989-8103-81392ef66192",
+        "image_id": 46274439378,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e5d69b3a-c4dc-4989-8103-81392ef66192/46274439378",
+        "thumbnails": {
+          "250": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp",
+          "500": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp",
+          "1200": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp"
+        },
+        "cached": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/03324cb9-580f-433b-88e9-aa892df532fd",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e5d69b3a-c4dc-4989-8103-81392ef66192",
+          "url": "https://24six.app/preview/music/collection/21699/svkvt-tshmv"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/21699/svkvt-tshmv"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e5d69b3a-c4dc-4989-8103-81392ef66192",
+          "url": "https://24six.app/preview/music/collection/21699/svkvt-tshmv"
         }
       ],
       "references": [],
