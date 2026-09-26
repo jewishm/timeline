@@ -2,23 +2,23 @@
   "year": 2023,
   "month": 3,
   "stats": {
-    "release_groups": 89,
-    "with_cover_art": 89,
-    "with_action_links": 89,
+    "release_groups": 90,
+    "with_cover_art": 90,
+    "with_action_links": 90,
     "future_releases": 0,
     "types": {
       "Album": 22,
       "EP": 4,
-      "Single": 63
+      "Single": 64
     },
     "services": {
-      "apple_music": 86,
-      "spotify": 84,
-      "deezer": 54,
-      "tidal": 43,
+      "apple_music": 87,
+      "spotify": 85,
+      "deezer": 55,
+      "tidal": 44,
       "amazon": 3,
       "youtube": 2,
-      "qobuz": 1,
+      "qobuz": 2,
       "youtube_music": 1
     }
   },
@@ -7609,6 +7609,242 @@
           "source": "release",
           "source_release_mbid": "33fbd391-209b-40ed-983c-56a77da1fe80",
           "url": "https://tidal.com/album/284595553"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "4794e0ff-c497-4a7b-a0eb-a6ecd9384a6f",
+      "title": "זכנו לקדש רמ״ח",
+      "artist_credit": "מקהלת מלכות | זאנוויל ויינברגר | בנצי קלצקין",
+      "credited_artists": [
+        {
+          "mbid": "fb28cd40-25da-4c43-9320-202d12d88111",
+          "name": "מקהלת מלכות",
+          "position": 0,
+          "credit_name": "מקהלת מלכות",
+          "join_phrase": " | "
+        },
+        {
+          "mbid": "c79c86a3-7191-41cb-801b-ce705c13727b",
+          "name": "Zanvil Weinberger",
+          "position": 1,
+          "credit_name": "זאנוויל ויינברגר",
+          "join_phrase": " | "
+        },
+        {
+          "mbid": "f2731bfa-ac84-45fa-bac0-86844bd64f9b",
+          "name": "בנצי קלצקין",
+          "position": 2,
+          "credit_name": "בנצי קלצקין",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "c79c86a3-7191-41cb-801b-ce705c13727b",
+          "name": "Zanvil Weinberger"
+        },
+        {
+          "mbid": "f2731bfa-ac84-45fa-bac0-86844bd64f9b",
+          "name": "בנצי קלצקין"
+        },
+        {
+          "mbid": "fb28cd40-25da-4c43-9320-202d12d88111",
+          "name": "מקהלת מלכות"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2023-03-22",
+      "date_precision": "day",
+      "year": 2023,
+      "month": 3,
+      "day": 22,
+      "release_count": 1,
+      "release_mbids": [
+        "3c28aac7-a0a8-4436-9d0d-8effb55eb32d"
+      ],
+      "cover_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+      "cover_art": {
+        "release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+        "image_id": 46280650972,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/3c28aac7-a0a8-4436-9d0d-8effb55eb32d/46280650972",
+        "thumbnails": {
+          "250": "/covers/3c28aac7-a0a8-4436-9d0d-8effb55eb32d--46280650972.webp",
+          "500": "/covers/3c28aac7-a0a8-4436-9d0d-8effb55eb32d--46280650972.webp",
+          "1200": "/covers/3c28aac7-a0a8-4436-9d0d-8effb55eb32d--46280650972.webp"
+        },
+        "cached": "/covers/3c28aac7-a0a8-4436-9d0d-8effb55eb32d--46280650972.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4794e0ff-c497-4a7b-a0eb-a6ecd9384a6f",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://music.apple.com/us/album/6766632212"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://music.apple.com/us/album/6766632212"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://open.spotify.com/album/7nb6TLDH6iWkywjqFiyGV3"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://tidal.com/album/521741416"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://www.deezer.com/album/976116361"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://www.qobuz.com/us-en/album/-zanvil-weinberger-/bowkngn06fr2j"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://www.qobuz.com/us-en/album/-zanvil-weinberger-/bowkngn06fr2j"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7nb6TLDH6iWkywjqFiyGV3"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6766632212"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/976116361"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/521741416"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-zanvil-weinberger-/bowkngn06fr2j"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://open.spotify.com/album/7nb6TLDH6iWkywjqFiyGV3"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://music.apple.com/us/album/6766632212"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://www.deezer.com/album/976116361"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://tidal.com/album/521741416"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3c28aac7-a0a8-4436-9d0d-8effb55eb32d",
+          "url": "https://www.qobuz.com/us-en/album/-zanvil-weinberger-/bowkngn06fr2j"
         }
       ],
       "references": [],

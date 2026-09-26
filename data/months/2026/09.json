@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 9,
   "stats": {
-    "release_groups": 100,
-    "with_cover_art": 100,
-    "with_action_links": 99,
+    "release_groups": 101,
+    "with_cover_art": 101,
+    "with_action_links": 100,
     "future_releases": 0,
     "types": {
       "Album": 24,
       "EP": 6,
-      "Single": 70
+      "Single": 71
     },
     "services": {
-      "spotify": 94,
-      "tidal": 93,
-      "apple_music": 82,
-      "deezer": 64,
-      "qobuz": 23,
+      "spotify": 96,
+      "tidal": 95,
+      "apple_music": 84,
+      "deezer": 65,
+      "qobuz": 24,
       "24six": 9,
       "mostly_music": 1
     }
@@ -16863,24 +16863,25 @@
       "year": 2026,
       "month": 9,
       "day": 23,
-      "release_count": 1,
+      "release_count": 2,
       "release_mbids": [
+        "df90f389-e2ad-4131-b0b8-78071a29b0fa",
         "e5d69b3a-c4dc-4989-8103-81392ef66192"
       ],
-      "cover_release_mbid": "e5d69b3a-c4dc-4989-8103-81392ef66192",
+      "cover_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
       "cover_art": {
-        "release_mbid": "e5d69b3a-c4dc-4989-8103-81392ef66192",
-        "image_id": 46274439378,
+        "release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+        "image_id": 46280516131,
         "mime_type": "image/jpeg",
         "ordering": 1,
         "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/e5d69b3a-c4dc-4989-8103-81392ef66192/46274439378",
+        "original": "https://coverartarchive.org/release/df90f389-e2ad-4131-b0b8-78071a29b0fa/46280516131",
         "thumbnails": {
-          "250": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp",
-          "500": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp",
-          "1200": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp"
+          "250": "/covers/df90f389-e2ad-4131-b0b8-78071a29b0fa--46280516131.webp",
+          "500": "/covers/df90f389-e2ad-4131-b0b8-78071a29b0fa--46280516131.webp",
+          "1200": "/covers/df90f389-e2ad-4131-b0b8-78071a29b0fa--46280516131.webp"
         },
-        "cached": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp"
+        "cached": "/covers/df90f389-e2ad-4131-b0b8-78071a29b0fa--46280516131.webp"
       },
       "musicbrainz_url": "https://musicbrainz.org/release-group/03324cb9-580f-433b-88e9-aa892df532fd",
       "links": [
@@ -16894,16 +16895,140 @@
           "source": "release",
           "source_release_mbid": "e5d69b3a-c4dc-4989-8103-81392ef66192",
           "url": "https://24six.app/preview/music/collection/21699/svkvt-tshmv"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://music.apple.com/us/album/6815759371"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://music.apple.com/us/album/6815759371"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://open.spotify.com/album/2KEXFpb58Iv1TB6hPERLQS"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://tidal.com/album/564125209"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://www.deezer.com/album/1103706042"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://www.qobuz.com/us-en/album/sukkos-1986-tzali-gold-hershy-weinberger-ahrele-samet/qb7q47q82lfbx"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://www.qobuz.com/us-en/album/sukkos-1986-tzali-gold-hershy-weinberger-ahrele-samet/qb7q47q82lfbx"
         }
       ],
       "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2KEXFpb58Iv1TB6hPERLQS"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6815759371"
+        },
         "24six": {
           "label": "24Six",
           "kind": "listen",
           "url": "https://24six.app/preview/music/collection/21699/svkvt-tshmv"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1103706042"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/564125209"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/sukkos-1986-tzali-gold-hershy-weinberger-ahrele-samet/qb7q47q82lfbx"
         }
       },
       "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://open.spotify.com/album/2KEXFpb58Iv1TB6hPERLQS"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://music.apple.com/us/album/6815759371"
+        },
         {
           "site_key": "24six",
           "site_label": "24Six",
@@ -16914,6 +17039,39 @@
           "source": "release",
           "source_release_mbid": "e5d69b3a-c4dc-4989-8103-81392ef66192",
           "url": "https://24six.app/preview/music/collection/21699/svkvt-tshmv"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://www.deezer.com/album/1103706042"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://tidal.com/album/564125209"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "df90f389-e2ad-4131-b0b8-78071a29b0fa",
+          "url": "https://www.qobuz.com/us-en/album/sukkos-1986-tzali-gold-hershy-weinberger-ahrele-samet/qb7q47q82lfbx"
         }
       ],
       "references": [],
@@ -17128,6 +17286,144 @@
           "source": "release",
           "source_release_mbid": "da7264f7-e083-4b7f-9bbc-619b7537e332",
           "url": "https://www.qobuz.com/us-en/album/-/wsk0qufvu7kal"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "4d02f59c-401b-408e-b434-187227bdc34b",
+      "title": "Build It Up Again",
+      "artist_credit": "Joey Newcomb",
+      "credited_artists": [
+        {
+          "mbid": "782d9c05-0fb8-4aeb-b9c0-00feb5c44eaa",
+          "name": "Joey Newcomb",
+          "position": 0,
+          "credit_name": "Joey Newcomb",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "782d9c05-0fb8-4aeb-b9c0-00feb5c44eaa",
+          "name": "Joey Newcomb"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-09-24",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 24,
+      "release_count": 1,
+      "release_mbids": [
+        "962d8f47-5f9d-425f-bdb3-7815e3c75129"
+      ],
+      "cover_release_mbid": "962d8f47-5f9d-425f-bdb3-7815e3c75129",
+      "cover_art": {
+        "release_mbid": "962d8f47-5f9d-425f-bdb3-7815e3c75129",
+        "image_id": 46277863221,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/962d8f47-5f9d-425f-bdb3-7815e3c75129/46277863221",
+        "thumbnails": {
+          "250": "/covers/962d8f47-5f9d-425f-bdb3-7815e3c75129--46277863221.webp",
+          "500": "/covers/962d8f47-5f9d-425f-bdb3-7815e3c75129--46277863221.webp",
+          "1200": "/covers/962d8f47-5f9d-425f-bdb3-7815e3c75129--46277863221.webp"
+        },
+        "cached": "/covers/962d8f47-5f9d-425f-bdb3-7815e3c75129--46277863221.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4d02f59c-401b-408e-b434-187227bdc34b",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "962d8f47-5f9d-425f-bdb3-7815e3c75129",
+          "url": "https://music.apple.com/us/album/1511330094"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "962d8f47-5f9d-425f-bdb3-7815e3c75129",
+          "url": "https://open.spotify.com/album/6mirAjEaNxdjxxXRM9F4ij"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "962d8f47-5f9d-425f-bdb3-7815e3c75129",
+          "url": "https://tidal.com/album/564161237"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6mirAjEaNxdjxxXRM9F4ij"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1511330094"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/564161237"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "962d8f47-5f9d-425f-bdb3-7815e3c75129",
+          "url": "https://open.spotify.com/album/6mirAjEaNxdjxxXRM9F4ij"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "962d8f47-5f9d-425f-bdb3-7815e3c75129",
+          "url": "https://music.apple.com/us/album/1511330094"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "962d8f47-5f9d-425f-bdb3-7815e3c75129",
+          "url": "https://tidal.com/album/564161237"
         }
       ],
       "references": [],

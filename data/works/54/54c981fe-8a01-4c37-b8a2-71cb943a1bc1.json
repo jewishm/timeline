@@ -82,16 +82,68 @@
       "month": 9,
       "day": 23,
       "date_precision": "day",
-      "cover": "/covers/e5d69b3a-c4dc-4989-8103-81392ef66192--46274439378.webp",
+      "cover": "/covers/df90f389-e2ad-4131-b0b8-78071a29b0fa--46280516131.webp",
       "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/2KEXFpb58Iv1TB6hPERLQS"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6815759371"
+        },
         {
           "site_label": "24Six",
           "action_kind": "listen",
           "url": "https://24six.app/preview/music/collection/21699/svkvt-tshmv"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1103706042"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/564125209"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/sukkos-1986-tzali-gold-hershy-weinberger-ahrele-samet/qb7q47q82lfbx"
         }
       ],
       "recording_musicbrainz_url": "https://musicbrainz.org/recording/7107098a-c8de-413f-b6f0-beb639e39e60",
-      "release_group_musicbrainz_url": "https://musicbrainz.org/release-group/03324cb9-580f-433b-88e9-aa892df532fd"
+      "release_group_musicbrainz_url": "https://musicbrainz.org/release-group/03324cb9-580f-433b-88e9-aa892df532fd",
+      "recording_actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/track/1Ye1SVrE29SXd1VReF2hCi"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/song/6815759777"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/track/4304270162"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://open.qobuz.com/track/454324521"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/track/564125220"
+        }
+      ]
     }
   ]
 }
