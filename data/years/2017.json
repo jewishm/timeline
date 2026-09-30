@@ -1,13 +1,13 @@
 {
   "year": 2017,
   "stats": {
-    "release_groups": 183,
+    "release_groups": 184,
     "dated_release_groups": 178,
-    "year_only_release_groups": 5,
-    "artists": 138,
+    "year_only_release_groups": 6,
+    "artists": 139,
     "months_with_releases": 12,
     "types": {
-      "Album": 100,
+      "Album": 101,
       "EP": 6,
       "Single": 77
     }
@@ -1319,6 +1319,99 @@
       "references": [],
       "has_action_links": true,
       "has_cover_art": false,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "e4b8dfba-9279-4859-b0b0-db28a6c14a63",
+      "title": "Mein Numen Is Emes",
+      "artist_credit": "Fischel Schachter & Yonasan",
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "first_release_date": "2017",
+      "date_precision": "year",
+      "year": 2017,
+      "month": null,
+      "day": null,
+      "release_count": 1,
+      "release_mbids": [
+        "e5a47468-1117-4e8c-a331-f269d34a8688"
+      ],
+      "cover_release_mbid": "e5a47468-1117-4e8c-a331-f269d34a8688",
+      "cover_art": {
+        "release_mbid": "e5a47468-1117-4e8c-a331-f269d34a8688",
+        "image_id": 46320780657,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e5a47468-1117-4e8c-a331-f269d34a8688/46320780657",
+        "thumbnails": {
+          "250": "/covers/e5a47468-1117-4e8c-a331-f269d34a8688--46320780657.webp",
+          "500": "/covers/e5a47468-1117-4e8c-a331-f269d34a8688--46320780657.webp",
+          "1200": "/covers/e5a47468-1117-4e8c-a331-f269d34a8688--46320780657.webp"
+        },
+        "cached": "/covers/e5a47468-1117-4e8c-a331-f269d34a8688--46320780657.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e4b8dfba-9279-4859-b0b0-db28a6c14a63",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e5a47468-1117-4e8c-a331-f269d34a8688",
+          "url": "https://24six.app/preview/music/collection/18052/mein-numen-is-emes"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18052/mein-numen-is-emes"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e5a47468-1117-4e8c-a331-f269d34a8688",
+          "url": "https://24six.app/preview/music/collection/18052/mein-numen-is-emes"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
       "is_future": false
     },
     {

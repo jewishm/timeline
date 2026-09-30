@@ -1,7 +1,7 @@
 {
   "collection_mbid": "45d6a632-9366-4fac-8a9e-bf04734172b9",
-  "artist_count": 1835,
-  "release_group_count": 8207,
+  "artist_count": 1837,
+  "release_group_count": 8211,
   "artists": [
     {
       "mbid": "51cb99a5-ce66-4611-9d08-a6432c9560f9",
@@ -1834,6 +1834,14 @@
       ]
     },
     {
+      "mbid": "84dbe9d4-7da1-42c8-b2a4-a6151647bd92",
+      "name": "Chaim Schwartz",
+      "release_count": 1,
+      "terms": [
+        "chaim schwartz"
+      ]
+    },
+    {
       "mbid": "e2bc3c6a-d48c-4476-8f00-a47432ffb151",
       "name": "Chaim Shlomo Mayesz",
       "release_count": 11,
@@ -3559,6 +3567,14 @@
       ]
     },
     {
+      "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+      "name": "Fischel Schachter",
+      "release_count": 1,
+      "terms": [
+        "fischel schachter"
+      ]
+    },
+    {
       "mbid": "19f96159-283e-49db-84ff-87dde9fe4f4e",
       "name": "Flatbush Hatzoloh",
       "release_count": 1,
@@ -4627,7 +4643,7 @@
     {
       "mbid": "fb6d37ff-cc63-45da-8d2e-81c38a4f1cb4",
       "name": "Lavi Klein",
-      "release_count": 14,
+      "release_count": 15,
       "terms": [
         "lavi klein",
         "klein lavi"
@@ -5253,9 +5269,10 @@
     {
       "mbid": "109432c2-8e4b-41dd-a137-e9b142d423ce",
       "name": "Meir Bass",
-      "release_count": 6,
+      "release_count": 8,
       "terms": [
-        "meir bass"
+        "meir bass",
+        "bass meir"
       ]
     },
     {
@@ -11413,14 +11430,15 @@
     {
       "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
       "name": "Yonasan Schwartz",
-      "release_count": 13,
+      "release_count": 14,
       "terms": [
         "yonasan schwartz",
         "schwartz yonasan",
         "yonason schwartz",
         "schwartz yonason",
         "יונתן שווארץ",
-        "שווארץ יונתן"
+        "שווארץ יונתן",
+        "yonasan"
       ]
     },
     {
@@ -11672,7 +11690,7 @@
     {
       "mbid": "25ed6ab0-02e0-4be2-8e61-6f3b86280629",
       "name": "Yosef Kugler",
-      "release_count": 11,
+      "release_count": 12,
       "terms": [
         "yosef kugler",
         "kugler yosef"
@@ -25415,9 +25433,10 @@
     {
       "mbid": "b0dedf0b-0fab-4343-addb-e4c73450dd35",
       "title": "Destiny",
-      "artist_credit": "Eli Nathan",
+      "artist_credit": "Eli Nathan & Chaim Schwartz",
       "artist_mbids": [
-        "2a60baa2-d067-4cb4-875a-9318a2c95bda"
+        "2a60baa2-d067-4cb4-875a-9318a2c95bda",
+        "84dbe9d4-7da1-42c8-b2a4-a6151647bd92"
       ],
       "credited_artists": [
         {
@@ -25425,6 +25444,13 @@
           "name": "Eli Nathan",
           "position": 0,
           "credit_name": "Eli Nathan",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "84dbe9d4-7da1-42c8-b2a4-a6151647bd92",
+          "name": "Chaim Schwartz",
+          "position": 1,
+          "credit_name": "Chaim Schwartz",
           "join_phrase": ""
         }
       ],
@@ -25465,7 +25491,7 @@
       ],
       "terms": [
         "destiny",
-        "eli nathan"
+        "eli nathan chaim schwartz"
       ],
       "cover_caa": "https://coverartarchive.org/release/a2a3c813-911c-445f-aa88-f71658505724/46256381857-250.jpg"
     },
@@ -110437,6 +110463,53 @@
         "maher",
         "avraham fried"
       ]
+    },
+    {
+      "mbid": "e4b8dfba-9279-4859-b0b0-db28a6c14a63",
+      "title": "Mein Numen Is Emes",
+      "artist_credit": "Fischel Schachter & Yonasan",
+      "artist_mbids": [
+        "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+        "da1620b1-230d-4849-a81c-669e76eeaa45"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "primary_type": "Album",
+      "date_precision": "year",
+      "year": 2017,
+      "month": null,
+      "day": null,
+      "cover": "/covers/e5a47468-1117-4e8c-a331-f269d34a8688--46320780657.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e4b8dfba-9279-4859-b0b0-db28a6c14a63",
+      "actions": [
+        {
+          "site_label": "24Six",
+          "action_kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18052/mein-numen-is-emes"
+        }
+      ],
+      "terms": [
+        "mein numen is emes",
+        "fischel schachter yonasan"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/e5a47468-1117-4e8c-a331-f269d34a8688/46320780657-250.jpg"
     },
     {
       "mbid": "e896b632-b0fc-411b-9a31-a6f90c5f7d5a",
@@ -367965,6 +368038,58 @@
       "cover_caa": "https://coverartarchive.org/release/56257071-c747-4d64-9fa7-6a8fd25b9f14/43511918285-250.jpg"
     },
     {
+      "mbid": "2dfcceec-c290-4ae8-b008-8eae59b44fb2",
+      "title": "Trapped in a Niggun",
+      "artist_credit": "Meir Bass",
+      "artist_mbids": [
+        "109432c2-8e4b-41dd-a137-e9b142d423ce"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "109432c2-8e4b-41dd-a137-e9b142d423ce",
+          "name": "Meir Bass",
+          "position": 0,
+          "credit_name": "Meir Bass",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Album",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 11,
+      "day": 6,
+      "cover": "/covers/a8c05d7a-e009-45d8-acd7-bc42a829702f--43491768939.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/2dfcceec-c290-4ae8-b008-8eae59b44fb2",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/1Q23gciAryhVtLE3ZBRLst"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/1851728292"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/850281372"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/471636456"
+        }
+      ],
+      "terms": [
+        "trapped in a niggun",
+        "meir bass"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/a8c05d7a-e009-45d8-acd7-bc42a829702f/43491768939-250.jpg"
+    },
+    {
       "mbid": "07e611b5-3e25-479d-8f5a-0e793e5cb446",
       "title": "בואי כלה/ברוך הבא",
       "artist_credit": "Mordechai Salem",
@@ -417788,9 +417913,24 @@
           "url": "https://open.spotify.com/album/2UBLS7gDGdbtvO27IXrVpP"
         },
         {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6814886808"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1103038782"
+        },
+        {
           "site_label": "TIDAL",
           "action_kind": "listen",
           "url": "https://tidal.com/album/563235470"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/aug-18-26-wedding-feat-yisroel-werdyger-shlomo-aranoff/o6rp8sh820uv1"
         }
       ],
       "terms": [
@@ -418121,9 +418261,19 @@
           "url": "https://music.apple.com/us/album/6815187229"
         },
         {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1103656872"
+        },
+        {
           "site_label": "TIDAL",
           "action_kind": "listen",
           "url": "https://tidal.com/album/563465381"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-efraim-markowitz-amp-zanvil-weinberger/okh0kqjzheaac"
         }
       ],
       "terms": [
@@ -418818,6 +418968,66 @@
       "cover_caa": "https://coverartarchive.org/release/962d8f47-5f9d-425f-bdb3-7815e3c75129/46277863221-250.jpg"
     },
     {
+      "mbid": "c2931a31-71f9-4812-a596-e18e285945d3",
+      "title": "Chabad Vibes #2 (Chill House Niggunim)",
+      "artist_credit": "Lavi Klein & Meir Bass",
+      "artist_mbids": [
+        "fb6d37ff-cc63-45da-8d2e-81c38a4f1cb4",
+        "109432c2-8e4b-41dd-a137-e9b142d423ce"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "fb6d37ff-cc63-45da-8d2e-81c38a4f1cb4",
+          "name": "Lavi Klein",
+          "position": 0,
+          "credit_name": "Lavi Klein",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "109432c2-8e4b-41dd-a137-e9b142d423ce",
+          "name": "Meir Bass",
+          "position": 1,
+          "credit_name": "Meir Bass",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Album",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 24,
+      "cover": "/covers/1e1a1549-75ca-49ff-9c52-fe1dfb11f2f1--46318626386.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/c2931a31-71f9-4812-a596-e18e285945d3",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/7l47chB5bmOBr7StlnxoAb"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6815954843"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1106420222"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/564083255"
+        }
+      ],
+      "terms": [
+        "chabad vibes 2 chill house niggunim",
+        "lavi klein meir bass"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/1e1a1549-75ca-49ff-9c52-fe1dfb11f2f1/46318626386-250.jpg"
+    },
+    {
       "mbid": "1a7d60db-52f4-4b7d-b35d-7e74166e3116",
       "title": "חברותא Live – סוכות",
       "artist_credit": "חברותא",
@@ -419291,6 +419501,63 @@
         "avrumi berko"
       ],
       "cover_caa": "https://coverartarchive.org/release/859e0200-6c23-4fc0-906f-8f14bb98b210/46304121614-250.jpg"
+    },
+    {
+      "mbid": "c8d67e6c-35bc-4a9a-a631-99219474e858",
+      "title": "Ein Kamocha",
+      "artist_credit": "Yosef Kugler",
+      "artist_mbids": [
+        "25ed6ab0-02e0-4be2-8e61-6f3b86280629"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "25ed6ab0-02e0-4be2-8e61-6f3b86280629",
+          "name": "Yosef Kugler",
+          "position": 0,
+          "credit_name": "Yosef Kugler",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Single",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 29,
+      "cover": "/covers/89bcb2be-2be8-4bda-b2a5-83b20068b27f--46315564757.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/c8d67e6c-35bc-4a9a-a631-99219474e858",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/6Ge2Dap6v63ezzYpmEHIuG"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6816313079"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1106958812"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/564388652"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ein-kamocha-yosef-kugler/z1tyd7kd40m85"
+        }
+      ],
+      "terms": [
+        "ein kamocha",
+        "yosef kugler"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/89bcb2be-2be8-4bda-b2a5-83b20068b27f/46315564757-250.jpg"
     },
     {
       "mbid": "0df0a2d4-8ad1-49f9-ae56-68b4a7275c80",
