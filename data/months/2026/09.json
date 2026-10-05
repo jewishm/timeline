@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 9,
   "stats": {
-    "release_groups": 111,
-    "with_cover_art": 111,
-    "with_action_links": 110,
+    "release_groups": 112,
+    "with_cover_art": 112,
+    "with_action_links": 111,
     "future_releases": 0,
     "types": {
-      "Album": 28,
+      "Album": 29,
       "EP": 8,
       "Single": 75
     },
     "services": {
-      "spotify": 106,
-      "tidal": 105,
-      "apple_music": 94,
-      "deezer": 77,
-      "qobuz": 34,
+      "spotify": 107,
+      "tidal": 106,
+      "apple_music": 95,
+      "deezer": 78,
+      "qobuz": 35,
       "24six": 9,
       "mostly_music": 1
     }
@@ -12263,6 +12263,229 @@
           "source": "release",
           "source_release_mbid": "d77bf679-6430-441c-9771-c47ff671da8b",
           "url": "https://tidal.com/album/562439786"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "b8dc72f0-1da9-4388-8ba7-272fa0c32f5f",
+      "title": "The Chuppah of Brianna & Uri Ostrin (live)",
+      "artist_credit": "Simcha Leiner & KolPlay Band",
+      "credited_artists": [
+        {
+          "mbid": "b54de85f-4443-4e10-814d-e907f180e9dd",
+          "name": "Simcha Leiner",
+          "position": 0,
+          "credit_name": "Simcha Leiner",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "2296e443-6224-4546-b26b-43f286aee4a3",
+          "name": "KolPlay Band",
+          "position": 1,
+          "credit_name": "KolPlay Band",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b54de85f-4443-4e10-814d-e907f180e9dd",
+          "name": "Simcha Leiner"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2026-09-17",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 17,
+      "release_count": 1,
+      "release_mbids": [
+        "34b98a87-8bfe-402d-a2e7-399ecf2afb7c"
+      ],
+      "cover_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+      "cover_art": {
+        "release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+        "image_id": 46363999784,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/34b98a87-8bfe-402d-a2e7-399ecf2afb7c/46363999784",
+        "thumbnails": {
+          "250": "/covers/34b98a87-8bfe-402d-a2e7-399ecf2afb7c--46363999784.webp",
+          "500": "/covers/34b98a87-8bfe-402d-a2e7-399ecf2afb7c--46363999784.webp",
+          "1200": "/covers/34b98a87-8bfe-402d-a2e7-399ecf2afb7c--46363999784.webp"
+        },
+        "cached": "/covers/34b98a87-8bfe-402d-a2e7-399ecf2afb7c--46363999784.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/b8dc72f0-1da9-4388-8ba7-272fa0c32f5f",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://music.apple.com/us/album/6818299012"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://music.apple.com/us/album/6818299012"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://open.spotify.com/album/66bqgfpPhQfzFUYjx21CGE"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://tidal.com/album/566350576"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://www.deezer.com/album/1111478102"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://www.qobuz.com/us-en/album/the-chuppah-of-brianna-uri-ostrin-uri-ostrin-simcha-leiner-and-kolplay-band/qihvxc3l29phq"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://www.qobuz.com/us-en/album/the-chuppah-of-brianna-uri-ostrin-uri-ostrin-simcha-leiner-and-kolplay-band/qihvxc3l29phq"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/66bqgfpPhQfzFUYjx21CGE"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6818299012"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1111478102"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/566350576"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/the-chuppah-of-brianna-uri-ostrin-uri-ostrin-simcha-leiner-and-kolplay-band/qihvxc3l29phq"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://open.spotify.com/album/66bqgfpPhQfzFUYjx21CGE"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://music.apple.com/us/album/6818299012"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://www.deezer.com/album/1111478102"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://tidal.com/album/566350576"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "34b98a87-8bfe-402d-a2e7-399ecf2afb7c",
+          "url": "https://www.qobuz.com/us-en/album/the-chuppah-of-brianna-uri-ostrin-uri-ostrin-simcha-leiner-and-kolplay-band/qihvxc3l29phq"
         }
       ],
       "references": [],

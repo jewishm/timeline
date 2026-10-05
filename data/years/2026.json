@@ -1,15 +1,15 @@
 {
   "year": 2026,
   "stats": {
-    "release_groups": 768,
-    "dated_release_groups": 768,
+    "release_groups": 772,
+    "dated_release_groups": 772,
     "year_only_release_groups": 0,
-    "artists": 425,
-    "months_with_releases": 9,
+    "artists": 427,
+    "months_with_releases": 10,
     "types": {
-      "Album": 215,
+      "Album": 217,
       "EP": 69,
-      "Single": 484
+      "Single": 486
     }
   },
   "months": [
@@ -775,9 +775,9 @@
     },
     {
       "month": 9,
-      "release_groups": 111,
+      "release_groups": 112,
       "types": {
-        "Album": 28,
+        "Album": 29,
         "EP": 8,
         "Single": 75
       },
@@ -870,9 +870,76 @@
     },
     {
       "month": 10,
-      "release_groups": 0,
-      "types": {},
-      "featured": []
+      "release_groups": 3,
+      "types": {
+        "Album": 1,
+        "Single": 2
+      },
+      "featured": [
+        {
+          "release_group_mbid": "2b45c3b8-08f8-4aeb-b14f-dc0115eed6c5",
+          "title": "רבי חיים זאנוויל בן ר’ משה",
+          "artist_credit": "Yoely Weiss",
+          "primary_type": "Single",
+          "day": 2,
+          "cover_art": {
+            "release_mbid": "6d371a12-dbb0-41e1-b85b-bb64bc625a5d",
+            "image_id": 46364055718,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/6d371a12-dbb0-41e1-b85b-bb64bc625a5d/46364055718",
+            "thumbnails": {
+              "250": "/covers/6d371a12-dbb0-41e1-b85b-bb64bc625a5d--46364055718.webp",
+              "500": "/covers/6d371a12-dbb0-41e1-b85b-bb64bc625a5d--46364055718.webp",
+              "1200": "/covers/6d371a12-dbb0-41e1-b85b-bb64bc625a5d--46364055718.webp"
+            },
+            "cached": "/covers/6d371a12-dbb0-41e1-b85b-bb64bc625a5d--46364055718.webp"
+          }
+        },
+        {
+          "release_group_mbid": "6d827ed7-b9d6-4f71-9ceb-8ef6068e2bb1",
+          "title": "Chemdas Halevavos",
+          "artist_credit": "Edan Pinchot",
+          "primary_type": "Single",
+          "day": 4,
+          "cover_art": {
+            "release_mbid": "86d9c969-7fba-4ee6-90de-d7230c6c8274",
+            "image_id": 46364123943,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/86d9c969-7fba-4ee6-90de-d7230c6c8274/46364123943",
+            "thumbnails": {
+              "250": "/covers/86d9c969-7fba-4ee6-90de-d7230c6c8274--46364123943.webp",
+              "500": "/covers/86d9c969-7fba-4ee6-90de-d7230c6c8274--46364123943.webp",
+              "1200": "/covers/86d9c969-7fba-4ee6-90de-d7230c6c8274--46364123943.webp"
+            },
+            "cached": "/covers/86d9c969-7fba-4ee6-90de-d7230c6c8274--46364123943.webp"
+          }
+        },
+        {
+          "release_group_mbid": "261baab0-29f7-483d-8f79-1d96cacc0624",
+          "title": "ניגוניך אבי",
+          "artist_credit": "יוני ולביא גנוט",
+          "primary_type": "Album",
+          "day": 4,
+          "cover_art": {
+            "release_mbid": "10a266cd-543b-44a5-b6ba-5bd8a94e4989",
+            "image_id": 46364041251,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/10a266cd-543b-44a5-b6ba-5bd8a94e4989/46364041251",
+            "thumbnails": {
+              "250": "/covers/10a266cd-543b-44a5-b6ba-5bd8a94e4989--46364041251.webp",
+              "500": "/covers/10a266cd-543b-44a5-b6ba-5bd8a94e4989--46364041251.webp",
+              "1200": "/covers/10a266cd-543b-44a5-b6ba-5bd8a94e4989--46364041251.webp"
+            },
+            "cached": "/covers/10a266cd-543b-44a5-b6ba-5bd8a94e4989--46364041251.webp"
+          }
+        }
+      ]
     },
     {
       "month": 11,
