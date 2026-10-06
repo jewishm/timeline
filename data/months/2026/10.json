@@ -2,20 +2,20 @@
   "year": 2026,
   "month": 10,
   "stats": {
-    "release_groups": 3,
-    "with_cover_art": 3,
-    "with_action_links": 3,
+    "release_groups": 5,
+    "with_cover_art": 5,
+    "with_action_links": 5,
     "future_releases": 0,
     "types": {
       "Album": 1,
-      "Single": 2
+      "Single": 4
     },
     "services": {
-      "spotify": 3,
-      "apple_music": 3,
-      "deezer": 3,
-      "tidal": 3,
-      "qobuz": 2
+      "spotify": 5,
+      "deezer": 5,
+      "tidal": 5,
+      "apple_music": 4,
+      "qobuz": 3
     }
   },
   "releases": [
@@ -623,6 +623,358 @@
           "source": "release",
           "source_release_mbid": "10a266cd-543b-44a5-b6ba-5bd8a94e4989",
           "url": "https://www.qobuz.com/us-en/album/-/nxd3pvkf119bo"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "5c98daf6-be11-40e1-905e-943a8d0e0870",
+      "title": "I'll Be There",
+      "artist_credit": "EZZI",
+      "credited_artists": [
+        {
+          "mbid": "9cd9d047-e47a-45b4-b70f-8c3f213be05b",
+          "name": "EZZI",
+          "position": 0,
+          "credit_name": "EZZI",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "9cd9d047-e47a-45b4-b70f-8c3f213be05b",
+          "name": "EZZI"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-10-05",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 5,
+      "release_count": 1,
+      "release_mbids": [
+        "2366677b-9844-4311-8ca2-dcb512aeef4d"
+      ],
+      "cover_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+      "cover_art": {
+        "release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+        "image_id": 46367487742,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/2366677b-9844-4311-8ca2-dcb512aeef4d/46367487742",
+        "thumbnails": {
+          "250": "/covers/2366677b-9844-4311-8ca2-dcb512aeef4d--46367487742.webp",
+          "500": "/covers/2366677b-9844-4311-8ca2-dcb512aeef4d--46367487742.webp",
+          "1200": "/covers/2366677b-9844-4311-8ca2-dcb512aeef4d--46367487742.webp"
+        },
+        "cached": "/covers/2366677b-9844-4311-8ca2-dcb512aeef4d--46367487742.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/5c98daf6-be11-40e1-905e-943a8d0e0870",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://music.apple.com/us/album/6815434352"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://music.apple.com/us/album/6815434352"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://open.spotify.com/album/5KSSIGqAxPgDPuHOEsLXZ7"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://tidal.com/album/563642584"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://www.deezer.com/album/1104153522"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://www.qobuz.com/us-en/album/ill-be-there-ezzi/rgf4l7d7w9xu1"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://www.qobuz.com/us-en/album/ill-be-there-ezzi/rgf4l7d7w9xu1"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5KSSIGqAxPgDPuHOEsLXZ7"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6815434352"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1104153522"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/563642584"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ill-be-there-ezzi/rgf4l7d7w9xu1"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://open.spotify.com/album/5KSSIGqAxPgDPuHOEsLXZ7"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://music.apple.com/us/album/6815434352"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://www.deezer.com/album/1104153522"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://tidal.com/album/563642584"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2366677b-9844-4311-8ca2-dcb512aeef4d",
+          "url": "https://www.qobuz.com/us-en/album/ill-be-there-ezzi/rgf4l7d7w9xu1"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "de6526d8-6264-4732-8771-2005d41fc849",
+      "title": "ועל חסדך הגדול",
+      "artist_credit": "עמיחי פלסר",
+      "credited_artists": [
+        {
+          "mbid": "f2b1c651-a4b5-48a8-80f9-a47ee54d91b6",
+          "name": "עמיחי פלסר",
+          "position": 0,
+          "credit_name": "עמיחי פלסר",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "f2b1c651-a4b5-48a8-80f9-a47ee54d91b6",
+          "name": "עמיחי פלסר"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-10-05",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 5,
+      "release_count": 1,
+      "release_mbids": [
+        "a702ee63-2105-4006-ae8c-33bdf999929e"
+      ],
+      "cover_release_mbid": "a702ee63-2105-4006-ae8c-33bdf999929e",
+      "cover_art": {
+        "release_mbid": "a702ee63-2105-4006-ae8c-33bdf999929e",
+        "image_id": 46367494467,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a702ee63-2105-4006-ae8c-33bdf999929e/46367494467",
+        "thumbnails": {
+          "250": "/covers/a702ee63-2105-4006-ae8c-33bdf999929e--46367494467.webp",
+          "500": "/covers/a702ee63-2105-4006-ae8c-33bdf999929e--46367494467.webp",
+          "1200": "/covers/a702ee63-2105-4006-ae8c-33bdf999929e--46367494467.webp"
+        },
+        "cached": "/covers/a702ee63-2105-4006-ae8c-33bdf999929e--46367494467.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/de6526d8-6264-4732-8771-2005d41fc849",
+      "links": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a702ee63-2105-4006-ae8c-33bdf999929e",
+          "url": "https://open.spotify.com/album/6a7VmeMUonyq7Z8YGMhxLA"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a702ee63-2105-4006-ae8c-33bdf999929e",
+          "url": "https://tidal.com/album/567244105"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a702ee63-2105-4006-ae8c-33bdf999929e",
+          "url": "https://www.deezer.com/album/1114017652"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6a7VmeMUonyq7Z8YGMhxLA"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1114017652"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/567244105"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a702ee63-2105-4006-ae8c-33bdf999929e",
+          "url": "https://open.spotify.com/album/6a7VmeMUonyq7Z8YGMhxLA"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a702ee63-2105-4006-ae8c-33bdf999929e",
+          "url": "https://www.deezer.com/album/1114017652"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a702ee63-2105-4006-ae8c-33bdf999929e",
+          "url": "https://tidal.com/album/567244105"
         }
       ],
       "references": [],

@@ -2,28 +2,28 @@
   "year": 2025,
   "month": 8,
   "stats": {
-    "release_groups": 123,
-    "with_cover_art": 123,
-    "with_action_links": 122,
+    "release_groups": 124,
+    "with_cover_art": 124,
+    "with_action_links": 123,
     "future_releases": 0,
     "types": {
       "Album": 36,
       "EP": 9,
-      "Single": 78
+      "Single": 79
     },
     "services": {
-      "spotify": 119,
-      "deezer": 119,
-      "tidal": 113,
-      "apple_music": 97,
-      "qobuz": 5,
+      "spotify": 120,
+      "deezer": 120,
+      "tidal": 114,
+      "apple_music": 98,
+      "qobuz": 6,
       "mostly_music": 3,
+      "24six": 2,
+      "youtube": 2,
       "beatport": 1,
       "youtube_music": 1,
       "amazon": 1,
-      "nigun_music": 1,
-      "24six": 1,
-      "youtube": 1
+      "nigun_music": 1
     }
   },
   "releases": [
@@ -16055,6 +16055,285 @@
           "source": "release",
           "source_release_mbid": "0ccccc2e-d0ea-4374-8ff9-b584b031354a",
           "url": "https://tidal.com/album/455379656"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "16b461a9-1f26-4717-bee0-29eaaf4ea8a1",
+      "title": "Achas",
+      "artist_credit": "Shalsheles & Yaakov Rosenblum",
+      "credited_artists": [
+        {
+          "mbid": "b3432b52-d48b-4c10-9146-22201d8c71a4",
+          "name": "Shalsheles",
+          "position": 0,
+          "credit_name": "Shalsheles",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "2e75eb74-3180-44f1-85de-970085e2072a",
+          "name": "Yaakov Rosenblum",
+          "position": 1,
+          "credit_name": "Yaakov Rosenblum",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b3432b52-d48b-4c10-9146-22201d8c71a4",
+          "name": "Shalsheles"
+        },
+        {
+          "mbid": "2e75eb74-3180-44f1-85de-970085e2072a",
+          "name": "Yaakov Rosenblum"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-08-24",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 8,
+      "day": 24,
+      "release_count": 1,
+      "release_mbids": [
+        "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb"
+      ],
+      "cover_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+      "cover_art": {
+        "release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+        "image_id": 46370262029,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb/46370262029",
+        "thumbnails": {
+          "250": "/covers/cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb--46370262029.webp",
+          "500": "/covers/cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb--46370262029.webp",
+          "1200": "/covers/cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb--46370262029.webp"
+        },
+        "cached": "/covers/cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb--46370262029.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/16b461a9-1f26-4717-bee0-29eaaf4ea8a1",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://24six.app/preview/music/collection/21671/achas"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://music.apple.com/gb/album/1835117617"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://music.apple.com/gb/album/1835117617"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://open.spotify.com/album/020g5voxDyzcHpnZrwJEOx"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://tidal.com/album/455597790"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://www.deezer.com/album/808784881"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://www.qobuz.com/gb-en/album/achas-shalsheles-amp-yaakov-rosenblum/fbbvfd59dphdc"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://www.qobuz.com/gb-en/album/achas-shalsheles-amp-yaakov-rosenblum/fbbvfd59dphdc"
+        },
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://www.youtube.com/watch?v=qZU5yxpqj0g"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/020g5voxDyzcHpnZrwJEOx"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1835117617"
+        },
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/21671/achas"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/808784881"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/455597790"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/gb-en/album/achas-shalsheles-amp-yaakov-rosenblum/fbbvfd59dphdc"
+        },
+        "youtube": {
+          "label": "YouTube",
+          "kind": "listen",
+          "url": "https://www.youtube.com/watch?v=qZU5yxpqj0g"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://open.spotify.com/album/020g5voxDyzcHpnZrwJEOx"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://music.apple.com/gb/album/1835117617"
+        },
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://24six.app/preview/music/collection/21671/achas"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://www.deezer.com/album/808784881"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://tidal.com/album/455597790"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://www.qobuz.com/gb-en/album/achas-shalsheles-amp-yaakov-rosenblum/fbbvfd59dphdc"
+        },
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "cfd3c6e2-f3e4-4f83-90d2-05c3774c6ceb",
+          "url": "https://www.youtube.com/watch?v=qZU5yxpqj0g"
         }
       ],
       "references": [],
