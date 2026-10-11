@@ -2,20 +2,20 @@
   "year": 2026,
   "month": 10,
   "stats": {
-    "release_groups": 11,
-    "with_cover_art": 11,
-    "with_action_links": 11,
+    "release_groups": 14,
+    "with_cover_art": 14,
+    "with_action_links": 14,
     "future_releases": 0,
     "types": {
       "Album": 2,
-      "Single": 9
+      "Single": 12
     },
     "services": {
-      "spotify": 11,
-      "deezer": 11,
-      "tidal": 11,
-      "apple_music": 7,
-      "qobuz": 3,
+      "spotify": 14,
+      "deezer": 14,
+      "tidal": 14,
+      "apple_music": 10,
+      "qobuz": 4,
       "youtube_music": 1,
       "amazon": 1
     }
@@ -2064,6 +2064,572 @@
           "source": "release",
           "source_release_mbid": "b8546652-09ff-49c9-9211-da41a7fe6d70",
           "url": "https://music.amazon.com/albums/B0HMC4RQ74"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "5e29c54a-57a2-478b-822e-2c5f695b3fa3",
+      "title": "ברודער",
+      "artist_credit": "Shia Scharf",
+      "credited_artists": [
+        {
+          "mbid": "cee26d85-9456-45b6-a3dd-b61b9747588f",
+          "name": "Shia Scharf",
+          "position": 0,
+          "credit_name": "Shia Scharf",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "cee26d85-9456-45b6-a3dd-b61b9747588f",
+          "name": "Shia Scharf"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-10-08",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 8,
+      "release_count": 1,
+      "release_mbids": [
+        "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99"
+      ],
+      "cover_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+      "cover_art": {
+        "release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+        "image_id": 46415884410,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99/46415884410",
+        "thumbnails": {
+          "250": "/covers/8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99--46415884410.webp",
+          "500": "/covers/8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99--46415884410.webp",
+          "1200": "/covers/8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99--46415884410.webp"
+        },
+        "cached": "/covers/8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99--46415884410.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/5e29c54a-57a2-478b-822e-2c5f695b3fa3",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://music.apple.com/us/album/6820772684"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://music.apple.com/us/album/6820772684"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://open.spotify.com/album/4jaTGEe4ztYJkalzyAhTuK"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://tidal.com/album/568178872"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://www.deezer.com/album/1116623752"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4jaTGEe4ztYJkalzyAhTuK"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6820772684"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1116623752"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/568178872"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://open.spotify.com/album/4jaTGEe4ztYJkalzyAhTuK"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://music.apple.com/us/album/6820772684"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://www.deezer.com/album/1116623752"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c20eb33-7d8d-4d89-92b4-7dd3dafa6f99",
+          "url": "https://tidal.com/album/568178872"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "10ab8e1f-fd7a-4a7b-b224-0b83fed2926e",
+      "title": "The Alter Rebbes Tetrology",
+      "artist_credit": "Mendel Markel",
+      "credited_artists": [
+        {
+          "mbid": "0d7823b4-58df-4949-9a56-1fb235fd652d",
+          "name": "Mendel Markel",
+          "position": 0,
+          "credit_name": "Mendel Markel",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "0d7823b4-58df-4949-9a56-1fb235fd652d",
+          "name": "Mendel Markel"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-10-09",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 9,
+      "release_count": 1,
+      "release_mbids": [
+        "dd6554f4-41b1-4849-a9da-e6acba579b4e"
+      ],
+      "cover_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+      "cover_art": {
+        "release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+        "image_id": 46415927187,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/dd6554f4-41b1-4849-a9da-e6acba579b4e/46415927187",
+        "thumbnails": {
+          "250": "/covers/dd6554f4-41b1-4849-a9da-e6acba579b4e--46415927187.webp",
+          "500": "/covers/dd6554f4-41b1-4849-a9da-e6acba579b4e--46415927187.webp",
+          "1200": "/covers/dd6554f4-41b1-4849-a9da-e6acba579b4e--46415927187.webp"
+        },
+        "cached": "/covers/dd6554f4-41b1-4849-a9da-e6acba579b4e--46415927187.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/10ab8e1f-fd7a-4a7b-b224-0b83fed2926e",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://music.apple.com/us/album/6821360748"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://music.apple.com/us/album/6821360748"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://open.spotify.com/album/4S14zdKiTjECwipFGbwYjM"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://tidal.com/album/568672733"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://www.deezer.com/album/1118043602"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4S14zdKiTjECwipFGbwYjM"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6821360748"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1118043602"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/568672733"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://open.spotify.com/album/4S14zdKiTjECwipFGbwYjM"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://music.apple.com/us/album/6821360748"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://www.deezer.com/album/1118043602"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "dd6554f4-41b1-4849-a9da-e6acba579b4e",
+          "url": "https://tidal.com/album/568672733"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "eceff602-2a87-4a7f-a683-612fbcd9ae33",
+      "title": "Just Trust",
+      "artist_credit": "Simcha Jacoby",
+      "credited_artists": [
+        {
+          "mbid": "26eba5ab-56a0-467a-9ad4-575813b206c5",
+          "name": "Simcha Jacoby",
+          "position": 0,
+          "credit_name": "Simcha Jacoby",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "26eba5ab-56a0-467a-9ad4-575813b206c5",
+          "name": "Simcha Jacoby"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-10-10",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 10,
+      "release_count": 1,
+      "release_mbids": [
+        "23695609-4d6d-4b54-9f9d-b862e3262600"
+      ],
+      "cover_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+      "cover_art": {
+        "release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+        "image_id": 46415936154,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/23695609-4d6d-4b54-9f9d-b862e3262600/46415936154",
+        "thumbnails": {
+          "250": "/covers/23695609-4d6d-4b54-9f9d-b862e3262600--46415936154.webp",
+          "500": "/covers/23695609-4d6d-4b54-9f9d-b862e3262600--46415936154.webp",
+          "1200": "/covers/23695609-4d6d-4b54-9f9d-b862e3262600--46415936154.webp"
+        },
+        "cached": "/covers/23695609-4d6d-4b54-9f9d-b862e3262600--46415936154.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/eceff602-2a87-4a7f-a683-612fbcd9ae33",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://music.apple.com/us/album/6817648917"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://music.apple.com/us/album/6817648917"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://open.spotify.com/album/6Ag3h9Q7zYfgu5kyzxN9Ir"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://tidal.com/album/565713503"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://www.deezer.com/album/1109957182"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://www.qobuz.com/us-en/album/just-trust-simcha-jacoby/cqmk8fvo1xrdu"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://www.qobuz.com/us-en/album/just-trust-simcha-jacoby/cqmk8fvo1xrdu"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6Ag3h9Q7zYfgu5kyzxN9Ir"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6817648917"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1109957182"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/565713503"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/just-trust-simcha-jacoby/cqmk8fvo1xrdu"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://open.spotify.com/album/6Ag3h9Q7zYfgu5kyzxN9Ir"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://music.apple.com/us/album/6817648917"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://www.deezer.com/album/1109957182"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://tidal.com/album/565713503"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "23695609-4d6d-4b54-9f9d-b862e3262600",
+          "url": "https://www.qobuz.com/us-en/album/just-trust-simcha-jacoby/cqmk8fvo1xrdu"
         }
       ],
       "references": [],
