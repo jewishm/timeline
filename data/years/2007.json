@@ -2,8 +2,8 @@
   "year": 2007,
   "stats": {
     "release_groups": 70,
-    "dated_release_groups": 42,
-    "year_only_release_groups": 28,
+    "dated_release_groups": 43,
+    "year_only_release_groups": 27,
     "artists": 71,
     "months_with_releases": 9,
     "types": {
@@ -559,9 +559,9 @@
     },
     {
       "month": 11,
-      "release_groups": 2,
+      "release_groups": 3,
       "types": {
-        "Album": 2
+        "Album": 3
       },
       "featured": [
         {
@@ -604,6 +604,27 @@
               "1200": "/covers/4bd2e84f-d19f-4c00-9bb9-da00f77ebd35--37851013818.webp"
             },
             "cached": "/covers/4bd2e84f-d19f-4c00-9bb9-da00f77ebd35--37851013818.webp"
+          }
+        },
+        {
+          "release_group_mbid": "de434bb1-19f2-4ff6-9d9a-a7841cf5b739",
+          "title": "Bein Hatipot",
+          "artist_credit": "גד אלבז",
+          "primary_type": "Album",
+          "day": null,
+          "cover_art": {
+            "release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
+            "image_id": 36786441954,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/0abbcff4-9324-45e8-92b6-d1cdd6577cf9/36786441954",
+            "thumbnails": {
+              "250": "/covers/0abbcff4-9324-45e8-92b6-d1cdd6577cf9--36786441954.webp",
+              "500": "/covers/0abbcff4-9324-45e8-92b6-d1cdd6577cf9--36786441954.webp",
+              "1200": "/covers/0abbcff4-9324-45e8-92b6-d1cdd6577cf9--36786441954.webp"
+            },
+            "cached": "/covers/0abbcff4-9324-45e8-92b6-d1cdd6577cf9--36786441954.webp"
           }
         }
       ]
@@ -3480,168 +3501,6 @@
           "source": "release",
           "source_release_mbid": "730b51f5-efa6-4a17-9b24-44d53034e589",
           "url": "https://www.discogs.com/release/13824645"
-        }
-      ],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "de434bb1-19f2-4ff6-9d9a-a7841cf5b739",
-      "title": "Bein Hatipot",
-      "artist_credit": "גד אלבז",
-      "credited_artists": [
-        {
-          "mbid": "4669ea30-ee23-4f52-bd57-8510fb367439",
-          "name": "גד אלבז",
-          "position": 0,
-          "credit_name": "גד אלבז",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "4669ea30-ee23-4f52-bd57-8510fb367439",
-          "name": "גד אלבז"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2007",
-      "date_precision": "year",
-      "year": 2007,
-      "month": null,
-      "day": null,
-      "release_count": 2,
-      "release_mbids": [
-        "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-        "d696d522-2f7a-477e-91e9-815b77679649"
-      ],
-      "cover_release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-      "cover_art": {
-        "release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-        "image_id": 36786441954,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/0abbcff4-9324-45e8-92b6-d1cdd6577cf9/36786441954",
-        "thumbnails": {
-          "250": "/covers/0abbcff4-9324-45e8-92b6-d1cdd6577cf9--36786441954.webp",
-          "500": "/covers/0abbcff4-9324-45e8-92b6-d1cdd6577cf9--36786441954.webp",
-          "1200": "/covers/0abbcff4-9324-45e8-92b6-d1cdd6577cf9--36786441954.webp"
-        },
-        "cached": "/covers/0abbcff4-9324-45e8-92b6-d1cdd6577cf9--36786441954.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/de434bb1-19f2-4ff6-9d9a-a7841cf5b739",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-          "url": "https://music.apple.com/gb/album/993789857"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-          "url": "https://open.spotify.com/album/3AeEykRkOUGH9hUYYvqByg"
-        },
-        {
-          "site_key": "allmusic",
-          "site_label": "AllMusic",
-          "domain": "allmusic.com",
-          "relationship": "allmusic",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.allmusic.com/album/mw0001647302"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-          "url": "https://www.deezer.com/album/10281166"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/3AeEykRkOUGH9hUYYvqByg"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/993789857"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/10281166"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-          "url": "https://open.spotify.com/album/3AeEykRkOUGH9hUYYvqByg"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-          "url": "https://music.apple.com/gb/album/993789857"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0abbcff4-9324-45e8-92b6-d1cdd6577cf9",
-          "url": "https://www.deezer.com/album/10281166"
-        }
-      ],
-      "references": [
-        {
-          "site_key": "allmusic",
-          "site_label": "AllMusic",
-          "domain": "allmusic.com",
-          "relationship": "allmusic",
-          "action": false,
-          "action_kind": null,
-          "source": "release-group",
-          "source_release_mbid": null,
-          "url": "https://www.allmusic.com/album/mw0001647302"
         }
       ],
       "has_action_links": true,

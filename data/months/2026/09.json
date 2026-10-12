@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 9,
   "stats": {
-    "release_groups": 114,
-    "with_cover_art": 114,
-    "with_action_links": 113,
+    "release_groups": 115,
+    "with_cover_art": 115,
+    "with_action_links": 114,
     "future_releases": 0,
     "types": {
       "Album": 31,
       "EP": 8,
-      "Single": 75
+      "Single": 76
     },
     "services": {
-      "spotify": 109,
-      "tidal": 107,
-      "apple_music": 97,
-      "deezer": 79,
-      "qobuz": 36,
+      "spotify": 110,
+      "tidal": 108,
+      "apple_music": 98,
+      "deezer": 80,
+      "qobuz": 37,
       "24six": 9,
       "mostly_music": 1
     }
@@ -2084,6 +2084,220 @@
           "source": "release",
           "source_release_mbid": "4220d2e0-03ec-4f1f-a6c7-d96b2ca6624e",
           "url": "https://www.qobuz.com/us-en/album/gentle-yomim-noraim-lullabies-suki-berry/hny7ykm8tvbp9"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "46b1d785-e2a8-4305-9c4d-357a437e7905",
+      "title": "New Sunrise",
+      "artist_credit": "Zev Meth",
+      "credited_artists": [
+        {
+          "mbid": "7d4f52e6-4b59-402d-bb37-0eca14c773b1",
+          "name": "Zev Meth",
+          "position": 0,
+          "credit_name": "Zev Meth",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "7d4f52e6-4b59-402d-bb37-0eca14c773b1",
+          "name": "Zev Meth"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-09-02",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 2,
+      "release_count": 1,
+      "release_mbids": [
+        "8c27f904-7238-44dc-984a-429b212b7e3c"
+      ],
+      "cover_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+      "cover_art": {
+        "release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+        "image_id": 46420173247,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/8c27f904-7238-44dc-984a-429b212b7e3c/46420173247",
+        "thumbnails": {
+          "250": "/covers/8c27f904-7238-44dc-984a-429b212b7e3c--46420173247.webp",
+          "500": "/covers/8c27f904-7238-44dc-984a-429b212b7e3c--46420173247.webp",
+          "1200": "/covers/8c27f904-7238-44dc-984a-429b212b7e3c--46420173247.webp"
+        },
+        "cached": "/covers/8c27f904-7238-44dc-984a-429b212b7e3c--46420173247.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/46b1d785-e2a8-4305-9c4d-357a437e7905",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://music.apple.com/us/album/6820193633"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://music.apple.com/us/album/6820193633"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://open.spotify.com/album/5E2JmfG4XBF2fg8Gn4GOnu"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://tidal.com/album/567930014"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://www.deezer.com/album/1116148622"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://www.qobuz.com/us-en/album/new-sunrise-zev-meth/lov7i1exh63v0"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://www.qobuz.com/us-en/album/new-sunrise-zev-meth/lov7i1exh63v0"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5E2JmfG4XBF2fg8Gn4GOnu"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6820193633"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1116148622"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/567930014"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/new-sunrise-zev-meth/lov7i1exh63v0"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://open.spotify.com/album/5E2JmfG4XBF2fg8Gn4GOnu"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://music.apple.com/us/album/6820193633"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://www.deezer.com/album/1116148622"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://tidal.com/album/567930014"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8c27f904-7238-44dc-984a-429b212b7e3c",
+          "url": "https://www.qobuz.com/us-en/album/new-sunrise-zev-meth/lov7i1exh63v0"
         }
       ],
       "references": [],

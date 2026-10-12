@@ -2,21 +2,21 @@
   "year": 2025,
   "month": 12,
   "stats": {
-    "release_groups": 107,
-    "with_cover_art": 107,
-    "with_action_links": 107,
+    "release_groups": 108,
+    "with_cover_art": 108,
+    "with_action_links": 108,
     "future_releases": 0,
     "types": {
       "Album": 28,
       "EP": 5,
-      "Single": 74
+      "Single": 75
     },
     "services": {
-      "deezer": 107,
-      "tidal": 107,
-      "spotify": 106,
-      "apple_music": 97,
-      "qobuz": 8,
+      "deezer": 108,
+      "tidal": 108,
+      "spotify": 107,
+      "apple_music": 98,
+      "qobuz": 9,
       "anghami": 1,
       "24six": 1,
       "other": 1
@@ -8674,6 +8674,220 @@
           "source": "release",
           "source_release_mbid": "350d3317-f44d-427b-b87a-f340439cfac1",
           "url": "https://tidal.com/album/481556566"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "7eff79c3-56a5-4854-a828-9c0dab8ad825",
+      "title": "Never Let You Go",
+      "artist_credit": "Zev Meth",
+      "credited_artists": [
+        {
+          "mbid": "7d4f52e6-4b59-402d-bb37-0eca14c773b1",
+          "name": "Zev Meth",
+          "position": 0,
+          "credit_name": "Zev Meth",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "7d4f52e6-4b59-402d-bb37-0eca14c773b1",
+          "name": "Zev Meth"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-12-14",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 12,
+      "day": 14,
+      "release_count": 1,
+      "release_mbids": [
+        "ef857abb-a58a-4133-84ac-47bea6854e76"
+      ],
+      "cover_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+      "cover_art": {
+        "release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+        "image_id": 46420206501,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/ef857abb-a58a-4133-84ac-47bea6854e76/46420206501",
+        "thumbnails": {
+          "250": "/covers/ef857abb-a58a-4133-84ac-47bea6854e76--46420206501.webp",
+          "500": "/covers/ef857abb-a58a-4133-84ac-47bea6854e76--46420206501.webp",
+          "1200": "/covers/ef857abb-a58a-4133-84ac-47bea6854e76--46420206501.webp"
+        },
+        "cached": "/covers/ef857abb-a58a-4133-84ac-47bea6854e76--46420206501.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/7eff79c3-56a5-4854-a828-9c0dab8ad825",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://music.apple.com/us/album/1863393140"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://music.apple.com/us/album/1863393140"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://open.spotify.com/album/361KIVMeACQ94C1zwVpF4p"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://tidal.com/album/484400045"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://www.deezer.com/album/882831962"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://www.qobuz.com/us-en/album/never-let-you-go-zev-meth/s9xmhw6zvtzhs"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://www.qobuz.com/us-en/album/never-let-you-go-zev-meth/s9xmhw6zvtzhs"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/361KIVMeACQ94C1zwVpF4p"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1863393140"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/882831962"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/484400045"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/never-let-you-go-zev-meth/s9xmhw6zvtzhs"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://open.spotify.com/album/361KIVMeACQ94C1zwVpF4p"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://music.apple.com/us/album/1863393140"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://www.deezer.com/album/882831962"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://tidal.com/album/484400045"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ef857abb-a58a-4133-84ac-47bea6854e76",
+          "url": "https://www.qobuz.com/us-en/album/never-let-you-go-zev-meth/s9xmhw6zvtzhs"
         }
       ],
       "references": [],

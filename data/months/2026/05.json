@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 5,
   "stats": {
-    "release_groups": 84,
-    "with_cover_art": 83,
-    "with_action_links": 84,
+    "release_groups": 87,
+    "with_cover_art": 86,
+    "with_action_links": 87,
     "future_releases": 0,
     "types": {
       "Album": 25,
       "EP": 7,
-      "Single": 52
+      "Single": 55
     },
     "services": {
-      "spotify": 84,
-      "deezer": 83,
-      "tidal": 82,
-      "apple_music": 67,
-      "qobuz": 25,
+      "spotify": 87,
+      "deezer": 86,
+      "tidal": 85,
+      "apple_music": 70,
+      "qobuz": 28,
       "24six": 1
     }
   },
@@ -696,6 +696,231 @@
           "source": "release",
           "source_release_mbid": "8c240ee8-33b0-4087-add2-2c9e40cb1b5b",
           "url": "https://tidal.com/album/508631083"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "b24a13be-ae55-4ff3-9899-410deedc5349",
+      "title": "Ahavas Yisroel",
+      "artist_credit": "Mendy Worch & Yossi Green",
+      "credited_artists": [
+        {
+          "mbid": "ea24bc13-995d-400d-a004-2008e6f13d25",
+          "name": "Mendy Worch",
+          "position": 0,
+          "credit_name": "Mendy Worch",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "212fa907-2e60-444e-a09e-64ea86af5f13",
+          "name": "Yossi Green",
+          "position": 1,
+          "credit_name": "Yossi Green",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "ea24bc13-995d-400d-a004-2008e6f13d25",
+          "name": "Mendy Worch"
+        },
+        {
+          "mbid": "212fa907-2e60-444e-a09e-64ea86af5f13",
+          "name": "Yossi Green"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-05-04",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 5,
+      "day": 4,
+      "release_count": 1,
+      "release_mbids": [
+        "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c"
+      ],
+      "cover_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+      "cover_art": {
+        "release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+        "image_id": 46422194920,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c/46422194920",
+        "thumbnails": {
+          "250": "/covers/5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c--46422194920.webp",
+          "500": "/covers/5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c--46422194920.webp",
+          "1200": "/covers/5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c--46422194920.webp"
+        },
+        "cached": "/covers/5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c--46422194920.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/b24a13be-ae55-4ff3-9899-410deedc5349",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://music.apple.com/us/album/6764868797"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://music.apple.com/us/album/6764868797"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://open.spotify.com/album/6GS0JXBLBf9BC9v2yeVSHE"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://tidal.com/album/520415342"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://www.deezer.com/album/973047471"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://www.qobuz.com/us-en/album/ahavas-yisroel-thank-you-hashem-amp-mendy-worch-amp-yossi-green/dgtrn40osb51p"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://www.qobuz.com/us-en/album/ahavas-yisroel-thank-you-hashem-amp-mendy-worch-amp-yossi-green/dgtrn40osb51p"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6GS0JXBLBf9BC9v2yeVSHE"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6764868797"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/973047471"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/520415342"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ahavas-yisroel-thank-you-hashem-amp-mendy-worch-amp-yossi-green/dgtrn40osb51p"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://open.spotify.com/album/6GS0JXBLBf9BC9v2yeVSHE"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://music.apple.com/us/album/6764868797"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://www.deezer.com/album/973047471"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://tidal.com/album/520415342"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5df8ff4e-fde1-44b2-8c19-5c81a7f20c3c",
+          "url": "https://www.qobuz.com/us-en/album/ahavas-yisroel-thank-you-hashem-amp-mendy-worch-amp-yossi-green/dgtrn40osb51p"
         }
       ],
       "references": [],
@@ -3656,6 +3881,231 @@
           "source": "release",
           "source_release_mbid": "6fc59de5-d42f-4987-885f-3f400c06d348",
           "url": "https://tidal.com/album/520917126"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "ac24ac83-eae5-4ab2-a37d-ffedaf1c28f0",
+      "title": "The Rashbi Bar Mitzva",
+      "artist_credit": "Yossi Green Presents Moshe Weintraub",
+      "credited_artists": [
+        {
+          "mbid": "212fa907-2e60-444e-a09e-64ea86af5f13",
+          "name": "Yossi Green",
+          "position": 0,
+          "credit_name": "Yossi Green",
+          "join_phrase": " Presents "
+        },
+        {
+          "mbid": "1cb88fc6-b35c-4b68-b376-cecff74b9676",
+          "name": "Moshe Zvi Weintraub",
+          "position": 1,
+          "credit_name": "Moshe Weintraub",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "1cb88fc6-b35c-4b68-b376-cecff74b9676",
+          "name": "Moshe Zvi Weintraub"
+        },
+        {
+          "mbid": "212fa907-2e60-444e-a09e-64ea86af5f13",
+          "name": "Yossi Green"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-05-11",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 5,
+      "day": 11,
+      "release_count": 1,
+      "release_mbids": [
+        "a05792ae-b223-4f58-921c-612b1fdf9217"
+      ],
+      "cover_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+      "cover_art": {
+        "release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+        "image_id": 46422180514,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a05792ae-b223-4f58-921c-612b1fdf9217/46422180514",
+        "thumbnails": {
+          "250": "/covers/a05792ae-b223-4f58-921c-612b1fdf9217--46422180514.webp",
+          "500": "/covers/a05792ae-b223-4f58-921c-612b1fdf9217--46422180514.webp",
+          "1200": "/covers/a05792ae-b223-4f58-921c-612b1fdf9217--46422180514.webp"
+        },
+        "cached": "/covers/a05792ae-b223-4f58-921c-612b1fdf9217--46422180514.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ac24ac83-eae5-4ab2-a37d-ffedaf1c28f0",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://music.apple.com/us/album/6770448343"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://music.apple.com/us/album/6770448343"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://open.spotify.com/album/73C1BtjkCOcPmd7FCIesRP"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://tidal.com/album/524533016"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://www.deezer.com/album/982336771"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://www.qobuz.com/us-en/album/the-rashbi-bar-mitzva-feat-moshe-weintraub-yossi-green/honneajk0dlk4"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://www.qobuz.com/us-en/album/the-rashbi-bar-mitzva-feat-moshe-weintraub-yossi-green/honneajk0dlk4"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/73C1BtjkCOcPmd7FCIesRP"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6770448343"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/982336771"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/524533016"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/the-rashbi-bar-mitzva-feat-moshe-weintraub-yossi-green/honneajk0dlk4"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://open.spotify.com/album/73C1BtjkCOcPmd7FCIesRP"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://music.apple.com/us/album/6770448343"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://www.deezer.com/album/982336771"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://tidal.com/album/524533016"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a05792ae-b223-4f58-921c-612b1fdf9217",
+          "url": "https://www.qobuz.com/us-en/album/the-rashbi-bar-mitzva-feat-moshe-weintraub-yossi-green/honneajk0dlk4"
         }
       ],
       "references": [],
@@ -8233,6 +8683,231 @@
           "source": "release",
           "source_release_mbid": "042a7ab4-ff2e-4a58-a4ca-211abaf54c1c",
           "url": "https://tidal.com/album/526524557"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "4d0be0fc-4507-42a4-91cb-565458c94000",
+      "title": "Atoh Vechartonu",
+      "artist_credit": "Yossi Green & Yiddish Nachas",
+      "credited_artists": [
+        {
+          "mbid": "212fa907-2e60-444e-a09e-64ea86af5f13",
+          "name": "Yossi Green",
+          "position": 0,
+          "credit_name": "Yossi Green",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "43cf25c7-f1ff-4467-8441-a65cb77db40d",
+          "name": "Yiddish Nachas",
+          "position": 1,
+          "credit_name": "Yiddish Nachas",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "43cf25c7-f1ff-4467-8441-a65cb77db40d",
+          "name": "Yiddish Nachas"
+        },
+        {
+          "mbid": "212fa907-2e60-444e-a09e-64ea86af5f13",
+          "name": "Yossi Green"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-05-20",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 5,
+      "day": 20,
+      "release_count": 1,
+      "release_mbids": [
+        "72ce32f9-e964-4abc-acee-b8736bf60ae6"
+      ],
+      "cover_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+      "cover_art": {
+        "release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+        "image_id": 46422164332,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/72ce32f9-e964-4abc-acee-b8736bf60ae6/46422164332",
+        "thumbnails": {
+          "250": "/covers/72ce32f9-e964-4abc-acee-b8736bf60ae6--46422164332.webp",
+          "500": "/covers/72ce32f9-e964-4abc-acee-b8736bf60ae6--46422164332.webp",
+          "1200": "/covers/72ce32f9-e964-4abc-acee-b8736bf60ae6--46422164332.webp"
+        },
+        "cached": "/covers/72ce32f9-e964-4abc-acee-b8736bf60ae6--46422164332.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4d0be0fc-4507-42a4-91cb-565458c94000",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://music.apple.com/us/album/6772374272"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://music.apple.com/us/album/6772374272"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://open.spotify.com/album/5Nu63qZviowyecmt7gPZiT"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://tidal.com/album/527345657"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://www.deezer.com/album/989336301"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://www.qobuz.com/us-en/album/atoh-vechartonu-yossi-green-amp-yiddish-nachas/gdotyouqo8rkg"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://www.qobuz.com/us-en/album/atoh-vechartonu-yossi-green-amp-yiddish-nachas/gdotyouqo8rkg"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5Nu63qZviowyecmt7gPZiT"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6772374272"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/989336301"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/527345657"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/atoh-vechartonu-yossi-green-amp-yiddish-nachas/gdotyouqo8rkg"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://open.spotify.com/album/5Nu63qZviowyecmt7gPZiT"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://music.apple.com/us/album/6772374272"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://www.deezer.com/album/989336301"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://tidal.com/album/527345657"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "72ce32f9-e964-4abc-acee-b8736bf60ae6",
+          "url": "https://www.qobuz.com/us-en/album/atoh-vechartonu-yossi-green-amp-yiddish-nachas/gdotyouqo8rkg"
         }
       ],
       "references": [],
