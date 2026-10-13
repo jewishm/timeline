@@ -2,19 +2,19 @@
   "year": 2025,
   "month": 1,
   "stats": {
-    "release_groups": 88,
-    "with_cover_art": 87,
-    "with_action_links": 88,
+    "release_groups": 89,
+    "with_cover_art": 88,
+    "with_action_links": 89,
     "future_releases": 0,
     "types": {
       "Album": 19,
       "EP": 8,
-      "Single": 61
+      "Single": 62
     },
     "services": {
-      "spotify": 87,
+      "spotify": 88,
       "deezer": 86,
-      "apple_music": 83,
+      "apple_music": 84,
       "tidal": 69,
       "qobuz": 5,
       "youtube": 1,
@@ -8914,6 +8914,128 @@
       "is_future": false
     },
     {
+      "release_group_mbid": "31614f40-75fc-4ffe-bdcf-1f003320a130",
+      "title": "מזמור לתודה",
+      "artist_credit": "DANIIEL",
+      "credited_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL",
+          "position": 0,
+          "credit_name": "DANIIEL",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-01-19",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 1,
+      "day": 19,
+      "release_count": 1,
+      "release_mbids": [
+        "3654dc9c-f414-4658-a3bc-49d69bc89dae"
+      ],
+      "cover_release_mbid": "3654dc9c-f414-4658-a3bc-49d69bc89dae",
+      "cover_art": {
+        "release_mbid": "3654dc9c-f414-4658-a3bc-49d69bc89dae",
+        "image_id": 41106032235,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/3654dc9c-f414-4658-a3bc-49d69bc89dae/41106032235",
+        "thumbnails": {
+          "250": "/covers/3654dc9c-f414-4658-a3bc-49d69bc89dae--41106032235.webp",
+          "500": "/covers/3654dc9c-f414-4658-a3bc-49d69bc89dae--41106032235.webp",
+          "1200": "/covers/3654dc9c-f414-4658-a3bc-49d69bc89dae--41106032235.webp"
+        },
+        "cached": "/covers/3654dc9c-f414-4658-a3bc-49d69bc89dae--41106032235.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/31614f40-75fc-4ffe-bdcf-1f003320a130",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "3654dc9c-f414-4658-a3bc-49d69bc89dae",
+          "url": "https://music.apple.com/us/album/1791335464"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3654dc9c-f414-4658-a3bc-49d69bc89dae",
+          "url": "https://music.apple.com/us/album/1791335464"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3654dc9c-f414-4658-a3bc-49d69bc89dae",
+          "url": "https://open.spotify.com/album/1mVRYD9y1VOIir0pYn9a87"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1mVRYD9y1VOIir0pYn9a87"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1791335464"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3654dc9c-f414-4658-a3bc-49d69bc89dae",
+          "url": "https://open.spotify.com/album/1mVRYD9y1VOIir0pYn9a87"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "3654dc9c-f414-4658-a3bc-49d69bc89dae",
+          "url": "https://music.apple.com/us/album/1791335464"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
       "release_group_mbid": "4fbb8e7e-98e3-4161-9860-4f2fc586f954",
       "title": "TYH Live Session with Mendy Worth",
       "artist_credit": "Mendy Worch",
@@ -15215,7 +15337,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "cf9c96f5-1974-4501-aa3a-2a487beec5e0",
+          "source_release_mbid": "9a8d8678-71e7-415d-84c9-3877727089cc",
           "url": "https://music.apple.com/us/album/1794060233"
         },
         {
@@ -15226,7 +15348,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "cf9c96f5-1974-4501-aa3a-2a487beec5e0",
+          "source_release_mbid": "9a8d8678-71e7-415d-84c9-3877727089cc",
           "url": "https://open.spotify.com/album/3wNPoJ7tDf4TrRf1dFL1XW"
         },
         {
@@ -15237,7 +15359,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "cf9c96f5-1974-4501-aa3a-2a487beec5e0",
+          "source_release_mbid": "9a8d8678-71e7-415d-84c9-3877727089cc",
           "url": "https://www.deezer.com/album/706241191"
         }
       ],
@@ -15267,7 +15389,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "cf9c96f5-1974-4501-aa3a-2a487beec5e0",
+          "source_release_mbid": "9a8d8678-71e7-415d-84c9-3877727089cc",
           "url": "https://open.spotify.com/album/3wNPoJ7tDf4TrRf1dFL1XW"
         },
         {
@@ -15278,7 +15400,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "cf9c96f5-1974-4501-aa3a-2a487beec5e0",
+          "source_release_mbid": "9a8d8678-71e7-415d-84c9-3877727089cc",
           "url": "https://music.apple.com/us/album/1794060233"
         },
         {
@@ -15289,7 +15411,7 @@
           "action": true,
           "action_kind": "listen",
           "source": "release",
-          "source_release_mbid": "cf9c96f5-1974-4501-aa3a-2a487beec5e0",
+          "source_release_mbid": "9a8d8678-71e7-415d-84c9-3877727089cc",
           "url": "https://www.deezer.com/album/706241191"
         }
       ],

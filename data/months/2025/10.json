@@ -2,26 +2,253 @@
   "year": 2025,
   "month": 10,
   "stats": {
-    "release_groups": 70,
-    "with_cover_art": 70,
-    "with_action_links": 69,
+    "release_groups": 71,
+    "with_cover_art": 71,
+    "with_action_links": 70,
     "future_releases": 0,
     "types": {
       "Album": 10,
       "EP": 11,
-      "Single": 49
+      "Single": 50
     },
     "services": {
-      "spotify": 69,
-      "tidal": 67,
-      "deezer": 66,
-      "apple_music": 40,
-      "qobuz": 3,
+      "spotify": 70,
+      "tidal": 68,
+      "deezer": 67,
+      "apple_music": 41,
+      "qobuz": 4,
       "amazon": 2,
       "youtube_music": 1
     }
   },
   "releases": [
+    {
+      "release_group_mbid": "9a192d75-a038-4259-8cbe-12b44f14111f",
+      "title": "Anovim (Live at King David's crown)",
+      "artist_credit": "Eli Schwebel & Gad Elbaz",
+      "credited_artists": [
+        {
+          "mbid": "73efb7b1-9e53-41c7-b46f-1d7a5788ac91",
+          "name": "Eli Schwebel",
+          "position": 0,
+          "credit_name": "Eli Schwebel",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "4669ea30-ee23-4f52-bd57-8510fb367439",
+          "name": "גד אלבז",
+          "position": 1,
+          "credit_name": "Gad Elbaz",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "73efb7b1-9e53-41c7-b46f-1d7a5788ac91",
+          "name": "Eli Schwebel"
+        },
+        {
+          "mbid": "4669ea30-ee23-4f52-bd57-8510fb367439",
+          "name": "גד אלבז"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2025-10-01",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 10,
+      "day": 1,
+      "release_count": 1,
+      "release_mbids": [
+        "39b76153-a698-4b21-8925-b69598fae310"
+      ],
+      "cover_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+      "cover_art": {
+        "release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+        "image_id": 46428073997,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/39b76153-a698-4b21-8925-b69598fae310/46428073997",
+        "thumbnails": {
+          "250": "/covers/39b76153-a698-4b21-8925-b69598fae310--46428073997.webp",
+          "500": "/covers/39b76153-a698-4b21-8925-b69598fae310--46428073997.webp",
+          "1200": "/covers/39b76153-a698-4b21-8925-b69598fae310--46428073997.webp"
+        },
+        "cached": "/covers/39b76153-a698-4b21-8925-b69598fae310--46428073997.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/9a192d75-a038-4259-8cbe-12b44f14111f",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://music.apple.com/us/album/1844166156"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://music.apple.com/us/album/1844166156"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://open.spotify.com/album/5fyGqoH6AUHA5iME7hNWDT"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://tidal.com/album/464970639"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://www.deezer.com/album/832710991"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://www.qobuz.com/us-en/album/anovim-eli-schwebel-gad-elbaz/xpdgb8ug2cvxc"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://www.qobuz.com/us-en/album/anovim-eli-schwebel-gad-elbaz/xpdgb8ug2cvxc"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5fyGqoH6AUHA5iME7hNWDT"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1844166156"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/832710991"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/464970639"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/anovim-eli-schwebel-gad-elbaz/xpdgb8ug2cvxc"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://open.spotify.com/album/5fyGqoH6AUHA5iME7hNWDT"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://music.apple.com/us/album/1844166156"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://www.deezer.com/album/832710991"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://tidal.com/album/464970639"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "39b76153-a698-4b21-8925-b69598fae310",
+          "url": "https://www.qobuz.com/us-en/album/anovim-eli-schwebel-gad-elbaz/xpdgb8ug2cvxc"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
     {
       "release_group_mbid": "f2ff168d-d283-44c4-a8c4-2f3db5f9c204",
       "title": "Vinkel",

@@ -2,18 +2,18 @@
   "year": 2023,
   "month": 1,
   "stats": {
-    "release_groups": 41,
-    "with_cover_art": 41,
-    "with_action_links": 41,
+    "release_groups": 42,
+    "with_cover_art": 42,
+    "with_action_links": 42,
     "future_releases": 0,
     "types": {
       "Album": 11,
       "EP": 2,
-      "Single": 28
+      "Single": 29
     },
     "services": {
-      "apple_music": 41,
-      "spotify": 40,
+      "apple_music": 42,
+      "spotify": 41,
       "deezer": 30,
       "tidal": 19,
       "chabad": 1,
@@ -1078,6 +1078,128 @@
           "source": "release",
           "source_release_mbid": "cb7edd45-a596-425e-a898-19db29c34bf4",
           "url": "https://music.apple.com/gb/album/1753140763"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "19cec414-028b-445c-a2ce-00b26ff3ed45",
+      "title": "Reflections",
+      "artist_credit": "DANIIEL",
+      "credited_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL",
+          "position": 0,
+          "credit_name": "DANIIEL",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2023-01-07",
+      "date_precision": "day",
+      "year": 2023,
+      "month": 1,
+      "day": 7,
+      "release_count": 1,
+      "release_mbids": [
+        "a6973f26-c787-428b-807c-38f52b1042c1"
+      ],
+      "cover_release_mbid": "a6973f26-c787-428b-807c-38f52b1042c1",
+      "cover_art": {
+        "release_mbid": "a6973f26-c787-428b-807c-38f52b1042c1",
+        "image_id": 41106133865,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a6973f26-c787-428b-807c-38f52b1042c1/41106133865",
+        "thumbnails": {
+          "250": "/covers/a6973f26-c787-428b-807c-38f52b1042c1--41106133865.webp",
+          "500": "/covers/a6973f26-c787-428b-807c-38f52b1042c1--41106133865.webp",
+          "1200": "/covers/a6973f26-c787-428b-807c-38f52b1042c1--41106133865.webp"
+        },
+        "cached": "/covers/a6973f26-c787-428b-807c-38f52b1042c1--41106133865.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/19cec414-028b-445c-a2ce-00b26ff3ed45",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a6973f26-c787-428b-807c-38f52b1042c1",
+          "url": "https://music.apple.com/us/album/1662766342"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6973f26-c787-428b-807c-38f52b1042c1",
+          "url": "https://music.apple.com/us/album/1662766342"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6973f26-c787-428b-807c-38f52b1042c1",
+          "url": "https://open.spotify.com/album/54oeov0xnx1GI7kwX11tSQ"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/54oeov0xnx1GI7kwX11tSQ"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1662766342"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6973f26-c787-428b-807c-38f52b1042c1",
+          "url": "https://open.spotify.com/album/54oeov0xnx1GI7kwX11tSQ"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6973f26-c787-428b-807c-38f52b1042c1",
+          "url": "https://music.apple.com/us/album/1662766342"
         }
       ],
       "references": [],

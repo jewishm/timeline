@@ -2,19 +2,19 @@
   "year": 2023,
   "month": 10,
   "stats": {
-    "release_groups": 77,
-    "with_cover_art": 77,
-    "with_action_links": 77,
+    "release_groups": 79,
+    "with_cover_art": 79,
+    "with_action_links": 79,
     "future_releases": 0,
     "types": {
       "Album": 16,
       "EP": 2,
-      "Single": 59
+      "Single": 61
     },
     "services": {
-      "spotify": 75,
-      "apple_music": 65,
-      "deezer": 50,
+      "spotify": 77,
+      "apple_music": 67,
+      "deezer": 51,
       "tidal": 32,
       "amazon": 2,
       "youtube": 2,
@@ -2114,6 +2114,155 @@
           "source": "release",
           "source_release_mbid": "1b8c99d9-4030-4c1f-bbbb-fa0620668eb0",
           "url": "https://www.deezer.com/album/500470901"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "2c9398e7-4cc7-4974-9ba0-350a04839b2d",
+      "title": "Life's all good.",
+      "artist_credit": "DANIIEL",
+      "credited_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL",
+          "position": 0,
+          "credit_name": "DANIIEL",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2023-10-10",
+      "date_precision": "day",
+      "year": 2023,
+      "month": 10,
+      "day": 10,
+      "release_count": 1,
+      "release_mbids": [
+        "140237cf-8924-463c-b689-c188773fc5e7"
+      ],
+      "cover_release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+      "cover_art": {
+        "release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+        "image_id": 40464060447,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/140237cf-8924-463c-b689-c188773fc5e7/40464060447",
+        "thumbnails": {
+          "250": "/covers/140237cf-8924-463c-b689-c188773fc5e7--40464060447.webp",
+          "500": "/covers/140237cf-8924-463c-b689-c188773fc5e7--40464060447.webp",
+          "1200": "/covers/140237cf-8924-463c-b689-c188773fc5e7--40464060447.webp"
+        },
+        "cached": "/covers/140237cf-8924-463c-b689-c188773fc5e7--40464060447.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/2c9398e7-4cc7-4974-9ba0-350a04839b2d",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+          "url": "https://music.apple.com/us/album/1709911673"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+          "url": "https://music.apple.com/us/album/1709911673"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+          "url": "https://open.spotify.com/album/2zvPB4f1cARjtn0UWs0Cri"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+          "url": "https://www.deezer.com/album/495049601"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2zvPB4f1cARjtn0UWs0Cri"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1709911673"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/495049601"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+          "url": "https://open.spotify.com/album/2zvPB4f1cARjtn0UWs0Cri"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+          "url": "https://music.apple.com/us/album/1709911673"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "140237cf-8924-463c-b689-c188773fc5e7",
+          "url": "https://www.deezer.com/album/495049601"
         }
       ],
       "references": [],
@@ -4230,6 +4379,117 @@
           "source": "release",
           "source_release_mbid": "bccc072c-c385-4794-993d-6e42f1e9dcab",
           "url": "https://tidal.com/album/312923266"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "c6650f59-5d36-4a33-a679-159254236035",
+      "title": "Am Yisrael Am Echad.",
+      "artist_credit": "DANIIEL",
+      "credited_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL",
+          "position": 0,
+          "credit_name": "DANIIEL",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2023-10-14",
+      "date_precision": "day",
+      "year": 2023,
+      "month": 10,
+      "day": 14,
+      "release_count": 1,
+      "release_mbids": [
+        "9ff778db-746e-4cd5-a881-a4dd70914950"
+      ],
+      "cover_release_mbid": "9ff778db-746e-4cd5-a881-a4dd70914950",
+      "cover_art": {
+        "release_mbid": "9ff778db-746e-4cd5-a881-a4dd70914950",
+        "image_id": 39951023278,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/9ff778db-746e-4cd5-a881-a4dd70914950/39951023278",
+        "thumbnails": {
+          "250": "/covers/9ff778db-746e-4cd5-a881-a4dd70914950--39951023278.webp",
+          "500": "/covers/9ff778db-746e-4cd5-a881-a4dd70914950--39951023278.webp",
+          "1200": "/covers/9ff778db-746e-4cd5-a881-a4dd70914950--39951023278.webp"
+        },
+        "cached": "/covers/9ff778db-746e-4cd5-a881-a4dd70914950--39951023278.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/c6650f59-5d36-4a33-a679-159254236035",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9ff778db-746e-4cd5-a881-a4dd70914950",
+          "url": "https://music.apple.com/gb/album/1711522096"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9ff778db-746e-4cd5-a881-a4dd70914950",
+          "url": "https://open.spotify.com/album/4EOHXiM8khehF8CfVpElUh"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4EOHXiM8khehF8CfVpElUh"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/gb/album/1711522096"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9ff778db-746e-4cd5-a881-a4dd70914950",
+          "url": "https://open.spotify.com/album/4EOHXiM8khehF8CfVpElUh"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9ff778db-746e-4cd5-a881-a4dd70914950",
+          "url": "https://music.apple.com/gb/album/1711522096"
         }
       ],
       "references": [],

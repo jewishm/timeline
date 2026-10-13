@@ -2,18 +2,18 @@
   "year": 2023,
   "month": 9,
   "stats": {
-    "release_groups": 81,
-    "with_cover_art": 81,
-    "with_action_links": 81,
+    "release_groups": 82,
+    "with_cover_art": 82,
+    "with_action_links": 82,
     "future_releases": 0,
     "types": {
       "Album": 19,
       "EP": 4,
-      "Single": 58
+      "Single": 59
     },
     "services": {
-      "spotify": 79,
-      "apple_music": 74,
+      "spotify": 80,
+      "apple_music": 75,
       "deezer": 50,
       "tidal": 31,
       "amazon": 6,
@@ -5928,6 +5928,135 @@
           "source": "release",
           "source_release_mbid": "2f2120c5-14f6-492b-b007-2e62be85a1bd",
           "url": "https://music.apple.com/gb/album/1707136994"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "f298c0e8-ddc5-47ab-8da7-c986599ad93d",
+      "title": "Fly High",
+      "artist_credit": "DANIIEL feat. TŽVI",
+      "credited_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL",
+          "position": 0,
+          "credit_name": "DANIIEL",
+          "join_phrase": " feat. "
+        },
+        {
+          "mbid": "1d10baac-743e-4766-9fe4-c157d8f45755",
+          "name": "TŽVI",
+          "position": 1,
+          "credit_name": "TŽVI",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2023-09-13",
+      "date_precision": "day",
+      "year": 2023,
+      "month": 9,
+      "day": 13,
+      "release_count": 1,
+      "release_mbids": [
+        "d6d6676d-4e65-4c94-8deb-b373655aa69d"
+      ],
+      "cover_release_mbid": "d6d6676d-4e65-4c94-8deb-b373655aa69d",
+      "cover_art": {
+        "release_mbid": "d6d6676d-4e65-4c94-8deb-b373655aa69d",
+        "image_id": 41106071093,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/d6d6676d-4e65-4c94-8deb-b373655aa69d/41106071093",
+        "thumbnails": {
+          "250": "/covers/d6d6676d-4e65-4c94-8deb-b373655aa69d--41106071093.webp",
+          "500": "/covers/d6d6676d-4e65-4c94-8deb-b373655aa69d--41106071093.webp",
+          "1200": "/covers/d6d6676d-4e65-4c94-8deb-b373655aa69d--41106071093.webp"
+        },
+        "cached": "/covers/d6d6676d-4e65-4c94-8deb-b373655aa69d--41106071093.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/f298c0e8-ddc5-47ab-8da7-c986599ad93d",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d6d6676d-4e65-4c94-8deb-b373655aa69d",
+          "url": "https://music.apple.com/us/album/1706559413"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d6d6676d-4e65-4c94-8deb-b373655aa69d",
+          "url": "https://music.apple.com/us/album/1706559413"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d6d6676d-4e65-4c94-8deb-b373655aa69d",
+          "url": "https://open.spotify.com/album/7unLEqLCL7yU6qyYTxI9ce"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7unLEqLCL7yU6qyYTxI9ce"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1706559413"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d6d6676d-4e65-4c94-8deb-b373655aa69d",
+          "url": "https://open.spotify.com/album/7unLEqLCL7yU6qyYTxI9ce"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d6d6676d-4e65-4c94-8deb-b373655aa69d",
+          "url": "https://music.apple.com/us/album/1706559413"
         }
       ],
       "references": [],

@@ -2,18 +2,18 @@
   "year": 2023,
   "month": 7,
   "stats": {
-    "release_groups": 54,
-    "with_cover_art": 54,
-    "with_action_links": 54,
+    "release_groups": 55,
+    "with_cover_art": 55,
+    "with_action_links": 55,
     "future_releases": 0,
     "types": {
       "Album": 6,
       "EP": 1,
-      "Single": 47
+      "Single": 48
     },
     "services": {
-      "spotify": 53,
-      "apple_music": 53,
+      "spotify": 54,
+      "apple_music": 54,
       "deezer": 36,
       "tidal": 26,
       "youtube": 4,
@@ -223,6 +223,10 @@
         }
       ],
       "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        },
         {
           "mbid": "605ee540-3306-44a8-bd23-93387abec6a2",
           "name": "Werntatty"
@@ -3430,6 +3434,128 @@
           "source": "release",
           "source_release_mbid": "de03fbcd-28ea-4f52-b6f6-44af2758c5fc",
           "url": "https://www.qobuz.com/us-en/album/manginat-chayai-sandy-shmuely/ip2h0wclvmkkb"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "36ae08f4-e348-42ed-8472-41da6710dac6",
+      "title": "Sunset",
+      "artist_credit": "DANIIEL",
+      "credited_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL",
+          "position": 0,
+          "credit_name": "DANIIEL",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2023-07-25",
+      "date_precision": "day",
+      "year": 2023,
+      "month": 7,
+      "day": 25,
+      "release_count": 1,
+      "release_mbids": [
+        "e376e372-179d-4a10-8b6e-a1a94ff97f4b"
+      ],
+      "cover_release_mbid": "e376e372-179d-4a10-8b6e-a1a94ff97f4b",
+      "cover_art": {
+        "release_mbid": "e376e372-179d-4a10-8b6e-a1a94ff97f4b",
+        "image_id": 41106095766,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e376e372-179d-4a10-8b6e-a1a94ff97f4b/41106095766",
+        "thumbnails": {
+          "250": "/covers/e376e372-179d-4a10-8b6e-a1a94ff97f4b--41106095766.webp",
+          "500": "/covers/e376e372-179d-4a10-8b6e-a1a94ff97f4b--41106095766.webp",
+          "1200": "/covers/e376e372-179d-4a10-8b6e-a1a94ff97f4b--41106095766.webp"
+        },
+        "cached": "/covers/e376e372-179d-4a10-8b6e-a1a94ff97f4b--41106095766.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/36ae08f4-e348-42ed-8472-41da6710dac6",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e376e372-179d-4a10-8b6e-a1a94ff97f4b",
+          "url": "https://music.apple.com/us/album/1697757231"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e376e372-179d-4a10-8b6e-a1a94ff97f4b",
+          "url": "https://music.apple.com/us/album/1697757231"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e376e372-179d-4a10-8b6e-a1a94ff97f4b",
+          "url": "https://open.spotify.com/album/4GZ7P4FosgvPnBba5IIxRl"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/4GZ7P4FosgvPnBba5IIxRl"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1697757231"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e376e372-179d-4a10-8b6e-a1a94ff97f4b",
+          "url": "https://open.spotify.com/album/4GZ7P4FosgvPnBba5IIxRl"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e376e372-179d-4a10-8b6e-a1a94ff97f4b",
+          "url": "https://music.apple.com/us/album/1697757231"
         }
       ],
       "references": [],

@@ -2,20 +2,20 @@
   "year": 2026,
   "month": 10,
   "stats": {
-    "release_groups": 22,
-    "with_cover_art": 22,
-    "with_action_links": 22,
+    "release_groups": 23,
+    "with_cover_art": 23,
+    "with_action_links": 23,
     "future_releases": 0,
     "types": {
       "Album": 2,
-      "Single": 20
+      "Single": 21
     },
     "services": {
-      "spotify": 22,
-      "deezer": 22,
-      "tidal": 22,
-      "apple_music": 17,
-      "qobuz": 9,
+      "spotify": 23,
+      "deezer": 23,
+      "tidal": 23,
+      "apple_music": 18,
+      "qobuz": 10,
       "youtube_music": 1,
       "amazon": 1
     }
@@ -703,6 +703,220 @@
           "source": "release",
           "source_release_mbid": "b90b5f35-ddc5-44fa-9c2f-426a07052fc0",
           "url": "https://www.qobuz.com/us-en/album/-/kodk969vo4fia"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "76126bc3-6f70-4a1e-b6aa-3db8152b0baa",
+      "title": "LET IT FLOW",
+      "artist_credit": "DANIIEL",
+      "credited_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL",
+          "position": 0,
+          "credit_name": "DANIIEL",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-10-05",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 5,
+      "release_count": 1,
+      "release_mbids": [
+        "93e155e0-74a3-417a-acd4-6cb0eb7e1788"
+      ],
+      "cover_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+      "cover_art": {
+        "release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+        "image_id": 46428102722,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/93e155e0-74a3-417a-acd4-6cb0eb7e1788/46428102722",
+        "thumbnails": {
+          "250": "/covers/93e155e0-74a3-417a-acd4-6cb0eb7e1788--46428102722.webp",
+          "500": "/covers/93e155e0-74a3-417a-acd4-6cb0eb7e1788--46428102722.webp",
+          "1200": "/covers/93e155e0-74a3-417a-acd4-6cb0eb7e1788--46428102722.webp"
+        },
+        "cached": "/covers/93e155e0-74a3-417a-acd4-6cb0eb7e1788--46428102722.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/76126bc3-6f70-4a1e-b6aa-3db8152b0baa",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://music.apple.com/us/album/6818101188"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://music.apple.com/us/album/6818101188"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://open.spotify.com/album/6Xh97wgIUY5io0oqCBzJYm"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://tidal.com/album/565968829"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://www.deezer.com/album/1110567982"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://www.qobuz.com/us-en/album/let-it-flow-daniiel/o21vlgxvrpp6v"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://www.qobuz.com/us-en/album/let-it-flow-daniiel/o21vlgxvrpp6v"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6Xh97wgIUY5io0oqCBzJYm"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6818101188"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1110567982"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/565968829"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/let-it-flow-daniiel/o21vlgxvrpp6v"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://open.spotify.com/album/6Xh97wgIUY5io0oqCBzJYm"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://music.apple.com/us/album/6818101188"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://www.deezer.com/album/1110567982"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://tidal.com/album/565968829"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "93e155e0-74a3-417a-acd4-6cb0eb7e1788",
+          "url": "https://www.qobuz.com/us-en/album/let-it-flow-daniiel/o21vlgxvrpp6v"
         }
       ],
       "references": [],

@@ -2,17 +2,17 @@
   "year": 2022,
   "month": 12,
   "stats": {
-    "release_groups": 67,
-    "with_cover_art": 67,
-    "with_action_links": 66,
+    "release_groups": 68,
+    "with_cover_art": 68,
+    "with_action_links": 67,
     "future_releases": 0,
     "types": {
       "Album": 13,
-      "Single": 54
+      "Single": 55
     },
     "services": {
-      "apple_music": 66,
-      "spotify": 65,
+      "apple_music": 67,
+      "spotify": 66,
       "deezer": 36,
       "tidal": 20,
       "amazon": 2,
@@ -1947,6 +1947,117 @@
           "source": "release",
           "source_release_mbid": "6b49e2f4-e555-40bc-9775-bc3ed17d38e8",
           "url": "https://tidal.com/album/264433686"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "b746cbe8-5fa0-48ed-8bb9-fc907d5897bd",
+      "title": "Hodu Lashem",
+      "artist_credit": "DANIIEL",
+      "credited_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL",
+          "position": 0,
+          "credit_name": "DANIIEL",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "35ebad95-0446-4589-9d51-9ef19ff10764",
+          "name": "DANIIEL"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2022-12-07",
+      "date_precision": "day",
+      "year": 2022,
+      "month": 12,
+      "day": 7,
+      "release_count": 1,
+      "release_mbids": [
+        "b3798162-d8b5-4be7-9f5d-74f39053a2af"
+      ],
+      "cover_release_mbid": "b3798162-d8b5-4be7-9f5d-74f39053a2af",
+      "cover_art": {
+        "release_mbid": "b3798162-d8b5-4be7-9f5d-74f39053a2af",
+        "image_id": 41106141703,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/b3798162-d8b5-4be7-9f5d-74f39053a2af/41106141703",
+        "thumbnails": {
+          "250": "/covers/b3798162-d8b5-4be7-9f5d-74f39053a2af--41106141703.webp",
+          "500": "/covers/b3798162-d8b5-4be7-9f5d-74f39053a2af--41106141703.webp",
+          "1200": "/covers/b3798162-d8b5-4be7-9f5d-74f39053a2af--41106141703.webp"
+        },
+        "cached": "/covers/b3798162-d8b5-4be7-9f5d-74f39053a2af--41106141703.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/b746cbe8-5fa0-48ed-8bb9-fc907d5897bd",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b3798162-d8b5-4be7-9f5d-74f39053a2af",
+          "url": "https://music.apple.com/us/album/1658021374"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b3798162-d8b5-4be7-9f5d-74f39053a2af",
+          "url": "https://open.spotify.com/album/52CBY2uX6IxhiXAGOp7qXr"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/52CBY2uX6IxhiXAGOp7qXr"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1658021374"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b3798162-d8b5-4be7-9f5d-74f39053a2af",
+          "url": "https://open.spotify.com/album/52CBY2uX6IxhiXAGOp7qXr"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b3798162-d8b5-4be7-9f5d-74f39053a2af",
+          "url": "https://music.apple.com/us/album/1658021374"
         }
       ],
       "references": [],
