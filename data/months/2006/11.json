@@ -2,14 +2,15 @@
   "year": 2006,
   "month": 11,
   "stats": {
-    "release_groups": 1,
-    "with_cover_art": 1,
-    "with_action_links": 1,
+    "release_groups": 2,
+    "with_cover_art": 2,
+    "with_action_links": 2,
     "future_releases": 0,
     "types": {
-      "Album": 1
+      "Album": 2
     },
     "services": {
+      "24six": 1,
       "spotify": 1,
       "apple_music": 1,
       "deezer": 1,
@@ -17,6 +18,103 @@
     }
   },
   "releases": [
+    {
+      "release_group_mbid": "de56940b-89d5-42eb-a4ab-42a15d7f9036",
+      "title": "Ah Velt Fin Gitte Midos - Devorim",
+      "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter"
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "first_release_date": "2006-11-01",
+      "date_precision": "day",
+      "year": 2006,
+      "month": 11,
+      "day": 1,
+      "release_count": 1,
+      "release_mbids": [
+        "9d40c257-5213-4ac9-89a5-e459a710cd75"
+      ],
+      "cover_release_mbid": "9d40c257-5213-4ac9-89a5-e459a710cd75",
+      "cover_art": {
+        "release_mbid": "9d40c257-5213-4ac9-89a5-e459a710cd75",
+        "image_id": 46445894424,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/9d40c257-5213-4ac9-89a5-e459a710cd75/46445894424",
+        "thumbnails": {
+          "250": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp",
+          "500": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp",
+          "1200": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp"
+        },
+        "cached": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/de56940b-89d5-42eb-a4ab-42a15d7f9036",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9d40c257-5213-4ac9-89a5-e459a710cd75",
+          "url": "https://24six.app/preview/music/collection/18048/ah-velt-fin-gitte-midos-devorim"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18048/ah-velt-fin-gitte-midos-devorim"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "9d40c257-5213-4ac9-89a5-e459a710cd75",
+          "url": "https://24six.app/preview/music/collection/18048/ah-velt-fin-gitte-midos-devorim"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
     {
       "release_group_mbid": "fddcd188-f288-4744-8e49-1bab3a964c38",
       "title": "Vesimloch",

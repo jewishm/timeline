@@ -1,13 +1,13 @@
 {
   "year": 2006,
   "stats": {
-    "release_groups": 65,
-    "dated_release_groups": 33,
-    "year_only_release_groups": 32,
-    "artists": 50,
+    "release_groups": 67,
+    "dated_release_groups": 34,
+    "year_only_release_groups": 33,
+    "artists": 51,
     "months_with_releases": 12,
     "types": {
-      "Album": 61,
+      "Album": 63,
       "Other": 2,
       "Single": 2
     }
@@ -588,11 +588,32 @@
     },
     {
       "month": 11,
-      "release_groups": 1,
+      "release_groups": 2,
       "types": {
-        "Album": 1
+        "Album": 2
       },
       "featured": [
+        {
+          "release_group_mbid": "de56940b-89d5-42eb-a4ab-42a15d7f9036",
+          "title": "Ah Velt Fin Gitte Midos - Devorim",
+          "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+          "primary_type": "Album",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "9d40c257-5213-4ac9-89a5-e459a710cd75",
+            "image_id": 46445894424,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/9d40c257-5213-4ac9-89a5-e459a710cd75/46445894424",
+            "thumbnails": {
+              "250": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp",
+              "500": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp",
+              "1200": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp"
+            },
+            "cached": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp"
+          }
+        },
         {
           "release_group_mbid": "fddcd188-f288-4744-8e49-1bab3a964c38",
           "title": "Vesimloch",
@@ -701,6 +722,11 @@
       "release_groups": 3
     },
     {
+      "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+      "name": "Yonasan Schwartz",
+      "release_groups": 3
+    },
+    {
       "mbid": "7e9e906a-6468-4b6e-892c-1c0022b2132c",
       "name": "Dovid Gabay",
       "release_groups": 2
@@ -708,6 +734,11 @@
     {
       "mbid": "7c17b542-f232-4ef8-abb8-8815923bde78",
       "name": "Efraim Mendelson",
+      "release_groups": 2
+    },
+    {
+      "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+      "name": "Fischel Schachter",
       "release_groups": 2
     },
     {
@@ -753,16 +784,6 @@
     {
       "mbid": "2e0c8aab-5cd8-416f-a4cd-d712352096c1",
       "name": "Benzion Miller",
-      "release_groups": 1
-    },
-    {
-      "mbid": "92730fbe-d8c1-41ea-bdaf-326967f744b7",
-      "name": "Camp Nesher",
-      "release_groups": 1
-    },
-    {
-      "mbid": "8ccf53f8-67c8-427e-bf64-e149a7ccc68a",
-      "name": "Chaim Blumenfeld",
       "release_groups": 1
     }
   ],
@@ -1974,6 +1995,103 @@
       "references": [],
       "has_action_links": true,
       "has_cover_art": false,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "ad1a79d7-dde4-4023-89ae-e4e55aaad37d",
+      "title": "Ah Velt Fin Gitte Midos - Bamidbor",
+      "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter"
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "first_release_date": "2006",
+      "date_precision": "year",
+      "year": 2006,
+      "month": null,
+      "day": null,
+      "release_count": 1,
+      "release_mbids": [
+        "8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f"
+      ],
+      "cover_release_mbid": "8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f",
+      "cover_art": {
+        "release_mbid": "8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f",
+        "image_id": 46445993619,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f/46445993619",
+        "thumbnails": {
+          "250": "/covers/8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f--46445993619.webp",
+          "500": "/covers/8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f--46445993619.webp",
+          "1200": "/covers/8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f--46445993619.webp"
+        },
+        "cached": "/covers/8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f--46445993619.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ad1a79d7-dde4-4023-89ae-e4e55aaad37d",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f",
+          "url": "https://24six.app/preview/music/collection/18046/ah-velt-fin-gitte-midos-bamidbor"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18046/ah-velt-fin-gitte-midos-bamidbor"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f",
+          "url": "https://24six.app/preview/music/collection/18046/ah-velt-fin-gitte-midos-bamidbor"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
       "is_future": false
     },
     {

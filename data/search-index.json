@@ -1,7 +1,7 @@
 {
   "collection_mbid": "45d6a632-9366-4fac-8a9e-bf04734172b9",
   "artist_count": 1843,
-  "release_group_count": 8268,
+  "release_group_count": 8276,
   "artists": [
     {
       "mbid": "51cb99a5-ce66-4611-9d08-a6432c9560f9",
@@ -3612,9 +3612,11 @@
     {
       "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
       "name": "Fischel Schachter",
-      "release_count": 1,
+      "release_count": 7,
       "terms": [
-        "fischel schachter"
+        "fischel schachter",
+        "schachter fischel",
+        "fishel shechter"
       ]
     },
     {
@@ -4928,7 +4930,7 @@
     {
       "mbid": "c4c87b61-d867-4224-a41b-0b1a9af0e137",
       "name": "Levi Paris",
-      "release_count": 14,
+      "release_count": 15,
       "terms": [
         "levi paris",
         "paris levi"
@@ -8605,7 +8607,7 @@
     {
       "mbid": "9646954d-9757-488a-8d2b-f98d16eb0c90",
       "name": "Shlezkey",
-      "release_count": 15,
+      "release_count": 16,
       "terms": [
         "shlezkey"
       ]
@@ -11493,7 +11495,7 @@
     {
       "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
       "name": "Yonasan Schwartz",
-      "release_count": 14,
+      "release_count": 20,
       "terms": [
         "yonasan schwartz",
         "schwartz yonasan",
@@ -50917,6 +50919,53 @@
       "cover_caa": "https://coverartarchive.org/release/cda8fd24-a6d2-4ce0-b0a8-d4628547bac3/45110729629-250.jpg"
     },
     {
+      "mbid": "cc55cefa-f40c-4b37-baab-0c37be48d047",
+      "title": "Ah Velt Fin Gitte Midos - Bereishis",
+      "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+      "artist_mbids": [
+        "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+        "da1620b1-230d-4849-a81c-669e76eeaa45"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "primary_type": "Album",
+      "date_precision": "year",
+      "year": 2004,
+      "month": null,
+      "day": null,
+      "cover": "/covers/666eaf08-94f0-40d0-80ff-49651ae2203f--46445988039.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/cc55cefa-f40c-4b37-baab-0c37be48d047",
+      "actions": [
+        {
+          "site_label": "24Six",
+          "action_kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18040/ah-velt-fin-gitte-midos-bereishis"
+        }
+      ],
+      "terms": [
+        "ah velt fin gitte midos bereishis",
+        "fischel schachter yonasan schwartz"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/666eaf08-94f0-40d0-80ff-49651ae2203f/46445988039-250.jpg"
+    },
+    {
       "mbid": "bd026573-3537-4e05-89be-c1b238eb0c2d",
       "title": "Ve‐shir E’eroch lach",
       "artist_credit": "Gilad Potolsky & Shalhevet Orchestra",
@@ -53180,6 +53229,147 @@
       "cover_caa": "https://coverartarchive.org/release/fcf5c2cb-6ba2-43ae-b077-b43743299e8d/36880693799-250.jpg"
     },
     {
+      "mbid": "e39d764d-55c4-4f84-85bf-67f198a7b92a",
+      "title": "A World of Midos – Shemos",
+      "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+      "artist_mbids": [
+        "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+        "da1620b1-230d-4849-a81c-669e76eeaa45"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "primary_type": "Album",
+      "date_precision": "year",
+      "year": 2005,
+      "month": null,
+      "day": null,
+      "cover": "/covers/e3f7e34a-d02d-4352-8efd-cf3f90a64004--46448107058.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e39d764d-55c4-4f84-85bf-67f198a7b92a",
+      "actions": [
+        {
+          "site_label": "24Six",
+          "action_kind": "listen",
+          "url": "https://24six.app/preview/music/collection/12446/a-world-of-midos-shemos"
+        }
+      ],
+      "terms": [
+        "a world of midos shemos",
+        "fischel schachter yonasan schwartz"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/e3f7e34a-d02d-4352-8efd-cf3f90a64004/46448107058-250.jpg"
+    },
+    {
+      "mbid": "e4f0c2f8-38df-4672-b89e-5a864d4e68ed",
+      "title": "Ah Velt Fin Gitte Midos - Shemos",
+      "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+      "artist_mbids": [
+        "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+        "da1620b1-230d-4849-a81c-669e76eeaa45"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "primary_type": "Album",
+      "date_precision": "year",
+      "year": 2005,
+      "month": null,
+      "day": null,
+      "cover": "/covers/d650d5e9-1340-42e6-a9f0-3d15b923e4d2--46448099540.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e4f0c2f8-38df-4672-b89e-5a864d4e68ed",
+      "actions": [
+        {
+          "site_label": "24Six",
+          "action_kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18041/ah-velt-fin-gitte-midos-shemos"
+        }
+      ],
+      "terms": [
+        "ah velt fin gitte midos shemos",
+        "fischel schachter yonasan schwartz"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/d650d5e9-1340-42e6-a9f0-3d15b923e4d2/46448099540-250.jpg"
+    },
+    {
+      "mbid": "1b7b8f02-de16-4186-8140-b3156ee51f53",
+      "title": "Ah Velt Fin Gitte Midos - Vayikroh",
+      "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+      "artist_mbids": [
+        "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+        "da1620b1-230d-4849-a81c-669e76eeaa45"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "primary_type": "Album",
+      "date_precision": "year",
+      "year": 2005,
+      "month": null,
+      "day": null,
+      "cover": "/covers/dd2ac3dd-2f7e-4bc8-b19b-426504dfdacd--46445853215.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/1b7b8f02-de16-4186-8140-b3156ee51f53",
+      "actions": [
+        {
+          "site_label": "24Six",
+          "action_kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18042/ah-velt-fin-gitte-midos-vayikroh"
+        }
+      ],
+      "terms": [
+        "ah velt fin gitte midos vayikroh",
+        "fischel schachter yonasan schwartz"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/dd2ac3dd-2f7e-4bc8-b19b-426504dfdacd/46445853215-250.jpg"
+    },
+    {
       "mbid": "6ef4acc5-15e9-4efc-ab85-7e3483871670",
       "title": "Behar Hamoriyo",
       "artist_credit": "Isaac Honig",
@@ -55098,6 +55288,53 @@
       "cover_caa": "https://coverartarchive.org/release/047c5151-4c8e-4fa2-bc09-9f00a574aacb/40739465995-250.jpg"
     },
     {
+      "mbid": "de56940b-89d5-42eb-a4ab-42a15d7f9036",
+      "title": "Ah Velt Fin Gitte Midos - Devorim",
+      "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+      "artist_mbids": [
+        "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+        "da1620b1-230d-4849-a81c-669e76eeaa45"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "primary_type": "Album",
+      "date_precision": "day",
+      "year": 2006,
+      "month": 11,
+      "day": 1,
+      "cover": "/covers/9d40c257-5213-4ac9-89a5-e459a710cd75--46445894424.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/de56940b-89d5-42eb-a4ab-42a15d7f9036",
+      "actions": [
+        {
+          "site_label": "24Six",
+          "action_kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18048/ah-velt-fin-gitte-midos-devorim"
+        }
+      ],
+      "terms": [
+        "ah velt fin gitte midos devorim",
+        "fischel schachter yonasan schwartz"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/9d40c257-5213-4ac9-89a5-e459a710cd75/46445894424-250.jpg"
+    },
+    {
       "mbid": "fddcd188-f288-4744-8e49-1bab3a964c38",
       "title": "Vesimloch",
       "artist_credit": "Zevi Krausher",
@@ -55669,6 +55906,53 @@
         "berach dodi",
         "fasten family"
       ]
+    },
+    {
+      "mbid": "ad1a79d7-dde4-4023-89ae-e4e55aaad37d",
+      "title": "Ah Velt Fin Gitte Midos - Bamidbor",
+      "artist_credit": "Fischel Schachter & Yonasan Schwartz",
+      "artist_mbids": [
+        "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+        "da1620b1-230d-4849-a81c-669e76eeaa45"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "30d2e9dd-8a19-4f2e-8c7e-b603393f1984",
+          "name": "Fischel Schachter",
+          "position": 0,
+          "credit_name": "Fischel Schachter",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 1,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Spokenword"
+      ],
+      "primary_type": "Album",
+      "date_precision": "year",
+      "year": 2006,
+      "month": null,
+      "day": null,
+      "cover": "/covers/8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f--46445993619.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/ad1a79d7-dde4-4023-89ae-e4e55aaad37d",
+      "actions": [
+        {
+          "site_label": "24Six",
+          "action_kind": "listen",
+          "url": "https://24six.app/preview/music/collection/18046/ah-velt-fin-gitte-midos-bamidbor"
+        }
+      ],
+      "terms": [
+        "ah velt fin gitte midos bamidbor",
+        "fischel schachter yonasan schwartz"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/8e53cc3c-f3c5-4bd9-a0f0-1304e3e6854f/46445993619-250.jpg"
     },
     {
       "mbid": "193f08e6-7ce8-40cb-b7a0-ab778319b1db",
@@ -422408,6 +422692,110 @@
         "קובי ברומר"
       ],
       "cover_caa": "https://coverartarchive.org/release/cc274a5a-f5c9-43f5-9e1f-62beb89f7d20/46424277247-250.jpg"
+    },
+    {
+      "mbid": "b340a674-677e-4154-b419-3ef6f94a9bb9",
+      "title": "See Them",
+      "artist_credit": "Shlezkey",
+      "artist_mbids": [
+        "9646954d-9757-488a-8d2b-f98d16eb0c90"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "9646954d-9757-488a-8d2b-f98d16eb0c90",
+          "name": "Shlezkey",
+          "position": 0,
+          "credit_name": "Shlezkey",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Single",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 12,
+      "cover": "/covers/9383c0eb-fae3-41cb-a05f-703a858b2b11--46446873585.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/b340a674-677e-4154-b419-3ef6f94a9bb9",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/4W1mLEAvrMFHfHw56tKA0R"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6821960341"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1119372192"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/569100003"
+        }
+      ],
+      "terms": [
+        "see them",
+        "shlezkey"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/9383c0eb-fae3-41cb-a05f-703a858b2b11/46446873585-250.jpg"
+    },
+    {
+      "mbid": "2833df52-049b-47cb-b775-a07238391896",
+      "title": "Mikva",
+      "artist_credit": "Levi Paris",
+      "artist_mbids": [
+        "c4c87b61-d867-4224-a41b-0b1a9af0e137"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "c4c87b61-d867-4224-a41b-0b1a9af0e137",
+          "name": "Levi Paris",
+          "position": 0,
+          "credit_name": "Levi Paris",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Single",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 14,
+      "cover": "/covers/5a7ebe7d-6053-4ab1-992b-49aad155ecda--46445357972.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/2833df52-049b-47cb-b775-a07238391896",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/3iw8bE2U4slSCgHVOtckjf"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6821330464"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/567450185"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/mikva-levi-paris/obyyejxh8v8je"
+        }
+      ],
+      "terms": [
+        "mikva",
+        "levi paris"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/5a7ebe7d-6053-4ab1-992b-49aad155ecda/46445357972-250.jpg"
     },
     {
       "mbid": "e4795a4c-7dca-44c3-a9de-0827203925c9",
