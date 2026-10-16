@@ -1,31 +1,31 @@
 {
   "collection_mbid": "45d6a632-9366-4fac-8a9e-bf04734172b9",
   "collection_artist_count": 1489,
-  "release_group_count": 8276,
-  "dated_to_month": 7387,
+  "release_group_count": 8279,
+  "dated_to_month": 7390,
   "undated_or_year_only": 889,
   "type_counts": {
-    "Album": 3362,
+    "Album": 3363,
     "EP": 309,
     "Other": 19,
-    "Single": 4586
+    "Single": 4588
   },
   "service_release_counts": {
-    "spotify": 7565,
-    "apple_music": 7126,
-    "deezer": 5380,
-    "tidal": 4303,
-    "qobuz": 492,
-    "amazon": 400,
+    "spotify": 7568,
+    "apple_music": 7128,
+    "deezer": 5384,
+    "tidal": 4309,
+    "qobuz": 503,
+    "amazon": 410,
     "youtube": 220,
     "mostly_music": 180,
-    "other": 82,
+    "other": 84,
+    "youtube_music": 69,
     "24six": 59,
-    "youtube_music": 56,
     "boomplay": 50,
+    "soundcloud": 42,
     "bandcamp": 41,
     "chabad": 40,
-    "soundcloud": 40,
     "kehot": 25,
     "judaica_world": 19,
     "israel_music": 19,
@@ -51,7 +51,7 @@
   "years": [
     {
       "year": 2026,
-      "release_groups": 800,
+      "release_groups": 802,
       "months": [
         {
           "year": 2026,
@@ -91,7 +91,8 @@
             "deezer": 87,
             "tidal": 86,
             "apple_music": 56,
-            "qobuz": 10,
+            "qobuz": 11,
+            "youtube_music": 1,
             "mostly_music": 1,
             "24six": 1
           }
@@ -247,22 +248,23 @@
         {
           "year": 2026,
           "month": 10,
-          "release_groups": 25,
-          "with_cover_art": 25,
-          "with_action_links": 25,
+          "release_groups": 27,
+          "with_cover_art": 26,
+          "with_action_links": 27,
           "future_releases": 0,
           "types": {
             "Album": 2,
-            "Single": 23
+            "Single": 25
           },
           "services": {
-            "spotify": 25,
-            "tidal": 25,
-            "deezer": 24,
-            "apple_music": 20,
-            "qobuz": 11,
-            "youtube_music": 1,
-            "amazon": 1
+            "spotify": 27,
+            "tidal": 27,
+            "deezer": 26,
+            "apple_music": 22,
+            "qobuz": 12,
+            "youtube_music": 2,
+            "amazon": 2,
+            "other": 1
           }
         }
       ]
@@ -411,8 +413,10 @@
             "deezer": 94,
             "tidal": 91,
             "apple_music": 85,
+            "qobuz": 3,
             "mostly_music": 2,
-            "qobuz": 2
+            "youtube_music": 1,
+            "amazon": 1
           }
         },
         {
@@ -452,12 +456,12 @@
             "deezer": 120,
             "tidal": 114,
             "apple_music": 98,
-            "qobuz": 6,
+            "qobuz": 7,
             "mostly_music": 3,
+            "youtube_music": 2,
             "24six": 2,
             "youtube": 2,
             "beatport": 1,
-            "youtube_music": 1,
             "amazon": 1,
             "nigun_music": 1
           }
@@ -549,9 +553,12 @@
             "tidal": 108,
             "spotify": 107,
             "apple_music": 98,
-            "qobuz": 9,
+            "qobuz": 10,
             "anghami": 1,
             "24six": 1,
+            "youtube_music": 1,
+            "amazon": 1,
+            "soundcloud": 1,
             "other": 1
           }
         }
@@ -559,7 +566,7 @@
     },
     {
       "year": 2024,
-      "release_groups": 1125,
+      "release_groups": 1126,
       "months": [
         {
           "year": 2024,
@@ -588,17 +595,17 @@
         {
           "year": 2024,
           "month": 2,
-          "release_groups": 106,
+          "release_groups": 107,
           "with_cover_art": 106,
-          "with_action_links": 106,
+          "with_action_links": 107,
           "future_releases": 0,
           "types": {
-            "Album": 29,
+            "Album": 30,
             "EP": 5,
             "Single": 72
           },
           "services": {
-            "spotify": 103,
+            "spotify": 104,
             "apple_music": 96,
             "deezer": 82,
             "tidal": 56,
@@ -953,7 +960,10 @@
             "apple_music": 32,
             "spotify": 30,
             "deezer": 21,
-            "tidal": 11
+            "tidal": 12,
+            "youtube_music": 1,
+            "qobuz": 1,
+            "amazon": 1
           }
         },
         {
@@ -1063,11 +1073,11 @@
             "apple_music": 75,
             "deezer": 50,
             "tidal": 31,
-            "amazon": 6,
+            "amazon": 7,
             "youtube": 5,
-            "qobuz": 3,
+            "qobuz": 4,
+            "youtube_music": 3,
             "mostly_music": 2,
-            "youtube_music": 2,
             "boomplay": 1
           }
         },
@@ -1214,6 +1224,7 @@
             "other": 2,
             "youtube_music": 1,
             "boomplay": 1,
+            "qobuz": 1,
             "bandcamp": 1
           }
         },
@@ -1256,10 +1267,12 @@
             "apple_music": 42,
             "deezer": 26,
             "tidal": 17,
+            "amazon": 2,
             "youtube": 2,
             "boomplay": 1,
-            "amazon": 1,
-            "beatport": 1
+            "beatport": 1,
+            "youtube_music": 1,
+            "qobuz": 1
           }
         },
         {
@@ -1405,13 +1418,14 @@
           "services": {
             "apple_music": 67,
             "spotify": 66,
-            "deezer": 36,
-            "tidal": 20,
-            "amazon": 2,
+            "deezer": 37,
+            "tidal": 21,
+            "amazon": 3,
+            "qobuz": 2,
             "anghami": 1,
             "boomplay": 1,
             "youtube": 1,
-            "qobuz": 1
+            "youtube_music": 1
           }
         }
       ]
@@ -1765,15 +1779,16 @@
           "services": {
             "spotify": 56,
             "apple_music": 54,
-            "deezer": 26,
-            "tidal": 16,
+            "deezer": 27,
+            "tidal": 17,
             "youtube": 4,
+            "amazon": 3,
             "chabad": 2,
-            "amazon": 2,
             "bandcamp": 2,
+            "youtube_music": 2,
             "boomplay": 1,
             "other": 1,
-            "youtube_music": 1,
+            "qobuz": 1,
             "soundcloud": 1
           }
         },
@@ -2352,13 +2367,13 @@
             "spotify": 28,
             "apple_music": 22,
             "deezer": 14,
-            "tidal": 11,
+            "tidal": 12,
+            "amazon": 3,
+            "other": 2,
             "youtube": 2,
-            "amazon": 2,
-            "qobuz": 1,
-            "other": 1,
-            "soundcloud": 1,
-            "youtube_music": 1
+            "soundcloud": 2,
+            "youtube_music": 2,
+            "qobuz": 1
           }
         },
         {
@@ -3910,7 +3925,8 @@
             "amazon": 2,
             "boomplay": 1,
             "soundcloud": 1,
-            "youtube": 1
+            "youtube": 1,
+            "youtube_music": 1
           }
         },
         {

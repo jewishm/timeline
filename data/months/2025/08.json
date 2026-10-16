@@ -16,12 +16,12 @@
       "deezer": 120,
       "tidal": 114,
       "apple_music": 98,
-      "qobuz": 6,
+      "qobuz": 7,
       "mostly_music": 3,
+      "youtube_music": 2,
       "24six": 2,
       "youtube": 2,
       "beatport": 1,
-      "youtube_music": 1,
       "amazon": 1,
       "nigun_music": 1
     }
@@ -20433,6 +20433,17 @@
           "url": "https://music.apple.com/us/album/1836339010"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4726eae6-c13a-491e-b75b-555f40954ecd",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lNb0mdQZ0p9qTtk9zb8A3JPYvt1bM3nJU"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -20475,6 +20486,17 @@
           "source": "release-group",
           "source_release_mbid": null,
           "url": "https://www.ivelt.com/forum/viewtopic.php?t=73422"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "4726eae6-c13a-491e-b75b-555f40954ecd",
+          "url": "https://www.qobuz.com/us-en/album/paamonim-freilach-band-amp-shlome-zalmen-horowitz-amp-the-shira-choir/qm6yx31dtvreb"
         }
       ],
       "preferred_links": {
@@ -20488,6 +20510,11 @@
           "kind": "listen",
           "url": "https://music.apple.com/us/album/1836339010"
         },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lNb0mdQZ0p9qTtk9zb8A3JPYvt1bM3nJU"
+        },
         "deezer": {
           "label": "Deezer",
           "kind": "listen",
@@ -20497,6 +20524,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/456802523"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "buy",
+          "url": "https://www.qobuz.com/us-en/album/paamonim-freilach-band-amp-shlome-zalmen-horowitz-amp-the-shira-choir/qm6yx31dtvreb"
         }
       },
       "actions": [
@@ -20523,6 +20555,17 @@
           "url": "https://music.apple.com/us/album/1836339010"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "4726eae6-c13a-491e-b75b-555f40954ecd",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lNb0mdQZ0p9qTtk9zb8A3JPYvt1bM3nJU"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -20543,6 +20586,17 @@
           "source": "release",
           "source_release_mbid": "4726eae6-c13a-491e-b75b-555f40954ecd",
           "url": "https://tidal.com/album/456802523"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "4726eae6-c13a-491e-b75b-555f40954ecd",
+          "url": "https://www.qobuz.com/us-en/album/paamonim-freilach-band-amp-shlome-zalmen-horowitz-amp-the-shira-choir/qm6yx31dtvreb"
         }
       ],
       "references": [

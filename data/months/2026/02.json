@@ -16,7 +16,8 @@
       "deezer": 87,
       "tidal": 86,
       "apple_music": 56,
-      "qobuz": 10,
+      "qobuz": 11,
+      "youtube_music": 1,
       "mostly_music": 1,
       "24six": 1
     }
@@ -4525,6 +4526,17 @@
           "url": "https://music.apple.com/us/album/1875774148"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b5c5bf3-fb6b-48ef-b0ca-39706ed1e3bb",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_l6DKNJKnKf148caOfoV3kACFASSrv8h_4"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -4556,6 +4568,17 @@
           "source": "release",
           "source_release_mbid": "0b5c5bf3-fb6b-48ef-b0ca-39706ed1e3bb",
           "url": "https://www.deezer.com/album/914648311"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0b5c5bf3-fb6b-48ef-b0ca-39706ed1e3bb",
+          "url": "https://www.qobuz.com/us-en/album/keilu-yidi-bialostozky/pk9wzh7q0kk18"
         }
       ],
       "preferred_links": {
@@ -4569,6 +4592,11 @@
           "kind": "listen",
           "url": "https://music.apple.com/us/album/1875774148"
         },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_l6DKNJKnKf148caOfoV3kACFASSrv8h_4"
+        },
         "deezer": {
           "label": "Deezer",
           "kind": "listen",
@@ -4578,6 +4606,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/497339881"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "buy",
+          "url": "https://www.qobuz.com/us-en/album/keilu-yidi-bialostozky/pk9wzh7q0kk18"
         }
       },
       "actions": [
@@ -4604,6 +4637,17 @@
           "url": "https://music.apple.com/us/album/1875774148"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b5c5bf3-fb6b-48ef-b0ca-39706ed1e3bb",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_l6DKNJKnKf148caOfoV3kACFASSrv8h_4"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -4624,6 +4668,17 @@
           "source": "release",
           "source_release_mbid": "0b5c5bf3-fb6b-48ef-b0ca-39706ed1e3bb",
           "url": "https://tidal.com/album/497339881"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0b5c5bf3-fb6b-48ef-b0ca-39706ed1e3bb",
+          "url": "https://www.qobuz.com/us-en/album/keilu-yidi-bialostozky/pk9wzh7q0kk18"
         }
       ],
       "references": [],

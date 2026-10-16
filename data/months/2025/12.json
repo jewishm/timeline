@@ -16,9 +16,12 @@
       "tidal": 108,
       "spotify": 107,
       "apple_music": 98,
-      "qobuz": 9,
+      "qobuz": 10,
       "anghami": 1,
       "24six": 1,
+      "youtube_music": 1,
+      "amazon": 1,
+      "soundcloud": 1,
       "other": 1
     }
   },
@@ -13818,6 +13821,17 @@
           "url": "https://24six.app/app/music/collection/16872"
         },
         {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://music.amazon.com/albums/B0G719PNMT"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -13838,6 +13852,17 @@
           "source": "release",
           "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
           "url": "https://music.apple.com/il/album/1861535469"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_kCh_XTtaIFwCekOR12Vj_VPpZ3bB9LBZE"
         },
         {
           "site_key": "spotify",
@@ -13862,6 +13887,17 @@
           "url": "https://shmulikklein.com/product/%D7%90%D7%9C%D7%91%D7%95%D7%9D-%D7%A9%D7%9E%D7%95%D7%90%D7%9C-%D7%90/"
         },
         {
+          "site_key": "soundcloud",
+          "site_label": "SoundCloud",
+          "domain": "soundcloud.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://soundcloud.com/shmvlyqqlyyn/sets/lrhq7bibjt54"
+        },
+        {
           "site_key": "tidal",
           "site_label": "TIDAL",
           "domain": "tidal.com",
@@ -13873,6 +13909,17 @@
           "url": "https://tidal.com/album/481770880"
         },
         {
+          "site_key": "other",
+          "site_label": "uk.7digital.com",
+          "domain": "uk.7digital.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://uk.7digital.com/artist/%D7%A9%D7%9E%D7%95%D7%9C%D7%99%D7%A7-%D7%A7%D7%9C%D7%99%D7%99%D7%9F/release/%D7%A9%D7%9E%D7%95%D7%90%D7%9C-%D7%90-63618355"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -13882,6 +13929,17 @@
           "source": "release",
           "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
           "url": "https://www.deezer.com/album/877594072"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://www.qobuz.com/us-en/album/-/hs8id8u6glaf3"
         }
       ],
       "preferred_links": {
@@ -13900,6 +13958,11 @@
           "kind": "listen",
           "url": "https://24six.app/app/music/collection/16872"
         },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_kCh_XTtaIFwCekOR12Vj_VPpZ3bB9LBZE"
+        },
         "deezer": {
           "label": "Deezer",
           "kind": "listen",
@@ -13909,6 +13972,21 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/481770880"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "buy",
+          "url": "https://www.qobuz.com/us-en/album/-/hs8id8u6glaf3"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B0G719PNMT"
+        },
+        "soundcloud": {
+          "label": "SoundCloud",
+          "kind": "listen",
+          "url": "https://soundcloud.com/shmvlyqqlyyn/sets/lrhq7bibjt54"
         },
         "other": {
           "label": "shmulikklein.com",
@@ -13951,6 +14029,17 @@
           "url": "https://24six.app/app/music/collection/16872"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_kCh_XTtaIFwCekOR12Vj_VPpZ3bB9LBZE"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -13971,6 +14060,39 @@
           "source": "release",
           "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
           "url": "https://tidal.com/album/481770880"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://www.qobuz.com/us-en/album/-/hs8id8u6glaf3"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://music.amazon.com/albums/B0G719PNMT"
+        },
+        {
+          "site_key": "soundcloud",
+          "site_label": "SoundCloud",
+          "domain": "soundcloud.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5261f643-d559-4a29-9f5c-73a065f45fb8",
+          "url": "https://soundcloud.com/shmvlyqqlyyn/sets/lrhq7bibjt54"
         },
         {
           "site_key": "other",

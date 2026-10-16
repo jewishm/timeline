@@ -2,17 +2,17 @@
   "year": 2024,
   "month": 2,
   "stats": {
-    "release_groups": 106,
+    "release_groups": 107,
     "with_cover_art": 106,
-    "with_action_links": 106,
+    "with_action_links": 107,
     "future_releases": 0,
     "types": {
-      "Album": 29,
+      "Album": 30,
       "EP": 5,
       "Single": 72
     },
     "services": {
-      "spotify": 103,
+      "spotify": 104,
       "apple_music": 96,
       "deezer": 82,
       "tidal": 56,
@@ -4815,6 +4815,77 @@
       "references": [],
       "has_action_links": true,
       "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "41b3ca02-f78d-46f0-aa82-67f226106f2b",
+      "title": "The World And Its People",
+      "artist_credit": "Yosef Gutman",
+      "credited_artists": [
+        {
+          "mbid": "ab25b7c3-e6fa-43e9-b3af-78384520d78f",
+          "name": "Yosef Gutman",
+          "position": 0,
+          "credit_name": "Yosef Gutman",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "ab25b7c3-e6fa-43e9-b3af-78384520d78f",
+          "name": "Yosef Gutman"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2024-02-09",
+      "date_precision": "day",
+      "year": 2024,
+      "month": 2,
+      "day": 9,
+      "release_count": 1,
+      "release_mbids": [
+        "b185cf92-6d7a-45c0-8279-11fb6147756b"
+      ],
+      "cover_release_mbid": null,
+      "cover_art": null,
+      "musicbrainz_url": "https://musicbrainz.org/release-group/41b3ca02-f78d-46f0-aa82-67f226106f2b",
+      "links": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b185cf92-6d7a-45c0-8279-11fb6147756b",
+          "url": "https://open.spotify.com/album/5KPdhdIBj7f6XxFd7ZwY6U"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5KPdhdIBj7f6XxFd7ZwY6U"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b185cf92-6d7a-45c0-8279-11fb6147756b",
+          "url": "https://open.spotify.com/album/5KPdhdIBj7f6XxFd7ZwY6U"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": false,
       "is_future": false
     },
     {

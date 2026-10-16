@@ -20,6 +20,7 @@
       "other": 2,
       "youtube_music": 1,
       "boomplay": 1,
+      "qobuz": 1,
       "bandcamp": 1
     }
   },
@@ -2678,6 +2679,17 @@
           "url": "https://audiomack.com/eliezerglazer/album/it-sounds-like-purim"
         },
         {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "97288c46-f6e5-4d44-a1ef-138807fabb3a",
+          "url": "https://music.amazon.com/albums/B09V1L1YFN"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -2744,6 +2756,17 @@
           "url": "https://www.deezer.com/album/301004027"
         },
         {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "97288c46-f6e5-4d44-a1ef-138807fabb3a",
+          "url": "https://www.qobuz.com/us-en/album/it-sounds-like-purim-benny-friedman/es1xbjehvblda"
+        },
+        {
           "site_key": "youtube",
           "site_label": "YouTube",
           "domain": "youtube.com",
@@ -2776,10 +2799,15 @@
           "kind": "listen",
           "url": "https://tidal.com/album/219709995"
         },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "buy",
+          "url": "https://www.qobuz.com/us-en/album/it-sounds-like-purim-benny-friedman/es1xbjehvblda"
+        },
         "amazon": {
           "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B09V1L1YFN"
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B09V1L1YFN"
         },
         "other": {
           "label": "audiomack.com",
@@ -2838,15 +2866,26 @@
           "url": "https://tidal.com/album/219709995"
         },
         {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
           "action": true,
           "action_kind": "buy",
           "source": "release",
           "source_release_mbid": "97288c46-f6e5-4d44-a1ef-138807fabb3a",
-          "url": "https://www.amazon.com/gp/product/B09V1L1YFN"
+          "url": "https://www.qobuz.com/us-en/album/it-sounds-like-purim-benny-friedman/es1xbjehvblda"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "97288c46-f6e5-4d44-a1ef-138807fabb3a",
+          "url": "https://music.amazon.com/albums/B09V1L1YFN"
         },
         {
           "site_key": "other",

@@ -14,15 +14,16 @@
     "services": {
       "spotify": 56,
       "apple_music": 54,
-      "deezer": 26,
-      "tidal": 16,
+      "deezer": 27,
+      "tidal": 17,
       "youtube": 4,
+      "amazon": 3,
       "chabad": 2,
-      "amazon": 2,
       "bandcamp": 2,
+      "youtube_music": 2,
       "boomplay": 1,
       "other": 1,
-      "youtube_music": 1,
+      "qobuz": 1,
       "soundcloud": 1
     }
   },
@@ -5469,6 +5470,17 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/b7da8833-4d1b-4c47-ad59-fbfe8cfbb7cf",
       "links": [
         {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://music.amazon.com/albums/B0H5VK81GB"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -5480,6 +5492,17 @@
           "url": "https://music.apple.com/us/album/1514210719"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_md4Iq5NT0ZnCAhyRQKIsIIgG5sSBIt0CU"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -5489,6 +5512,39 @@
           "source": "release",
           "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
           "url": "https://open.spotify.com/album/0Kbv2wM6OCJN8DzuVVFRK4"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://tidal.com/album/534496395"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://www.deezer.com/album/1008623131"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://www.qobuz.com/us-en/album/project-relax-with-avraham-fried-avraham-fried/cie0ay9kvljaz"
         },
         {
           "site_key": "wikidata",
@@ -5512,6 +5568,31 @@
           "label": "Apple Music",
           "kind": "listen",
           "url": "https://music.apple.com/us/album/1514210719"
+        },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_md4Iq5NT0ZnCAhyRQKIsIIgG5sSBIt0CU"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1008623131"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/534496395"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "buy",
+          "url": "https://www.qobuz.com/us-en/album/project-relax-with-avraham-fried-avraham-fried/cie0ay9kvljaz"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B0H5VK81GB"
         }
       },
       "actions": [
@@ -5536,6 +5617,61 @@
           "source": "release",
           "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
           "url": "https://music.apple.com/us/album/1514210719"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_md4Iq5NT0ZnCAhyRQKIsIIgG5sSBIt0CU"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://www.deezer.com/album/1008623131"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://tidal.com/album/534496395"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://www.qobuz.com/us-en/album/project-relax-with-avraham-fried-avraham-fried/cie0ay9kvljaz"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0e02d11d-a5e9-47c5-8696-d3f4b56bc6af",
+          "url": "https://music.amazon.com/albums/B0H5VK81GB"
         }
       ],
       "references": [

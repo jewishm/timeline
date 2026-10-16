@@ -13,13 +13,14 @@
     "services": {
       "apple_music": 67,
       "spotify": 66,
-      "deezer": 36,
-      "tidal": 20,
-      "amazon": 2,
+      "deezer": 37,
+      "tidal": 21,
+      "amazon": 3,
+      "qobuz": 2,
       "anghami": 1,
       "boomplay": 1,
       "youtube": 1,
-      "qobuz": 1
+      "youtube_music": 1
     }
   },
   "releases": [
@@ -4830,6 +4831,17 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/e578ca7c-8ad2-441b-b3fe-f1a73169d3c1",
       "links": [
         {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "ad6eef22-613a-49b2-ad43-2b0a55f0af06",
+          "url": "https://music.amazon.com/albums/B0G1S3T934"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -4962,8 +4974,8 @@
         },
         "amazon": {
           "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B0BQ7FZVXV"
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B0G1S3T934"
         },
         "youtube": {
           "label": "YouTube",
@@ -5041,13 +5053,13 @@
         {
           "site_key": "amazon",
           "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
           "action": true,
-          "action_kind": "buy",
+          "action_kind": "listen",
           "source": "release",
           "source_release_mbid": "ad6eef22-613a-49b2-ad43-2b0a55f0af06",
-          "url": "https://www.amazon.com/gp/product/B0BQ7FZVXV"
+          "url": "https://music.amazon.com/albums/B0G1S3T934"
         },
         {
           "site_key": "youtube",
@@ -6896,6 +6908,17 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/805f46e2-a109-4ca7-bba1-e082df02f791",
       "links": [
         {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://music.amazon.com/albums/B0BQN78NWC"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -6907,6 +6930,17 @@
           "url": "https://music.apple.com/gb/album/1660774760"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nWFJU-3yn-sNWV_V7HRjvMg7BhC1Yqgg8"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -6916,6 +6950,39 @@
           "source": "release",
           "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
           "url": "https://open.spotify.com/album/3iFO13UMzKfynwwZvko1En"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://tidal.com/album/271195200"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://www.deezer.com/album/396113947"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://www.qobuz.com/us-en/album/nostalgia-michoel-schnitzler-amp-yisoscher-guttman-amp-r-yermia-damen/y34di98963mqa"
         }
       ],
       "preferred_links": {
@@ -6928,6 +6995,31 @@
           "label": "Apple Music",
           "kind": "listen",
           "url": "https://music.apple.com/gb/album/1660774760"
+        },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nWFJU-3yn-sNWV_V7HRjvMg7BhC1Yqgg8"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/396113947"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/271195200"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "buy",
+          "url": "https://www.qobuz.com/us-en/album/nostalgia-michoel-schnitzler-amp-yisoscher-guttman-amp-r-yermia-damen/y34di98963mqa"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B0BQN78NWC"
         }
       },
       "actions": [
@@ -6952,6 +7044,61 @@
           "source": "release",
           "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
           "url": "https://music.apple.com/gb/album/1660774760"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nWFJU-3yn-sNWV_V7HRjvMg7BhC1Yqgg8"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://www.deezer.com/album/396113947"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://tidal.com/album/271195200"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://www.qobuz.com/us-en/album/nostalgia-michoel-schnitzler-amp-yisoscher-guttman-amp-r-yermia-damen/y34di98963mqa"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b4418084-7085-4193-a034-95899d916783",
+          "url": "https://music.amazon.com/albums/B0BQN78NWC"
         }
       ],
       "references": [],
