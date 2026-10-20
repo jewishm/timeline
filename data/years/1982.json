@@ -1033,6 +1033,17 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/1ab23d8c-54b8-4218-ac96-728632dca498",
       "links": [
         {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "aef654e9-3814-45f0-a6bb-c470eb464174",
+          "url": "https://music.amazon.com/albums/B0844Q7V6Y"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -1053,6 +1064,17 @@
           "source": "release",
           "source_release_mbid": "aef654e9-3814-45f0-a6bb-c470eb464174",
           "url": "https://music.apple.com/us/album/1496476876"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "aef654e9-3814-45f0-a6bb-c470eb464174",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nEcM7wPEtSzZdDsY4xkD4oDnNf2up-bx4"
         },
         {
           "site_key": "spotify",
@@ -1110,6 +1132,11 @@
           "kind": "listen",
           "url": "https://music.apple.com/us/album/1496476876"
         },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nEcM7wPEtSzZdDsY4xkD4oDnNf2up-bx4"
+        },
         "deezer": {
           "label": "Deezer",
           "kind": "listen",
@@ -1119,6 +1146,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/129051519"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B0844Q7V6Y"
         }
       },
       "actions": [
@@ -1145,6 +1177,17 @@
           "url": "https://music.apple.com/us/album/1496476876"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "aef654e9-3814-45f0-a6bb-c470eb464174",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nEcM7wPEtSzZdDsY4xkD4oDnNf2up-bx4"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -1165,6 +1208,17 @@
           "source": "release",
           "source_release_mbid": "aef654e9-3814-45f0-a6bb-c470eb464174",
           "url": "https://tidal.com/album/129051519"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "aef654e9-3814-45f0-a6bb-c470eb464174",
+          "url": "https://music.amazon.com/albums/B0844Q7V6Y"
         }
       ],
       "references": [
