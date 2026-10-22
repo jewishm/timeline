@@ -1,7 +1,7 @@
 {
   "collection_mbid": "45d6a632-9366-4fac-8a9e-bf04734172b9",
   "artist_count": 1847,
-  "release_group_count": 8286,
+  "release_group_count": 8289,
   "artists": [
     {
       "mbid": "51cb99a5-ce66-4611-9d08-a6432c9560f9",
@@ -1015,7 +1015,7 @@
     {
       "mbid": "116aec0b-4853-46fb-95c4-b6bba6fcd13c",
       "name": "Avrumi Cohn",
-      "release_count": 2,
+      "release_count": 3,
       "terms": [
         "avrumi cohn",
         "cohn avrumi"
@@ -1788,7 +1788,7 @@
     {
       "mbid": "15979275-cf95-466e-872b-64fe1009fe70",
       "name": "Chaim Brown",
-      "release_count": 5,
+      "release_count": 6,
       "terms": [
         "chaim brown",
         "brown chaim"
@@ -3728,7 +3728,7 @@
     {
       "mbid": "25b98ef2-5c42-4f19-9412-6bc0be1d3378",
       "name": "Freilach Band",
-      "release_count": 37,
+      "release_count": 38,
       "terms": [
         "freilach band",
         "the freilach philharmonic"
@@ -17111,13 +17111,14 @@
     {
       "mbid": "9d256461-90f6-427a-83fc-2c75ffdce00e",
       "name": "עקיבא פמנסקי",
-      "release_count": 5,
+      "release_count": 6,
       "terms": [
         "עקיבא פמנסקי",
         "pamensky akiva",
         "akiva pamensky",
         "akiva pamnski",
-        "akiva"
+        "akiva",
+        "עקיבא הירש פמנסקי"
       ]
     },
     {
@@ -423512,6 +423513,68 @@
       "cover_caa": "https://coverartarchive.org/release/a5810c66-137b-4b47-85b4-e03536316964/46453808830-250.jpg"
     },
     {
+      "mbid": "cd83d873-a4af-42ab-ad9c-66acce16fd80",
+      "title": "October 11 ’26 Wedding",
+      "artist_credit": "Avrumi Cohn feat. Chaim Brown",
+      "artist_mbids": [
+        "116aec0b-4853-46fb-95c4-b6bba6fcd13c",
+        "15979275-cf95-466e-872b-64fe1009fe70"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "116aec0b-4853-46fb-95c4-b6bba6fcd13c",
+          "name": "Avrumi Cohn",
+          "position": 0,
+          "credit_name": "Avrumi Cohn",
+          "join_phrase": " feat. "
+        },
+        {
+          "mbid": "15979275-cf95-466e-872b-64fe1009fe70",
+          "name": "Chaim Brown",
+          "position": 1,
+          "credit_name": "Chaim Brown",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Live"
+      ],
+      "primary_type": "Album",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 17,
+      "cover": "/covers/9b66c947-9143-4e89-a9a3-f2e0e6dabd9b--46505516030.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/cd83d873-a4af-42ab-ad9c-66acce16fd80",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/3UeVlueuSR0eSHsD6HLdr6"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6825152974"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1126751881"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/571722173"
+        }
+      ],
+      "terms": [
+        "october 11 26 wedding",
+        "avrumi cohn feat chaim brown"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/9b66c947-9143-4e89-a9a3-f2e0e6dabd9b/46505516030-250.jpg"
+    },
+    {
       "mbid": "7ceb8657-bcd0-45ea-9188-eb4520ca2c80",
       "title": "Vay Lon",
       "artist_credit": "Avrumi",
@@ -423567,6 +423630,65 @@
         "avrumi"
       ],
       "cover_caa": "https://coverartarchive.org/release/0e344ac3-dc1d-44d9-b4c0-fdeee0595e27/46487619557-250.jpg"
+    },
+    {
+      "mbid": "6d620444-54d8-4daa-9591-085d3e755c22",
+      "title": "Freilach Selects - The Music of ABBA",
+      "artist_credit": "Freilach Band",
+      "artist_mbids": [
+        "25b98ef2-5c42-4f19-9412-6bc0be1d3378"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "25b98ef2-5c42-4f19-9412-6bc0be1d3378",
+          "name": "Freilach Band",
+          "position": 0,
+          "credit_name": "Freilach Band",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Live"
+      ],
+      "primary_type": "EP",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 18,
+      "cover": "/covers/15ff9174-92a3-4c84-85bf-45bbf35fb1c5--46505517812.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/6d620444-54d8-4daa-9591-085d3e755c22",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/1wnLD03NKsJ3ZqcsNX1pgO"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6825148769"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1126751761"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/571720965"
+        },
+        {
+          "site_label": "Amazon",
+          "action_kind": "listen",
+          "url": "https://music.amazon.com/albums/B0HNQYCBKY"
+        }
+      ],
+      "terms": [
+        "freilach selects the music of abba",
+        "freilach band"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/15ff9174-92a3-4c84-85bf-45bbf35fb1c5/46505517812-250.jpg"
     },
     {
       "mbid": "082119fe-9eea-46fa-a112-ead610559e32",
@@ -423734,6 +423856,63 @@
         "אלי הרצליך"
       ],
       "cover_caa": "https://coverartarchive.org/release/ad6a0360-6d04-4f72-b6a2-de101e58d384/46488459715-250.jpg"
+    },
+    {
+      "mbid": "6def981e-5cbe-480f-8596-b36e59d7fd39",
+      "title": "תנו כבוד גדול",
+      "artist_credit": "עקיבא הירש פמנסקי",
+      "artist_mbids": [
+        "9d256461-90f6-427a-83fc-2c75ffdce00e"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "9d256461-90f6-427a-83fc-2c75ffdce00e",
+          "name": "עקיבא פמנסקי",
+          "position": 0,
+          "credit_name": "עקיבא הירש פמנסקי",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Single",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 20,
+      "cover": "/covers/bbbdb2be-859f-4268-af03-012d2f849c79--46505890017.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/6def981e-5cbe-480f-8596-b36e59d7fd39",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/1eksx1InYg36AxINiVBNib"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6820799956"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1116726062"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/568216104"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-akiva-pamensky/o5d585hvg6dyn"
+        }
+      ],
+      "terms": [
+        "תנו כבוד גדול",
+        "עקיבא הירש פמנסקי"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/bbbdb2be-859f-4268-af03-012d2f849c79/46505890017-250.jpg"
     },
     {
       "mbid": "e4795a4c-7dca-44c3-a9de-0827203925c9",
