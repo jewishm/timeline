@@ -2,22 +2,24 @@
   "year": 2026,
   "month": 8,
   "stats": {
-    "release_groups": 111,
-    "with_cover_art": 111,
-    "with_action_links": 111,
+    "release_groups": 112,
+    "with_cover_art": 112,
+    "with_action_links": 112,
     "future_releases": 0,
     "types": {
       "Album": 26,
       "EP": 8,
-      "Single": 77
+      "Single": 78
     },
     "services": {
-      "spotify": 109,
-      "tidal": 108,
-      "deezer": 107,
-      "apple_music": 102,
-      "qobuz": 59,
-      "24six": 2
+      "spotify": 110,
+      "tidal": 109,
+      "deezer": 108,
+      "apple_music": 103,
+      "qobuz": 60,
+      "24six": 2,
+      "youtube_music": 1,
+      "amazon": 1
     }
   },
   "releases": [
@@ -4008,6 +4010,274 @@
           "source": "release",
           "source_release_mbid": "7353038f-0f07-4dc7-a921-c5245b736dfc",
           "url": "https://tidal.com/album/550519065"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "0dd1b949-9719-4f28-bfc6-87e9087f54d8",
+      "title": "Hashlech",
+      "artist_credit": "Aryeh Kunstler",
+      "credited_artists": [
+        {
+          "mbid": "79b404bc-94a4-4e54-8e34-cc1c860fc27e",
+          "name": "Aryeh Kunstler",
+          "position": 0,
+          "credit_name": "Aryeh Kunstler",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "79b404bc-94a4-4e54-8e34-cc1c860fc27e",
+          "name": "Aryeh Kunstler"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-08-09",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 9,
+      "release_count": 1,
+      "release_mbids": [
+        "d9b70620-599d-4e04-a76e-aebee7bfa517"
+      ],
+      "cover_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+      "cover_art": {
+        "release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+        "image_id": 46514358928,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/d9b70620-599d-4e04-a76e-aebee7bfa517/46514358928",
+        "thumbnails": {
+          "250": "/covers/d9b70620-599d-4e04-a76e-aebee7bfa517--46514358928.webp",
+          "500": "/covers/d9b70620-599d-4e04-a76e-aebee7bfa517--46514358928.webp",
+          "1200": "/covers/d9b70620-599d-4e04-a76e-aebee7bfa517--46514358928.webp"
+        },
+        "cached": "/covers/d9b70620-599d-4e04-a76e-aebee7bfa517--46514358928.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/0dd1b949-9719-4f28-bfc6-87e9087f54d8",
+      "links": [
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://music.amazon.com/albums/B0HD6LFB16"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://music.apple.com/us/album/6798621036"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://music.apple.com/us/album/6798621036"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lJudDnH-ugXrwkzXjC2aNb1lLnHrQ-sKI"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://open.spotify.com/album/2x58ZrohM17ZzjaRpfsLNu"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://tidal.com/album/549681287"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://www.deezer.com/album/1047470932"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://www.qobuz.com/us-en/album/hashlech-aryeh-kunstler/xagbi50uo8r36"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://www.qobuz.com/us-en/album/hashlech-aryeh-kunstler/xagbi50uo8r36"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2x58ZrohM17ZzjaRpfsLNu"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6798621036"
+        },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lJudDnH-ugXrwkzXjC2aNb1lLnHrQ-sKI"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1047470932"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/549681287"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/hashlech-aryeh-kunstler/xagbi50uo8r36"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B0HD6LFB16"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://open.spotify.com/album/2x58ZrohM17ZzjaRpfsLNu"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://music.apple.com/us/album/6798621036"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lJudDnH-ugXrwkzXjC2aNb1lLnHrQ-sKI"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://www.deezer.com/album/1047470932"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://tidal.com/album/549681287"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://www.qobuz.com/us-en/album/hashlech-aryeh-kunstler/xagbi50uo8r36"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d9b70620-599d-4e04-a76e-aebee7bfa517",
+          "url": "https://music.amazon.com/albums/B0HD6LFB16"
         }
       ],
       "references": [],

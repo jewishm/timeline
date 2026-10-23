@@ -14,8 +14,8 @@
       "spotify": 7,
       "apple_music": 7,
       "deezer": 4,
-      "tidal": 3,
-      "qobuz": 1
+      "tidal": 4,
+      "qobuz": 2
     }
   },
   "releases": [
@@ -659,6 +659,28 @@
           "url": "https://music.apple.com/gb/album/1590948581"
         },
         {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a4c7d4b0-1a4f-401c-ac2e-ac0cea515ce6",
+          "url": "https://music.apple.com/us/album/1263318668"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a4c7d4b0-1a4f-401c-ac2e-ac0cea515ce6",
+          "url": "https://music.apple.com/us/album/1263318668"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -681,6 +703,17 @@
           "url": "https://open.spotify.com/album/7qe3kOLd94xiOFZscH0xE3"
         },
         {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a4c7d4b0-1a4f-401c-ac2e-ac0cea515ce6",
+          "url": "https://tidal.com/album/76634186"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -701,6 +734,28 @@
           "source": "release",
           "source_release_mbid": "a4c7d4b0-1a4f-401c-ac2e-ac0cea515ce6",
           "url": "https://www.deezer.com/album/45254431"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a4c7d4b0-1a4f-401c-ac2e-ac0cea515ce6",
+          "url": "https://www.qobuz.com/us-en/album/baruch-hashem-feat-matt-dubb-zusha-pumpidisa/khoigt709f5xb"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a4c7d4b0-1a4f-401c-ac2e-ac0cea515ce6",
+          "url": "https://www.qobuz.com/us-en/album/baruch-hashem-feat-matt-dubb-zusha-pumpidisa/khoigt709f5xb"
         }
       ],
       "preferred_links": {
@@ -718,6 +773,16 @@
           "label": "Deezer",
           "kind": "listen",
           "url": "https://www.deezer.com/album/266547502"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/76634186"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/baruch-hashem-feat-matt-dubb-zusha-pumpidisa/khoigt709f5xb"
         }
       },
       "actions": [
@@ -753,6 +818,28 @@
           "source": "release",
           "source_release_mbid": "bf1d1feb-261b-437f-bc55-d49c28c4d460",
           "url": "https://www.deezer.com/album/266547502"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a4c7d4b0-1a4f-401c-ac2e-ac0cea515ce6",
+          "url": "https://tidal.com/album/76634186"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a4c7d4b0-1a4f-401c-ac2e-ac0cea515ce6",
+          "url": "https://www.qobuz.com/us-en/album/baruch-hashem-feat-matt-dubb-zusha-pumpidisa/khoigt709f5xb"
         }
       ],
       "references": [],

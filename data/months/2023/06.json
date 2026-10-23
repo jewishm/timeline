@@ -6672,8 +6672,10 @@
       "year": 2023,
       "month": 6,
       "day": 20,
-      "release_count": 1,
+      "release_count": 3,
       "release_mbids": [
+        "49907278-f84d-45af-852c-2a5840e754a6",
+        "86863611-cd94-4c58-b8dc-a3af44d4f72a",
         "8ffffddf-2831-4b36-9069-0892af90a8f5"
       ],
       "cover_release_mbid": "8ffffddf-2831-4b36-9069-0892af90a8f5",
@@ -6714,6 +6716,28 @@
           "source": "release",
           "source_release_mbid": "8ffffddf-2831-4b36-9069-0892af90a8f5",
           "url": "https://music.apple.com/us/album/1692917818"
+        },
+        {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=113397"
+        },
+        {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=113398"
         },
         {
           "site_key": "spotify",
@@ -6817,7 +6841,30 @@
           "url": "https://tidal.com/album/300238118"
         }
       ],
-      "references": [],
+      "references": [
+        {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=113397"
+        },
+        {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=113398"
+        }
+      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

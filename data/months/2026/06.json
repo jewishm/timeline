@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 6,
   "stats": {
-    "release_groups": 74,
-    "with_cover_art": 74,
-    "with_action_links": 74,
+    "release_groups": 75,
+    "with_cover_art": 75,
+    "with_action_links": 75,
     "future_releases": 0,
     "types": {
       "Album": 22,
       "EP": 3,
-      "Single": 49
+      "Single": 50
     },
     "services": {
-      "spotify": 73,
-      "tidal": 72,
-      "deezer": 68,
-      "qobuz": 58,
-      "apple_music": 57
+      "spotify": 74,
+      "tidal": 73,
+      "deezer": 69,
+      "qobuz": 59,
+      "apple_music": 58
     }
   },
   "releases": [
@@ -14029,6 +14029,220 @@
           "source": "release",
           "source_release_mbid": "64da5ac6-d251-401b-9800-d0cc8dbd440d",
           "url": "https://tidal.com/album/537302798"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "2b138f2d-250d-4a41-b090-6d4045d08d74",
+      "title": "Ani Maamin",
+      "artist_credit": "Leiby Wieder",
+      "credited_artists": [
+        {
+          "mbid": "0e6d01c9-cb52-46ce-bcd0-759bef0e0d38",
+          "name": "Leiby Wieder",
+          "position": 0,
+          "credit_name": "Leiby Wieder",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "0e6d01c9-cb52-46ce-bcd0-759bef0e0d38",
+          "name": "Leiby Wieder"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-06-28",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 6,
+      "day": 28,
+      "release_count": 1,
+      "release_mbids": [
+        "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4"
+      ],
+      "cover_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+      "cover_art": {
+        "release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+        "image_id": 46514440363,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/d0793ce6-8bae-4502-93a3-04cc6ed4e7b4/46514440363",
+        "thumbnails": {
+          "250": "/covers/d0793ce6-8bae-4502-93a3-04cc6ed4e7b4--46514440363.webp",
+          "500": "/covers/d0793ce6-8bae-4502-93a3-04cc6ed4e7b4--46514440363.webp",
+          "1200": "/covers/d0793ce6-8bae-4502-93a3-04cc6ed4e7b4--46514440363.webp"
+        },
+        "cached": "/covers/d0793ce6-8bae-4502-93a3-04cc6ed4e7b4--46514440363.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/2b138f2d-250d-4a41-b090-6d4045d08d74",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://music.apple.com/us/album/6785239963"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://music.apple.com/us/album/6785239963"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://open.spotify.com/album/6cnJbPXexLF5oVHfespFHw"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://tidal.com/album/537964612"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://www.deezer.com/album/1016489041"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://www.qobuz.com/us-en/album/ani-maamin-leiby-wieder/l2t8apkquen9t"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://www.qobuz.com/us-en/album/ani-maamin-leiby-wieder/l2t8apkquen9t"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6cnJbPXexLF5oVHfespFHw"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6785239963"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1016489041"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/537964612"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/ani-maamin-leiby-wieder/l2t8apkquen9t"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://open.spotify.com/album/6cnJbPXexLF5oVHfespFHw"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://music.apple.com/us/album/6785239963"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://www.deezer.com/album/1016489041"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://tidal.com/album/537964612"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "d0793ce6-8bae-4502-93a3-04cc6ed4e7b4",
+          "url": "https://www.qobuz.com/us-en/album/ani-maamin-leiby-wieder/l2t8apkquen9t"
         }
       ],
       "references": [],

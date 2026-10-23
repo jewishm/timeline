@@ -2,23 +2,25 @@
   "year": 2026,
   "month": 9,
   "stats": {
-    "release_groups": 116,
-    "with_cover_art": 116,
-    "with_action_links": 115,
+    "release_groups": 117,
+    "with_cover_art": 117,
+    "with_action_links": 116,
     "future_releases": 0,
     "types": {
       "Album": 31,
       "EP": 9,
-      "Single": 76
+      "Single": 77
     },
     "services": {
-      "spotify": 111,
-      "tidal": 109,
-      "apple_music": 99,
-      "deezer": 81,
-      "qobuz": 37,
+      "spotify": 112,
+      "tidal": 110,
+      "apple_music": 100,
+      "deezer": 82,
+      "qobuz": 39,
       "24six": 9,
-      "mostly_music": 1
+      "mostly_music": 1,
+      "youtube_music": 1,
+      "amazon": 1
     }
   },
   "releases": [
@@ -2589,6 +2591,28 @@
           "url": "https://music.apple.com/us/album/6807245773"
         },
         {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "open.qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "b5797417-74cf-49db-8a9b-d54fd05686b9",
+          "url": "https://open.qobuz.com/album/evqfuu06sio6j"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "open.qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b5797417-74cf-49db-8a9b-d54fd05686b9",
+          "url": "https://open.qobuz.com/album/evqfuu06sio6j"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -2642,6 +2666,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/557265373"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://open.qobuz.com/album/evqfuu06sio6j"
         }
       },
       "actions": [
@@ -2688,6 +2717,17 @@
           "source": "release",
           "source_release_mbid": "b5797417-74cf-49db-8a9b-d54fd05686b9",
           "url": "https://tidal.com/album/557265373"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "open.qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "b5797417-74cf-49db-8a9b-d54fd05686b9",
+          "url": "https://open.qobuz.com/album/evqfuu06sio6j"
         }
       ],
       "references": [],
@@ -18116,6 +18156,281 @@
           "source": "release",
           "source_release_mbid": "da7264f7-e083-4b7f-9bbc-619b7537e332",
           "url": "https://www.qobuz.com/us-en/album/-/wsk0qufvu7kal"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "23f42f09-d532-47a2-b40f-0812f6e13e78",
+      "title": "Yearning Soul",
+      "artist_credit": "Aryeh Kunstler & Shlomo Zev",
+      "credited_artists": [
+        {
+          "mbid": "79b404bc-94a4-4e54-8e34-cc1c860fc27e",
+          "name": "Aryeh Kunstler",
+          "position": 0,
+          "credit_name": "Aryeh Kunstler",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "14c2c6fe-0dc9-42fb-8796-77c086e641e1",
+          "name": "Shlomo Zev",
+          "position": 1,
+          "credit_name": "Shlomo Zev",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "79b404bc-94a4-4e54-8e34-cc1c860fc27e",
+          "name": "Aryeh Kunstler"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-09-24",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 24,
+      "release_count": 1,
+      "release_mbids": [
+        "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c"
+      ],
+      "cover_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+      "cover_art": {
+        "release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+        "image_id": 46514344225,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a6a8b9bd-999e-48bc-8241-b08ce2bbb21c/46514344225",
+        "thumbnails": {
+          "250": "/covers/a6a8b9bd-999e-48bc-8241-b08ce2bbb21c--46514344225.webp",
+          "500": "/covers/a6a8b9bd-999e-48bc-8241-b08ce2bbb21c--46514344225.webp",
+          "1200": "/covers/a6a8b9bd-999e-48bc-8241-b08ce2bbb21c--46514344225.webp"
+        },
+        "cached": "/covers/a6a8b9bd-999e-48bc-8241-b08ce2bbb21c--46514344225.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/23f42f09-d532-47a2-b40f-0812f6e13e78",
+      "links": [
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://music.amazon.com/albums/B0HKRDQ78S"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://music.apple.com/us/album/6815390105"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://music.apple.com/us/album/6815390105"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nZaBrQeOYyaCrZFFTfqGuO708YxEgM9dk"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://open.spotify.com/album/5ZiaU0Xv7TM8n9CHjQfiQD"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://tidal.com/album/563614252"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://www.deezer.com/album/1104034792"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://www.qobuz.com/us-en/album/yearning-soul-aryeh-kunstler-amp-shlomo-zev/psy41th1ktgeb"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://www.qobuz.com/us-en/album/yearning-soul-aryeh-kunstler-amp-shlomo-zev/psy41th1ktgeb"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5ZiaU0Xv7TM8n9CHjQfiQD"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6815390105"
+        },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nZaBrQeOYyaCrZFFTfqGuO708YxEgM9dk"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1104034792"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/563614252"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/yearning-soul-aryeh-kunstler-amp-shlomo-zev/psy41th1ktgeb"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B0HKRDQ78S"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://open.spotify.com/album/5ZiaU0Xv7TM8n9CHjQfiQD"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://music.apple.com/us/album/6815390105"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_nZaBrQeOYyaCrZFFTfqGuO708YxEgM9dk"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://www.deezer.com/album/1104034792"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://tidal.com/album/563614252"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://www.qobuz.com/us-en/album/yearning-soul-aryeh-kunstler-amp-shlomo-zev/psy41th1ktgeb"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a6a8b9bd-999e-48bc-8241-b08ce2bbb21c",
+          "url": "https://music.amazon.com/albums/B0HKRDQ78S"
         }
       ],
       "references": [],
