@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 9,
   "stats": {
-    "release_groups": 117,
-    "with_cover_art": 117,
-    "with_action_links": 116,
+    "release_groups": 118,
+    "with_cover_art": 118,
+    "with_action_links": 117,
     "future_releases": 0,
     "types": {
       "Album": 31,
       "EP": 9,
-      "Single": 77
+      "Single": 78
     },
     "services": {
-      "spotify": 112,
-      "tidal": 110,
-      "apple_music": 100,
-      "deezer": 82,
-      "qobuz": 39,
+      "spotify": 113,
+      "tidal": 111,
+      "apple_music": 101,
+      "deezer": 83,
+      "qobuz": 40,
       "24six": 9,
       "mostly_music": 1,
       "youtube_music": 1,
@@ -20609,6 +20609,220 @@
           "source": "release",
           "source_release_mbid": "859e0200-6c23-4fc0-906f-8f14bb98b210",
           "url": "https://www.qobuz.com/us-en/album/6926-with-berko-brothers-lipa-schmeltzer-avrumi-berko/j96qfrd7eg9vb"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "5f86ad56-4fb6-4946-bec5-1006458b104f",
+      "title": "אשר בחר בנו",
+      "artist_credit": "Nachman Cohen",
+      "credited_artists": [
+        {
+          "mbid": "b15ff3e7-467f-49cb-892b-ce2ca4ece6b5",
+          "name": "Nachman Cohen",
+          "position": 0,
+          "credit_name": "Nachman Cohen",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b15ff3e7-467f-49cb-892b-ce2ca4ece6b5",
+          "name": "Nachman Cohen"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-09-28",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 9,
+      "day": 28,
+      "release_count": 1,
+      "release_mbids": [
+        "c188a0da-9479-4a81-84c0-3257f1e658e4"
+      ],
+      "cover_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+      "cover_art": {
+        "release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+        "image_id": 46522911231,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/c188a0da-9479-4a81-84c0-3257f1e658e4/46522911231",
+        "thumbnails": {
+          "250": "/covers/c188a0da-9479-4a81-84c0-3257f1e658e4--46522911231.webp",
+          "500": "/covers/c188a0da-9479-4a81-84c0-3257f1e658e4--46522911231.webp",
+          "1200": "/covers/c188a0da-9479-4a81-84c0-3257f1e658e4--46522911231.webp"
+        },
+        "cached": "/covers/c188a0da-9479-4a81-84c0-3257f1e658e4--46522911231.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/5f86ad56-4fb6-4946-bec5-1006458b104f",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://music.apple.com/us/album/6817187435"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://music.apple.com/us/album/6817187435"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://open.spotify.com/album/2zffssJYCRZWRupIAhU061"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://tidal.com/album/565125721"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://www.deezer.com/album/1108898182"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://www.qobuz.com/us-en/album/-nachman-cohen/cmzv34cox389g"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://www.qobuz.com/us-en/album/-nachman-cohen/cmzv34cox389g"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/2zffssJYCRZWRupIAhU061"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6817187435"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1108898182"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/565125721"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-nachman-cohen/cmzv34cox389g"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://open.spotify.com/album/2zffssJYCRZWRupIAhU061"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://music.apple.com/us/album/6817187435"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://www.deezer.com/album/1108898182"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://tidal.com/album/565125721"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c188a0da-9479-4a81-84c0-3257f1e658e4",
+          "url": "https://www.qobuz.com/us-en/album/-nachman-cohen/cmzv34cox389g"
         }
       ],
       "references": [],

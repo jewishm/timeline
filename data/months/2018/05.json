@@ -2,26 +2,26 @@
   "year": 2018,
   "month": 5,
   "stats": {
-    "release_groups": 24,
-    "with_cover_art": 24,
-    "with_action_links": 24,
+    "release_groups": 25,
+    "with_cover_art": 25,
+    "with_action_links": 25,
     "future_releases": 0,
     "types": {
       "Album": 9,
-      "Single": 15
+      "Single": 16
     },
     "services": {
       "spotify": 24,
       "apple_music": 24,
       "deezer": 13,
       "tidal": 10,
+      "youtube": 2,
       "amazon": 2,
       "qobuz": 1,
       "nigun_music": 1,
       "eichlers": 1,
       "youtube_music": 1,
-      "soundcloud": 1,
-      "youtube": 1
+      "soundcloud": 1
     }
   },
   "releases": [
@@ -983,6 +983,90 @@
           "source": "release",
           "source_release_mbid": "2a7ddf05-3bec-4d6e-a691-4751b2d8ea72",
           "url": "https://music.apple.com/gb/album/1383266238"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "32961b76-d1dd-40ae-b39f-2bbb34672455",
+      "title": "למעלה",
+      "artist_credit": "Nachman Cohen",
+      "credited_artists": [
+        {
+          "mbid": "b15ff3e7-467f-49cb-892b-ce2ca4ece6b5",
+          "name": "Nachman Cohen",
+          "position": 0,
+          "credit_name": "Nachman Cohen",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b15ff3e7-467f-49cb-892b-ce2ca4ece6b5",
+          "name": "Nachman Cohen"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2018-05-11",
+      "date_precision": "day",
+      "year": 2018,
+      "month": 5,
+      "day": 11,
+      "release_count": 1,
+      "release_mbids": [
+        "1d7960a0-93f9-4760-bd60-91dcc5ada229"
+      ],
+      "cover_release_mbid": "1d7960a0-93f9-4760-bd60-91dcc5ada229",
+      "cover_art": {
+        "release_mbid": "1d7960a0-93f9-4760-bd60-91dcc5ada229",
+        "image_id": 46493967747,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/1d7960a0-93f9-4760-bd60-91dcc5ada229/46493967747",
+        "thumbnails": {
+          "250": "/covers/1d7960a0-93f9-4760-bd60-91dcc5ada229--46493967747.webp",
+          "500": "/covers/1d7960a0-93f9-4760-bd60-91dcc5ada229--46493967747.webp",
+          "1200": "/covers/1d7960a0-93f9-4760-bd60-91dcc5ada229--46493967747.webp"
+        },
+        "cached": "/covers/1d7960a0-93f9-4760-bd60-91dcc5ada229--46493967747.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/32961b76-d1dd-40ae-b39f-2bbb34672455",
+      "links": [
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1d7960a0-93f9-4760-bd60-91dcc5ada229",
+          "url": "https://www.youtube.com/watch?v=5HJVtOdDoW4"
+        }
+      ],
+      "preferred_links": {
+        "youtube": {
+          "label": "YouTube",
+          "kind": "listen",
+          "url": "https://www.youtube.com/watch?v=5HJVtOdDoW4"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "1d7960a0-93f9-4760-bd60-91dcc5ada229",
+          "url": "https://www.youtube.com/watch?v=5HJVtOdDoW4"
         }
       ],
       "references": [],

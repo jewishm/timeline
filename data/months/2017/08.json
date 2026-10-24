@@ -2,14 +2,14 @@
   "year": 2017,
   "month": 8,
   "stats": {
-    "release_groups": 27,
-    "with_cover_art": 26,
-    "with_action_links": 27,
+    "release_groups": 28,
+    "with_cover_art": 27,
+    "with_action_links": 28,
     "future_releases": 0,
     "types": {
       "Album": 13,
       "EP": 1,
-      "Single": 13
+      "Single": 14
     },
     "services": {
       "spotify": 25,
@@ -17,7 +17,7 @@
       "deezer": 11,
       "tidal": 10,
       "amazon": 5,
-      "youtube": 3,
+      "youtube": 4,
       "qobuz": 3,
       "soundcloud": 1,
       "bandcamp": 1
@@ -4107,6 +4107,90 @@
           "source": "release",
           "source_release_mbid": "0ec2f86d-5c15-4af4-9d17-4b98d90c22d3",
           "url": "https://music.apple.com/gb/album/1511836855"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "04699ab9-604d-4a1f-acdb-1421dfde3a13",
+      "title": "רפואה",
+      "artist_credit": "Nachman Cohen",
+      "credited_artists": [
+        {
+          "mbid": "b15ff3e7-467f-49cb-892b-ce2ca4ece6b5",
+          "name": "Nachman Cohen",
+          "position": 0,
+          "credit_name": "Nachman Cohen",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b15ff3e7-467f-49cb-892b-ce2ca4ece6b5",
+          "name": "Nachman Cohen"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2017-08-29",
+      "date_precision": "day",
+      "year": 2017,
+      "month": 8,
+      "day": 29,
+      "release_count": 1,
+      "release_mbids": [
+        "0a956420-2ddc-498d-b7f0-c5ddd22a779b"
+      ],
+      "cover_release_mbid": "0a956420-2ddc-498d-b7f0-c5ddd22a779b",
+      "cover_art": {
+        "release_mbid": "0a956420-2ddc-498d-b7f0-c5ddd22a779b",
+        "image_id": 46494021303,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/0a956420-2ddc-498d-b7f0-c5ddd22a779b/46494021303",
+        "thumbnails": {
+          "250": "/covers/0a956420-2ddc-498d-b7f0-c5ddd22a779b--46494021303.webp",
+          "500": "/covers/0a956420-2ddc-498d-b7f0-c5ddd22a779b--46494021303.webp",
+          "1200": "/covers/0a956420-2ddc-498d-b7f0-c5ddd22a779b--46494021303.webp"
+        },
+        "cached": "/covers/0a956420-2ddc-498d-b7f0-c5ddd22a779b--46494021303.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/04699ab9-604d-4a1f-acdb-1421dfde3a13",
+      "links": [
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0a956420-2ddc-498d-b7f0-c5ddd22a779b",
+          "url": "https://www.youtube.com/watch?v=kJYX_CN6XQg"
+        }
+      ],
+      "preferred_links": {
+        "youtube": {
+          "label": "YouTube",
+          "kind": "listen",
+          "url": "https://www.youtube.com/watch?v=kJYX_CN6XQg"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0a956420-2ddc-498d-b7f0-c5ddd22a779b",
+          "url": "https://www.youtube.com/watch?v=kJYX_CN6XQg"
         }
       ],
       "references": [],

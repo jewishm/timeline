@@ -2,14 +2,14 @@
   "year": 2025,
   "month": 1,
   "stats": {
-    "release_groups": 89,
-    "with_cover_art": 88,
-    "with_action_links": 89,
+    "release_groups": 90,
+    "with_cover_art": 89,
+    "with_action_links": 90,
     "future_releases": 0,
     "types": {
       "Album": 19,
       "EP": 8,
-      "Single": 62
+      "Single": 63
     },
     "services": {
       "spotify": 88,
@@ -17,7 +17,7 @@
       "apple_music": 84,
       "tidal": 69,
       "qobuz": 5,
-      "youtube": 1,
+      "youtube": 2,
       "beatport": 1,
       "amazon": 1
     }
@@ -11235,6 +11235,90 @@
           "source": "release",
           "source_release_mbid": "542d3090-2353-4432-a0cb-e9a5efc97bca",
           "url": "https://tidal.com/album/413521031"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "4b3dd3d7-fc8f-4e50-a87d-4a42be6ac0e3",
+      "title": "מיין טרערלע",
+      "artist_credit": "Nachman Cohen",
+      "credited_artists": [
+        {
+          "mbid": "b15ff3e7-467f-49cb-892b-ce2ca4ece6b5",
+          "name": "Nachman Cohen",
+          "position": 0,
+          "credit_name": "Nachman Cohen",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b15ff3e7-467f-49cb-892b-ce2ca4ece6b5",
+          "name": "Nachman Cohen"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-01-23",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 1,
+      "day": 23,
+      "release_count": 1,
+      "release_mbids": [
+        "f2730193-766e-47bf-ad4b-551a184a2471"
+      ],
+      "cover_release_mbid": "f2730193-766e-47bf-ad4b-551a184a2471",
+      "cover_art": {
+        "release_mbid": "f2730193-766e-47bf-ad4b-551a184a2471",
+        "image_id": 46494112004,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/f2730193-766e-47bf-ad4b-551a184a2471/46494112004",
+        "thumbnails": {
+          "250": "/covers/f2730193-766e-47bf-ad4b-551a184a2471--46494112004.webp",
+          "500": "/covers/f2730193-766e-47bf-ad4b-551a184a2471--46494112004.webp",
+          "1200": "/covers/f2730193-766e-47bf-ad4b-551a184a2471--46494112004.webp"
+        },
+        "cached": "/covers/f2730193-766e-47bf-ad4b-551a184a2471--46494112004.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4b3dd3d7-fc8f-4e50-a87d-4a42be6ac0e3",
+      "links": [
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f2730193-766e-47bf-ad4b-551a184a2471",
+          "url": "https://www.youtube.com/watch?v=IP8vxbsuQu8"
+        }
+      ],
+      "preferred_links": {
+        "youtube": {
+          "label": "YouTube",
+          "kind": "listen",
+          "url": "https://www.youtube.com/watch?v=IP8vxbsuQu8"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "youtube",
+          "site_label": "YouTube",
+          "domain": "youtube.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f2730193-766e-47bf-ad4b-551a184a2471",
+          "url": "https://www.youtube.com/watch?v=IP8vxbsuQu8"
         }
       ],
       "references": [],
