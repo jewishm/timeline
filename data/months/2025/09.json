@@ -2,27 +2,27 @@
   "year": 2025,
   "month": 9,
   "stats": {
-    "release_groups": 123,
-    "with_cover_art": 122,
-    "with_action_links": 119,
+    "release_groups": 124,
+    "with_cover_art": 123,
+    "with_action_links": 120,
     "future_releases": 0,
     "types": {
       "Album": 27,
       "EP": 11,
-      "Single": 85
+      "Single": 86
     },
     "services": {
-      "spotify": 118,
-      "deezer": 118,
-      "tidal": 114,
-      "apple_music": 94,
-      "qobuz": 11,
+      "spotify": 119,
+      "deezer": 119,
+      "tidal": 115,
+      "apple_music": 95,
+      "qobuz": 12,
+      "youtube_music": 3,
       "amazon": 2,
-      "youtube_music": 2,
+      "other": 2,
       "boomplay": 1,
       "youtube": 1,
-      "soundcloud": 1,
-      "other": 1
+      "soundcloud": 1
     }
   },
   "releases": [
@@ -12625,6 +12625,285 @@
           "source": "release",
           "source_release_mbid": "307130da-46f6-4abf-9aa3-a73111eb54c9",
           "url": "https://www.qobuz.com/us-en/album/-asaph-neve-shalom/w53n9up7ttxec"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "f9f18c9a-07b5-4756-acaa-c201200463f5",
+      "title": "ליקוטי שמחה",
+      "artist_credit": "דניאל סעדון | אלחנן משמרתי",
+      "credited_artists": [
+        {
+          "mbid": "2f556b6d-54e4-4f56-8cb8-c23eabc0853b",
+          "name": "דניאל סעדון",
+          "position": 0,
+          "credit_name": "דניאל סעדון",
+          "join_phrase": " | "
+        },
+        {
+          "mbid": "69636c6f-4948-4583-8fc8-149f7cfda250",
+          "name": "אלחנן משמרתי",
+          "position": 1,
+          "credit_name": "אלחנן משמרתי",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "69636c6f-4948-4583-8fc8-149f7cfda250",
+          "name": "אלחנן משמרתי"
+        },
+        {
+          "mbid": "2f556b6d-54e4-4f56-8cb8-c23eabc0853b",
+          "name": "דניאל סעדון"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-09-14",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 9,
+      "day": 14,
+      "release_count": 1,
+      "release_mbids": [
+        "e1eebeee-06a3-4f33-98ce-6081ffa6af90"
+      ],
+      "cover_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+      "cover_art": {
+        "release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+        "image_id": 46554430466,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e1eebeee-06a3-4f33-98ce-6081ffa6af90/46554430466",
+        "thumbnails": {
+          "250": "/covers/e1eebeee-06a3-4f33-98ce-6081ffa6af90--46554430466.webp",
+          "500": "/covers/e1eebeee-06a3-4f33-98ce-6081ffa6af90--46554430466.webp",
+          "1200": "/covers/e1eebeee-06a3-4f33-98ce-6081ffa6af90--46554430466.webp"
+        },
+        "cached": "/covers/e1eebeee-06a3-4f33-98ce-6081ffa6af90--46554430466.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/f9f18c9a-07b5-4756-acaa-c201200463f5",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://music.apple.com/us/album/1838936088"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://music.apple.com/us/album/1838936088"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_mkkhD6LAAWyKxQgDxBXitbM8udS8Ldk8E"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://open.spotify.com/album/0WQDcmekm4vT50r1CAuVfn"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://tidal.com/album/459703746"
+        },
+        {
+          "site_key": "other",
+          "site_label": "uk.7digital.com",
+          "domain": "uk.7digital.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://uk.7digital.com/artist/daniel-saadon-and-%D7%90%D7%9C%D7%97%D7%A0%D7%9F-%D7%9E%D7%A9%D7%9E%D7%A8%D7%AA%D7%99/release/%D7%9C%D7%99%D7%A7%D7%95%D7%98%D7%99-%D7%A9%D7%9E%D7%97%D7%94-59664370"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://www.deezer.com/album/819169491"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://www.qobuz.com/us-en/album/-daniel-saadon-and-/kf51686dq8avc"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://www.qobuz.com/us-en/album/-daniel-saadon-and-/kf51686dq8avc"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0WQDcmekm4vT50r1CAuVfn"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1838936088"
+        },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_mkkhD6LAAWyKxQgDxBXitbM8udS8Ldk8E"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/819169491"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/459703746"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-daniel-saadon-and-/kf51686dq8avc"
+        },
+        "other": {
+          "label": "uk.7digital.com",
+          "kind": "buy",
+          "url": "https://uk.7digital.com/artist/daniel-saadon-and-%D7%90%D7%9C%D7%97%D7%A0%D7%9F-%D7%9E%D7%A9%D7%9E%D7%A8%D7%AA%D7%99/release/%D7%9C%D7%99%D7%A7%D7%95%D7%98%D7%99-%D7%A9%D7%9E%D7%97%D7%94-59664370"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://open.spotify.com/album/0WQDcmekm4vT50r1CAuVfn"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://music.apple.com/us/album/1838936088"
+        },
+        {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_mkkhD6LAAWyKxQgDxBXitbM8udS8Ldk8E"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://www.deezer.com/album/819169491"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://tidal.com/album/459703746"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://www.qobuz.com/us-en/album/-daniel-saadon-and-/kf51686dq8avc"
+        },
+        {
+          "site_key": "other",
+          "site_label": "uk.7digital.com",
+          "domain": "uk.7digital.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e1eebeee-06a3-4f33-98ce-6081ffa6af90",
+          "url": "https://uk.7digital.com/artist/daniel-saadon-and-%D7%90%D7%9C%D7%97%D7%A0%D7%9F-%D7%9E%D7%A9%D7%9E%D7%A8%D7%AA%D7%99/release/%D7%9C%D7%99%D7%A7%D7%95%D7%98%D7%99-%D7%A9%D7%9E%D7%97%D7%94-59664370"
         }
       ],
       "references": [],
