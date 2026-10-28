@@ -2816,6 +2816,17 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/2b4b464c-1959-4843-85d6-34790cd20523",
       "links": [
         {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Joey-newcomb/To-be-a-yid"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -2874,7 +2885,19 @@
           "url": "https://music.apple.com/gb/album/1450952549"
         }
       ],
-      "references": [],
+      "references": [
+        {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Joey-newcomb/To-be-a-yid"
+        }
+      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
