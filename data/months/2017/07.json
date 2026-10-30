@@ -580,19 +580,26 @@
     {
       "release_group_mbid": "63afa246-d4aa-48ef-8277-b1b66f86d06f",
       "title": "Baruch Hashem",
-      "artist_credit": "Pumpidisa feat. Matt Dubb",
+      "artist_credit": "Zusha + Pumpidisa feat. Matt Dubb",
       "credited_artists": [
+        {
+          "mbid": "bf7d4829-6555-4e06-baf6-6a49ab9af5c4",
+          "name": "Zusha",
+          "position": 0,
+          "credit_name": "Zusha",
+          "join_phrase": " + "
+        },
         {
           "mbid": "719bb79f-377f-453b-9d03-d28d6633d7ce",
           "name": "Pumpidisa",
-          "position": 0,
+          "position": 1,
           "credit_name": "Pumpidisa",
           "join_phrase": " feat. "
         },
         {
           "mbid": "280b49f1-3dcb-451a-8558-3e9b85190204",
           "name": "Matt Dubb",
-          "position": 1,
+          "position": 2,
           "credit_name": "Matt Dubb",
           "join_phrase": ""
         }
@@ -605,6 +612,10 @@
         {
           "mbid": "719bb79f-377f-453b-9d03-d28d6633d7ce",
           "name": "Pumpidisa"
+        },
+        {
+          "mbid": "bf7d4829-6555-4e06-baf6-6a49ab9af5c4",
+          "name": "Zusha"
         }
       ],
       "primary_type": "Single",
