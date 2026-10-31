@@ -2,21 +2,23 @@
   "year": 2014,
   "month": 1,
   "stats": {
-    "release_groups": 15,
-    "with_cover_art": 15,
-    "with_action_links": 15,
+    "release_groups": 16,
+    "with_cover_art": 16,
+    "with_action_links": 16,
     "future_releases": 0,
     "types": {
-      "Album": 10,
+      "Album": 11,
       "Single": 5
     },
     "services": {
-      "apple_music": 15,
-      "spotify": 14,
+      "apple_music": 16,
+      "spotify": 15,
       "deezer": 6,
-      "tidal": 2,
+      "tidal": 3,
       "amazon": 2,
-      "other": 1
+      "other": 1,
+      "qobuz": 1,
+      "bandcamp": 1
     }
   },
   "releases": [
@@ -1631,6 +1633,221 @@
           "source": "release",
           "source_release_mbid": "c2466f4d-de9b-4aef-9f08-1f6b25c38546",
           "url": "https://music.apple.com/gb/album/1433909226"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "7e2fa15e-eed1-4485-b3eb-a03466d31eb7",
+      "title": "המקום שלי",
+      "artist_credit": "רז הרטמן",
+      "credited_artists": [
+        {
+          "mbid": "59306025-845c-4b15-b98d-c9329d3fdae1",
+          "name": "Raz Hartman",
+          "position": 0,
+          "credit_name": "רז הרטמן",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "59306025-845c-4b15-b98d-c9329d3fdae1",
+          "name": "Raz Hartman"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2014-01-08",
+      "date_precision": "day",
+      "year": 2014,
+      "month": 1,
+      "day": 8,
+      "release_count": 2,
+      "release_mbids": [
+        "0b36461c-0b56-4ae6-9e15-711e9295972e",
+        "21576ee7-5307-4c5e-8301-c17351be5621"
+      ],
+      "cover_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+      "cover_art": {
+        "release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+        "image_id": 46585180832,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/0b36461c-0b56-4ae6-9e15-711e9295972e/46585180832",
+        "thumbnails": {
+          "250": "/covers/0b36461c-0b56-4ae6-9e15-711e9295972e--46585180832.webp",
+          "500": "/covers/0b36461c-0b56-4ae6-9e15-711e9295972e--46585180832.webp",
+          "1200": "/covers/0b36461c-0b56-4ae6-9e15-711e9295972e--46585180832.webp"
+        },
+        "cached": "/covers/0b36461c-0b56-4ae6-9e15-711e9295972e--46585180832.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/7e2fa15e-eed1-4485-b3eb-a03466d31eb7",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://music.apple.com/us/album/808618120"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://open.spotify.com/album/0FMbLAeD8zwdo1ei0FcC7w"
+        },
+        {
+          "site_key": "bandcamp",
+          "site_label": "Bandcamp",
+          "domain": "razhartman.bandcamp.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://razhartman.bandcamp.com/album/--3"
+        },
+        {
+          "site_key": "bandcamp",
+          "site_label": "Bandcamp",
+          "domain": "razhartman.bandcamp.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://razhartman.bandcamp.com/album/--3"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://tidal.com/album/176251196"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://www.qobuz.com/us-en/album/hamakom-sheli-my-place-raz-hartman/ybj8m7pa1miec"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://www.qobuz.com/us-en/album/hamakom-sheli-my-place-raz-hartman/ybj8m7pa1miec"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0FMbLAeD8zwdo1ei0FcC7w"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "buy",
+          "url": "https://music.apple.com/us/album/808618120"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/176251196"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/hamakom-sheli-my-place-raz-hartman/ybj8m7pa1miec"
+        },
+        "bandcamp": {
+          "label": "Bandcamp",
+          "kind": "listen",
+          "url": "https://razhartman.bandcamp.com/album/--3"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://open.spotify.com/album/0FMbLAeD8zwdo1ei0FcC7w"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://music.apple.com/us/album/808618120"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://tidal.com/album/176251196"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://www.qobuz.com/us-en/album/hamakom-sheli-my-place-raz-hartman/ybj8m7pa1miec"
+        },
+        {
+          "site_key": "bandcamp",
+          "site_label": "Bandcamp",
+          "domain": "razhartman.bandcamp.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0b36461c-0b56-4ae6-9e15-711e9295972e",
+          "url": "https://razhartman.bandcamp.com/album/--3"
         }
       ],
       "references": [],
