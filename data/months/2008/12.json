@@ -626,6 +626,17 @@
           "url": "https://music.apple.com/us/album/1554180292"
         },
         {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=062937"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -727,7 +738,19 @@
           "url": "https://tidal.com/album/174014438"
         }
       ],
-      "references": [],
+      "references": [
+        {
+          "site_key": "acum",
+          "site_label": "ACUM",
+          "domain": "nocs.acum.org.il",
+          "relationship": "other databases",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://nocs.acum.org.il/acumsitesearchdb/album?albumid=062937"
+        }
+      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

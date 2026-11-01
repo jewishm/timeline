@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 8,
   "stats": {
-    "release_groups": 113,
-    "with_cover_art": 113,
-    "with_action_links": 113,
+    "release_groups": 114,
+    "with_cover_art": 114,
+    "with_action_links": 114,
     "future_releases": 0,
     "types": {
       "Album": 26,
       "EP": 8,
-      "Single": 79
+      "Single": 80
     },
     "services": {
-      "spotify": 111,
-      "tidal": 110,
-      "deezer": 109,
+      "spotify": 112,
+      "tidal": 111,
+      "deezer": 110,
       "apple_music": 104,
-      "qobuz": 61,
+      "qobuz": 62,
       "youtube_music": 2,
       "amazon": 2,
       "24six": 2,
@@ -11492,6 +11492,182 @@
           "source": "release",
           "source_release_mbid": "9d13de36-cc41-404b-b3e7-2912611a4560",
           "url": "https://www.qobuz.com/us-en/album/the-healer-binyamin/wtc0vro9d20mz"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "24b0bf14-be04-4c06-839d-c914fc502261",
+      "title": "Selach",
+      "artist_credit": "Birnbaum Brothers",
+      "credited_artists": [
+        {
+          "mbid": "1e1fb8b4-59ad-4f40-a502-7c4240f176e9",
+          "name": "Birnbaum Brothers",
+          "position": 0,
+          "credit_name": "Birnbaum Brothers",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "1e1fb8b4-59ad-4f40-a502-7c4240f176e9",
+          "name": "Birnbaum Brothers"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-08-19",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 8,
+      "day": 19,
+      "release_count": 1,
+      "release_mbids": [
+        "0593a399-3080-42e1-b6b2-d8b5997b9db1"
+      ],
+      "cover_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+      "cover_art": {
+        "release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+        "image_id": 46597117322,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/0593a399-3080-42e1-b6b2-d8b5997b9db1/46597117322",
+        "thumbnails": {
+          "250": "/covers/0593a399-3080-42e1-b6b2-d8b5997b9db1--46597117322.webp",
+          "500": "/covers/0593a399-3080-42e1-b6b2-d8b5997b9db1--46597117322.webp",
+          "1200": "/covers/0593a399-3080-42e1-b6b2-d8b5997b9db1--46597117322.webp"
+        },
+        "cached": "/covers/0593a399-3080-42e1-b6b2-d8b5997b9db1--46597117322.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/24b0bf14-be04-4c06-839d-c914fc502261",
+      "links": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://open.spotify.com/album/7vS1wlB0nwSN3ZrsTJgORP"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://tidal.com/album/555573908"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://www.deezer.com/album/1062981741"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://www.qobuz.com/us-en/album/selach-birnbaum-brothers/dpyr3vk2y741w"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://www.qobuz.com/us-en/album/selach-birnbaum-brothers/dpyr3vk2y741w"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/7vS1wlB0nwSN3ZrsTJgORP"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1062981741"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/555573908"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/selach-birnbaum-brothers/dpyr3vk2y741w"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://open.spotify.com/album/7vS1wlB0nwSN3ZrsTJgORP"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://www.deezer.com/album/1062981741"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://tidal.com/album/555573908"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "0593a399-3080-42e1-b6b2-d8b5997b9db1",
+          "url": "https://www.qobuz.com/us-en/album/selach-birnbaum-brothers/dpyr3vk2y741w"
         }
       ],
       "references": [],

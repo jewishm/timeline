@@ -2,19 +2,21 @@
   "year": 2012,
   "month": 9,
   "stats": {
-    "release_groups": 6,
-    "with_cover_art": 6,
-    "with_action_links": 6,
+    "release_groups": 7,
+    "with_cover_art": 7,
+    "with_action_links": 7,
     "future_releases": 0,
     "types": {
-      "Album": 5,
+      "Album": 6,
       "Single": 1
     },
     "services": {
-      "spotify": 6,
+      "spotify": 7,
+      "deezer": 7,
       "apple_music": 6,
-      "deezer": 6,
-      "tidal": 2
+      "tidal": 3,
+      "qobuz": 1,
+      "other": 1
     }
   },
   "releases": [
@@ -321,6 +323,209 @@
           "source": "release",
           "source_release_mbid": "0e7491e8-cb61-4ce6-92ff-100269aa500c",
           "url": "https://www.deezer.com/album/351697597"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "0eeae041-a95c-4dc0-9ae2-23e066c29e90",
+      "title": "Sing Your Way Through the Days of Awe",
+      "artist_credit": "Avraham Stiefelmann",
+      "credited_artists": [
+        {
+          "mbid": "bbfc51bd-47ab-44ba-93ca-ff636591591b",
+          "name": "Avraham Stiefelmann",
+          "position": 0,
+          "credit_name": "Avraham Stiefelmann",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "bbfc51bd-47ab-44ba-93ca-ff636591591b",
+          "name": "Avraham Stiefelmann"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2012-09-04",
+      "date_precision": "day",
+      "year": 2012,
+      "month": 9,
+      "day": 4,
+      "release_count": 1,
+      "release_mbids": [
+        "c3597ef4-c577-40c3-8055-dc1cfb4f6296"
+      ],
+      "cover_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+      "cover_art": {
+        "release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+        "image_id": 46597205716,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/c3597ef4-c577-40c3-8055-dc1cfb4f6296/46597205716",
+        "thumbnails": {
+          "250": "/covers/c3597ef4-c577-40c3-8055-dc1cfb4f6296--46597205716.webp",
+          "500": "/covers/c3597ef4-c577-40c3-8055-dc1cfb4f6296--46597205716.webp",
+          "1200": "/covers/c3597ef4-c577-40c3-8055-dc1cfb4f6296--46597205716.webp"
+        },
+        "cached": "/covers/c3597ef4-c577-40c3-8055-dc1cfb4f6296--46597205716.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/0eeae041-a95c-4dc0-9ae2-23e066c29e90",
+      "links": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://open.spotify.com/album/0NgbSdNCKXta1e85s4G45O"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://tidal.com/album/117817140"
+        },
+        {
+          "site_key": "other",
+          "site_label": "uk.7digital.com",
+          "domain": "uk.7digital.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://uk.7digital.com/artist/rabbi-avraham-stiefelmann/release/sing-your-way-through-the-days-of-awe-10232392"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://www.deezer.com/album/111161902"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://www.qobuz.com/us-en/album/sing-your-way-through-the-days-of-awe-rabbi-avraham-stiefelmann/spoa90dgzt3uc"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://www.qobuz.com/us-en/album/sing-your-way-through-the-days-of-awe-rabbi-avraham-stiefelmann/spoa90dgzt3uc"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0NgbSdNCKXta1e85s4G45O"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/111161902"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/117817140"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/sing-your-way-through-the-days-of-awe-rabbi-avraham-stiefelmann/spoa90dgzt3uc"
+        },
+        "other": {
+          "label": "uk.7digital.com",
+          "kind": "buy",
+          "url": "https://uk.7digital.com/artist/rabbi-avraham-stiefelmann/release/sing-your-way-through-the-days-of-awe-10232392"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://open.spotify.com/album/0NgbSdNCKXta1e85s4G45O"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://www.deezer.com/album/111161902"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://tidal.com/album/117817140"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://www.qobuz.com/us-en/album/sing-your-way-through-the-days-of-awe-rabbi-avraham-stiefelmann/spoa90dgzt3uc"
+        },
+        {
+          "site_key": "other",
+          "site_label": "uk.7digital.com",
+          "domain": "uk.7digital.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+          "url": "https://uk.7digital.com/artist/rabbi-avraham-stiefelmann/release/sing-your-way-through-the-days-of-awe-10232392"
         }
       ],
       "references": [],

@@ -19,9 +19,9 @@
       "mostly_music": 4,
       "youtube_music": 2,
       "youtube": 2,
+      "qobuz": 2,
       "anghami": 1,
       "boomplay": 1,
-      "qobuz": 1,
       "24six": 1,
       "amazon": 1
     }
@@ -6272,6 +6272,17 @@
           "source": "release",
           "source_release_mbid": "5feae018-ae29-4c9a-b7ee-dcc981a99b94",
           "url": "https://www.deezer.com/album/630898491"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5feae018-ae29-4c9a-b7ee-dcc981a99b94",
+          "url": "https://www.qobuz.com/us-en/album/mekudeshet-li-david-satalovsky/yjie2x27ti37a"
         }
       ],
       "preferred_links": {
@@ -6294,6 +6305,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/381841395"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "buy",
+          "url": "https://www.qobuz.com/us-en/album/mekudeshet-li-david-satalovsky/yjie2x27ti37a"
         }
       },
       "actions": [
@@ -6340,6 +6356,17 @@
           "source": "release",
           "source_release_mbid": "5feae018-ae29-4c9a-b7ee-dcc981a99b94",
           "url": "https://tidal.com/album/381841395"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5feae018-ae29-4c9a-b7ee-dcc981a99b94",
+          "url": "https://www.qobuz.com/us-en/album/mekudeshet-li-david-satalovsky/yjie2x27ti37a"
         }
       ],
       "references": [],

@@ -1,13 +1,13 @@
 {
   "year": 2012,
   "stats": {
-    "release_groups": 70,
-    "dated_release_groups": 56,
+    "release_groups": 71,
+    "dated_release_groups": 57,
     "year_only_release_groups": 14,
-    "artists": 62,
+    "artists": 63,
     "months_with_releases": 12,
     "types": {
-      "Album": 59,
+      "Album": 60,
       "EP": 1,
       "Single": 10
     }
@@ -658,9 +658,9 @@
     },
     {
       "month": 9,
-      "release_groups": 6,
+      "release_groups": 7,
       "types": {
-        "Album": 5,
+        "Album": 6,
         "Single": 1
       },
       "featured": [
@@ -707,6 +707,27 @@
           }
         },
         {
+          "release_group_mbid": "0eeae041-a95c-4dc0-9ae2-23e066c29e90",
+          "title": "Sing Your Way Through the Days of Awe",
+          "artist_credit": "Avraham Stiefelmann",
+          "primary_type": "Album",
+          "day": 4,
+          "cover_art": {
+            "release_mbid": "c3597ef4-c577-40c3-8055-dc1cfb4f6296",
+            "image_id": 46597205716,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/c3597ef4-c577-40c3-8055-dc1cfb4f6296/46597205716",
+            "thumbnails": {
+              "250": "/covers/c3597ef4-c577-40c3-8055-dc1cfb4f6296--46597205716.webp",
+              "500": "/covers/c3597ef4-c577-40c3-8055-dc1cfb4f6296--46597205716.webp",
+              "1200": "/covers/c3597ef4-c577-40c3-8055-dc1cfb4f6296--46597205716.webp"
+            },
+            "cached": "/covers/c3597ef4-c577-40c3-8055-dc1cfb4f6296--46597205716.webp"
+          }
+        },
+        {
           "release_group_mbid": "85c6c1b5-dc79-484c-af86-9c8aa50b09a1",
           "title": "Reb Shlomo - The Singing Rabbi",
           "artist_credit": "Shlomo Carlebach",
@@ -725,27 +746,6 @@
               "1200": "/covers/bafde2ce-c32d-4fcf-ac82-a82435fe38da--39280323466.webp"
             },
             "cached": "/covers/bafde2ce-c32d-4fcf-ac82-a82435fe38da--39280323466.webp"
-          }
-        },
-        {
-          "release_group_mbid": "a688dd91-50e0-43fd-b244-7874be2cfa54",
-          "title": "באים לאומן",
-          "artist_credit": "חיים ישראל",
-          "primary_type": "Single",
-          "day": 12,
-          "cover_art": {
-            "release_mbid": "aa2d09be-336f-4b1d-a8cd-8a0f54b58ab0",
-            "image_id": 44701643027,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/aa2d09be-336f-4b1d-a8cd-8a0f54b58ab0/44701643027",
-            "thumbnails": {
-              "250": "/covers/aa2d09be-336f-4b1d-a8cd-8a0f54b58ab0--44701643027.webp",
-              "500": "/covers/aa2d09be-336f-4b1d-a8cd-8a0f54b58ab0--44701643027.webp",
-              "1200": "/covers/aa2d09be-336f-4b1d-a8cd-8a0f54b58ab0--44701643027.webp"
-            },
-            "cached": "/covers/aa2d09be-336f-4b1d-a8cd-8a0f54b58ab0--44701643027.webp"
           }
         }
       ]
@@ -1027,6 +1027,11 @@
       "release_groups": 1
     },
     {
+      "mbid": "bbfc51bd-47ab-44ba-93ca-ff636591591b",
+      "name": "Avraham Stiefelmann",
+      "release_groups": 1
+    },
+    {
       "mbid": "54b66777-a06d-4e1e-b2a0-a538f2a5cf4d",
       "name": "Ben Zion Solomon",
       "release_groups": 1
@@ -1039,11 +1044,6 @@
     {
       "mbid": "c554b53f-2da5-4653-a485-12195acab04a",
       "name": "Berl Sofer",
-      "release_groups": 1
-    },
-    {
-      "mbid": "6eb6c955-90a7-4feb-a165-847b9ae257d2",
-      "name": "Chaim Green",
       "release_groups": 1
     }
   ],
