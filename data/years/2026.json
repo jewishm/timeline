@@ -1,15 +1,15 @@
 {
   "year": 2026,
   "stats": {
-    "release_groups": 854,
-    "dated_release_groups": 850,
+    "release_groups": 856,
+    "dated_release_groups": 852,
     "year_only_release_groups": 4,
     "artists": 449,
-    "months_with_releases": 10,
+    "months_with_releases": 11,
     "types": {
-      "Album": 230,
+      "Album": 231,
       "EP": 74,
-      "Single": 550
+      "Single": 551
     }
   },
   "months": [
@@ -965,9 +965,55 @@
     },
     {
       "month": 11,
-      "release_groups": 0,
-      "types": {},
-      "featured": []
+      "release_groups": 2,
+      "types": {
+        "Album": 1,
+        "Single": 1
+      },
+      "featured": [
+        {
+          "release_group_mbid": "e7cb04c3-5be1-419f-b542-69aeece86073",
+          "title": "Mechadash",
+          "artist_credit": "Beri Weber",
+          "primary_type": "Album",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "60d3cfab-251c-4b1a-8d08-ed956b96d547",
+            "image_id": 46601304915,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/60d3cfab-251c-4b1a-8d08-ed956b96d547/46601304915",
+            "thumbnails": {
+              "250": "/covers/60d3cfab-251c-4b1a-8d08-ed956b96d547--46601304915.webp",
+              "500": "/covers/60d3cfab-251c-4b1a-8d08-ed956b96d547--46601304915.webp",
+              "1200": "/covers/60d3cfab-251c-4b1a-8d08-ed956b96d547--46601304915.webp"
+            },
+            "cached": "/covers/60d3cfab-251c-4b1a-8d08-ed956b96d547--46601304915.webp"
+          }
+        },
+        {
+          "release_group_mbid": "d4bd8456-38ee-42ff-9252-9b5f2fa45434",
+          "title": "חולת אהבה",
+          "artist_credit": "שראל סופר",
+          "primary_type": "Single",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "b069364e-69af-463d-b503-90009b7a65de",
+            "image_id": 46605697254,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/b069364e-69af-463d-b503-90009b7a65de/46605697254",
+            "thumbnails": {
+              "250": "/covers/b069364e-69af-463d-b503-90009b7a65de--46605697254.webp",
+              "500": "/covers/b069364e-69af-463d-b503-90009b7a65de--46605697254.webp",
+              "1200": "/covers/b069364e-69af-463d-b503-90009b7a65de--46605697254.webp"
+            },
+            "cached": "/covers/b069364e-69af-463d-b503-90009b7a65de--46605697254.webp"
+          }
+        }
+      ]
     },
     {
       "month": 12,
