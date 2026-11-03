@@ -2126,6 +2126,17 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/e30a7bf1-613d-48e8-8861-3014da2cbf3a",
       "links": [
         {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Michoel-schnitzler/Yu-di-kenst"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -2211,7 +2222,19 @@
           "url": "https://www.amazon.com/gp/product/B08R2Z493Z"
         }
       ],
-      "references": [],
+      "references": [
+        {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Michoel-schnitzler/Yu-di-kenst"
+        }
+      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
