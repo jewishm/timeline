@@ -2,18 +2,18 @@
   "year": 2017,
   "month": 7,
   "stats": {
-    "release_groups": 7,
-    "with_cover_art": 7,
-    "with_action_links": 7,
+    "release_groups": 8,
+    "with_cover_art": 8,
+    "with_action_links": 8,
     "future_releases": 0,
     "types": {
       "Album": 4,
-      "Single": 3
+      "Single": 4
     },
     "services": {
-      "spotify": 7,
-      "apple_music": 7,
-      "deezer": 4,
+      "spotify": 8,
+      "apple_music": 8,
+      "deezer": 5,
       "tidal": 4,
       "qobuz": 2
     }
@@ -161,6 +161,155 @@
           "source": "release",
           "source_release_mbid": "00fe0e03-b86a-491e-ba00-112e57741868",
           "url": "https://www.deezer.com/album/44254351"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "54dcc3ce-912a-4a7c-932a-9367f28ecffa",
+      "title": "שר שירך",
+      "artist_credit": "גיל ישראלוב",
+      "credited_artists": [
+        {
+          "mbid": "8188284c-9440-4081-adaf-9f35ec6a0d22",
+          "name": "גיל ישראלוב",
+          "position": 0,
+          "credit_name": "גיל ישראלוב",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "8188284c-9440-4081-adaf-9f35ec6a0d22",
+          "name": "גיל ישראלוב"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2017-07-09",
+      "date_precision": "day",
+      "year": 2017,
+      "month": 7,
+      "day": 9,
+      "release_count": 1,
+      "release_mbids": [
+        "c114d5d0-6bc6-4ed3-ad38-733012d97cd2"
+      ],
+      "cover_release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+      "cover_art": {
+        "release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+        "image_id": 41123778146,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/c114d5d0-6bc6-4ed3-ad38-733012d97cd2/41123778146",
+        "thumbnails": {
+          "250": "/covers/c114d5d0-6bc6-4ed3-ad38-733012d97cd2--41123778146.webp",
+          "500": "/covers/c114d5d0-6bc6-4ed3-ad38-733012d97cd2--41123778146.webp",
+          "1200": "/covers/c114d5d0-6bc6-4ed3-ad38-733012d97cd2--41123778146.webp"
+        },
+        "cached": "/covers/c114d5d0-6bc6-4ed3-ad38-733012d97cd2--41123778146.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/54dcc3ce-912a-4a7c-932a-9367f28ecffa",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+          "url": "https://music.apple.com/il/album/1257547967"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+          "url": "https://music.apple.com/il/album/1257547967"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+          "url": "https://open.spotify.com/album/5ucOyUzh44QcTRytl13HQj"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+          "url": "https://www.deezer.com/album/44385791"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5ucOyUzh44QcTRytl13HQj"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/il/album/1257547967"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/44385791"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+          "url": "https://open.spotify.com/album/5ucOyUzh44QcTRytl13HQj"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+          "url": "https://music.apple.com/il/album/1257547967"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "c114d5d0-6bc6-4ed3-ad38-733012d97cd2",
+          "url": "https://www.deezer.com/album/44385791"
         }
       ],
       "references": [],
