@@ -2,14 +2,14 @@
   "year": 2024,
   "month": 10,
   "stats": {
-    "release_groups": 81,
-    "with_cover_art": 81,
-    "with_action_links": 81,
+    "release_groups": 82,
+    "with_cover_art": 82,
+    "with_action_links": 82,
     "future_releases": 0,
     "types": {
       "Album": 19,
       "EP": 5,
-      "Single": 57
+      "Single": 58
     },
     "services": {
       "spotify": 81,
@@ -19,6 +19,7 @@
       "boomplay": 1,
       "amazon": 1,
       "youtube_music": 1,
+      "other": 1,
       "beatport": 1
     }
   },
@@ -8602,6 +8603,90 @@
           "source": "release",
           "source_release_mbid": "7a0b695a-bfda-4f82-8710-a8337a1eb49a",
           "url": "https://tidal.com/album/393545501"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "8e0676ee-a44c-4e32-b025-be5e2914dcf0",
+      "title": "הודו לו",
+      "artist_credit": "משה וינטרוב",
+      "credited_artists": [
+        {
+          "mbid": "e29ee43b-c3ca-478c-a43e-dc011a5c0b9b",
+          "name": "משה וינטרוב",
+          "position": 0,
+          "credit_name": "משה וינטרוב",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "e29ee43b-c3ca-478c-a43e-dc011a5c0b9b",
+          "name": "משה וינטרוב"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2024-10-14",
+      "date_precision": "day",
+      "year": 2024,
+      "month": 10,
+      "day": 14,
+      "release_count": 1,
+      "release_mbids": [
+        "2d4c235e-58b9-4bf8-ad20-2f6eb65bac71"
+      ],
+      "cover_release_mbid": "2d4c235e-58b9-4bf8-ad20-2f6eb65bac71",
+      "cover_art": {
+        "release_mbid": "2d4c235e-58b9-4bf8-ad20-2f6eb65bac71",
+        "image_id": 46632361375,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/2d4c235e-58b9-4bf8-ad20-2f6eb65bac71/46632361375",
+        "thumbnails": {
+          "250": "/covers/2d4c235e-58b9-4bf8-ad20-2f6eb65bac71--46632361375.webp",
+          "500": "/covers/2d4c235e-58b9-4bf8-ad20-2f6eb65bac71--46632361375.webp",
+          "1200": "/covers/2d4c235e-58b9-4bf8-ad20-2f6eb65bac71--46632361375.webp"
+        },
+        "cached": "/covers/2d4c235e-58b9-4bf8-ad20-2f6eb65bac71--46632361375.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/8e0676ee-a44c-4e32-b025-be5e2914dcf0",
+      "links": [
+        {
+          "site_key": "other",
+          "site_label": "zingmusic.app",
+          "domain": "zingmusic.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2d4c235e-58b9-4bf8-ad20-2f6eb65bac71",
+          "url": "https://zingmusic.app/album/11828"
+        }
+      ],
+      "preferred_links": {
+        "other": {
+          "label": "zingmusic.app",
+          "kind": "listen",
+          "url": "https://zingmusic.app/album/11828"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "other",
+          "site_label": "zingmusic.app",
+          "domain": "zingmusic.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "2d4c235e-58b9-4bf8-ad20-2f6eb65bac71",
+          "url": "https://zingmusic.app/album/11828"
         }
       ],
       "references": [],

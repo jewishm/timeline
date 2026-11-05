@@ -1,15 +1,15 @@
 {
   "year": 2024,
   "stats": {
-    "release_groups": 1126,
-    "dated_release_groups": 1126,
-    "year_only_release_groups": 0,
-    "artists": 568,
+    "release_groups": 1128,
+    "dated_release_groups": 1127,
+    "year_only_release_groups": 1,
+    "artists": 569,
     "months_with_releases": 12,
     "types": {
-      "Album": 262,
+      "Album": 263,
       "EP": 51,
-      "Single": 813
+      "Single": 814
     }
   },
   "months": [
@@ -870,11 +870,11 @@
     },
     {
       "month": 10,
-      "release_groups": 81,
+      "release_groups": 82,
       "types": {
         "Album": 19,
         "EP": 5,
-        "Single": 57
+        "Single": 58
       },
       "featured": [
         {
@@ -1231,5 +1231,120 @@
       "release_groups": 7
     }
   ],
-  "year_only_releases": []
+  "year_only_releases": [
+    {
+      "release_group_mbid": "2ef102e2-706c-46c1-93af-648037970fb4",
+      "title": "שמחת צדיקים",
+      "artist_credit": "משה וינטרוב | מקהלת נרננה",
+      "credited_artists": [
+        {
+          "mbid": "e29ee43b-c3ca-478c-a43e-dc011a5c0b9b",
+          "name": "משה וינטרוב",
+          "position": 0,
+          "credit_name": "משה וינטרוב",
+          "join_phrase": " | "
+        },
+        {
+          "mbid": "2d03690c-a8ea-4fd1-9002-4a2349e687de",
+          "name": "מקהלת נרננה",
+          "position": 1,
+          "credit_name": "מקהלת נרננה",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "e29ee43b-c3ca-478c-a43e-dc011a5c0b9b",
+          "name": "משה וינטרוב"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2024",
+      "date_precision": "year",
+      "year": 2024,
+      "month": null,
+      "day": null,
+      "release_count": 1,
+      "release_mbids": [
+        "324d3498-4c41-431c-9b91-548b723e7e7c"
+      ],
+      "cover_release_mbid": "324d3498-4c41-431c-9b91-548b723e7e7c",
+      "cover_art": {
+        "release_mbid": "324d3498-4c41-431c-9b91-548b723e7e7c",
+        "image_id": 45350426451,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/324d3498-4c41-431c-9b91-548b723e7e7c/45350426451",
+        "thumbnails": {
+          "250": "/covers/324d3498-4c41-431c-9b91-548b723e7e7c--45350426451.webp",
+          "500": "/covers/324d3498-4c41-431c-9b91-548b723e7e7c--45350426451.webp",
+          "1200": "/covers/324d3498-4c41-431c-9b91-548b723e7e7c--45350426451.webp"
+        },
+        "cached": "/covers/324d3498-4c41-431c-9b91-548b723e7e7c--45350426451.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/2ef102e2-706c-46c1-93af-648037970fb4",
+      "links": [
+        {
+          "site_key": "other",
+          "site_label": "drive.google.com",
+          "domain": "drive.google.com",
+          "relationship": "download for free",
+          "action": true,
+          "action_kind": "download",
+          "source": "release",
+          "source_release_mbid": "324d3498-4c41-431c-9b91-548b723e7e7c",
+          "url": "https://drive.google.com/drive/folders/1hjqhJsgEgYsBMKNLJg6grpFiEzfaHnqt"
+        },
+        {
+          "site_key": "other",
+          "site_label": "ivelt.com",
+          "domain": "ivelt.com",
+          "relationship": "fanpage",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.ivelt.com/forum/viewtopic.php?t=72370"
+        }
+      ],
+      "preferred_links": {
+        "other": {
+          "label": "drive.google.com",
+          "kind": "download",
+          "url": "https://drive.google.com/drive/folders/1hjqhJsgEgYsBMKNLJg6grpFiEzfaHnqt"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "other",
+          "site_label": "drive.google.com",
+          "domain": "drive.google.com",
+          "relationship": "download for free",
+          "action": true,
+          "action_kind": "download",
+          "source": "release",
+          "source_release_mbid": "324d3498-4c41-431c-9b91-548b723e7e7c",
+          "url": "https://drive.google.com/drive/folders/1hjqhJsgEgYsBMKNLJg6grpFiEzfaHnqt"
+        }
+      ],
+      "references": [
+        {
+          "site_key": "other",
+          "site_label": "ivelt.com",
+          "domain": "ivelt.com",
+          "relationship": "fanpage",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://www.ivelt.com/forum/viewtopic.php?t=72370"
+        }
+      ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    }
+  ]
 }

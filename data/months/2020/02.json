@@ -4982,6 +4982,17 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/5b1034d0-0dbc-45e7-8839-f852b3f9ec49",
       "links": [
         {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Lipa-schmeltzer/Gevaldig"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -5067,7 +5078,19 @@
           "url": "https://www.amazon.com/gp/product/B08572RD52"
         }
       ],
-      "references": [],
+      "references": [
+        {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Lipa-schmeltzer/Gevaldig"
+        }
+      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

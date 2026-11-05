@@ -1,15 +1,15 @@
 {
   "year": 2026,
   "stats": {
-    "release_groups": 859,
-    "dated_release_groups": 855,
+    "release_groups": 862,
+    "dated_release_groups": 858,
     "year_only_release_groups": 4,
-    "artists": 451,
+    "artists": 453,
     "months_with_releases": 11,
     "types": {
       "Album": 231,
       "EP": 74,
-      "Single": 554
+      "Single": 557
     }
   },
   "months": [
@@ -965,10 +965,10 @@
     },
     {
       "month": 11,
-      "release_groups": 5,
+      "release_groups": 8,
       "types": {
         "Album": 1,
-        "Single": 4
+        "Single": 7
       },
       "featured": [
         {
@@ -978,18 +978,39 @@
           "primary_type": "Album",
           "day": 1,
           "cover_art": {
-            "release_mbid": "60d3cfab-251c-4b1a-8d08-ed956b96d547",
-            "image_id": 46601304915,
+            "release_mbid": "f0050340-2762-4d0b-8dc7-4fe745d1752a",
+            "image_id": 46626406720,
             "mime_type": "image/jpeg",
             "ordering": 1,
             "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/60d3cfab-251c-4b1a-8d08-ed956b96d547/46601304915",
+            "original": "https://coverartarchive.org/release/f0050340-2762-4d0b-8dc7-4fe745d1752a/46626406720",
             "thumbnails": {
-              "250": "/covers/60d3cfab-251c-4b1a-8d08-ed956b96d547--46601304915.webp",
-              "500": "/covers/60d3cfab-251c-4b1a-8d08-ed956b96d547--46601304915.webp",
-              "1200": "/covers/60d3cfab-251c-4b1a-8d08-ed956b96d547--46601304915.webp"
+              "250": "/covers/f0050340-2762-4d0b-8dc7-4fe745d1752a--46626406720.webp",
+              "500": "/covers/f0050340-2762-4d0b-8dc7-4fe745d1752a--46626406720.webp",
+              "1200": "/covers/f0050340-2762-4d0b-8dc7-4fe745d1752a--46626406720.webp"
             },
-            "cached": "/covers/60d3cfab-251c-4b1a-8d08-ed956b96d547--46601304915.webp"
+            "cached": "/covers/f0050340-2762-4d0b-8dc7-4fe745d1752a--46626406720.webp"
+          }
+        },
+        {
+          "release_group_mbid": "8d63d84b-8d23-4816-9f12-e03b887492e4",
+          "title": "Going Home",
+          "artist_credit": "Chaim C",
+          "primary_type": "Single",
+          "day": 1,
+          "cover_art": {
+            "release_mbid": "27b2b3a9-7615-452a-850a-80a80d473de0",
+            "image_id": 46630522157,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/27b2b3a9-7615-452a-850a-80a80d473de0/46630522157",
+            "thumbnails": {
+              "250": "/covers/27b2b3a9-7615-452a-850a-80a80d473de0--46630522157.webp",
+              "500": "/covers/27b2b3a9-7615-452a-850a-80a80d473de0--46630522157.webp",
+              "1200": "/covers/27b2b3a9-7615-452a-850a-80a80d473de0--46630522157.webp"
+            },
+            "cached": "/covers/27b2b3a9-7615-452a-850a-80a80d473de0--46630522157.webp"
           }
         },
         {
@@ -1033,27 +1054,6 @@
             },
             "cached": "/covers/b069364e-69af-463d-b503-90009b7a65de--46605697254.webp"
           }
-        },
-        {
-          "release_group_mbid": "4be75d82-3da2-47f2-928d-4b0d0e82c7a0",
-          "title": "אדרבה",
-          "artist_credit": "שמואל",
-          "primary_type": "Single",
-          "day": 3,
-          "cover_art": {
-            "release_mbid": "4c23bacc-c847-41d4-a70d-ce57b0f4e476",
-            "image_id": 46618216158,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/4c23bacc-c847-41d4-a70d-ce57b0f4e476/46618216158",
-            "thumbnails": {
-              "250": "/covers/4c23bacc-c847-41d4-a70d-ce57b0f4e476--46618216158.webp",
-              "500": "/covers/4c23bacc-c847-41d4-a70d-ce57b0f4e476--46618216158.webp",
-              "1200": "/covers/4c23bacc-c847-41d4-a70d-ce57b0f4e476--46618216158.webp"
-            },
-            "cached": "/covers/4c23bacc-c847-41d4-a70d-ce57b0f4e476--46618216158.webp"
-          }
         }
       ]
     },
@@ -1078,7 +1078,7 @@
     {
       "mbid": "8e377b57-caaa-4b39-afe0-173921433143",
       "name": "Chaim C",
-      "release_groups": 11
+      "release_groups": 12
     },
     {
       "mbid": "bd138804-441e-42c6-a528-2b9499fb621b",
