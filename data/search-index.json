@@ -1,7 +1,7 @@
 {
   "collection_mbid": "45d6a632-9366-4fac-8a9e-bf04734172b9",
   "artist_count": 1862,
-  "release_group_count": 8363,
+  "release_group_count": 8365,
   "artists": [
     {
       "mbid": "51cb99a5-ce66-4611-9d08-a6432c9560f9",
@@ -8813,7 +8813,7 @@
     {
       "mbid": "9646954d-9757-488a-8d2b-f98d16eb0c90",
       "name": "Shlezkey",
-      "release_count": 16,
+      "release_count": 17,
       "terms": [
         "shlezkey"
       ]
@@ -15265,10 +15265,11 @@
     {
       "mbid": "106c024b-a80b-4b64-89e8-b440a5c1a984",
       "name": "יוחנן אורי",
-      "release_count": 5,
+      "release_count": 6,
       "terms": [
         "יוחנן אורי",
-        "uri yochanan"
+        "uri yochanan",
+        "yohanan uri"
       ]
     },
     {
@@ -17289,7 +17290,7 @@
     {
       "mbid": "d2f90990-11ef-46ee-9b63-74a242526bf7",
       "name": "פיני איינהורן",
-      "release_count": 29,
+      "release_count": 30,
       "terms": [
         "פיני איינהורן",
         "einhorn pini",
@@ -428285,6 +428286,118 @@
         "shia scharf"
       ],
       "cover_caa": "https://coverartarchive.org/release/5e2d7d6d-2b59-4363-bc8f-0ce16c5406a4/46662535367-250.jpg"
+    },
+    {
+      "mbid": "4157ba09-ae7b-4edc-bd11-3ac90e45b6dc",
+      "title": "Jewish Beat 2",
+      "artist_credit": "פיני איינהורן & יוחנן אורי",
+      "artist_mbids": [
+        "d2f90990-11ef-46ee-9b63-74a242526bf7",
+        "106c024b-a80b-4b64-89e8-b440a5c1a984"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "d2f90990-11ef-46ee-9b63-74a242526bf7",
+          "name": "פיני איינהורן",
+          "position": 0,
+          "credit_name": "פיני איינהורן",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "106c024b-a80b-4b64-89e8-b440a5c1a984",
+          "name": "יוחנן אורי",
+          "position": 1,
+          "credit_name": "יוחנן אורי",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Album",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 5,
+      "cover": "/covers/139d601d-b069-4e43-a48f-702468c705ce--46670294184.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4157ba09-ae7b-4edc-bd11-3ac90e45b6dc",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/2GLMKB3tAYMVe3mXo4r1HU"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6832368402"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1142256011"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/577170132"
+        }
+      ],
+      "terms": [
+        "jewish beat 2",
+        "פיני איינהורן יוחנן אורי"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/139d601d-b069-4e43-a48f-702468c705ce/46670294184-250.jpg"
+    },
+    {
+      "mbid": "3a17c3bf-e6d6-4d6e-a7f5-c8cd40885c9a",
+      "title": "Kerestir",
+      "artist_credit": "Shlezkey",
+      "artist_mbids": [
+        "9646954d-9757-488a-8d2b-f98d16eb0c90"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "9646954d-9757-488a-8d2b-f98d16eb0c90",
+          "name": "Shlezkey",
+          "position": 0,
+          "credit_name": "Shlezkey",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Single",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 8,
+      "cover": "/covers/2fc6b45a-793a-428e-9380-2e59cbdf3bda--46670320961.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/3a17c3bf-e6d6-4d6e-a7f5-c8cd40885c9a",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/5IHNAZrAV0ekvHzw87lbR6"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6832420910"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1142056541"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/577216020"
+        }
+      ],
+      "terms": [
+        "kerestir",
+        "shlezkey"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/2fc6b45a-793a-428e-9380-2e59cbdf3bda/46670320961-250.jpg"
     },
     {
       "mbid": "69d1209a-8d8f-4d8b-9877-5e9a60f9b490",
