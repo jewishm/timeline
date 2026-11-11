@@ -1,7 +1,7 @@
 {
   "collection_mbid": "45d6a632-9366-4fac-8a9e-bf04734172b9",
-  "artist_count": 1862,
-  "release_group_count": 8365,
+  "artist_count": 1863,
+  "release_group_count": 8368,
   "artists": [
     {
       "mbid": "51cb99a5-ce66-4611-9d08-a6432c9560f9",
@@ -8671,7 +8671,7 @@
     {
       "mbid": "141d47c3-bdc0-45c3-9a54-6ffb55cf1a21",
       "name": "Shimmy Posen",
-      "release_count": 9,
+      "release_count": 10,
       "terms": [
         "shimmy posen",
         "posen shimmy"
@@ -12759,6 +12759,16 @@
       ]
     },
     {
+      "mbid": "41e4e9c7-28c2-448a-a08e-886435457532",
+      "name": "אביב אלוש",
+      "release_count": 1,
+      "terms": [
+        "אביב אלוש",
+        "avraham aviv alush",
+        "alush avraham aviv"
+      ]
+    },
+    {
       "mbid": "3f1f9c33-b86e-44e1-a332-b215456d279c",
       "name": "אביב גפן",
       "release_count": 1,
@@ -13876,7 +13886,7 @@
     {
       "mbid": "e01a44fd-4ac6-4205-89d5-5369008e9fb4",
       "name": "בוצר",
-      "release_count": 15,
+      "release_count": 16,
       "terms": [
         "בוצר",
         "botzer",
@@ -14932,7 +14942,7 @@
     {
       "mbid": "d13cec62-40a9-46f6-a30f-c27bbdeeba51",
       "name": "יאיר אלייצור",
-      "release_count": 26,
+      "release_count": 27,
       "terms": [
         "יאיר אלייצור",
         "elitzur yair",
@@ -15140,6 +15150,7 @@
         "gaon yehoram",
         "jehoram gaon",
         "kaza",
+        "yehoram gain",
         "yehoram ga on",
         "yohoram gaon",
         "יהורים גאון"
@@ -427883,6 +427894,45 @@
       "cover_caa": "https://coverartarchive.org/release/543fbfc6-87f3-41f4-afde-668b4b204a34/46635767919-250.jpg"
     },
     {
+      "mbid": "bf41f3a0-3941-44e4-a8b9-d6dd1935e432",
+      "title": "Satmar Yeshiva Siyum Hashas",
+      "artist_credit": "Shimmy Posen",
+      "artist_mbids": [
+        "141d47c3-bdc0-45c3-9a54-6ffb55cf1a21"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "141d47c3-bdc0-45c3-9a54-6ffb55cf1a21",
+          "name": "Shimmy Posen",
+          "position": 0,
+          "credit_name": "Shimmy Posen",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [
+        "Live"
+      ],
+      "primary_type": "Album",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 3,
+      "cover": "/covers/cafb3e5f-4034-476c-8fa5-eac2e2103856--46678411292.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/bf41f3a0-3941-44e4-a8b9-d6dd1935e432",
+      "actions": [
+        {
+          "site_label": "24Six",
+          "action_kind": "listen",
+          "url": "https://24six.app/preview/music/collection/22357/satmar-yeshiva-siyum-hashas"
+        }
+      ],
+      "terms": [
+        "satmar yeshiva siyum hashas",
+        "shimmy posen"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/cafb3e5f-4034-476c-8fa5-eac2e2103856/46678411292-250.jpg"
+    },
+    {
       "mbid": "b9784f1e-b38a-48d2-8a65-86a3117ad54d",
       "title": "באתי היום",
       "artist_credit": "גיל ישראלוב & ישי לפידות",
@@ -428569,6 +428619,128 @@
         "שראל סופר"
       ],
       "cover_caa": "https://coverartarchive.org/release/c0475309-9a4d-4520-b871-2adbc1bdeb88/46662527019-250.jpg"
+    },
+    {
+      "mbid": "4d1c64f1-4d82-480b-bfc1-387ac3ccfa07",
+      "title": "סתם תמים",
+      "artist_credit": "אביב אלוש & אלייצור",
+      "artist_mbids": [
+        "41e4e9c7-28c2-448a-a08e-886435457532",
+        "d13cec62-40a9-46f6-a30f-c27bbdeeba51"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "41e4e9c7-28c2-448a-a08e-886435457532",
+          "name": "אביב אלוש",
+          "position": 0,
+          "credit_name": "אביב אלוש",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "d13cec62-40a9-46f6-a30f-c27bbdeeba51",
+          "name": "יאיר אלייצור",
+          "position": 1,
+          "credit_name": "אלייצור",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Single",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 10,
+      "cover": "/covers/0aafe106-48e6-4061-964b-c543ba063734--46678898771.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/4d1c64f1-4d82-480b-bfc1-387ac3ccfa07",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/0tMjY0ONEvPY7rBONBNDeO"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6830649494"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1138507331"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/575942379"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-avraham-aviv-alush-and-30/y2f6ckb0761gt"
+        }
+      ],
+      "terms": [
+        "סתם תמים",
+        "אביב אלוש אלייצור"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/0aafe106-48e6-4061-964b-c543ba063734/46678898771-250.jpg"
+    },
+    {
+      "mbid": "245b8ba1-4a36-43bf-be8f-bec06a063308",
+      "title": "יאמאמא",
+      "artist_credit": "בוצר",
+      "artist_mbids": [
+        "e01a44fd-4ac6-4205-89d5-5369008e9fb4"
+      ],
+      "credited_artists": [
+        {
+          "mbid": "e01a44fd-4ac6-4205-89d5-5369008e9fb4",
+          "name": "בוצר",
+          "position": 0,
+          "credit_name": "בוצר",
+          "join_phrase": ""
+        }
+      ],
+      "secondary_types": [],
+      "primary_type": "Single",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 10,
+      "cover": "/covers/739f3aa0-eb8e-4a83-9a4b-de7e92e5d2c4--46678853309.webp",
+      "musicbrainz_url": "https://musicbrainz.org/release-group/245b8ba1-4a36-43bf-be8f-bec06a063308",
+      "actions": [
+        {
+          "site_label": "Spotify",
+          "action_kind": "listen",
+          "url": "https://open.spotify.com/album/7gK2fdacyM8taIQZHAT3hy"
+        },
+        {
+          "site_label": "Apple Music",
+          "action_kind": "listen",
+          "url": "https://music.apple.com/us/album/6831214458"
+        },
+        {
+          "site_label": "Deezer",
+          "action_kind": "listen",
+          "url": "https://www.deezer.com/album/1139479211"
+        },
+        {
+          "site_label": "TIDAL",
+          "action_kind": "listen",
+          "url": "https://tidal.com/album/576300028"
+        },
+        {
+          "site_label": "Qobuz",
+          "action_kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/botzer/r1lyxpssmpk3u"
+        }
+      ],
+      "terms": [
+        "יאמאמא",
+        "בוצר"
+      ],
+      "cover_caa": "https://coverartarchive.org/release/739f3aa0-eb8e-4a83-9a4b-de7e92e5d2c4/46678853309-250.jpg"
     },
     {
       "mbid": "e4795a4c-7dca-44c3-a9de-0827203925c9",
