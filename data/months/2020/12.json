@@ -15,10 +15,11 @@
       "apple_music": 57,
       "spotify": 52,
       "deezer": 22,
-      "tidal": 19,
+      "tidal": 20,
       "qobuz": 2,
+      "amazon": 2,
+      "youtube_music": 1,
       "bandcamp": 1,
-      "amazon": 1,
       "youtube": 1
     }
   },
@@ -721,6 +722,28 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/035bf0e0-65c2-4b58-a9e8-9ba1b8926be9",
       "links": [
         {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Yiddish-nachas/Yiddish-nachas-4-emunah-ubitachon"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fed74f44-dafd-4157-8844-934c3d904af6",
+          "url": "https://music.amazon.com/albums/B08PP2JNXQ"
+        },
+        {
           "site_key": "apple_music",
           "site_label": "Apple Music",
           "domain": "music.apple.com",
@@ -732,6 +755,17 @@
           "url": "https://music.apple.com/gb/album/1543312793"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fed74f44-dafd-4157-8844-934c3d904af6",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lF3iSBo-ZwACbAs8W0inifZ9wzcnuVqq8"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -741,6 +775,17 @@
           "source": "release",
           "source_release_mbid": "fed74f44-dafd-4157-8844-934c3d904af6",
           "url": "https://open.spotify.com/album/21BDGg1KkTc3MDYiyt5lMT"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fed74f44-dafd-4157-8844-934c3d904af6",
+          "url": "https://tidal.com/album/184108822"
         },
         {
           "site_key": "deezer",
@@ -765,10 +810,25 @@
           "kind": "listen",
           "url": "https://music.apple.com/gb/album/1543312793"
         },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lF3iSBo-ZwACbAs8W0inifZ9wzcnuVqq8"
+        },
         "deezer": {
           "label": "Deezer",
           "kind": "listen",
           "url": "https://www.deezer.com/album/230143252"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/184108822"
+        },
+        "amazon": {
+          "label": "Amazon",
+          "kind": "listen",
+          "url": "https://music.amazon.com/albums/B08PP2JNXQ"
         }
       },
       "actions": [
@@ -795,6 +855,17 @@
           "url": "https://music.apple.com/gb/album/1543312793"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fed74f44-dafd-4157-8844-934c3d904af6",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_lF3iSBo-ZwACbAs8W0inifZ9wzcnuVqq8"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -804,9 +875,43 @@
           "source": "release",
           "source_release_mbid": "fed74f44-dafd-4157-8844-934c3d904af6",
           "url": "https://www.deezer.com/album/230143252"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fed74f44-dafd-4157-8844-934c3d904af6",
+          "url": "https://tidal.com/album/184108822"
+        },
+        {
+          "site_key": "amazon",
+          "site_label": "Amazon",
+          "domain": "music.amazon.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "fed74f44-dafd-4157-8844-934c3d904af6",
+          "url": "https://music.amazon.com/albums/B08PP2JNXQ"
         }
       ],
-      "references": [],
+      "references": [
+        {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Yiddish-nachas/Yiddish-nachas-4-emunah-ubitachon"
+        }
+      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

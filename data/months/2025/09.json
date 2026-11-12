@@ -15,8 +15,8 @@
       "spotify": 119,
       "deezer": 119,
       "tidal": 115,
-      "apple_music": 95,
-      "qobuz": 12,
+      "apple_music": 96,
+      "qobuz": 13,
       "youtube_music": 3,
       "amazon": 2,
       "other": 2,
@@ -13964,6 +13964,39 @@
       "musicbrainz_url": "https://musicbrainz.org/release-group/855019c2-dd06-4df6-8791-6506310dec81",
       "links": [
         {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Yosef-zev-braver/Both-worlds"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5d6f0923-5d34-4201-b8d6-56d25b7a967e",
+          "url": "https://music.apple.com/us/album/1840249212"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5d6f0923-5d34-4201-b8d6-56d25b7a967e",
+          "url": "https://music.apple.com/us/album/1840249212"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -13995,6 +14028,28 @@
           "source": "release",
           "source_release_mbid": "5d6f0923-5d34-4201-b8d6-56d25b7a967e",
           "url": "https://www.deezer.com/album/821974101"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "5d6f0923-5d34-4201-b8d6-56d25b7a967e",
+          "url": "https://www.qobuz.com/us-en/album/-yosef-zev-braver/xk7gshwlbjncc"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5d6f0923-5d34-4201-b8d6-56d25b7a967e",
+          "url": "https://www.qobuz.com/us-en/album/-yosef-zev-braver/xk7gshwlbjncc"
         }
       ],
       "preferred_links": {
@@ -14002,6 +14057,11 @@
           "label": "Spotify",
           "kind": "listen",
           "url": "https://open.spotify.com/album/4STmXDf3vA5zcb1Fxo3kPf"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1840249212"
         },
         "deezer": {
           "label": "Deezer",
@@ -14012,6 +14072,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/460804915"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-yosef-zev-braver/xk7gshwlbjncc"
         }
       },
       "actions": [
@@ -14027,6 +14092,17 @@
           "url": "https://open.spotify.com/album/4STmXDf3vA5zcb1Fxo3kPf"
         },
         {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5d6f0923-5d34-4201-b8d6-56d25b7a967e",
+          "url": "https://music.apple.com/us/album/1840249212"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -14047,9 +14123,32 @@
           "source": "release",
           "source_release_mbid": "5d6f0923-5d34-4201-b8d6-56d25b7a967e",
           "url": "https://tidal.com/album/460804915"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "5d6f0923-5d34-4201-b8d6-56d25b7a967e",
+          "url": "https://www.qobuz.com/us-en/album/-yosef-zev-braver/xk7gshwlbjncc"
         }
       ],
-      "references": [],
+      "references": [
+        {
+          "site_key": "genius",
+          "site_label": "Genius",
+          "domain": "genius.com",
+          "relationship": "lyrics",
+          "action": false,
+          "action_kind": null,
+          "source": "release-group",
+          "source_release_mbid": null,
+          "url": "https://genius.com/albums/Yosef-zev-braver/Both-worlds"
+        }
+      ],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false
