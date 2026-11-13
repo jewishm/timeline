@@ -1,15 +1,15 @@
 {
   "year": 2014,
   "stats": {
-    "release_groups": 107,
+    "release_groups": 108,
     "dated_release_groups": 81,
-    "year_only_release_groups": 26,
+    "year_only_release_groups": 27,
     "artists": 84,
     "months_with_releases": 12,
     "types": {
       "Album": 76,
       "EP": 3,
-      "Single": 28
+      "Single": 29
     }
   },
   "months": [
@@ -1079,6 +1079,11 @@
       "release_groups": 3
     },
     {
+      "mbid": "18e0de18-ab4f-4a3a-9e06-8e0c4068fe86",
+      "name": "Ohad",
+      "release_groups": 3
+    },
+    {
       "mbid": "212fa907-2e60-444e-a09e-64ea86af5f13",
       "name": "Yossi Green",
       "release_groups": 3
@@ -1126,11 +1131,6 @@
     {
       "mbid": "ad783a3b-9a98-432d-92db-bceae2cbade5",
       "name": "Naftali Kalfa",
-      "release_groups": 2
-    },
-    {
-      "mbid": "18e0de18-ab4f-4a3a-9e06-8e0c4068fe86",
-      "name": "Ohad",
       "release_groups": 2
     }
   ],
@@ -1862,6 +1862,77 @@
       "references": [],
       "has_action_links": true,
       "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "f45b01a5-3009-4404-aebe-5cdd61cf0bfe",
+      "title": "מלך מלכי המלכים",
+      "artist_credit": "Ohad",
+      "credited_artists": [
+        {
+          "mbid": "18e0de18-ab4f-4a3a-9e06-8e0c4068fe86",
+          "name": "Ohad",
+          "position": 0,
+          "credit_name": "Ohad",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "18e0de18-ab4f-4a3a-9e06-8e0c4068fe86",
+          "name": "Ohad"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2014",
+      "date_precision": "year",
+      "year": 2014,
+      "month": null,
+      "day": null,
+      "release_count": 1,
+      "release_mbids": [
+        "97819b05-a40b-4886-8cbd-e71759ba19ad"
+      ],
+      "cover_release_mbid": null,
+      "cover_art": null,
+      "musicbrainz_url": "https://musicbrainz.org/release-group/f45b01a5-3009-4404-aebe-5cdd61cf0bfe",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "97819b05-a40b-4886-8cbd-e71759ba19ad",
+          "url": "https://music.apple.com/us/album/1803914749"
+        }
+      ],
+      "preferred_links": {
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1803914749"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "97819b05-a40b-4886-8cbd-e71759ba19ad",
+          "url": "https://music.apple.com/us/album/1803914749"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": false,
       "is_future": false
     },
     {
