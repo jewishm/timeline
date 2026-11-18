@@ -2,20 +2,20 @@
   "year": 2026,
   "month": 10,
   "stats": {
-    "release_groups": 61,
-    "with_cover_art": 61,
-    "with_action_links": 61,
+    "release_groups": 62,
+    "with_cover_art": 62,
+    "with_action_links": 62,
     "future_releases": 0,
     "types": {
-      "Album": 7,
+      "Album": 8,
       "EP": 3,
       "Single": 51
     },
     "services": {
-      "spotify": 61,
+      "spotify": 62,
       "tidal": 60,
       "deezer": 59,
-      "apple_music": 56,
+      "apple_music": 57,
       "qobuz": 26,
       "amazon": 12,
       "youtube_music": 10,
@@ -11809,6 +11809,130 @@
           "source": "release",
           "source_release_mbid": "8539fa18-0088-4fef-adf1-656a0f4dec1e",
           "url": "https://tidal.com/album/573679011"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "d8e16be2-02b0-4374-9574-8d209eec44a1",
+      "title": "Wedding Oct 19 2026 Markowitz (Lipa Schmeltzer)",
+      "artist_credit": "Yoely Fischer",
+      "credited_artists": [
+        {
+          "mbid": "e42e3594-e721-4fa0-82bf-fdff80350913",
+          "name": "Yoely Fischer",
+          "position": 0,
+          "credit_name": "Yoely Fischer",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "e42e3594-e721-4fa0-82bf-fdff80350913",
+          "name": "Yoely Fischer"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2026-10-27",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 10,
+      "day": 27,
+      "release_count": 1,
+      "release_mbids": [
+        "e3939403-5b46-4ca8-95ba-864ce912adc6"
+      ],
+      "cover_release_mbid": "e3939403-5b46-4ca8-95ba-864ce912adc6",
+      "cover_art": {
+        "release_mbid": "e3939403-5b46-4ca8-95ba-864ce912adc6",
+        "image_id": 46739201882,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e3939403-5b46-4ca8-95ba-864ce912adc6/46739201882",
+        "thumbnails": {
+          "250": "/covers/e3939403-5b46-4ca8-95ba-864ce912adc6--46739201882.webp",
+          "500": "/covers/e3939403-5b46-4ca8-95ba-864ce912adc6--46739201882.webp",
+          "1200": "/covers/e3939403-5b46-4ca8-95ba-864ce912adc6--46739201882.webp"
+        },
+        "cached": "/covers/e3939403-5b46-4ca8-95ba-864ce912adc6--46739201882.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/d8e16be2-02b0-4374-9574-8d209eec44a1",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e3939403-5b46-4ca8-95ba-864ce912adc6",
+          "url": "https://music.apple.com/us/album/6835299334"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3939403-5b46-4ca8-95ba-864ce912adc6",
+          "url": "https://music.apple.com/us/album/6835299334"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3939403-5b46-4ca8-95ba-864ce912adc6",
+          "url": "https://open.spotify.com/album/1r6KyMmolDb4Biro6gtuji"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1r6KyMmolDb4Biro6gtuji"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6835299334"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3939403-5b46-4ca8-95ba-864ce912adc6",
+          "url": "https://open.spotify.com/album/1r6KyMmolDb4Biro6gtuji"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3939403-5b46-4ca8-95ba-864ce912adc6",
+          "url": "https://music.apple.com/us/album/6835299334"
         }
       ],
       "references": [],

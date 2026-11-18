@@ -2,20 +2,20 @@
   "year": 2024,
   "month": 2,
   "stats": {
-    "release_groups": 107,
-    "with_cover_art": 106,
-    "with_action_links": 107,
+    "release_groups": 106,
+    "with_cover_art": 105,
+    "with_action_links": 106,
     "future_releases": 0,
     "types": {
       "Album": 30,
       "EP": 5,
-      "Single": 72
+      "Single": 71
     },
     "services": {
-      "spotify": 104,
-      "apple_music": 96,
-      "deezer": 82,
-      "tidal": 56,
+      "spotify": 103,
+      "apple_music": 95,
+      "deezer": 81,
+      "tidal": 55,
       "amazon": 9,
       "youtube": 6,
       "mostly_music": 6,
@@ -10086,182 +10086,6 @@
           "source": "release",
           "source_release_mbid": "b83e909e-eac8-44b1-9efc-0fe031ba18fe",
           "url": "https://tidal.com/album/353422029"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "c15a8116-ebdf-4fc0-95b3-90a7edc31196",
-      "title": "You Raise Me Up",
-      "artist_credit": "Devorah Schwartz",
-      "credited_artists": [
-        {
-          "mbid": "4efe2bc2-761e-48b6-a62a-226b7fa25c37",
-          "name": "Devorah Schwartz",
-          "position": 0,
-          "credit_name": "Devorah Schwartz",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "4efe2bc2-761e-48b6-a62a-226b7fa25c37",
-          "name": "Devorah Schwartz"
-        }
-      ],
-      "primary_type": "Single",
-      "secondary_types": [],
-      "first_release_date": "2024-02-19",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 2,
-      "day": 19,
-      "release_count": 1,
-      "release_mbids": [
-        "6be7d62a-f811-4b17-ae59-94fc28e89e1f"
-      ],
-      "cover_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-      "cover_art": {
-        "release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-        "image_id": 42872343826,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/6be7d62a-f811-4b17-ae59-94fc28e89e1f/42872343826",
-        "thumbnails": {
-          "250": "/covers/6be7d62a-f811-4b17-ae59-94fc28e89e1f--42872343826.webp",
-          "500": "/covers/6be7d62a-f811-4b17-ae59-94fc28e89e1f--42872343826.webp",
-          "1200": "/covers/6be7d62a-f811-4b17-ae59-94fc28e89e1f--42872343826.webp"
-        },
-        "cached": "/covers/6be7d62a-f811-4b17-ae59-94fc28e89e1f--42872343826.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/c15a8116-ebdf-4fc0-95b3-90a7edc31196",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "purchase for download",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://music.apple.com/us/album/1731987495"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://music.apple.com/us/album/1731987495"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://open.spotify.com/album/48KLFXXBGtXCFQ9FORtaBL"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://tidal.com/album/346420918"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://www.deezer.com/album/550174062"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/48KLFXXBGtXCFQ9FORtaBL"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1731987495"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/550174062"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/346420918"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://open.spotify.com/album/48KLFXXBGtXCFQ9FORtaBL"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://music.apple.com/us/album/1731987495"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://www.deezer.com/album/550174062"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "6be7d62a-f811-4b17-ae59-94fc28e89e1f",
-          "url": "https://tidal.com/album/346420918"
         }
       ],
       "references": [],

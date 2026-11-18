@@ -1,13 +1,13 @@
 {
   "year": 2019,
   "stats": {
-    "release_groups": 273,
-    "dated_release_groups": 268,
+    "release_groups": 272,
+    "dated_release_groups": 267,
     "year_only_release_groups": 5,
-    "artists": 199,
+    "artists": 198,
     "months_with_releases": 12,
     "types": {
-      "Album": 76,
+      "Album": 75,
       "EP": 5,
       "Single": 192
     }
@@ -299,33 +299,12 @@
     },
     {
       "month": 4,
-      "release_groups": 16,
+      "release_groups": 15,
       "types": {
-        "Album": 5,
+        "Album": 4,
         "Single": 11
       },
       "featured": [
-        {
-          "release_group_mbid": "0667e4d4-7d92-4156-8385-47b224160f04",
-          "title": "I Believe in Me",
-          "artist_credit": "Devorah Schwartz",
-          "primary_type": "Album",
-          "day": 1,
-          "cover_art": {
-            "release_mbid": "998523a0-9220-4054-a4aa-25cd911e504f",
-            "image_id": 41033174703,
-            "mime_type": "image/jpeg",
-            "ordering": 1,
-            "source": "front_art_fallback",
-            "original": "https://coverartarchive.org/release/998523a0-9220-4054-a4aa-25cd911e504f/41033174703",
-            "thumbnails": {
-              "250": "/covers/998523a0-9220-4054-a4aa-25cd911e504f--41033174703.webp",
-              "500": "/covers/998523a0-9220-4054-a4aa-25cd911e504f--41033174703.webp",
-              "1200": "/covers/998523a0-9220-4054-a4aa-25cd911e504f--41033174703.webp"
-            },
-            "cached": "/covers/998523a0-9220-4054-a4aa-25cd911e504f--41033174703.webp"
-          }
-        },
         {
           "release_group_mbid": "b003998c-ee07-4c05-8d83-98490966473f",
           "title": "Reb Shayaleh",
@@ -387,6 +366,27 @@
               "1200": "/covers/66671a35-37df-4a83-83a8-c59904421bdb--41175999192.webp"
             },
             "cached": "/covers/66671a35-37df-4a83-83a8-c59904421bdb--41175999192.webp"
+          }
+        },
+        {
+          "release_group_mbid": "f269f309-ef60-4b11-aea8-7b7eef00e147",
+          "title": "Vayotziainu",
+          "artist_credit": "Uri Davidi",
+          "primary_type": "Single",
+          "day": 4,
+          "cover_art": {
+            "release_mbid": "064d3a5d-6a3d-4b2e-a446-0009108009aa",
+            "image_id": 41322668368,
+            "mime_type": "image/jpeg",
+            "ordering": 1,
+            "source": "front_art_fallback",
+            "original": "https://coverartarchive.org/release/064d3a5d-6a3d-4b2e-a446-0009108009aa/41322668368",
+            "thumbnails": {
+              "250": "/covers/064d3a5d-6a3d-4b2e-a446-0009108009aa--41322668368.webp",
+              "500": "/covers/064d3a5d-6a3d-4b2e-a446-0009108009aa--41322668368.webp",
+              "1200": "/covers/064d3a5d-6a3d-4b2e-a446-0009108009aa--41322668368.webp"
+            },
+            "cached": "/covers/064d3a5d-6a3d-4b2e-a446-0009108009aa--41322668368.webp"
           }
         }
       ]

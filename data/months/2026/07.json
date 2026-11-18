@@ -2,21 +2,21 @@
   "year": 2026,
   "month": 7,
   "stats": {
-    "release_groups": 56,
-    "with_cover_art": 56,
-    "with_action_links": 56,
+    "release_groups": 57,
+    "with_cover_art": 57,
+    "with_action_links": 57,
     "future_releases": 0,
     "types": {
       "Album": 17,
       "EP": 13,
-      "Single": 26
+      "Single": 27
     },
     "services": {
-      "spotify": 55,
-      "deezer": 55,
-      "tidal": 55,
-      "apple_music": 52,
-      "qobuz": 27,
+      "spotify": 56,
+      "deezer": 56,
+      "tidal": 56,
+      "apple_music": 53,
+      "qobuz": 28,
       "24six": 1
     }
   },
@@ -4512,6 +4512,220 @@
           "source": "release",
           "source_release_mbid": "95fd7a2e-d34c-4e84-b39d-6e913b631dc7",
           "url": "https://www.qobuz.com/us-en/album/shechinah-duvid-feder-amp-zishala/lbf6dcuatkst6"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "78496cfc-b4a7-48e9-be12-36d7be4de608",
+      "title": "God’s love",
+      "artist_credit": "Heighlig",
+      "credited_artists": [
+        {
+          "mbid": "ed620e17-2a23-446a-be17-a7dd2bee46e7",
+          "name": "Heighlig",
+          "position": 0,
+          "credit_name": "Heighlig",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "ed620e17-2a23-446a-be17-a7dd2bee46e7",
+          "name": "Heighlig"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-07-24",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 7,
+      "day": 24,
+      "release_count": 1,
+      "release_mbids": [
+        "a9d2056a-58ea-4331-a88b-cfb82628e6af"
+      ],
+      "cover_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+      "cover_art": {
+        "release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+        "image_id": 46744668900,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/a9d2056a-58ea-4331-a88b-cfb82628e6af/46744668900",
+        "thumbnails": {
+          "250": "/covers/a9d2056a-58ea-4331-a88b-cfb82628e6af--46744668900.webp",
+          "500": "/covers/a9d2056a-58ea-4331-a88b-cfb82628e6af--46744668900.webp",
+          "1200": "/covers/a9d2056a-58ea-4331-a88b-cfb82628e6af--46744668900.webp"
+        },
+        "cached": "/covers/a9d2056a-58ea-4331-a88b-cfb82628e6af--46744668900.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/78496cfc-b4a7-48e9-be12-36d7be4de608",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://music.apple.com/us/album/6793776870"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://music.apple.com/us/album/6793776870"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://open.spotify.com/album/6ILPEZIQXubOaMBCBAvdvH"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://tidal.com/album/545587116"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://www.deezer.com/album/1035865632"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://www.qobuz.com/us-en/album/gods-love-heighlig/je3qeddmdqb4t"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://www.qobuz.com/us-en/album/gods-love-heighlig/je3qeddmdqb4t"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6ILPEZIQXubOaMBCBAvdvH"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6793776870"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1035865632"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/545587116"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/gods-love-heighlig/je3qeddmdqb4t"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://open.spotify.com/album/6ILPEZIQXubOaMBCBAvdvH"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://music.apple.com/us/album/6793776870"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://www.deezer.com/album/1035865632"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://tidal.com/album/545587116"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "a9d2056a-58ea-4331-a88b-cfb82628e6af",
+          "url": "https://www.qobuz.com/us-en/album/gods-love-heighlig/je3qeddmdqb4t"
         }
       ],
       "references": [],
