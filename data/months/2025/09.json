@@ -2,21 +2,21 @@
   "year": 2025,
   "month": 9,
   "stats": {
-    "release_groups": 124,
-    "with_cover_art": 123,
-    "with_action_links": 120,
+    "release_groups": 125,
+    "with_cover_art": 124,
+    "with_action_links": 121,
     "future_releases": 0,
     "types": {
       "Album": 27,
       "EP": 11,
-      "Single": 86
+      "Single": 87
     },
     "services": {
-      "spotify": 119,
-      "deezer": 119,
-      "tidal": 115,
-      "apple_music": 96,
-      "qobuz": 13,
+      "spotify": 120,
+      "deezer": 120,
+      "tidal": 116,
+      "apple_music": 97,
+      "qobuz": 14,
       "youtube_music": 3,
       "amazon": 2,
       "other": 2,
@@ -1172,6 +1172,220 @@
           "source": "release",
           "source_release_mbid": "49ef003a-6823-452e-92cc-2c4701b687aa",
           "url": "https://tidal.com/album/457186375"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "f7d50453-68f1-4e35-addf-7d77fbc5b6ed",
+      "title": "The King and I",
+      "artist_credit": "Mendy Portnoy",
+      "credited_artists": [
+        {
+          "mbid": "b6e16e45-ac98-472c-8f54-9d24aa743715",
+          "name": "Mendy Portnoy",
+          "position": 0,
+          "credit_name": "Mendy Portnoy",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b6e16e45-ac98-472c-8f54-9d24aa743715",
+          "name": "Mendy Portnoy"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2025-09-02",
+      "date_precision": "day",
+      "year": 2025,
+      "month": 9,
+      "day": 2,
+      "release_count": 1,
+      "release_mbids": [
+        "283691e7-bc9a-4806-876a-7296410a0451"
+      ],
+      "cover_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+      "cover_art": {
+        "release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+        "image_id": 46752165137,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/283691e7-bc9a-4806-876a-7296410a0451/46752165137",
+        "thumbnails": {
+          "250": "/covers/283691e7-bc9a-4806-876a-7296410a0451--46752165137.webp",
+          "500": "/covers/283691e7-bc9a-4806-876a-7296410a0451--46752165137.webp",
+          "1200": "/covers/283691e7-bc9a-4806-876a-7296410a0451--46752165137.webp"
+        },
+        "cached": "/covers/283691e7-bc9a-4806-876a-7296410a0451--46752165137.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/f7d50453-68f1-4e35-addf-7d77fbc5b6ed",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://music.apple.com/us/album/1837588828"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://music.apple.com/us/album/1837588828"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://open.spotify.com/album/76HNUJvqNNI5g7XzOduFzz"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://tidal.com/album/458077110"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://www.deezer.com/album/815098631"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://www.qobuz.com/us-en/album/the-king-and-i-mendy-portnoy/op8zhzadu9ifb"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://www.qobuz.com/us-en/album/the-king-and-i-mendy-portnoy/op8zhzadu9ifb"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/76HNUJvqNNI5g7XzOduFzz"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/1837588828"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/815098631"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/458077110"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/the-king-and-i-mendy-portnoy/op8zhzadu9ifb"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://open.spotify.com/album/76HNUJvqNNI5g7XzOduFzz"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://music.apple.com/us/album/1837588828"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://www.deezer.com/album/815098631"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://tidal.com/album/458077110"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "283691e7-bc9a-4806-876a-7296410a0451",
+          "url": "https://www.qobuz.com/us-en/album/the-king-and-i-mendy-portnoy/op8zhzadu9ifb"
         }
       ],
       "references": [],

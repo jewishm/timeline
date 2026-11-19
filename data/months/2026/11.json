@@ -2,22 +2,22 @@
   "year": 2026,
   "month": 11,
   "stats": {
-    "release_groups": 40,
-    "with_cover_art": 40,
-    "with_action_links": 40,
+    "release_groups": 42,
+    "with_cover_art": 42,
+    "with_action_links": 42,
     "future_releases": 0,
     "types": {
-      "Album": 10,
+      "Album": 12,
       "EP": 1,
       "Single": 29
     },
     "services": {
-      "spotify": 39,
-      "deezer": 39,
-      "tidal": 39,
-      "apple_music": 37,
+      "spotify": 40,
+      "deezer": 40,
+      "tidal": 40,
+      "apple_music": 38,
       "qobuz": 20,
-      "24six": 2,
+      "24six": 3,
       "youtube_music": 1,
       "amazon": 1,
       "other": 1
@@ -6504,6 +6504,184 @@
       "is_future": false
     },
     {
+      "release_group_mbid": "e8a99c96-1941-4bc7-b115-cb39004bc8b9",
+      "title": "A Night of Class",
+      "artist_credit": "Yossi Brill",
+      "credited_artists": [
+        {
+          "mbid": "b1ca4838-f51d-47bb-bb1f-36c427885179",
+          "name": "Yossi Brill",
+          "position": 0,
+          "credit_name": "Yossi Brill",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b1ca4838-f51d-47bb-bb1f-36c427885179",
+          "name": "Yossi Brill"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "first_release_date": "2026-11-14",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 14,
+      "release_count": 1,
+      "release_mbids": [
+        "8139f784-3a41-4100-a7a9-476c97c0a090"
+      ],
+      "cover_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+      "cover_art": {
+        "release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+        "image_id": 46747863546,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/8139f784-3a41-4100-a7a9-476c97c0a090/46747863546",
+        "thumbnails": {
+          "250": "/covers/8139f784-3a41-4100-a7a9-476c97c0a090--46747863546.webp",
+          "500": "/covers/8139f784-3a41-4100-a7a9-476c97c0a090--46747863546.webp",
+          "1200": "/covers/8139f784-3a41-4100-a7a9-476c97c0a090--46747863546.webp"
+        },
+        "cached": "/covers/8139f784-3a41-4100-a7a9-476c97c0a090--46747863546.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/e8a99c96-1941-4bc7-b115-cb39004bc8b9",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://music.apple.com/us/album/6835865627"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://music.apple.com/us/album/6835865627"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://open.spotify.com/album/6qj9IlIM0jTFLeL3wiYljF"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://tidal.com/album/579918275"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://www.deezer.com/album/1148994941"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/6qj9IlIM0jTFLeL3wiYljF"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6835865627"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1148994941"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/579918275"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://open.spotify.com/album/6qj9IlIM0jTFLeL3wiYljF"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://music.apple.com/us/album/6835865627"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://www.deezer.com/album/1148994941"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
+          "url": "https://tidal.com/album/579918275"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
       "release_group_mbid": "df5d82c1-2feb-4aa0-8fff-b138bfcc061f",
       "title": "Ki Simachtani",
       "artist_credit": "Dani Kunstler",
@@ -7869,6 +8047,90 @@
           "source": "release",
           "source_release_mbid": "a6297756-7593-4d0a-a93d-ebb5306c19c8",
           "url": "https://www.qobuz.com/us-en/album/evergreen-zusha/h8pytkgwl7c4q"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "6771191d-d55d-46c1-af35-332df42a8e78",
+      "title": "CHANUKA – A Live Piano Album",
+      "artist_credit": "Mendy Portnoy",
+      "credited_artists": [
+        {
+          "mbid": "b6e16e45-ac98-472c-8f54-9d24aa743715",
+          "name": "Mendy Portnoy",
+          "position": 0,
+          "credit_name": "Mendy Portnoy",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "b6e16e45-ac98-472c-8f54-9d24aa743715",
+          "name": "Mendy Portnoy"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-11-18",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 18,
+      "release_count": 1,
+      "release_mbids": [
+        "19d0e716-918b-467b-9f89-357d827baaf0"
+      ],
+      "cover_release_mbid": "19d0e716-918b-467b-9f89-357d827baaf0",
+      "cover_art": {
+        "release_mbid": "19d0e716-918b-467b-9f89-357d827baaf0",
+        "image_id": 46752192264,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/19d0e716-918b-467b-9f89-357d827baaf0/46752192264",
+        "thumbnails": {
+          "250": "/covers/19d0e716-918b-467b-9f89-357d827baaf0--46752192264.webp",
+          "500": "/covers/19d0e716-918b-467b-9f89-357d827baaf0--46752192264.webp",
+          "1200": "/covers/19d0e716-918b-467b-9f89-357d827baaf0--46752192264.webp"
+        },
+        "cached": "/covers/19d0e716-918b-467b-9f89-357d827baaf0--46752192264.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/6771191d-d55d-46c1-af35-332df42a8e78",
+      "links": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "19d0e716-918b-467b-9f89-357d827baaf0",
+          "url": "https://24six.app/preview/music/collection/22698/chanuka-a-live-piano-album"
+        }
+      ],
+      "preferred_links": {
+        "24six": {
+          "label": "24Six",
+          "kind": "listen",
+          "url": "https://24six.app/preview/music/collection/22698/chanuka-a-live-piano-album"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "24six",
+          "site_label": "24Six",
+          "domain": "24six.app",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "19d0e716-918b-467b-9f89-357d827baaf0",
+          "url": "https://24six.app/preview/music/collection/22698/chanuka-a-live-piano-album"
         }
       ],
       "references": [],
