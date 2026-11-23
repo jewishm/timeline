@@ -2,23 +2,23 @@
   "year": 2026,
   "month": 11,
   "stats": {
-    "release_groups": 49,
-    "with_cover_art": 49,
-    "with_action_links": 49,
+    "release_groups": 50,
+    "with_cover_art": 50,
+    "with_action_links": 50,
     "future_releases": 0,
     "types": {
       "Album": 13,
-      "EP": 2,
+      "EP": 3,
       "Single": 34
     },
     "services": {
-      "spotify": 48,
-      "deezer": 48,
-      "tidal": 48,
-      "apple_music": 46,
-      "qobuz": 22,
+      "spotify": 49,
+      "deezer": 49,
+      "tidal": 49,
+      "apple_music": 47,
+      "qobuz": 23,
       "24six": 3,
-      "youtube_music": 1,
+      "youtube_music": 2,
       "amazon": 1,
       "other": 1
     }
@@ -9507,6 +9507,17 @@
           "url": "https://music.apple.com/us/album/6837355013"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "aca53205-3c9f-493c-8839-d815ef5c3e1d",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_mM_f4ZpD0Fth0j6x4m24DX6ZBR3xa1Po8"
+        },
+        {
           "site_key": "spotify",
           "site_label": "Spotify",
           "domain": "open.spotify.com",
@@ -9538,6 +9549,17 @@
           "source": "release",
           "source_release_mbid": "aca53205-3c9f-493c-8839-d815ef5c3e1d",
           "url": "https://www.deezer.com/album/1151159671"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "aca53205-3c9f-493c-8839-d815ef5c3e1d",
+          "url": "https://www.qobuz.com/us-en/album/heilig-leiby-moskowitz/fumn56sxqe9an"
         }
       ],
       "preferred_links": {
@@ -9551,6 +9573,11 @@
           "kind": "listen",
           "url": "https://music.apple.com/us/album/6837355013"
         },
+        "youtube_music": {
+          "label": "YouTube Music",
+          "kind": "listen",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_mM_f4ZpD0Fth0j6x4m24DX6ZBR3xa1Po8"
+        },
         "deezer": {
           "label": "Deezer",
           "kind": "listen",
@@ -9560,6 +9587,11 @@
           "label": "TIDAL",
           "kind": "listen",
           "url": "https://tidal.com/album/580958939"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "buy",
+          "url": "https://www.qobuz.com/us-en/album/heilig-leiby-moskowitz/fumn56sxqe9an"
         }
       },
       "actions": [
@@ -9586,6 +9618,17 @@
           "url": "https://music.apple.com/us/album/6837355013"
         },
         {
+          "site_key": "youtube_music",
+          "site_label": "YouTube Music",
+          "domain": "music.youtube.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "aca53205-3c9f-493c-8839-d815ef5c3e1d",
+          "url": "https://music.youtube.com/playlist?list=OLAK5uy_mM_f4ZpD0Fth0j6x4m24DX6ZBR3xa1Po8"
+        },
+        {
           "site_key": "deezer",
           "site_label": "Deezer",
           "domain": "deezer.com",
@@ -9606,6 +9649,17 @@
           "source": "release",
           "source_release_mbid": "aca53205-3c9f-493c-8839-d815ef5c3e1d",
           "url": "https://tidal.com/album/580958939"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "aca53205-3c9f-493c-8839-d815ef5c3e1d",
+          "url": "https://www.qobuz.com/us-en/album/heilig-leiby-moskowitz/fumn56sxqe9an"
         }
       ],
       "references": [
@@ -9621,6 +9675,182 @@
           "url": "https://genius.com/albums/Leiby-moscowitz/Heilig"
         }
       ],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "3387abac-3bcc-4948-8733-8446ff14df2d",
+      "title": "שראל סופר EP",
+      "artist_credit": "שראל סופר",
+      "credited_artists": [
+        {
+          "mbid": "9befc616-2eaa-4843-b17b-019a9a130cb5",
+          "name": "שראל סופר",
+          "position": 0,
+          "credit_name": "שראל סופר",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "9befc616-2eaa-4843-b17b-019a9a130cb5",
+          "name": "שראל סופר"
+        }
+      ],
+      "primary_type": "EP",
+      "secondary_types": [],
+      "first_release_date": "2026-11-22",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 22,
+      "release_count": 1,
+      "release_mbids": [
+        "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9"
+      ],
+      "cover_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+      "cover_art": {
+        "release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+        "image_id": 46780179981,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/7ad99c0f-9101-40a8-b28c-cb0b85e77cb9/46780179981",
+        "thumbnails": {
+          "250": "/covers/7ad99c0f-9101-40a8-b28c-cb0b85e77cb9--46780179981.webp",
+          "500": "/covers/7ad99c0f-9101-40a8-b28c-cb0b85e77cb9--46780179981.webp",
+          "1200": "/covers/7ad99c0f-9101-40a8-b28c-cb0b85e77cb9--46780179981.webp"
+        },
+        "cached": "/covers/7ad99c0f-9101-40a8-b28c-cb0b85e77cb9--46780179981.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/3387abac-3bcc-4948-8733-8446ff14df2d",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://music.apple.com/us/album/6833527893"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://music.apple.com/us/album/6833527893"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://open.spotify.com/album/5yqImPDe43csXeUoWqlbnf"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://tidal.com/album/578139104"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://www.deezer.com/album/1144522521"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/5yqImPDe43csXeUoWqlbnf"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6833527893"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1144522521"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/578139104"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://open.spotify.com/album/5yqImPDe43csXeUoWqlbnf"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://music.apple.com/us/album/6833527893"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://www.deezer.com/album/1144522521"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "7ad99c0f-9101-40a8-b28c-cb0b85e77cb9",
+          "url": "https://tidal.com/album/578139104"
+        }
+      ],
+      "references": [],
       "has_action_links": true,
       "has_cover_art": true,
       "is_future": false

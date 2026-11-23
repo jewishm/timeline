@@ -1,13 +1,13 @@
 {
   "year": 1977,
   "stats": {
-    "release_groups": 7,
+    "release_groups": 8,
     "dated_release_groups": 1,
-    "year_only_release_groups": 6,
-    "artists": 7,
+    "year_only_release_groups": 7,
+    "artists": 8,
     "months_with_releases": 1,
     "types": {
-      "Album": 7
+      "Album": 8
     }
   },
   "months": [
@@ -127,6 +127,11 @@
     {
       "mbid": "7e65c155-5bca-45ec-8bdc-9a3db7c0bcf4",
       "name": "Kol Salonika",
+      "release_groups": 1
+    },
+    {
+      "mbid": "90e91ce1-9d65-4b35-8745-7df17944d2e7",
+      "name": "Miami Boys Choir",
       "release_groups": 1
     },
     {
@@ -576,6 +581,84 @@
         }
       ],
       "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "191b2ca1-1c30-49b4-9208-782e9a148102",
+      "title": "Yerachmiel Begun's Miami Choir Boys",
+      "artist_credit": "Miami Boys Choir",
+      "credited_artists": [
+        {
+          "mbid": "90e91ce1-9d65-4b35-8745-7df17944d2e7",
+          "name": "Miami Boys Choir",
+          "position": 0,
+          "credit_name": "Miami Boys Choir",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "90e91ce1-9d65-4b35-8745-7df17944d2e7",
+          "name": "Miami Boys Choir"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "1977",
+      "date_precision": "year",
+      "year": 1977,
+      "month": null,
+      "day": null,
+      "release_count": 1,
+      "release_mbids": [
+        "0ade7be8-7546-41b4-8b27-86384d259df3"
+      ],
+      "cover_release_mbid": "0ade7be8-7546-41b4-8b27-86384d259df3",
+      "cover_art": {
+        "release_mbid": "0ade7be8-7546-41b4-8b27-86384d259df3",
+        "image_id": 46787126259,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/0ade7be8-7546-41b4-8b27-86384d259df3/46787126259",
+        "thumbnails": {
+          "250": "/covers/0ade7be8-7546-41b4-8b27-86384d259df3--46787126259.webp",
+          "500": "/covers/0ade7be8-7546-41b4-8b27-86384d259df3--46787126259.webp",
+          "1200": "/covers/0ade7be8-7546-41b4-8b27-86384d259df3--46787126259.webp"
+        },
+        "cached": "/covers/0ade7be8-7546-41b4-8b27-86384d259df3--46787126259.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/191b2ca1-1c30-49b4-9208-782e9a148102",
+      "links": [
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "0ade7be8-7546-41b4-8b27-86384d259df3",
+          "url": "https://www.discogs.com/release/10405500"
+        }
+      ],
+      "preferred_links": {},
+      "actions": [],
+      "references": [
+        {
+          "site_key": "discogs",
+          "site_label": "Discogs",
+          "domain": "discogs.com",
+          "relationship": "discogs",
+          "action": false,
+          "action_kind": null,
+          "source": "release",
+          "source_release_mbid": "0ade7be8-7546-41b4-8b27-86384d259df3",
+          "url": "https://www.discogs.com/release/10405500"
+        }
+      ],
+      "has_action_links": false,
       "has_cover_art": true,
       "is_future": false
     },
