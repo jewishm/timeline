@@ -2,25 +2,25 @@
   "year": 2026,
   "month": 11,
   "stats": {
-    "release_groups": 54,
-    "with_cover_art": 54,
-    "with_action_links": 54,
+    "release_groups": 58,
+    "with_cover_art": 58,
+    "with_action_links": 58,
     "future_releases": 0,
     "types": {
-      "Album": 13,
+      "Album": 14,
       "EP": 4,
-      "Single": 37
+      "Single": 40
     },
     "services": {
-      "deezer": 52,
-      "tidal": 52,
-      "spotify": 51,
-      "apple_music": 50,
+      "spotify": 54,
+      "deezer": 54,
+      "apple_music": 53,
+      "tidal": 53,
       "qobuz": 24,
       "24six": 5,
       "youtube_music": 2,
-      "amazon": 1,
-      "other": 1
+      "other": 2,
+      "amazon": 1
     }
   },
   "releases": [
@@ -4073,6 +4073,193 @@
       "is_future": false
     },
     {
+      "release_group_mbid": "565e775a-a628-4986-9e7c-1c2f593c865a",
+      "title": "ויתן לך",
+      "artist_credit": "Abba Lefkowitz & Yoel Falkowitz",
+      "credited_artists": [
+        {
+          "mbid": "a88b7166-234e-489b-abb6-e512587a9525",
+          "name": "Abba Lefkowitz",
+          "position": 0,
+          "credit_name": "Abba Lefkowitz",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "cacb43a1-bd32-46cb-b08a-14a94b3d854d",
+          "name": "Yoel Falkowitz",
+          "position": 1,
+          "credit_name": "Yoel Falkowitz",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "a88b7166-234e-489b-abb6-e512587a9525",
+          "name": "Abba Lefkowitz"
+        },
+        {
+          "mbid": "cacb43a1-bd32-46cb-b08a-14a94b3d854d",
+          "name": "Yoel Falkowitz"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-11-10",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 10,
+      "release_count": 1,
+      "release_mbids": [
+        "e3c2a8da-b188-4785-a2c7-3dd467a6ae05"
+      ],
+      "cover_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+      "cover_art": {
+        "release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+        "image_id": 46800091552,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e3c2a8da-b188-4785-a2c7-3dd467a6ae05/46800091552",
+        "thumbnails": {
+          "250": "/covers/e3c2a8da-b188-4785-a2c7-3dd467a6ae05--46800091552.webp",
+          "500": "/covers/e3c2a8da-b188-4785-a2c7-3dd467a6ae05--46800091552.webp",
+          "1200": "/covers/e3c2a8da-b188-4785-a2c7-3dd467a6ae05--46800091552.webp"
+        },
+        "cached": "/covers/e3c2a8da-b188-4785-a2c7-3dd467a6ae05--46800091552.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/565e775a-a628-4986-9e7c-1c2f593c865a",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://music.apple.com/us/album/6832893897"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://music.apple.com/us/album/6832893897"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://open.spotify.com/album/0DojoXMncVUeUvAGrU9IU5"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://tidal.com/album/577566290"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://www.deezer.com/album/1143089201"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/0DojoXMncVUeUvAGrU9IU5"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6832893897"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1143089201"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/577566290"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://open.spotify.com/album/0DojoXMncVUeUvAGrU9IU5"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://music.apple.com/us/album/6832893897"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://www.deezer.com/album/1143089201"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e3c2a8da-b188-4785-a2c7-3dd467a6ae05",
+          "url": "https://tidal.com/album/577566290"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
       "release_group_mbid": "e44df54f-ee27-42f9-b95f-581f0ae81cfe",
       "title": "המלך הטוב",
       "artist_credit": "Avraham Fried & Ari Stern",
@@ -6910,6 +7097,166 @@
           "source": "release",
           "source_release_mbid": "8139f784-3a41-4100-a7a9-476c97c0a090",
           "url": "https://tidal.com/album/579918275"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "05725f92-cbb8-4357-ad30-bc852ac51dd2",
+      "title": "ופרצת",
+      "artist_credit": "Abba Lefkowitz & Shloime Zalmen Perl",
+      "credited_artists": [
+        {
+          "mbid": "a88b7166-234e-489b-abb6-e512587a9525",
+          "name": "Abba Lefkowitz",
+          "position": 0,
+          "credit_name": "Abba Lefkowitz",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "f4ff1a5e-f155-47a4-81ae-dbb9c3ab1ea5",
+          "name": "Shloime Zalmen Perl",
+          "position": 1,
+          "credit_name": "Shloime Zalmen Perl",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "a88b7166-234e-489b-abb6-e512587a9525",
+          "name": "Abba Lefkowitz"
+        },
+        {
+          "mbid": "f4ff1a5e-f155-47a4-81ae-dbb9c3ab1ea5",
+          "name": "Shloime Zalmen Perl"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-11-15",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 15,
+      "release_count": 1,
+      "release_mbids": [
+        "e6989e49-a109-4fd4-bce6-12c7a9e63fb2"
+      ],
+      "cover_release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+      "cover_art": {
+        "release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+        "image_id": 46800082723,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/e6989e49-a109-4fd4-bce6-12c7a9e63fb2/46800082723",
+        "thumbnails": {
+          "250": "/covers/e6989e49-a109-4fd4-bce6-12c7a9e63fb2--46800082723.webp",
+          "500": "/covers/e6989e49-a109-4fd4-bce6-12c7a9e63fb2--46800082723.webp",
+          "1200": "/covers/e6989e49-a109-4fd4-bce6-12c7a9e63fb2--46800082723.webp"
+        },
+        "cached": "/covers/e6989e49-a109-4fd4-bce6-12c7a9e63fb2--46800082723.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/05725f92-cbb8-4357-ad30-bc852ac51dd2",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+          "url": "https://music.apple.com/us/album/6835052051"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+          "url": "https://music.apple.com/us/album/6835052051"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+          "url": "https://open.spotify.com/album/3BkLC5p5H9UhVE0AK6TeaK"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+          "url": "https://www.deezer.com/album/1147406891"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/3BkLC5p5H9UhVE0AK6TeaK"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6835052051"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/1147406891"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+          "url": "https://open.spotify.com/album/3BkLC5p5H9UhVE0AK6TeaK"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+          "url": "https://music.apple.com/us/album/6835052051"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "e6989e49-a109-4fd4-bce6-12c7a9e63fb2",
+          "url": "https://www.deezer.com/album/1147406891"
         }
       ],
       "references": [],
@@ -10140,6 +10487,139 @@
       "is_future": false
     },
     {
+      "release_group_mbid": "b824e263-cd59-46a6-8274-9b9e2a1f170e",
+      "title": "קטנתי",
+      "artist_credit": "Abba Lefkowitz & Bentzy Weberman",
+      "credited_artists": [
+        {
+          "mbid": "a88b7166-234e-489b-abb6-e512587a9525",
+          "name": "Abba Lefkowitz",
+          "position": 0,
+          "credit_name": "Abba Lefkowitz",
+          "join_phrase": " & "
+        },
+        {
+          "mbid": "b116a4ab-449e-427d-8a78-568fb1791e8b",
+          "name": "Bentzy Weberman",
+          "position": 1,
+          "credit_name": "Bentzy Weberman",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "a88b7166-234e-489b-abb6-e512587a9525",
+          "name": "Abba Lefkowitz"
+        },
+        {
+          "mbid": "b116a4ab-449e-427d-8a78-568fb1791e8b",
+          "name": "Bentzy Weberman"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2026-11-23",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 23,
+      "release_count": 1,
+      "release_mbids": [
+        "f0f6c24d-ab46-45be-8825-f3299167c367"
+      ],
+      "cover_release_mbid": "f0f6c24d-ab46-45be-8825-f3299167c367",
+      "cover_art": {
+        "release_mbid": "f0f6c24d-ab46-45be-8825-f3299167c367",
+        "image_id": 46800066084,
+        "mime_type": "image/png",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/f0f6c24d-ab46-45be-8825-f3299167c367/46800066084",
+        "thumbnails": {
+          "250": "/covers/f0f6c24d-ab46-45be-8825-f3299167c367--46800066084.webp",
+          "500": "/covers/f0f6c24d-ab46-45be-8825-f3299167c367--46800066084.webp",
+          "1200": "/covers/f0f6c24d-ab46-45be-8825-f3299167c367--46800066084.webp"
+        },
+        "cached": "/covers/f0f6c24d-ab46-45be-8825-f3299167c367--46800066084.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/b824e263-cd59-46a6-8274-9b9e2a1f170e",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "f0f6c24d-ab46-45be-8825-f3299167c367",
+          "url": "https://music.apple.com/us/album/6838328812"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f0f6c24d-ab46-45be-8825-f3299167c367",
+          "url": "https://music.apple.com/us/album/6838328812"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f0f6c24d-ab46-45be-8825-f3299167c367",
+          "url": "https://open.spotify.com/album/1JIWpNPRBHbIK3PfI1R5EX"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/1JIWpNPRBHbIK3PfI1R5EX"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6838328812"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f0f6c24d-ab46-45be-8825-f3299167c367",
+          "url": "https://open.spotify.com/album/1JIWpNPRBHbIK3PfI1R5EX"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "f0f6c24d-ab46-45be-8825-f3299167c367",
+          "url": "https://music.apple.com/us/album/6838328812"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
       "release_group_mbid": "9f048cc6-f132-49e5-9945-59e723b11838",
       "title": "SHUFFLE",
       "artist_credit": "Shmili Landau",
@@ -10346,6 +10826,101 @@
           "source": "release",
           "source_release_mbid": "1e5dd705-d841-4de6-bcec-af82becc6ccc",
           "url": "https://www.qobuz.com/us-en/album/shuffle-shmili-landau/iiucewigp2v48"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "16ead19d-9876-4a84-9d2a-29d2f26b0b7b",
+      "title": "א גוטע מאמע",
+      "artist_credit": "Yonasan Schwartz",
+      "credited_artists": [
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz",
+          "position": 0,
+          "credit_name": "Yonasan Schwartz",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "da1620b1-230d-4849-a81c-669e76eeaa45",
+          "name": "Yonasan Schwartz"
+        }
+      ],
+      "primary_type": "Album",
+      "secondary_types": [],
+      "first_release_date": "2026-11-23",
+      "date_precision": "day",
+      "year": 2026,
+      "month": 11,
+      "day": 23,
+      "release_count": 1,
+      "release_mbids": [
+        "02c88e97-7701-4c12-90cb-4746f552abd1"
+      ],
+      "cover_release_mbid": "02c88e97-7701-4c12-90cb-4746f552abd1",
+      "cover_art": {
+        "release_mbid": "02c88e97-7701-4c12-90cb-4746f552abd1",
+        "image_id": 46799893678,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/02c88e97-7701-4c12-90cb-4746f552abd1/46799893678",
+        "thumbnails": {
+          "250": "/covers/02c88e97-7701-4c12-90cb-4746f552abd1--46799893678.webp",
+          "500": "/covers/02c88e97-7701-4c12-90cb-4746f552abd1--46799893678.webp",
+          "1200": "/covers/02c88e97-7701-4c12-90cb-4746f552abd1--46799893678.webp"
+        },
+        "cached": "/covers/02c88e97-7701-4c12-90cb-4746f552abd1--46799893678.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/16ead19d-9876-4a84-9d2a-29d2f26b0b7b",
+      "links": [
+        {
+          "site_key": "other",
+          "site_label": "chazakkinder.com",
+          "domain": "chazakkinder.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "02c88e97-7701-4c12-90cb-4746f552abd1",
+          "url": "https://www.chazakkinder.com/products/a-gitte-mamme-yoneson-schwartz"
+        },
+        {
+          "site_key": "other",
+          "site_label": "chazakkinder.com",
+          "domain": "chazakkinder.com",
+          "relationship": "purchase for mail-order",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "02c88e97-7701-4c12-90cb-4746f552abd1",
+          "url": "https://www.chazakkinder.com/products/a-gitte-mamme-yoneson-schwartz"
+        }
+      ],
+      "preferred_links": {
+        "other": {
+          "label": "chazakkinder.com",
+          "kind": "buy",
+          "url": "https://www.chazakkinder.com/products/a-gitte-mamme-yoneson-schwartz"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "other",
+          "site_label": "chazakkinder.com",
+          "domain": "chazakkinder.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "02c88e97-7701-4c12-90cb-4746f552abd1",
+          "url": "https://www.chazakkinder.com/products/a-gitte-mamme-yoneson-schwartz"
         }
       ],
       "references": [],
