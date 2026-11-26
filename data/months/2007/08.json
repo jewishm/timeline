@@ -2,23 +2,21 @@
   "year": 2007,
   "month": 8,
   "stats": {
-    "release_groups": 8,
-    "with_cover_art": 8,
-    "with_action_links": 8,
+    "release_groups": 7,
+    "with_cover_art": 7,
+    "with_action_links": 7,
     "future_releases": 0,
     "types": {
-      "Album": 8
+      "Album": 7
     },
     "services": {
-      "spotify": 8,
-      "apple_music": 7,
-      "deezer": 6,
-      "tidal": 6,
-      "amazon": 3,
+      "spotify": 7,
+      "apple_music": 6,
+      "deezer": 5,
+      "tidal": 5,
+      "amazon": 2,
       "boomplay": 1,
-      "youtube": 1,
-      "youtube_music": 1,
-      "soundcloud": 1
+      "youtube": 1
     }
   },
   "releases": [
@@ -1216,252 +1214,6 @@
           "source": "release",
           "source_release_mbid": "e74f765f-0a62-4ce4-b990-6602d4a7d26c",
           "url": "https://tidal.com/album/32440195"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "6e31fbfa-7fa3-4424-9728-5448d3e3c4d8",
-      "title": "Nesher Choir 2007",
-      "artist_credit": "Camp Nesher",
-      "credited_artists": [
-        {
-          "mbid": "92730fbe-d8c1-41ea-bdaf-326967f744b7",
-          "name": "Camp Nesher",
-          "position": 0,
-          "credit_name": "Camp Nesher",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "92730fbe-d8c1-41ea-bdaf-326967f744b7",
-          "name": "Camp Nesher"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2007-08-31",
-      "date_precision": "day",
-      "year": 2007,
-      "month": 8,
-      "day": 31,
-      "release_count": 1,
-      "release_mbids": [
-        "4e38af9c-f665-4a36-b789-9ee6919078ae"
-      ],
-      "cover_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-      "cover_art": {
-        "release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-        "image_id": 39554421542,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/4e38af9c-f665-4a36-b789-9ee6919078ae/39554421542",
-        "thumbnails": {
-          "250": "/covers/4e38af9c-f665-4a36-b789-9ee6919078ae--39554421542.webp",
-          "500": "/covers/4e38af9c-f665-4a36-b789-9ee6919078ae--39554421542.webp",
-          "1200": "/covers/4e38af9c-f665-4a36-b789-9ee6919078ae--39554421542.webp"
-        },
-        "cached": "/covers/4e38af9c-f665-4a36-b789-9ee6919078ae--39554421542.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/6e31fbfa-7fa3-4424-9728-5448d3e3c4d8",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://music.apple.com/gb/album/1595082107"
-        },
-        {
-          "site_key": "youtube_music",
-          "site_label": "YouTube Music",
-          "domain": "music.youtube.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://music.youtube.com/playlist?list=OLAK5uy_kMeXHnaEdri34tyiWGCRGwqJ3N1piXX_Y"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://open.spotify.com/album/1K2UlNCrBJcQLwRdgH38x2"
-        },
-        {
-          "site_key": "soundcloud",
-          "site_label": "SoundCloud",
-          "domain": "soundcloud.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://soundcloud.com/campnesher-music/sets/nesher-choir-2007"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://tidal.com/album/204902563"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://www.amazon.com/gp/product/B09LR4K9XN"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://www.deezer.com/album/272289672"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/1K2UlNCrBJcQLwRdgH38x2"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/gb/album/1595082107"
-        },
-        "youtube_music": {
-          "label": "YouTube Music",
-          "kind": "listen",
-          "url": "https://music.youtube.com/playlist?list=OLAK5uy_kMeXHnaEdri34tyiWGCRGwqJ3N1piXX_Y"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/272289672"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/204902563"
-        },
-        "amazon": {
-          "label": "Amazon",
-          "kind": "buy",
-          "url": "https://www.amazon.com/gp/product/B09LR4K9XN"
-        },
-        "soundcloud": {
-          "label": "SoundCloud",
-          "kind": "listen",
-          "url": "https://soundcloud.com/campnesher-music/sets/nesher-choir-2007"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://open.spotify.com/album/1K2UlNCrBJcQLwRdgH38x2"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://music.apple.com/gb/album/1595082107"
-        },
-        {
-          "site_key": "youtube_music",
-          "site_label": "YouTube Music",
-          "domain": "music.youtube.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://music.youtube.com/playlist?list=OLAK5uy_kMeXHnaEdri34tyiWGCRGwqJ3N1piXX_Y"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://www.deezer.com/album/272289672"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://tidal.com/album/204902563"
-        },
-        {
-          "site_key": "amazon",
-          "site_label": "Amazon",
-          "domain": "amazon.com",
-          "relationship": "amazon asin",
-          "action": true,
-          "action_kind": "buy",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://www.amazon.com/gp/product/B09LR4K9XN"
-        },
-        {
-          "site_key": "soundcloud",
-          "site_label": "SoundCloud",
-          "domain": "soundcloud.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "4e38af9c-f665-4a36-b789-9ee6919078ae",
-          "url": "https://soundcloud.com/campnesher-music/sets/nesher-choir-2007"
         }
       ],
       "references": [],

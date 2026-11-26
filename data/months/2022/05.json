@@ -2,26 +2,26 @@
   "year": 2022,
   "month": 5,
   "stats": {
-    "release_groups": 43,
-    "with_cover_art": 43,
-    "with_action_links": 43,
+    "release_groups": 44,
+    "with_cover_art": 44,
+    "with_action_links": 44,
     "future_releases": 0,
     "types": {
       "Album": 14,
       "EP": 1,
-      "Single": 28
+      "Single": 29
     },
     "services": {
-      "spotify": 43,
-      "apple_music": 41,
-      "deezer": 25,
-      "tidal": 16,
+      "spotify": 44,
+      "apple_music": 42,
+      "deezer": 26,
+      "tidal": 17,
       "amazon": 2,
       "youtube": 2,
+      "qobuz": 2,
       "boomplay": 1,
       "beatport": 1,
-      "youtube_music": 1,
-      "qobuz": 1
+      "youtube_music": 1
     }
   },
   "releases": [
@@ -4007,6 +4007,238 @@
           "source": "release",
           "source_release_mbid": "6a80f909-878a-4ad9-b1e1-ccbdeef5299f",
           "url": "https://tidal.com/album/227792807"
+        }
+      ],
+      "references": [],
+      "has_action_links": true,
+      "has_cover_art": true,
+      "is_future": false
+    },
+    {
+      "release_group_mbid": "322aa5b6-0753-453f-a35d-6d6d866bbb9c",
+      "title": "תורת ה׳ תמימה",
+      "artist_credit": "מקהלת מלכות, מוטי גולדמן ושייע בערקא",
+      "credited_artists": [
+        {
+          "mbid": "fb28cd40-25da-4c43-9320-202d12d88111",
+          "name": "מקהלת מלכות",
+          "position": 0,
+          "credit_name": "מקהלת מלכות",
+          "join_phrase": ", "
+        },
+        {
+          "mbid": "48786018-e3a7-4252-8fb3-8dd9099c49bc",
+          "name": "מוטי גולדמן",
+          "position": 1,
+          "credit_name": "מוטי גולדמן",
+          "join_phrase": " ו"
+        },
+        {
+          "mbid": "c6eda481-39c7-4bcf-9c19-1506a12192f5",
+          "name": "Shea Berko",
+          "position": 2,
+          "credit_name": "שייע בערקא",
+          "join_phrase": ""
+        }
+      ],
+      "collection_artists": [
+        {
+          "mbid": "48786018-e3a7-4252-8fb3-8dd9099c49bc",
+          "name": "מוטי גולדמן"
+        },
+        {
+          "mbid": "fb28cd40-25da-4c43-9320-202d12d88111",
+          "name": "מקהלת מלכות"
+        }
+      ],
+      "primary_type": "Single",
+      "secondary_types": [],
+      "first_release_date": "2022-05-22",
+      "date_precision": "day",
+      "year": 2022,
+      "month": 5,
+      "day": 22,
+      "release_count": 1,
+      "release_mbids": [
+        "bcfe1cdf-1696-42ff-82db-449348ff20f2"
+      ],
+      "cover_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+      "cover_art": {
+        "release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+        "image_id": 46812236134,
+        "mime_type": "image/jpeg",
+        "ordering": 1,
+        "source": "front_art_fallback",
+        "original": "https://coverartarchive.org/release/bcfe1cdf-1696-42ff-82db-449348ff20f2/46812236134",
+        "thumbnails": {
+          "250": "/covers/bcfe1cdf-1696-42ff-82db-449348ff20f2--46812236134.webp",
+          "500": "/covers/bcfe1cdf-1696-42ff-82db-449348ff20f2--46812236134.webp",
+          "1200": "/covers/bcfe1cdf-1696-42ff-82db-449348ff20f2--46812236134.webp"
+        },
+        "cached": "/covers/bcfe1cdf-1696-42ff-82db-449348ff20f2--46812236134.webp"
+      },
+      "musicbrainz_url": "https://musicbrainz.org/release-group/322aa5b6-0753-453f-a35d-6d6d866bbb9c",
+      "links": [
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://music.apple.com/us/album/6767379117"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://music.apple.com/us/album/6767379117"
+        },
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://open.spotify.com/album/49oQ71Bx3e0ZPiEC1TlgYn"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://tidal.com/album/522451984"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://www.deezer.com/album/977921031"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "purchase for download",
+          "action": true,
+          "action_kind": "buy",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://www.qobuz.com/us-en/album/-shea-berko/q3mu2yat7q4fl"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://www.qobuz.com/us-en/album/-shea-berko/q3mu2yat7q4fl"
+        }
+      ],
+      "preferred_links": {
+        "spotify": {
+          "label": "Spotify",
+          "kind": "listen",
+          "url": "https://open.spotify.com/album/49oQ71Bx3e0ZPiEC1TlgYn"
+        },
+        "apple_music": {
+          "label": "Apple Music",
+          "kind": "listen",
+          "url": "https://music.apple.com/us/album/6767379117"
+        },
+        "deezer": {
+          "label": "Deezer",
+          "kind": "listen",
+          "url": "https://www.deezer.com/album/977921031"
+        },
+        "tidal": {
+          "label": "TIDAL",
+          "kind": "listen",
+          "url": "https://tidal.com/album/522451984"
+        },
+        "qobuz": {
+          "label": "Qobuz",
+          "kind": "listen",
+          "url": "https://www.qobuz.com/us-en/album/-shea-berko/q3mu2yat7q4fl"
+        }
+      },
+      "actions": [
+        {
+          "site_key": "spotify",
+          "site_label": "Spotify",
+          "domain": "open.spotify.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://open.spotify.com/album/49oQ71Bx3e0ZPiEC1TlgYn"
+        },
+        {
+          "site_key": "apple_music",
+          "site_label": "Apple Music",
+          "domain": "music.apple.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://music.apple.com/us/album/6767379117"
+        },
+        {
+          "site_key": "deezer",
+          "site_label": "Deezer",
+          "domain": "deezer.com",
+          "relationship": "free streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://www.deezer.com/album/977921031"
+        },
+        {
+          "site_key": "tidal",
+          "site_label": "TIDAL",
+          "domain": "tidal.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://tidal.com/album/522451984"
+        },
+        {
+          "site_key": "qobuz",
+          "site_label": "Qobuz",
+          "domain": "qobuz.com",
+          "relationship": "streaming",
+          "action": true,
+          "action_kind": "listen",
+          "source": "release",
+          "source_release_mbid": "bcfe1cdf-1696-42ff-82db-449348ff20f2",
+          "url": "https://www.qobuz.com/us-en/album/-shea-berko/q3mu2yat7q4fl"
         }
       ],
       "references": [],

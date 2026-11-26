@@ -2,20 +2,20 @@
   "year": 2024,
   "month": 11,
   "stats": {
-    "release_groups": 70,
-    "with_cover_art": 70,
-    "with_action_links": 70,
+    "release_groups": 69,
+    "with_cover_art": 69,
+    "with_action_links": 69,
     "future_releases": 0,
     "types": {
-      "Album": 15,
+      "Album": 14,
       "EP": 3,
       "Single": 52
     },
     "services": {
-      "spotify": 69,
-      "apple_music": 68,
-      "deezer": 68,
-      "tidal": 61,
+      "spotify": 68,
+      "apple_music": 67,
+      "deezer": 67,
+      "tidal": 60,
       "bandcamp": 2,
       "beatport": 1,
       "qobuz": 1
@@ -10746,171 +10746,6 @@
           "source": "release",
           "source_release_mbid": "598c9117-d178-4737-b487-f8620dcbb363",
           "url": "https://tidal.com/album/401650079"
-        }
-      ],
-      "references": [],
-      "has_action_links": true,
-      "has_cover_art": true,
-      "is_future": false
-    },
-    {
-      "release_group_mbid": "b6c7afd5-f08d-4d8b-b2c8-4dcaf8c9ad5e",
-      "title": "Camp Nesher Choirs 2024",
-      "artist_credit": "Camp Nesher",
-      "credited_artists": [
-        {
-          "mbid": "92730fbe-d8c1-41ea-bdaf-326967f744b7",
-          "name": "Camp Nesher",
-          "position": 0,
-          "credit_name": "Camp Nesher",
-          "join_phrase": ""
-        }
-      ],
-      "collection_artists": [
-        {
-          "mbid": "92730fbe-d8c1-41ea-bdaf-326967f744b7",
-          "name": "Camp Nesher"
-        }
-      ],
-      "primary_type": "Album",
-      "secondary_types": [],
-      "first_release_date": "2024-11-27",
-      "date_precision": "day",
-      "year": 2024,
-      "month": 11,
-      "day": 27,
-      "release_count": 1,
-      "release_mbids": [
-        "0aef861b-b336-4f37-938c-60e7c7e42e40"
-      ],
-      "cover_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-      "cover_art": {
-        "release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-        "image_id": 43038659759,
-        "mime_type": "image/jpeg",
-        "ordering": 1,
-        "source": "front_art_fallback",
-        "original": "https://coverartarchive.org/release/0aef861b-b336-4f37-938c-60e7c7e42e40/43038659759",
-        "thumbnails": {
-          "250": "/covers/0aef861b-b336-4f37-938c-60e7c7e42e40--43038659759.webp",
-          "500": "/covers/0aef861b-b336-4f37-938c-60e7c7e42e40--43038659759.webp",
-          "1200": "/covers/0aef861b-b336-4f37-938c-60e7c7e42e40--43038659759.webp"
-        },
-        "cached": "/covers/0aef861b-b336-4f37-938c-60e7c7e42e40--43038659759.webp"
-      },
-      "musicbrainz_url": "https://musicbrainz.org/release-group/b6c7afd5-f08d-4d8b-b2c8-4dcaf8c9ad5e",
-      "links": [
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-          "url": "https://music.apple.com/us/album/1781934810"
-        },
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-          "url": "https://open.spotify.com/album/4P4dPYhF4N05ieCIdkmoBS"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-          "url": "https://tidal.com/album/402025266"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-          "url": "https://www.deezer.com/album/675731801"
-        }
-      ],
-      "preferred_links": {
-        "spotify": {
-          "label": "Spotify",
-          "kind": "listen",
-          "url": "https://open.spotify.com/album/4P4dPYhF4N05ieCIdkmoBS"
-        },
-        "apple_music": {
-          "label": "Apple Music",
-          "kind": "listen",
-          "url": "https://music.apple.com/us/album/1781934810"
-        },
-        "deezer": {
-          "label": "Deezer",
-          "kind": "listen",
-          "url": "https://www.deezer.com/album/675731801"
-        },
-        "tidal": {
-          "label": "TIDAL",
-          "kind": "listen",
-          "url": "https://tidal.com/album/402025266"
-        }
-      },
-      "actions": [
-        {
-          "site_key": "spotify",
-          "site_label": "Spotify",
-          "domain": "open.spotify.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-          "url": "https://open.spotify.com/album/4P4dPYhF4N05ieCIdkmoBS"
-        },
-        {
-          "site_key": "apple_music",
-          "site_label": "Apple Music",
-          "domain": "music.apple.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-          "url": "https://music.apple.com/us/album/1781934810"
-        },
-        {
-          "site_key": "deezer",
-          "site_label": "Deezer",
-          "domain": "deezer.com",
-          "relationship": "free streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-          "url": "https://www.deezer.com/album/675731801"
-        },
-        {
-          "site_key": "tidal",
-          "site_label": "TIDAL",
-          "domain": "tidal.com",
-          "relationship": "streaming",
-          "action": true,
-          "action_kind": "listen",
-          "source": "release",
-          "source_release_mbid": "0aef861b-b336-4f37-938c-60e7c7e42e40",
-          "url": "https://tidal.com/album/402025266"
         }
       ],
       "references": [],
